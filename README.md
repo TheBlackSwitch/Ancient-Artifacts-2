@@ -37,7 +37,7 @@ Each artifact also comes with it's own challenge. These are advancements you can
 To obtain artifacts you'll have to go and explore the world in the hopes of finding an overgrown structure. Every dimension has it's own set of structures to explore. There are over 40+ overgrown structures!
 
 **An overgrown jungle temple**:  
-![An image showing the overgrown jungle temple](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/jungle_temple.png$n=)
+![An image showing the overgrown jungle temple](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/jungle_temple.png&n=)
 
 Once you've defeated all the mobs, you'll be able to locate an `artifact chest`. This special chest can only be opened using an `amethyst shard`. Once open, your loot will pop right out! If you're lucky you'll recieve an artifact!
 
