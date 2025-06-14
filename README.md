@@ -84,7 +84,7 @@ Artifact crafting is one of the recipes the artifact cauldron can craft. It's a 
 
 With all that knowledge you can combine an `artifact template` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv"> with some `compounds` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/compounds.gif&n=-1" width="20" class="jop-noMdConv"> and the right `relic` in the `artifact cauldron`. And there you go, If you've used the right ingredients, you should have a new artifact now!
 
-![A gif showing the crafting process](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/crafting.gif&n=-1)
+![A gif showing the crafting process](https://github.com/user-attachments/assets/498f51e5-5557-4354-bc86-b862d273492a)
 
 ## Artifact Recycling
 
