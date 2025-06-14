@@ -98,7 +98,7 @@ To start, you first have to go to the `artifact dungeon`, a very difficult rogue
 
 Using your `artifact hammer` you can destroy your artifacts which gives you `artifact blend` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_blend.png" width="20" class="jop-noMdConv">, maby an `artifact template` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/template.gif&n=-1" width="20" class="jop-noMdConv">, maby the `relic` the artifact is made of or sometimes some `artifact essence` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv">.
 
-![A gif showing the destroying process](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/destroying.gif&n=-1)
+![A gif showing the destroying process](https://github.com/user-attachments/assets/87b7b974-ee47-48dc-9669-7daa83b7c3ce)
 
 ### Recycling
 
