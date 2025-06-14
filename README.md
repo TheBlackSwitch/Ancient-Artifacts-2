@@ -94,7 +94,7 @@ Artifact recycling is another one of the recipes the artifact cauldron can craft
 
 To start, you first have to go to the `artifact dungeon`, a very difficult rogue like dungeon, in order to retrieve the `artifact hammer`.
 
-![An image of the artifact hammer](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/ancient_hammer.png)
+![An image of the artifact hammer](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/ancient_hammer.png&n=)
 
 Using your `artifact hammer` you can destroy your artifacts which gives you `artifact blend` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_blend.png" width="20" class="jop-noMdConv">, maby an `artifact template` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/template.gif&n=-1" width="20" class="jop-noMdConv">, maby the `relic` the artifact is made of or sometimes some `artifact essence` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv">.
 
