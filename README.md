@@ -49,7 +49,7 @@ When obtained, **artifacts** always **start from level one**. They have a varyin
 
 There's also a `heavy artifact upgrade` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/heavy_artifact_upgrade.png" width="20" class="jop-noMdConv">. This special item upgrades artifacts to their max level and it can even upgrade expensive artifacts!
 
-![A gif showing the upgrading process](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/AA-upgrading.gif&n=-1)
+![A gif showing the upgrading process](https://github.com/user-attachments/assets/44fbfc11-239c-4838-b38a-0d182c9412bc)
 
 # ⚔️Bossfights
 
