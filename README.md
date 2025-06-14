@@ -104,7 +104,7 @@ Using your `artifact hammer` you can destroy your artifacts which gives you `art
 
 In order to turn those items back into some loot, you have to use 3 blend. During the recipe, you can also add some `artifact essence` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv">. These items are used to change the chance to get an artifact of a certain rarity. For example using `unique essence` will give you more chance to get a `unique artifact`.
 
-![A gif showing the recycling process](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/recycling.gif&n=)
+![A gif showing the recycling process](https://github.com/user-attachments/assets/a2c491a5-11e3-4814-a705-044846d58abe)
 
 
 ![Configs:](https://theblackswitch.com/assets/images/ancient_artifacts/header_configs.png)
