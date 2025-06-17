@@ -153,7 +153,7 @@ There is no need of any software, it runs on just vanilla (**NOT PAPER!!**) and 
 
 * * *
 
-Ancient Artifacts © 2025 by theblackswitch is licensed under [MIT License](https://opensource.org/license/mit)
+Ancient Artifacts © 2025 by theblackswitch is licensed under [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
 
 An exception is made for video content, which can be monetized. However, video creators must give appropriate credit by leaving a link to this page in the video.
 
