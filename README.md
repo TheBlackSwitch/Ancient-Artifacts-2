@@ -1,6 +1,6 @@
 ## The trailer:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DnZfs3K9puk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[Trailer](https://www.youtube-nocookie.com/embed/DnZfs3K9puk)
 
 ---
 
