@@ -1,0 +1,1 @@
+$bossbar set ancient_artifacts:shulker_king_$(UUID1)_$(UUID2)_$(UUID3)_$(UUID4) value $(Health)

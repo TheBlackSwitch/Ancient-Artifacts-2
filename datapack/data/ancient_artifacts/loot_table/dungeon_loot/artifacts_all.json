@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/obsidian/deep_dark"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/obsidian/nether"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/obsidian/overworld"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/obsidian/end"
+                }
+            ]
+        }
+    ]
+}

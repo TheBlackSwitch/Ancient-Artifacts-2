@@ -1,0 +1,41 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 28,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828Combo Boots\n",
+                "color": "gold"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Allows you to perform a parry.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Allows you to perform a parry and a bow timewarp.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Allows you to perform a parry, bow timewarp and slam attack.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

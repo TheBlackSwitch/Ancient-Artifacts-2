@@ -1,0 +1,1 @@
+execute as @e[type=block_display,tag=glowing_ore] at @s align xzy run function ancient_artifacts:artifacts/deep_dark/detecting_borla/detect_remove

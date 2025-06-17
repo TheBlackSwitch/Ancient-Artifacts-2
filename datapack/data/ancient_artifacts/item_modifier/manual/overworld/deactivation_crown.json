@@ -1,0 +1,32 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 6,
+    "pages": [
+        [
+            {
+                "text": "\uF828\uF822Deactivation Crown\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Deacivate 1 artifact for every player within 20b.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Deactivate 2 artifacts for every player within 20b\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

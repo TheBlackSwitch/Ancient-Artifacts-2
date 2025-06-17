@@ -1,0 +1,120 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/parchment",
+                                "custom_data": {
+                                    "parchment": true
+                                },
+                                "!max_damage": {},
+                                "max_stack_size": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:copy_custom_data",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "ancient_artifacts:artifact"
+                            },
+                            "ops": [
+                                {
+                                    "source": "random_id",
+                                    "target": "random_id",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Ancient Parchment",
+                                "color": "gold",
+                                "italic": false,
+                                "bold": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Ancient Artifacts",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "An ancient piece of paper filled",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "with symbols and drawings which nobody",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "has been able to decode.",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "Controls: ",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " \uE505 in main hand to open. ",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": " Hold [",
+                                        "color": "dark_purple",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "Shift",
+                                        "color": "dark_purple",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "] to quick look",
+                                        "color": "dark_purple",
+                                        "italic": false
+                                    }
+                                ],
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

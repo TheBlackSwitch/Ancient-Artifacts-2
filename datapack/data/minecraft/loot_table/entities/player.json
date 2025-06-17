@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "id": "player_id",
+                                    "attribute": "minecraft:luck",
+                                    "amount": {
+                                        "type": "minecraft:score",
+                                        "target": "this",
+                                        "score": "tbs.ID",
+                                        "scale": 1
+                                    },
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{\"recovery\":true}"
+                        },
+                        {
+                            "function": "minecraft:copy_custom_data",
+                            "source": "this",
+                            "ops": [
+                                {
+                                    "source": "Inventory",
+                                    "target": "Inv",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:copy_custom_data",
+                            "source": "this",
+                            "ops": [
+                                {
+                                    "source": "equipment",
+                                    "target": "equip",
+                                    "op": "replace"
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"recovery\"]}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:entities/player"
+}

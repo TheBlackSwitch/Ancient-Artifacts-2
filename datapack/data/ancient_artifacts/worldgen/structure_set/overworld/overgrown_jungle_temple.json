@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "ancient_artifacts:overworld/overgrown_jungle_temple",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 20,
+      "separation": 6,
+      "salt": 967854
+    }
+}

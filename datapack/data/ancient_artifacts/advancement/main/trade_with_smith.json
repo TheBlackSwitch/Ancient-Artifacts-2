@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:emerald"
+        },
+        "title": {
+            "text": "Smithing!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Trade with an artifact smith, a villager with an artifact cauldron as his job block.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/upgrade_cauldron",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{Tags:[\"artifact_smith\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

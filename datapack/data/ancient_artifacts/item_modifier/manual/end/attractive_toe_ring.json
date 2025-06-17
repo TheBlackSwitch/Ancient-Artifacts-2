@@ -1,0 +1,41 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 11,
+    "pages": [
+        [
+            {
+                "text": "  Attractive Toe Ring\n\n",
+                "color": "blue"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Magnet items within 10b towards you\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Magnet items within 15b towards you\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Magnet items within 20b towards you\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

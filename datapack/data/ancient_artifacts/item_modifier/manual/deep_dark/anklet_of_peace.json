@@ -1,0 +1,41 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 26,
+    "pages": [
+        [
+            {
+                "text": "\uF829Anklet Of Peace\n\n",
+                "color": "gold"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "15% less mobs spawn\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "25% less mobs spawn\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "35% less mobs spawn\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

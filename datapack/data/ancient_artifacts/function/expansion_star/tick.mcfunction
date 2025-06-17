@@ -1,0 +1,2 @@
+execute if score .5 slow_tick matches 5 as @a[tag=!ethernal_expanded] run scoreboard players set @s artifact_slot_count 2
+execute if score .5 slow_tick matches 5 as @a[nbt={active_effects:[{id:"minecraft:luck"}]}] at @s run function ancient_artifacts:expansion_star/expanded/active

@@ -1,0 +1,7 @@
+{
+    "message_id": "artifact_golem_thorns",
+    "effects": "thorns",
+    "death_message_type": "default",
+    "exhaustion": 0.1,
+    "scaling": "always"
+}

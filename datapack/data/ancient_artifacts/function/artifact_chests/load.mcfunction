@@ -1,0 +1,5 @@
+scoreboard objectives add chest_break_progress dummy
+scoreboard objectives add heavy_upgrade_progress dummy
+scoreboard objectives add artifact_progress dummy
+scoreboard objectives add lucky_chests_opened dummy
+scoreboard objectives add amethyst_count dummy

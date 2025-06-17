@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/slowing_circlet"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/dragons_breath_circlet"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/knockback_watch"
+                }
+            ]
+        }
+    ]
+}

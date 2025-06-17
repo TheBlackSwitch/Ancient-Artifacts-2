@@ -1,0 +1,8 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "repair_cost": 3
+      }
+    }
+  ]

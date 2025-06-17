@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cod_spawn_egg",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:block/artifact_chest/nether"
+            }
+        },
+        "title": {
+            "text": "Deeper?",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Open a nether artifact chest using a quartz compound.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/obtain_quartz_compound",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

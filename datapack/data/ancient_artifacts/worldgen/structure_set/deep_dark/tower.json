@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "ancient_artifacts:deep_dark/tower",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 7,
+      "separation": 5,
+      "salt": 7543932,
+      "exclusion_zone": {
+        "other_set": "minecraft:ancient_cities",
+        "chunk_count": 3
+      }
+    }
+}

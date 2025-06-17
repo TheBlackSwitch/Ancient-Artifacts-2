@@ -1,0 +1,41 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 26,
+    "pages": [
+        [
+            {
+                "text": "\uF826Crown Of Final Shout\n\n",
+                "color": "gold"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Explode + Instant health when your health drops below 3 hearts (3min cooldown)\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Explode, Health and Absorbtion II\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Explode, Health, absorbtion II and lightning.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

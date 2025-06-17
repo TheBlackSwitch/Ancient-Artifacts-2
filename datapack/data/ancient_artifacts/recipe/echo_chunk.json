@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "echo_shard",
+    "template": "netherite_upgrade_smithing_template",
+    "addition": "netherite_scrap",
+    "result": {
+        "id": "minecraft:echo_shard",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {"text": "Echo Chunk","color":"#14537a","italic":false,"bold":true},
+            "minecraft:lore": [{"text": "Ancient Artifacts","color": "blue","bold": false,"italic": false},{"text": "","color": "red"},{"text": "A very strong lump of metal with ","color": "dark_purple","italic": false},{"text": "intruding repairing capabilities whose power","color": "dark_purple","italic": false},{"text": "goes beyond the damage an ancient hammer has taken.","color": "dark_purple","italic": false}],
+            "minecraft:item_model": "ancient_artifacts:item/echo_chunk",
+            "max_stack_size": 1,
+            "max_damage": 15,
+            "unbreakable": {},
+            "tooltip_display": {"hidden_components":["unbreakable"]},
+            "custom_data": {"echo_chunk":true}
+        }
+    }
+}

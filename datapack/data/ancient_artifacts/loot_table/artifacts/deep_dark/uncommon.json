@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/echoing_chain"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/echolocating_borla"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/recycling_crystal"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/shrinking_anklet"
+                }
+            ]
+        }
+    ]
+}

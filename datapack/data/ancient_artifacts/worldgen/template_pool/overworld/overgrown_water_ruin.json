@@ -1,0 +1,51 @@
+{
+    "name": "ancient_artifacts:overworld/overgrown_water_ruin",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:overworld/ruin1",
+                "processors": "ancient_artifacts:remove_ground"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:overworld/ruin2",
+                "processors": "ancient_artifacts:remove_ground"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:overworld/ruin3",
+                "processors": "ancient_artifacts:remove_ground"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:overworld/ruin4",
+                "processors": "ancient_artifacts:remove_ground"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:overworld/ruin5",
+                "processors": "ancient_artifacts:remove_ground"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 17,
+    "pages": [
+        [
+            {
+                "text": "\uF829Landing Toe Ring\n\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+7b safe fall distance\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+14b safe fall distance\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+21b safe fall distance\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

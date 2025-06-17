@@ -1,0 +1,96 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/essence/rare",
+                                "custom_data":{"artifact_essence":1,"level":3}
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Rare Artifact Essence",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Ancient Artifacts",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "The most essential fragment of an ",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "artifact with a rather strong potency.",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "When used in artifact crafting,",
+                                    "color": "dark_green",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Increases luck: ",
+                                    "color": "dark_green",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " -1 loot chance",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " +2 uncommon chance",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " +4 rare chance",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " +1 unique chance",
+                                    "color": "gold",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

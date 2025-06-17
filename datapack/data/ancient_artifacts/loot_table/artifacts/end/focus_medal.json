@@ -1,0 +1,64 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/artifact",
+                                "custom_model_data": {
+                                    "strings": [
+                                        "base:medal",
+                                        "level:1",
+                                        "artifact:focus_medal"
+                                    ]
+                                },
+                                "enchantment_glint_override": true,
+                                "custom_data":{"data":{"id":"focus_medal","dim":"end","level":1,"max":1,"start":155,"rarity":6},"artifact":true},
+                                "max_stack_size": 8,
+                                "!max_damage": {}
+                            }
+                        },
+                        {
+                            "function": "minecraft:copy_custom_data",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "ancient_artifacts:artifact"
+                            },
+                            "ops": [
+                                {
+                                    "source": "random_id",
+                                    "target": "random_id",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [{"color":"#FFAA00","text":"F","bold": true,"italic": false},{"color":"#FF8B26","text":"o"},{"color":"#FF6B4C","text":"c"},{"color":"#FF4C72","text":"u"},{"color":"#FF2C98","text":"s "},{"color":"#FF0DBE","text":"M"},{"color":"#FF2C98","text":"e"},{"color":"#FF4C72","text":"d"},{"color":"#FF6B4C","text":"a"},{"color":"#FFAA00","text":"l"}]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [{"text": "Ancient Artifacts","color": "dark_purple","italic": false},{"text": ""},{"text": "Rarity: ","color":"gray","italic": false},[{"color":"#FFAA00","text":" \uE513D"},{"color":"#FF9020","text":"i"},{"color":"#FF763F","text":"v"},{"color":"#FF5C5F","text":"i"},{"color":"#FF417F","text":"n"},{"color":"#FF0DBE","text":"e\uE513"}],{"text": "Controls:","color": "gray","italic": false},[{"text": " \uE505: ","color": "dark_purple","bold": false,"italic": false},{"text": "Activate this artifact.","color":"light_purple"}],[{"text": " \uE505 + Sneak: ","color": "dark_purple","bold": false,"italic": false},{"text": "Deactivate all artifacts.","color":"light_purple"}],[{"text":""}],[{"bold": true,"italic": false,"color": "dark_purple","text": "Stacks to 8 inside a bundle!"}]]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

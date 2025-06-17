@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cod_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:block/ancient_stone",
+                                "entity_data": {"id":"minecraft:marker","Tags":["ancient_stone_place"]}
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Ancient Stone",
+                                "color": "dark_purple",
+                                "italic": false,
+                                "bold": true
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Ancient Artifacts",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "This ancient dark piece of stone once was",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "the housing of a very strong weapon!",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

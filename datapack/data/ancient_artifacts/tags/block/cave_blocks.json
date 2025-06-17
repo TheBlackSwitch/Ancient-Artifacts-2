@@ -1,0 +1,31 @@
+{
+    "values": [
+        { "required": false, "id": "#minecraft:coal_ores" },
+        { "required": false, "id": "#minecraft:gold_ores" },
+        { "required": false, "id": "#minecraft:iron_ores" },
+        { "required": false, "id": "#minecraft:lapis_ores" },
+        { "required": false, "id": "#minecraft:copper_ores" },
+        { "required": false, "id": "#minecraft:diamond_ores" },
+        { "required": false, "id": "#minecraft:emerald_ores" },
+        { "required": false, "id": "#minecraft:redstone_ores" },
+        { "required": false, "id": "minecraft:stone" },
+        { "required": false, "id": "minecraft:diorite" },
+        { "required": false, "id": "minecraft:smooth_basalt" },
+        { "required": false, "id": "minecraft:tuff" },
+        { "required": false, "id": "minecraft:calcite" },
+        { "required": false, "id": "minecraft:deepslate" },
+        { "required": false, "id": "minecraft:granite" },
+        { "required": false, "id": "minecraft:andesite" },
+        { "required": false, "id": "minecraft:infested_stone" },
+        { "required": false, "id": "minecraft:infested_deepslate" },
+        { "required": false, "id": "minecraft:dirt" },
+        { "required": false, "id": "minecraft:grass_block" },
+        { "required": false, "id": "minecraft:dirt_path" },
+        { "required": false, "id": "minecraft:coarse_dirt" },
+        { "required": false, "id": "minecraft:rooted_dirt" },
+        { "required": false, "id": "minecraft:podzol" },
+        { "required": false, "id": "minecraft:mycelium" },
+        { "required": false, "id": "minecraft:farmland" },
+        { "required": false, "id": "minecraft:mud" }
+    ]
+}

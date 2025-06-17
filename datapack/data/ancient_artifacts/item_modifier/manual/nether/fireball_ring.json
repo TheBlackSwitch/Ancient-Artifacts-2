@@ -1,0 +1,59 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 10,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828\uF822Fireball Ring\n\n",
+                "color": "blue"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "5% of your ranged attacks shoot fireballs instead of arrows.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 10% chance.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 15% chance.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 25% chance.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 5: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 35% chance.\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

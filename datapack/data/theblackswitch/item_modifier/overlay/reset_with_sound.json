@@ -1,0 +1,170 @@
+{
+    "function": "minecraft:filtered",
+    "item_filter": {
+        "predicates": {
+            "minecraft:custom_data": {
+                "tbs.has_overlay": true
+            }
+        }
+    },
+    "modifier": {
+        "function": "sequence",
+        "functions": [
+            {
+                "function": "set_components",
+                "components": {
+                    "equippable": {
+                        "slot": "head",
+                        "equip_sound": "minecraft:item.armor.equip_generic"
+                    }
+                }
+            },
+            {
+                "function": "minecraft:set_custom_data",
+                "tag": {"tbs.has_overlay":false}
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "items": "minecraft:leather_helmet"
+                },
+                "modifier": {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:equippable": {
+                            "slot": "head",
+                            "equip_sound": "minecraft:item.armor.equip_leather",
+                            "asset_id": "minecraft:leather"
+                        }
+                    }
+                }
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "items": "minecraft:golden_helmet"
+                },
+                "modifier": {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:equippable": {
+                            "slot": "head",
+                            "equip_sound": "minecraft:item.armor.equip_gold",
+                            "asset_id": "minecraft:gold"
+                        }
+                    }
+                }
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "items": "minecraft:chainmail_helmet"
+                },
+                "modifier": {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:equippable": {
+                            "slot": "head",
+                            "equip_sound": "item.armor.equip_chain",
+                            "asset_id": "minecraft:chainmail"
+                        }
+                    }
+                }
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "items": "minecraft:iron_helmet"
+                },
+                "modifier": {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:equippable": {
+                            "slot": "head",
+                            "equip_sound": "minecraft:item.armor.equip_iron",
+                            "asset_id": "minecraft:iron"
+                        }
+                    }
+                }
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "items": "minecraft:diamond_helmet"
+                },
+                "modifier": {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:equippable": {
+                            "slot": "head",
+                            "equip_sound": "minecraft:item.armor.equip_diamond",
+                            "asset_id": "minecraft:diamond"
+                        }
+                    }
+                }
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "items": "minecraft:netherite_helmet"
+                },
+                "modifier": {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:equippable": {
+                            "slot": "head",
+                            "equip_sound": "minecraft:item.armor.equip_netherite",
+                            "asset_id": "minecraft:netherite"
+                        }
+                    }
+                }
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "items": "minecraft:turtle_helmet"
+                },
+                "modifier": {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:equippable": {
+                            "slot": "head",
+                            "equip_sound": "minecraft:item.armor.equip_turtle",
+                            "asset_id": "minecraft:turtle_scute"
+                        }
+                    }
+                }
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "items": "minecraft:carved_pumpkin"
+                },
+                "modifier": {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:equippable": {
+                            "slot": "head",
+                            "equip_sound": "minecraft:item.armor.equip_generic",
+                            "camera_overlay": "misc/pumpkinblur"
+                        }
+                    }
+                }
+            },
+            {
+                "function": "minecraft:filtered",
+                "item_filter": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "tbs.temp_overlay": true
+                        }
+                    }
+                },
+                "modifier": {
+                    "function": "minecraft:set_count",
+                    "count": 0
+                }
+            }
+        ]
+    }
+}

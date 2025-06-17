@@ -1,0 +1,185 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 21,
+                    "value": "ancient_artifacts:item/artifact_upgrade",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{\"Tags\":[\"has_artifact\"]}"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/expansion_star",
+                    "weight": 5,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "chests_opened": {
+                                    "min": 25
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 6,
+                    "value": "ancient_artifacts:item/heavy_artifact_upgrade",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "heavy_upgrade_progress": {
+                                    "min": 25
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{\"Tags\":[\"has_artifact\"]}"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 25,
+                    "value": "ancient_artifacts:item/template/all"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 20,
+                    "value": "ancient_artifacts:item/ancient_parchment"
+                },
+                {
+                    "type": "item",
+                    "weight": 12,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 8,
+                    "value": "ancient_artifacts:item/music_disc/progress"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 8,
+                    "value": "ancient_artifacts:item/music_disc/neverland"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 8,
+                    "value": "ancient_artifacts:item/music_disc/battle_of_the_creek"
+                },
+                {
+                    "type": "item",
+                    "weight": 30,
+                    "quality": 0,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "max": 30,
+                                "min": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 0,
+                    "name": "minecraft:coast_armor_trim_smithing_template",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 0,
+                    "name": "minecraft:wild_armor_trim_smithing_template",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 0,
+                    "name": "minecraft:sentry_armor_trim_smithing_template",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 0,
+                    "name": "minecraft:raiser_armor_trim_smithing_template",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

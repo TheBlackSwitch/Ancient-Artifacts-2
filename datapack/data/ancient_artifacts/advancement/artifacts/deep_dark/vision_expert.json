@@ -1,0 +1,58 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:borla",
+                        "level:none",
+                        "artifact:borla_of_vision"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Vision Expert",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Go on a mining trip below y = 0, find 5 diamond ore and reach the surface right before your night vision runs out!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  2x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:artifacts/deep_dark/borla_of_vision",
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "loot": [
+            "ancient_artifacts:item/mystery_box/deep_dark",
+            "ancient_artifacts:item/mystery_box/deep_dark"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

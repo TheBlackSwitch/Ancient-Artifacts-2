@@ -1,0 +1,16 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "consumable": {
+                "consume_seconds": 99999,
+                "animation": "none",
+                "has_consume_particles": false
+            }
+        }
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{\"usable\":true}"
+    }
+]

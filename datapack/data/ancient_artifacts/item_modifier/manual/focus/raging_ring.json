@@ -1,0 +1,44 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 36,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828\uF824Raging Ring\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF315",
+                "color": "white"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+                "text": "Nether\n",
+                "color": "dark_red",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"35% of attacks rages the mob",
+                "color":"gold"
+            }
+        ]
+    ]
+}

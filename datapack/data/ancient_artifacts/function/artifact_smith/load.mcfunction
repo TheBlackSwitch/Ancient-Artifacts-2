@@ -1,0 +1,1 @@
+scoreboard objectives add smith_level dummy

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cod_spawn_egg",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:block/artifact_chest/nether"
+            }
+        },
+        "title": {
+            "text": "Nether Artifacts",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Rewardful challenges for many nether artifacts.",
+            "color": "gold",
+            "bold": false,
+            "italic": false
+        },
+        "background": "minecraft:block/nether_bricks",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 25,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF824Storing Circlet\n\n",
+                "color": "gold"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Toggle between your normal and an extra inventory (on sneak) with 4 slots\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "8 slots\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "12 slots\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "16 slots\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 5: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "21 slots\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

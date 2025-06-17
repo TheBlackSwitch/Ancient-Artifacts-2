@@ -1,0 +1,55 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "ancient_artifacts:block/artifact_chest/overworld/close"
+        },
+        "cases": [
+            {
+                "when": "active",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/overworld/active"
+                }
+            },
+            {
+                "when": "open_1",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/overworld/open_1"
+                }
+            },
+            {
+                "when": "open_2",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/overworld/open_2"
+                }
+            },
+            {
+                "when": "open_3",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/overworld/open_3"
+                }
+            },
+            {
+                "when": "open_4",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/overworld/open_4"
+                }
+            },
+            {
+                "when": "open_5",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/overworld/open_5"
+                }
+            }
+        ]
+    }
+}

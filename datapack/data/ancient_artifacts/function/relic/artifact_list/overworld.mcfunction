@@ -1,0 +1,13 @@
+execute if score .relics_overworld server matches 0 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/healing_amulet",level:rare}
+execute if score .relics_overworld server matches 1 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/poison_amulet",level:common}
+execute if score .relics_overworld server matches 2 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/conductive_bracelet",level:unique}
+execute if score .relics_overworld server matches 3 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/shockwave_bracelet",level:uncommon}
+execute if score .relics_overworld server matches 4 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/final_shout_crown",level:unique}
+execute if score .relics_overworld server matches 5 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/deactivation_crown",level:common}
+execute if score .relics_overworld server matches 6 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/explorers_boots",level:unique}
+execute if score .relics_overworld server matches 7 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/travelers_boots",level:rare}
+execute if score .relics_overworld server matches 8 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/miners_crown",level:rare}
+execute if score .relics_overworld server matches 9 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/divers_boots",level:uncommon}
+execute if score .relics_overworld server matches 10 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/allies_amulet",level:uncommon}
+execute if score .relics_overworld server matches 11 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/farmers_boots",level:common}
+execute if score .relics_overworld server matches 12 run data modify storage ancient_artifacts:relics overworld.artifact set value {id:"ancient_artifacts:artifacts/overworld/reaching_bracelet",level:rare}

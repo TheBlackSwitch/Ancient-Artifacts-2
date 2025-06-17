@@ -1,0 +1,1 @@
+$damage @s $(damage) minecraft:generic_kill by @n[tag=damager]

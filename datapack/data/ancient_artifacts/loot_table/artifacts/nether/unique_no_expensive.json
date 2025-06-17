@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/looting_tiara"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/withering_necklace"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/life_steal_necklace"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/combo_boots"
+                }
+            ]
+        }
+    ]
+}

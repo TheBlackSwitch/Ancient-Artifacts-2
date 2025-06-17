@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model":"ancient_artifacts:item/mystery_box/explorers_boots",
+                                "minecraft:custom_data":{"mystery_box":true,"type":"explorers_boots"},
+                                "minecraft:max_stack_size": 16,
+                                "!minecraft:max_damage": {}
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Loot Box",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Ancient Artifacts",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "A loot box aquired from an approved bug report / suggestion",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "Controls",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": " \uE505 to open.",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

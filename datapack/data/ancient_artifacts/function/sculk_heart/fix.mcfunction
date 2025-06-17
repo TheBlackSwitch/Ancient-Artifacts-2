@@ -1,0 +1,5 @@
+execute align xyz run summon minecraft:item_display ~0.5 ~0.5 ~0.5 {Tags:[sculk_heart,center],item:{id:"minecraft:gunpowder",components:{"minecraft:item_model":"ancient_artifacts:entity/sculk_heart/inactive"}}}
+execute align xyz run summon minecraft:item_display ~1.5 ~0.5 ~0.5 {Tags:[sculk_heart],item:{id:"minecraft:gunpowder",components:{"minecraft:item_model":"ancient_artifacts:entity/sculk_heart/inactive"}}}
+execute align xyz run summon minecraft:item_display ~0.5 ~0.5 ~1.5 {Tags:[sculk_heart],item:{id:"minecraft:gunpowder",components:{"minecraft:item_model":"ancient_artifacts:entity/sculk_heart/inactive"}}}
+execute align xyz run summon minecraft:item_display ~0.5 ~0.5 ~-0.5 {Tags:[sculk_heart],item:{id:"minecraft:gunpowder",components:{"minecraft:item_model":"ancient_artifacts:entity/sculk_heart/inactive"}}}
+execute align xyz run summon minecraft:item_display ~-0.5 ~0.5 ~0.5 {Tags:[sculk_heart],item:{id:"minecraft:gunpowder",components:{"minecraft:item_model":"ancient_artifacts:entity/sculk_heart/inactive"}}}

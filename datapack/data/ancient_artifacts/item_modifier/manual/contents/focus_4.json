@@ -1,0 +1,37 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 4,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "Contents ",
+                "color": "dark_gray",
+                "bold": true
+            },
+            {
+                "text": "Rare:\n ",
+                "color": "dark_purple",
+                "bold": false
+            },
+            {
+                "text": "Levitation Medal ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 45
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:levitation_medal}].check","entity": "@s","color":"dark_purple"}
+        ]
+    ]
+}

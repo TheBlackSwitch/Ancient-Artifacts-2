@@ -1,0 +1,41 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 4,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828Poison Amulet\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Gives poison I to all mobs within 5b when sneaking.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade range to 10b.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade poison to poison II.",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

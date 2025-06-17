@@ -1,0 +1,115 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 3,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "",
+                "underlined": true,
+                "bold": true
+            },
+            {
+                "text": "      Contents\n\n",
+                "bold": true,
+                "color": "dark_gray",
+                "underlined": false
+            },
+            {
+                "color":"#FFAA00",
+                "text": "\uE513" ,
+                "bold": false
+            },
+            {
+                "color": "#FFAA00",
+                "text": "D"
+            },
+            {
+                "color": "#FF9020",
+                "text": "i"
+            },
+            {
+                "color": "#FF763F",
+                "text": "v"
+            },
+            {
+                "color": "#FF5C5F",
+                "text": "i"
+            },
+            {
+                "color": "#FF417F",
+                "text": "n"
+            },
+            {
+                "color": "#FF0DBE",
+                "text": "e"
+            },
+            {
+                "color":"#FF0DBE",
+                "text": "\uE513: \n\n",
+                "bold": false 
+            },
+            {
+                "text": ""
+            },
+            [
+                {
+                    "color": "#FFAA00",
+                    "text": " F",
+                    "underlined": false,
+                    "italic": false,
+                    "bold": false,
+                    "click_event": {
+                        "action": "change_page",
+                        "page": 29
+                    },
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                            "text": "Go To",
+                            "color": "dark_purple"
+                        }
+                    }
+                },
+                {
+                    "color": "#FF8B26",
+                    "text": "o"
+                },
+                {
+                    "color": "#FF6B4C",
+                    "text": "c"
+                },
+                {
+                    "color": "#FF4C72",
+                    "text": "u"
+                },
+                {
+                    "color": "#FF2C98",
+                    "text": "s "
+                },
+                {
+                    "color": "#FF0DBE",
+                    "text": "M"
+                },
+                {
+                    "color": "#FF2C98",
+                    "text": "e"
+                },
+                {
+                    "color": "#FF4C72",
+                    "text": "d"
+                },
+                {
+                    "color": "#FF6B4C",
+                    "text": "a"
+                },
+                {
+                    "color": "#FFAA00",
+                    "text": "l "
+                },
+                {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:focus_medal}].check","entity": "@s","color":"gold","bold":true}
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,13 @@
+execute if score .relics_nether server matches 0 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/burning_ring",level:common}
+execute if score .relics_nether server matches 1 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/thermal_tiara",level:rare}
+execute if score .relics_nether server matches 2 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/raging_ring",level:rare}
+execute if score .relics_nether server matches 3 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/withering_necklace",level:unique}
+execute if score .relics_nether server matches 4 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/fireball_ring",level:uncommon}
+execute if score .relics_nether server matches 5 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/saturating_necklace",level:uncommon}
+execute if score .relics_nether server matches 6 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/looting_tiara",level:unique}
+execute if score .relics_nether server matches 7 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/cooling_boots",level:rare}
+execute if score .relics_nether server matches 8 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/smelting_tiara",level:common}
+execute if score .relics_nether server matches 9 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/builders_ring",level:uncommon}
+execute if score .relics_nether server matches 10 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/tinkering_tiara",level:common}
+execute if score .relics_nether server matches 11 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/life_steal_necklace",level:unique}
+execute if score .relics_nether server matches 12 run data modify storage ancient_artifacts:relics nether.artifact set value {id:"ancient_artifacts:artifacts/nether/combo_boots",level:unique}

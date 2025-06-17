@@ -1,0 +1,142 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "custom_data": {
+                                    "ancient_hammer": true
+                                },
+                                "item_model": "ancient_artifacts:item/hammer",
+                                "max_damage": 16,
+                                "damage": 0,
+                                "max_stack_size": 1,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "attribute_modifiers",
+                                        "enchantments"
+                                    ]
+                                },
+                                "consumable": {
+                                    "consume_seconds": 999999,
+                                    "animation": "none",
+                                    "has_consume_particles": false
+                                },
+                                "tool": {
+                                    "rules": [],
+                                    "default_mining_speed": 0.1,
+                                    "damage_per_block": 0
+                                },
+                                "attribute_modifiers": [
+                                        {
+                                            "id": "ancient_hammer",
+                                            "type": "minecraft:attack_speed",
+                                            "amount": -1,
+                                            "operation": "add_multiplied_base",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "ancient_hammer",
+                                            "type": "minecraft:attack_damage",
+                                            "amount": 20,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        }
+                                    ],
+                                "enchantment_glint_override": false,
+                                "enchantments": {
+                                    "ancient_artifacts:anti_unbreaking": 1,
+                                    "infinity": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Ancient Hammer",
+                                "color": "gold",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Ancient Artifacts",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "A magic weapon which is able to destroy",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "even the strongest froms of magic",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "Conrols: ",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " hold \uE505 to charge ",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " \uE506 to damage ",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "When in air:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " 20 Attack Damage",
+                                    "color": "dark_green",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " 0.15 Attack Speed",
+                                    "color": "dark_green",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

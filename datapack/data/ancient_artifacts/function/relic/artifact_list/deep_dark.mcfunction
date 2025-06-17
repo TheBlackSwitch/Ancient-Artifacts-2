@@ -1,0 +1,14 @@
+execute if score .relics_deep_dark server matches 0 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/anklet_of_peace",level:unique}
+execute if score .relics_deep_dark server matches 1 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/borla_of_vision",level:common}
+execute if score .relics_deep_dark server matches 2 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/experienced_chain",level:unique}
+execute if score .relics_deep_dark server matches 3 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/beefy_crystal",level:rare}
+execute if score .relics_deep_dark server matches 4 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/echoing_chain",level:uncommon}
+execute if score .relics_deep_dark server matches 5 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/sonic_crystal",level:common}
+execute if score .relics_deep_dark server matches 6 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/echolocating_borla",level:uncommon}
+execute if score .relics_deep_dark server matches 7 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/darkening_borla",level:common}
+execute if score .relics_deep_dark server matches 8 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/strengthening_anklet",level:rare}
+execute if score .relics_deep_dark server matches 9 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/recovery_anklet",level:unique}
+execute if score .relics_deep_dark server matches 10 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/recycling_crystal",level:uncommon}
+execute if score .relics_deep_dark server matches 11 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/shrinking_anklet",level:uncommon}
+execute if score .relics_deep_dark server matches 12 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/necromancy_anklet",level:unique}
+execute if score .relics_deep_dark server matches 13 run data modify storage ancient_artifacts:relics deep_dark.artifact set value {id:"ancient_artifacts:artifacts/deep_dark/bulky_chain",level:rare}

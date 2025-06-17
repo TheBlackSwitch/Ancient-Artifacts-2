@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "manual",
+    "ingredients": [
+        "minecraft:ink_sac",
+        "minecraft:book",
+        "minecraft:feather",
+        "minecraft:quartz",
+        "minecraft:amethyst_shard"
+    ],
+    "result": {
+        "id": "minecraft:written_book",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {"text": "Artifact Manual","color": "gold","italic": false,"bold": false},
+            "minecraft:lore": [
+                {"text": "Ancient Artifacts","color": "blue","bold": false,"italic": false},
+                {"text": " ","color": "red"},
+                {"text": "A manual filled with useful information","color": "dark_purple","italic": false},
+                {"text": "about your unlocked artifacts","color": "dark_purple","italic": false},
+                {"text": " ","color": "red"},
+                {"text": "Type: ","color": "gray","bold": false,"italic": false},
+                {"text": " nether","color": "dark_purple","bold": false,"italic": false},
+                {"text": "","color": "red"},
+                {"text": "Controls: ","color": "gray","italic": false},
+                {"text": " Right click to open. ","color": "dark_purple","italic": false},
+                {"text": " ","color": "red"}
+            ],
+            "enchantment_glint_override": false,
+            "minecraft:item_model": "ancient_artifacts:item/manual/nether",
+            "minecraft:custom_data": {
+                "manual": 1,
+                "type": "nether",
+                "needs_replaced": 1
+            },
+            "max_stack_size": 1
+        }
+    }
+}

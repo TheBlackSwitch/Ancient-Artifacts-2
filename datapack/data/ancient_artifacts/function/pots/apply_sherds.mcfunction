@@ -1,0 +1,1 @@
+$data modify block ~ ~ ~ sherds set value ["$(sherd1)","$(sherd2)","$(sherd3)","$(sherd4)"]

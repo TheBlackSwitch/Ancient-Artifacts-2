@@ -1,0 +1,3 @@
+function ancient_artifacts:artifacts/deep_dark/recovery_anklet/death
+function ancient_artifacts:artifacts/end/storing_circlet/death
+advancement revoke @s only ancient_artifacts:trigger/death

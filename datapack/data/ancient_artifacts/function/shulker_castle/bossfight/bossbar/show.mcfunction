@@ -1,0 +1,2 @@
+$bossbar set ancient_artifacts:shulker_king_$(UUID1)_$(UUID2)_$(UUID3)_$(UUID4) players @a[distance=..96]
+$bossbar set ancient_artifacts:shulker_king_space_$(UUID1)_$(UUID2)_$(UUID3)_$(UUID4) players @a[distance=..96]

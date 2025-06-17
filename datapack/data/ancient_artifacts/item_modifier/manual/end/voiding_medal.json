@@ -1,0 +1,23 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 27,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828Voiding Medal\n\n",
+                "color": "gold"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "-60% damage but every attack within 1s from your previous attack grants you a stacking level of strength.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

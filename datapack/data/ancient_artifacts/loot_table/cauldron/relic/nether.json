@@ -1,0 +1,73 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:crying_obsidian"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_wart"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gilded_blackstone"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_scrap"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:quartz"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:blaze_powder"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:magma_cream"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wither_rose"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ghast_tear"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_brick"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fire_charge"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherrack"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:flint_and_steel"
+                }
+            ]
+        }
+    ]
+}

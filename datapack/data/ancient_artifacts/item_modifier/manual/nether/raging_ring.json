@@ -1,0 +1,41 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 18,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828\uF824Raging Ring\n\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "10% of attacked mobs will get angry at other mobs for 15s.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "20% of mobs will get angry.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "25% mobs will get angry for 30s.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

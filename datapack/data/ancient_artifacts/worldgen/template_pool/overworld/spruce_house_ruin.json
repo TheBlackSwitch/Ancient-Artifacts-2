@@ -1,0 +1,15 @@
+{
+    "name": "ancient_artifacts:overworld/spruce_house_ruin",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:overworld/spruce_house_ruin",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

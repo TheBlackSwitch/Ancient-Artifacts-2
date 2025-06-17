@@ -1,0 +1,1 @@
+advancement grant @s only ancient_artifacts:main/destroy_artifact

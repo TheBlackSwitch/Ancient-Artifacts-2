@@ -1,0 +1,63 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/artifact",
+                                "custom_model_data": {
+                                    "strings": [
+                                        "base:borla",
+                                        "level:1",
+                                        "artifact:borla_of_vision"
+                                    ]
+                                },
+                                "custom_data":{"data":{"id":"borla_of_vision","dim":"deep_dark","level":1,"max":2,"start":82,"rarity":1,"relic":1},"artifact":true},
+                                "max_stack_size": 8,
+                                "!max_damage": {}
+                            }
+                        },
+                        {
+                            "function": "minecraft:copy_custom_data",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "ancient_artifacts:artifact"
+                            },
+                            "ops": [
+                                {
+                                    "source": "random_id",
+                                    "target": "random_id",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {"text":"Borla Of Vision","color":"gray","italic": false}
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [{"text": "Ancient Artifacts","color": "blue","italic": false},{"text": ""},{"text": "Rarity: ","color":"gray","italic": false},{"text": " Common","color":"dark_gray","italic": false},{"text": "Controls:","color": "gray","italic": false},[{"text": " \uE505: ","color": "dark_purple","bold": false,"italic": false},{"text": "Activate this artifact.","color":"light_purple"}],[{"text": " \uE505 + Sneak: ","color": "dark_purple","bold": false,"italic": false},{"text": "Deactivate all artifacts.","color":"light_purple"}],[{"text":""}],[{"bold": true,"italic": false,"color": "dark_purple","text": "Stacks to 8 inside a bundle!"}]]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

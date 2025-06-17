@@ -1,0 +1,100 @@
+{
+    "model": {
+        "type": "minecraft:condition",
+        "property": "broken",
+        "on_true": {
+            "type": "minecraft:model",
+            "model": "ancient_artifacts:item/hammer/broken"
+        },
+        "on_false": {
+            "type": "minecraft:range_dispatch",
+            "property": "use_duration",
+            "remaining": false,
+            "scale": 1.0,
+            "entries": [
+                {
+                    "threshold": 0,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/normal"
+                    }
+                },
+                {
+                    "threshold": 4,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/pull_1"
+                    }
+                },
+                {
+                    "threshold": 6,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/pull_2"
+                    }
+                },
+                {
+                    "threshold": 8,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/pull_3"
+                    }
+                },
+                {
+                    "threshold": 10,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/pull_4"
+                    }
+                },
+                {
+                    "threshold": 12,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/pull_5"
+                    }
+                },
+                {
+                    "threshold": 14,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/pull_6"
+                    }
+                },
+
+
+
+
+
+                {
+                    "threshold": 32,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/sweep_1"
+                    }
+                },
+                {
+                    "threshold": 33,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/sweep_2"
+                    }
+                },
+                {
+                    "threshold": 34,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/sweep_4"
+                    }
+                },
+                {
+                    "threshold": 35,
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "ancient_artifacts:item/hammer/sweep_6"
+                    }
+                }
+            ]
+        }
+    }
+}

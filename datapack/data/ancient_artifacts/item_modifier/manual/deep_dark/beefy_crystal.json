@@ -1,0 +1,59 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 18,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF824Beefy Crystal\n\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+4HP, -20% damage, +10% scale \n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+8HP, -35% damage, +20% scale\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+12HP, -50% damage, +30% scale\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+12HP, -50% damage, +40% scale, slow I, resist I\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 5: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+20HP, -50% damage, +50% scale, slow II, resist II\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 49,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF826Looting Tiara\n",
+                "color": "gold"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF319",
+                "color": "white"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+               "text": "Nether\n",
+                "color": "dark_red",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"Recieve even better loot from artifact chests",
+                "color":"gold"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 23,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF822Levitation Medal\n\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Levitation II while sneaking for max 2.5s\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "max 5s\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "max 7.5s\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "max 10s\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 5: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Levitation V for max 12.5s\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

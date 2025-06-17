@@ -1,0 +1,2 @@
+scoreboard objectives add used_upgrade used:ender_pearl
+scoreboard objectives add upgrade_type dummy

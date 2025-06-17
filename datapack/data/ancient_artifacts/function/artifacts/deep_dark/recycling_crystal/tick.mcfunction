@@ -1,0 +1,1 @@
+execute as @e[type=#arrows,tag=!enchant_checked] run function ancient_artifacts:artifacts/deep_dark/recycling_crystal/tag_arrow

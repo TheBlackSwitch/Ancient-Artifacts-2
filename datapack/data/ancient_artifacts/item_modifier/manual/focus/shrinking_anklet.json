@@ -1,0 +1,44 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 27,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF822Shrinking Anklet\n",
+                "color": "blue"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF338",
+                "color": "white"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+                "text": "Deep Dark\n",
+                "color": "#14537a",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"-80% scale",
+                "color":"gold"
+            }
+        ]
+    ]
+}

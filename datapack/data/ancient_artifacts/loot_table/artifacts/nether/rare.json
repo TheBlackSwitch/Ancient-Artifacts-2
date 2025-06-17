@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/thermal_tiara"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/raging_ring"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/cooling_boots"
+                }
+            ]
+        }
+    ]
+}

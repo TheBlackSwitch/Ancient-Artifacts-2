@@ -1,0 +1,1 @@
+$particle vibration{arrival_in_ticks:$(delay),destination:{type:"block", pos:[$(x),$(y),$(z)]}} $(from)

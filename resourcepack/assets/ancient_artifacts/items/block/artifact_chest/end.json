@@ -1,0 +1,62 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "ancient_artifacts:block/artifact_chest/end/close"
+        },
+        "cases": [
+            {
+                "when": "active",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/end/active"
+                }
+            },
+            {
+                "when": "open_1",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/end/open_1"
+                }
+            },
+            {
+                "when": "open_2",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/end/open_2"
+                }
+            },
+            {
+                "when": "open_3",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/end/open_3"
+                }
+            },
+            {
+                "when": "open_4",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/end/open_4"
+                }
+            },
+            {
+                "when": "open_5",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/end/open_5"
+                }
+            },
+            {
+                "when": "close_2",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:block/artifact_chest/end/close_2"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:artifacts/overworld/common",
+                    "weight": 51
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:artifacts/overworld/uncommon",
+                    "weight": 41
+                },
+                {
+                    "type": "minecraft:group",
+                    "children": [
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "ancient_artifacts:artifacts/overworld/rare",
+                            "weight": 29
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "ancient_artifacts:artifacts/overworld/unique",
+                            "weight": 10
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "chests_opened": {
+                                    "min": 10
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

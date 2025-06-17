@@ -1,0 +1,1 @@
+$tick rate $(rate)

@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "tbs.ID": {
+                    "min": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": ".search"
+                        },
+                        "score": "tbs.ID"
+                    },
+                    "max": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": ".search"
+                        },
+                        "score": "tbs.ID"
+                    }
+                }
+            }
+        }
+    ]
+}

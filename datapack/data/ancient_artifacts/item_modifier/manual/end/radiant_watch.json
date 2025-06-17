@@ -1,0 +1,32 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 21,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF824Radiant Watch\n\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "20% of attacks shoot a lazer to a random enemy\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "35% of attack\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

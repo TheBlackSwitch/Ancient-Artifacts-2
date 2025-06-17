@@ -1,0 +1,32 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 8,
+    "pages": [
+        [
+            {
+                "text": "\uF829Detecting Borla\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Make ores glow within a 5x5 area around the player\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Make ores glow within a 7x7 area around the player\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

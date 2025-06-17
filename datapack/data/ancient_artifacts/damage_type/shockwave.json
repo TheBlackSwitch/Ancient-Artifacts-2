@@ -1,0 +1,7 @@
+{
+    "message_id": "shockwave",
+    "effects": "thorns",
+    "death_message_type": "default",
+    "exhaustion": 0.1,
+    "scaling": "always"
+  }

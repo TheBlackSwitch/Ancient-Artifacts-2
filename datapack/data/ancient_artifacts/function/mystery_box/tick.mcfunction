@@ -1,0 +1,1 @@
+execute as @a[scores={used_carrot_stick=1..}] if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{"mystery_box":true}] at @s run function ancient_artifacts:mystery_box/open

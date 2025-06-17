@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/fireball_ring"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/saturating_necklace"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/builders_ring"
+                }
+            ]
+        }
+    ]
+}

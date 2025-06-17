@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/burning_ring"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/smelting_tiara"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/tinkering_tiara"
+                }
+            ]
+        }
+    ]
+}

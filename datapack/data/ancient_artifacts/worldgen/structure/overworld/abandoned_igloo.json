@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": ["ice_spikes","snowy_beach","snowy_plains","snowy_slopes","snowy_taiga","frozen_peaks"],
+    "step": "surface_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_box",
+    "start_pool": "ancient_artifacts:overworld/abandoned_igloo",
+    "size": 20,
+    "start_height": {
+      "absolute": 5
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+}

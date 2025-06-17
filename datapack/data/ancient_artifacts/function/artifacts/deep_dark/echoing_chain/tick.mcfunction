@@ -1,0 +1,1 @@
+execute if score .5 slow_tick matches 5 as @e[tag=echo] at @s run function ancient_artifacts:artifacts/deep_dark/echoing_chain/echo

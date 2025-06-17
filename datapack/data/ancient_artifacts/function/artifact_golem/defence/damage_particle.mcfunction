@@ -1,0 +1,1 @@
+$particle minecraft:item{item:"$(item)"} ^ ^1.5 ^1 0.2 0.2 0.2 0 10

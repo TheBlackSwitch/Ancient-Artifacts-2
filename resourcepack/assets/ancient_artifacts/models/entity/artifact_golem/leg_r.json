@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [96, 96],
+	"textures": {
+		"0": "ancient_artifacts:item/artifact_golem",
+		"particle": "ancient_artifacts:item/artifact_golem"
+	},
+	"elements": [
+		{
+			"from": [4.5, -2, 4.5],
+			"to": [11.5, 8, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -2, 0]},
+			"faces": {
+				"north": {"uv": [1.16667, 11.33333, 2.33333, 13], "texture": "#0"},
+				"east": {"uv": [0, 11.33333, 1.16667, 13], "texture": "#0"},
+				"south": {"uv": [2.33333, 11.33333, 3.5, 13], "texture": "#0"},
+				"west": {"uv": [3.5, 11.33333, 4.66667, 13], "texture": "#0"},
+				"up": {"uv": [3.5, 10.16667, 4.66667, 11.33333], "texture": "#0"},
+				"down": {"uv": [3.5, 10.16667, 4.66667, 11.33333], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, -8, 2.5],
+			"to": [12, -2, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -2, 0]},
+			"faces": {
+				"north": {"uv": [6.66667, 13, 8, 14], "texture": "#0"},
+				"east": {"uv": [5.33333, 13, 6.66667, 14], "texture": "#0"},
+				"south": {"uv": [9.33333, 13, 10.66667, 14], "texture": "#0"},
+				"west": {"uv": [8, 13, 9.33333, 14], "texture": "#0"},
+				"up": {"uv": [5.33333, 14, 6.66667, 15.33333], "texture": "#0"},
+				"down": {"uv": [5.33333, 14, 6.66667, 15.33333], "texture": "#0"}
+			}
+		}
+	]
+}

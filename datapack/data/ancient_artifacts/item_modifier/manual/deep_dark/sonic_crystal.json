@@ -1,0 +1,23 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 6,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF826Sonic Crystal\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Charge A sonic boom on sneak (2 min cooldown)\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

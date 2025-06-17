@@ -1,0 +1,1 @@
+$damage @s $(damage) generic_kill by @p[predicate=theblackswitch:matches_search_id]

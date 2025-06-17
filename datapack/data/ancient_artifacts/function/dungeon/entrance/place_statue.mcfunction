@@ -1,0 +1,2 @@
+$execute store success score .succes temp run place template dungeon:entrance/statue_$(statue_phase) ~-19 ~16 ~-11
+execute if score .succes temp matches 1 run data modify entity @s data.prev_statue_phase set from entity @s data.statue_phase

@@ -1,0 +1,216 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:ring",
+                        "level:none",
+                        "artifact:fireball_ring"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Fireball Expert",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Give 10 ghasts a taste of their own medicine and shoot a fireball at them using fireball ring!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  2x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:artifacts/nether/fireball_ring",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "4": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "5": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 5
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "6": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "7": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 7
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "8": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 8
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "9": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "10": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ghasts_fireballed": {
+                                "min": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "loot": [
+            "ancient_artifacts:item/mystery_box/nether",
+            "ancient_artifacts:item/mystery_box/nether",
+            "ancient_artifacts:item/mystery_box/nether"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

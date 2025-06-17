@@ -1,0 +1,1 @@
+$item modify entity @s weapon.$(slot) {"function":"set_custom_data","tag":'$(data)'}

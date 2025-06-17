@@ -1,0 +1,32 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 19,
+    "pages": [
+        [
+            {
+                "text": "\uF828\uF824Deflecting Circlet\n\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Deflect 50% of projectiles\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Deflect 80% of projectiles\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

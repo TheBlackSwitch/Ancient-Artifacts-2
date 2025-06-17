@@ -1,0 +1,79 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 29,
+    "pages": [
+        [
+            [
+                {
+                    "color": "#FFAA00",
+                    "text": "\uF829\uF828F",
+                    "underlined": false,
+                    "italic": false,
+                    "bold": false,
+                    "click_event": {
+                        "action": "change_page",
+                        "page": 29
+                    },
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                            "text": "Go To",
+                            "color": "dark_purple"
+                        }
+                    }
+                },
+                {
+                    "color": "#FF8B26",
+                    "text": "o"
+                },
+                {
+                    "color": "#FF6B4C",
+                    "text": "c"
+                },
+                {
+                    "color": "#FF4C72",
+                    "text": "u"
+                },
+                {
+                    "color": "#FF2C98",
+                    "text": "s "
+                },
+                {
+                    "color": "#FF0DBE",
+                    "text": "M"
+                },
+                {
+                    "color": "#FF2C98",
+                    "text": "e"
+                },
+                {
+                    "color": "#FF4C72",
+                    "text": "d"
+                },
+                {
+                    "color": "#FF6B4C",
+                    "text": "a"
+                },
+                {
+                    "color": "#FFAA00",
+                    "text": "l\n\n"
+                }
+            ],
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrades your other artifact(s) by 1 level in trade for more food consumption. (This can go beyond that artifact's max level)\nAlso keeps your artifacts activated on death!\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "See your focus manual for more info.",
+                "color": "gold"
+            }
+        ]
+    ]
+}

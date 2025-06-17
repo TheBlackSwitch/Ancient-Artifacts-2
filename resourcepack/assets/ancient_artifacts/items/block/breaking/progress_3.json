@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "ancient_artifacts:block/breaking/progress_3",
+        "tints": []
+    }
+}

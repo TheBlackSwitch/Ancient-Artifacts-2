@@ -1,0 +1,166 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 1,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "      Contents\n\n",
+                "bold": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Common:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Borla Of Vision ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 4
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:borla_of_vision}].check","entity": "@s"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Sonic Crystal ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 6
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:sonic_crystal}].check","entity": "@s"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Detecting Borla ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 8
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:detecting_borla}].check","entity": "@s"},
+            {
+                "text": "\n\n" 
+            },
+            {
+                "text": "Uncommon:\n",
+                "color": "blue"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Echoing Chain ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 10
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:echoing_chain}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Echolocating Borla ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 12
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:echolocating_borla}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Recycling Crystal ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 14
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:recycling_crystal}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Shrinking Anklet ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 16
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:shrinking_anklet}].check","entity": "@s","color":"blue"}
+        ]
+    ]
+}

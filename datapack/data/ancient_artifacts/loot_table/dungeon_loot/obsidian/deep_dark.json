@@ -1,0 +1,148 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "ancient_artifacts:artifacts/deep_dark",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "artifact_progress": {
+                                            "min": 30
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/deep_dark",
+                                            "weight": 15,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/deep_dark",
+                                            "weight": 20,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 1
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/deep_dark",
+                                            "weight": 25,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:dungeon_loot/overworld",
+                                            "weight": 30,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:group",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld_luck",
+                                                    "weight": 15
+                                                },
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                                                    "weight": 15
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 1
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:group",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld_luck",
+                                                    "weight": 12
+                                                },
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                                                    "weight": 18
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

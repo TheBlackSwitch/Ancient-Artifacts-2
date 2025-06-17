@@ -1,0 +1,19 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 563445324,
+        "separation": 20,
+        "spacing": 27,
+        "spread_type": "triangular",
+        "exclusion_zone": {
+            "chunk_count": 5,
+            "other_set": "end_cities"
+        }
+    },
+    "structures": [
+        {
+            "structure": "ancient_artifacts:end/shulker_island_low",
+            "weight": 1
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+summon interaction ~ ~0.37 ~ {CustomNameVisible:0b,width:2f,height:0.25f,CustomName:{"text":"Loot Body \uE505","color":"red"},Tags:["prior_explorer","interaction"]}
+summon item_display ~ ~0.54 ~ {item:{id:"minecraft:gunpowder",components:{"minecraft:item_model":"ancient_artifacts:entity/prior_explorer/skeleton"}},Rotation:[-90f,0f],Tags:["prior_explorer","skeleton"]}

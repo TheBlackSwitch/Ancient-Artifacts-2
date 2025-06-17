@@ -1,0 +1,32 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 22,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828 Bulky Chain\n\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Mine max 14 connected blocks of the same type (in trees leaves also break)\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Mine max 30 connected blocks\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,2923 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/manual/focus",
+                                "custom_data": {
+                                    "manual": true,
+                                    "data": {
+                                        "unlock_count": 0,
+                                        "unlocked": [],
+                                        "dim": "focus"
+                                    }
+                                },
+                                "max_stack_size": 1
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Focus Manual",
+                                "color": "gold",
+                                "italic": false,
+                                "bold": false
+                            },
+                                "target": "item_name"
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Ancient Artifacts",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "A thick book showing an artifact's",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "power when fully upgraded and focused",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "using focus medal",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "Controls: ",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " \uE505 to open. ",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_written_book_pages",
+                            "pages": [
+                                [
+                                    {
+                                        "text": ""
+                                    },
+                                    {
+                                        "text": "\n\n                             \n\n",
+                                        "underlined": true,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "text": "\uE504",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n                             ",
+                                        "underlined": true,
+                                        "color": "gray"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Contents ",
+                                        "bold": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "Common:\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Poison Amulet\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 7
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Deactivation Crown\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 8
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Farmers Boots\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 9
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Burning Ring\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 10
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Smelting Tiara\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 11
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Tinkering Tiara\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 12
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Borla Of Silence\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 13
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Sonic Crystal\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 14
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Darkening Borla\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 15
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Slowing Circlet\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 16
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Knockback Watch\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 17
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Circlet Of Breath\n",
+                                        "color": "dark_gray",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 18
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Contents ",
+                                        "color": "dark_gray",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Uncommon:\n",
+                                        "color": "blue",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Allies Amulet\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 19
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Shockwave Bracelet\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 20
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Divers Boots\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 21
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Fire Ball Ring\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 22
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Saturating Necklace\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 23
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Builders Ring\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 24
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Echoing Chain\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 25
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Borla Of Echolocation\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 26
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Recycling Crystal\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 27
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Shrinking Anklet\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 28
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Attractive Toe Ring\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 29
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Gravitation Toe Ring\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 30
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Pulse Watch\n",
+                                        "color": "blue",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 31
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Contents ",
+                                        "color": "dark_gray",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Rare:\n",
+                                        "color": "dark_purple",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Miners Crown\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 32
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Travelers Boots\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 33
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Reaching Bracelet\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 34
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Healing Amulet\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 35
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Thermal Tiara\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 36
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Raging Ring\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 37
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Cooling Boots\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 38
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Beefy Crystal\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 39
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Strengthening Anklet\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 40
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Bulky Chain\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 41
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Landing Toe Ring\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 42
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Deflecting Circlet\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 43
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Radiant Watch\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 44
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Contents ",
+                                        "color": "dark_gray",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Rare:\n ",
+                                        "color": "dark_purple",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Levitation Medal\n",
+                                        "color": "dark_purple",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 45
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Contents ",
+                                        "color": "dark_gray",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Unique:\n ",
+                                        "color": "gold",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Conductive Bracelet\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 46
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Crown Of Final Shout\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 47
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Explorers Boots\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 48
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Withering Necklace\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 49
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Looting Tiara\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 50
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Life Steal Necklace\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 51
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Combo Boots\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 52
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Experienced Chain\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 53
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Anklet Of Peace\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 54
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Anklet Of Recovery\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 55
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Necromancy Anklet\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 56
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Storing Circlet\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 57
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "text": " "
+                                    },
+                                    {
+                                        "text": "Voiding Medal\n",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 58
+                                        },
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "text": "Go To",
+                                                "color": "dark_purple"
+                                            }
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828Poison Amulet\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF301",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828\uF822Deactivation Crown\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF305",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF826Farmers Boots\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF311",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828Burning Ring\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF313",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF826Smelting Tiara\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF321",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF824Tinkering Tiara\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF323",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828  Borla Of Silence\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF326",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF826Sonic Crystal\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF331",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829Darkening Borla\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF334",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828  Slowing Circlet\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF345",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828 Knockback Watch\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF350",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "   Circlet Of Breath\n",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF352",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                [
+                                    {
+                                        "text": "\uF829\uF828Allies Amulet\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF310",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF826Shockwave Bracelet\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF302",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828Divers Boots\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF309",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828\uF822Fireball Ring\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF317",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828Saturating Necklace\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF318",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828Builders Ring\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF322",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF826Echoing Chain\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF330",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": " Borla Of Echolocation\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF332",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828\uF822Recycling Crystal\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF337",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF822Shrinking Anklet\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF338",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "  Attractive Toe Ring\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF341",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "  Gravitation Toe Ring\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF342",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828\uF822Pulse Watch\n",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF343",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+
+
+
+
+
+
+
+
+
+
+                                [
+                                    {
+                                        "text": "\uF829\uF828Miners Crown\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF308",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829Travelers Boots\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF306",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828\uF822Reaching Bracelet\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF312",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF826Healing Amulet\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF300",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF826Thermal Tiara\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF314",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828\uF824Raging Ring\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF315",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828Cooling Boots\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF320",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF824Beefy Crystal\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF329",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": " Strengthening Anklet\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF335",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828 Bulky Chain\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF340",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829Landing Toe Ring\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF349",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828\uF824Deflecting Circlet\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF348",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF824Radiant Watch\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF347",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF822Levitation Medal\n",
+                                        "color": "dark_purple"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF346",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                [
+                                    {
+                                        "text": "\uF827Conductive Bracelet\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF303",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF826Crown Of Final Shout\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF304",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829Explorers Boots\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF307",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Overworld\n\n",
+                                        "color": "dark_green",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828\uF824Withering Necklace\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF316",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF826Looting Tiara\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF319",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828Life Steal Necklace\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF324",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828Combo Boots\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF325",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Nether\n\n",
+                                        "color": "dark_red",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF828\uF822Experienced Chain\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF327",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829Anklet Of Peace\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF328",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "  Anklet Of Recovery\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF336",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "  Necromancy Anklet\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF339",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "Deep Dark\n\n",
+                                        "color": "#14537a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF824Storing Circlet\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF351",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\uF829\uF828Voiding Medal\n",
+                                        "color": "gold"
+                                    },
+                                    {
+                                        "text": "\uF829\uF828\uF826\uF344",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n   "
+                                    },
+                                    {
+                                        "text": "                      \n\n",
+                                        "underlined": true,
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "text": "  Origin: ",
+                                        "color": "dark_gray",
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "End\n\n",
+                                        "color": "#9c589a",
+                                        "bold": true,
+                                        "underlined": true
+                                    },
+                                    {
+                                        "text": "  Unlock this artifact\n   to gain more info.",
+                                        "color": "red"
+                                    }
+                                ]
+                            ],
+                            "mode": "replace_all"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

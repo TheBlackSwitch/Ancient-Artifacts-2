@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:ring",
+                        "level:1",
+                        "artifact:burning_ring"
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Deep Artifacts!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Find an artifact by opening a nether artifact chest.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/open_nether_chest",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "artifact": true,
+                                "data": {
+                                    "dim": "nether"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "ancient_artifacts:nether_manual"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/nether_artifacts_root",
+        "loot": [
+            "ancient_artifacts:item/manual/nether"
+        ]
+    }
+}

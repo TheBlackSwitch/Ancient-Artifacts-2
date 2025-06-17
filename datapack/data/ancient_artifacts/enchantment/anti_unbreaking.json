@@ -1,0 +1,32 @@
+{
+    "description": "Incompatible with Unbreaking",
+    "exclusive_set": "minecraft:unbreaking",
+    "supported_items": "minecraft:poisonous_potato",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [],
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:ignite",
+                    "duration": 0
+                },
+                "requirements": {
+                    "condition": "minecraft:value_check",
+                    "value": 0,
+                    "range": 1
+                }
+            }
+        ]
+    }
+}

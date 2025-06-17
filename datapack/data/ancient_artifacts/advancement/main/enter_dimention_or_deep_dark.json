@@ -1,0 +1,99 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gunpowder",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:misc/portal_front"
+            }
+        },
+        "title": {
+            "text": "Dimentional Artifacts?",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Enter the nether, the end or the deep dark.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/equip_artifact",
+    "criteria": {
+        "nether": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "minecraft:the_nether"
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{\"Tags\":[\"has_artifact\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "minecraft:the_end"
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{\"Tags\":[\"has_artifact\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "deep_dark": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "biomes": "minecraft:deep_dark"
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{\"Tags\":[\"has_artifact\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nether",
+            "end",
+            "deep_dark"
+        ]
+    ],
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance",
+        "recipes": [
+            "ancient_artifacts:chorus_compound",
+            "ancient_artifacts:echoing_compound",
+            "ancient_artifacts:quartz_compound"
+        ]
+    }
+}

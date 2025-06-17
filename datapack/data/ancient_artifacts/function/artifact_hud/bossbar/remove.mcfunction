@@ -1,0 +1,1 @@
+$bossbar remove ancient_artifacts:player_hud_$(playerID)

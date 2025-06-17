@@ -1,0 +1,160 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bone",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "stick",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "flint",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "leather",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "glow_ink_sac",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "clay_ball",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "dead_bush",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "poppy",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "string",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "tripwire_hook",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "charcoal",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "iron_nugget",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "gold_nugget",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "rotten_flesh",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "spider_eye",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "iron_ingot",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "copper_ingot",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "amethyst_shard",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "emerald_block",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "iron_pickaxe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "max": 200,
+                                "min": 50,
+                                "type": "uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "ominous_bottle",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_ominous_bottle_amplifier",
+                            "amplifier": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "coast_armor_trim_smithing_template",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "wild_armor_trim_smithing_template",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "diamond",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:item/essence/common",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:item/essence/uncommon",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:item/ancient_parchment",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

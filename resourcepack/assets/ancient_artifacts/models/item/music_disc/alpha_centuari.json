@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "ancient_artifacts:item/music_disc_alpha_centuari"
+    }
+}
