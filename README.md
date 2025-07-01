@@ -11,6 +11,12 @@
 
 &nbsp;
 
+![My other projects:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_help_out_the_project.png)
+
+## Any small donation (even if it's 1$) reall helps me out creating these projects! [coff.ee/theblackswitch](https://buymeacoffee.com/theblackswitch)
+
+&nbsp;
+
 ![Pack Explanation:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_pack_explanation.png)
 
 **Ancient Artifacts** is a minecraft datapack centered around, You've guessed it, artifacts! There are over 50+ artifacts each with their own levels and abilities! Those artifacts can be traded, crafted, recycled and even upgraded!
