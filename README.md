@@ -70,7 +70,7 @@ They both have custom music and an awesome bossbar!
 # 🧙Artifact Smith
 
 The `artifact smith` is a new villager which trades all sorts of usefull stuff. It has an `artifact cauldron` as it's job block You can trade your duplicate artifacts for  
-emeralds and also buy some useful goodies like `artifact upgrades` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_upgrade.png" width="20" class="jop-noMdConv">, `artifact templates` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/template.gif&n=-1" width="20" class="jop-noMdConv">, and `essence` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv">. The Smith changes it's artifacts trades every day so you have the chance to get rid of that common artifact you have 5 duplicates of!
+emeralds and also buy some useful goodies like `artifact upgrades` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_upgrade.png" width="20" class="jop-noMdConv">, `artifact templates` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/template.gif&n=-1" width="20" class="jop-noMdConv">, and `essence` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv">. The Smith changes it's artifacts trades every day so you have the chance to get rid of that common artifact you have 5 duplicates of ;)
 
 As a final trade the smith has a `dungeon map` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/dungeon_map.png" width="20" class="jop-noMdConv"> which leads you to the very end game and difficult `artifact dungeon`.
 
@@ -88,7 +88,7 @@ Artifact crafting is one of the recipes the artifact cauldron can craft. It's a 
 
 ![3 Examples of some parchments and what they mean](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/parchment.png)
 
-With all that knowledge you can combine an `artifact template` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv"> with some `compounds` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/compounds.gif&n=-1" width="20" class="jop-noMdConv"> and the right `relic` in the `artifact cauldron`. And there you go, If you've used the right ingredients, you should have a new artifact now!
+With all that knowledge you can combine an `artifact template` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/template.gif&n=-1" width="20" class="jop-noMdConv"> with some `compounds` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/compounds.gif&n=-1" width="20" class="jop-noMdConv"> and the right `relic` in the `artifact cauldron`. And there you go, If you've used the right ingredients, you should have a new artifact now!
 
 ![A gif showing the crafting process](https://github.com/user-attachments/assets/498f51e5-5557-4354-bc86-b862d273492a)
 
@@ -187,3 +187,4 @@ An exception is made for video content, which can be monetized. However, video c
 
 - Kryqu - Gui Experience +
 - Septonious - solas-shader
+- inaudio - Infraction Music- Heroes - The song used in the trailer
