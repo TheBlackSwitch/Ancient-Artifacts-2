@@ -128,6 +128,10 @@
 		{
 			"required": false,
 			"id": "minecraft:wither"
+		},
+		{
+			"required": false,
+			"id": "minecraft:pufferfish"
 		}
 	]
 }

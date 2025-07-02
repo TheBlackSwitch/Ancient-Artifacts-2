@@ -1,6 +1,8 @@
 #version 150
 
-#moj_import <fog.glsl>
+#moj_import <minecraft:fog.glsl>
+#moj_import <minecraft:dynamictransforms.glsl>
+#moj_import <minecraft:projection.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -9,21 +11,19 @@ in ivec2 UV2;
 
 uniform sampler2D Sampler2;
 
-uniform mat4 ModelViewMat;
-uniform mat4 ProjMat;
-uniform mat3 IViewRotMat;
-uniform int FogShape;
-
-out float vertexDistance;
+out float sphericalVertexDistance;
+out float cylindricalVertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
 
 void main() {
-    // vanilla behavior
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
-    vertexDistance = fog_distance(IViewRotMat * Position, FogShape);
+
+    sphericalVertexDistance = fog_spherical_distance(Position);
+    cylindricalVertexDistance = fog_cylindrical_distance(Position);
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     texCoord0 = UV0;
+
     if (Color.rgb == vec3(78/255., 92/255., 36/255.)) {
         vertexColor.rgb = texelFetch(Sampler2, UV2 / 16, 0).rgb;
     } else if (Color.rgb == vec3(19/255., 23/255., 9/255.)) {

@@ -1,0 +1,1 @@
+execute if score .5 slow_tick matches 1 as @e[tag=tbs.easing] at @s run function theblackswitch:easing/internal/ease

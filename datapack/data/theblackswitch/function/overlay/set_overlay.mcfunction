@@ -1,6 +1,7 @@
 #--------------------REQUIREMENTS-------------------------
 # 1. Run as target player
 # 2. Macro entry: overlay = the overlay texture path
+# 3. Do Sound: if it should play the equip sound
 #---------------------------------------------------------
 
 execute store result storage theblackswitch:temp player_storage.player_id int 1 run scoreboard players get @s tbs.ID

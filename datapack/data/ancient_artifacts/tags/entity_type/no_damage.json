@@ -180,6 +180,10 @@
         {
             "required": false,
             "id": "minecraft:villager"
+        },
+        {
+            "required": false,
+            "id": "minecraft:happy_ghast"
         }
     ]
 }

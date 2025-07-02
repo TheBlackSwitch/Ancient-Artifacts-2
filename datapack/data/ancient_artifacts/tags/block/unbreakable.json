@@ -44,6 +44,14 @@
         {
             "required": false,
             "id": "minecraft:jigsaw"
+        },
+        {
+            "required": false,
+            "id": "minecraft:test_block"
+        },
+        {
+            "required": false,
+            "id": "minecraft:test_instance_block"
         }
     ]
 }

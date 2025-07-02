@@ -1,2 +1,2 @@
 advancement revoke @s only ancient_artifacts:trigger/kill_healing_shulker
-execute at @s rotated ~ 0 positioned ^ ^ ^3 run summon area_effect_cloud ~ ~ ~ {Particle:{type:"entity_effect",color:[0.8,0.0,0.0,1.0]},ReapplicationDelay:20,Radius:2f,RadiusPerTick:-0.015f,Duration:200,potion_contents:{custom_color:12058624,custom_effects:[{id:"minecraft:regeneration",amplifier:1,duration:60}]}}
+execute at @s rotated ~ 0 positioned ^ ^ ^3 run summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"entity_effect",color:[0.8,0.0,0.0,1.0]},ReapplicationDelay:20,Radius:2f,RadiusPerTick:-0.015f,Duration:200,potion_contents:{custom_color:12058624,custom_effects:[{id:"minecraft:regeneration",amplifier:1,duration:60}]}}

@@ -160,6 +160,10 @@
         {
             "required": false,
             "id": "minecraft:tropical_fish"
+        },
+        {
+            "required": false,
+            "id": "minecraft:happy_ghast"
         }
     ]
 }

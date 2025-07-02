@@ -11,6 +11,7 @@ schedule function theblackswitch:version_control/init 1t replace
 ##Inits
 function theblackswitch:player_id/init
 function theblackswitch:slow_tick/init
+function theblackswitch:easing/internal/load
 
 ##scoreboards
 scoreboard objectives add temp dummy
