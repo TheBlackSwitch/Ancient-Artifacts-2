@@ -10,13 +10,15 @@ assignees: TheBlackSwitch
 **Describe the bug**
 A clear and concise description of what the bug is.
 
-EG: ```
+EG: 
+```
 My game freezes on startup
 ```
 
 **To Reproduce**
 Steps to reproduce the behavior:
-EG: ```
+EG: 
+```
 1. Start minecraft launcher.
 2. Click on play.
 3. The game launches.
@@ -25,7 +27,8 @@ EG: ```
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
-EG: ```
+EG: 
+```
 That the game just runs normally with Ancient Artifacts Installed
 ```
 
@@ -35,10 +38,13 @@ If applicable, add screenshots to help explain your problem.
 **Crash reports / log files**
 If applicable, add a crash report. If something isn't working (like an item not showing) it's also very likely that there is someting in the logs so please also provide then I you believe that they can help.
 
+
 **Desktop (please complete the following information):**
  - What minecraft version are you using?
  - What version of Ancient Artifacts are you using?
- - How did you install the datapack/mod?
+ - Did you install the mod or the datapack?
+ - If you're on a server, are you using any server side software?
+ - Are you using any mods? If so, which ones?
 
 **Additional context**
 Add any other context about the problem here.
