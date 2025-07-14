@@ -1,0 +1,84 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "1.21.6-1.21.7" branch
+  release:
+    type: [published]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Parse version and game versions from tag
+        id: parse
+        run: |
+          TAG="${{ github.event.release.tag_name }}"
+          echo "Tag: $TAG"
+
+          # Strip 'v' en haal deel voor '_for_'
+          VERSION_NUMBER=$(echo "$TAG" | sed -E 's/^v([^_]+)_for_.*/\1/')
+          echo "Parsed version_number: $VERSION_NUMBER"
+          echo "VERSION_NUMBER=$VERSION_NUMBER" >> "$GITHUB_ENV"
+
+          # Haal deel na '_for_'
+          VERSION_PART=$(echo "$TAG" | sed -n 's/.*_for_//p')
+          echo "Version part: $VERSION_PART"
+
+          # Split op '-' in start en end
+          START=$(echo "$VERSION_PART" | cut -d'-' -f1)
+          END=$(echo "$VERSION_PART" | cut -d'-' -f2)
+
+          echo "Start: $START"
+          echo "End: $END"
+
+          # Python scriptje om alle versies in range te genereren
+          JSON_ARRAY=$(python3 -c "
+            import json
+            def parse(v): return list(map(int, v.split('.')))
+            s = parse('$START')
+            e = parse('$END')
+            versions = []
+            cur = s[:]
+            while cur <= e:
+                versions.append('.'.join(map(str, cur)))
+                cur[-1] += 1
+                for i in reversed(range(len(cur))):
+                    if cur[i] >= 10:
+                        cur[i] = 0
+                        if i > 0:
+                            cur[i-1] += 1
+            versions = [v for v in versions if parse(v) <= e]
+            print(json.dumps(versions))
+          ")
+          echo "GAME_VERSIONS=$JSON_ARRAY" >> "$GITHUB_ENV"
+          echo "Parsed GAME_VERSIONS: $JSON_ARRAY"
+
+      - name: Debug parsed values
+        run: |
+          echo "Version number: ${{ env.VERSION_NUMBER }}"
+          echo "Game versions: ${{ env.GAME_VERSIONS }}"
+
+      - name: Zip datapack
+        run: |
+          cd datapack
+          zip ancient_artifacts_2_datapack_.zip ../datapack/pack.mcmeta ../datapack/pack.png ../datapack/data
+
+      - name: Zip resourcepack
+        run: |
+          cd datapack
+          zip ancient_artifacts_2_resourcepack_.zip ../resourcepack/pack.mcmeta ../resourcepack/pack.png ../resourcepack/assets
