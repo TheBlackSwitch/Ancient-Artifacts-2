@@ -29,50 +29,24 @@ jobs:
         run: |
           TAG="${{ github.event.release.tag_name }}"
           echo "Tag: $TAG"
-
-          # Strip 'v' en haal deel voor '_for_'
+      
           VERSION_NUMBER=$(echo "$TAG" | sed -E 's/^v([^_]+)_for_.*/\1/')
           echo "Parsed version_number: $VERSION_NUMBER"
           echo "VERSION_NUMBER=$VERSION_NUMBER" >> "$GITHUB_ENV"
-
-          # Haal deel na '_for_'
+      
           VERSION_PART=$(echo "$TAG" | sed -n 's/.*_for_//p')
           echo "Version part: $VERSION_PART"
-
-          # Split op '-' in start en end
+      
           START=$(echo "$VERSION_PART" | cut -d'-' -f1)
           END=$(echo "$VERSION_PART" | cut -d'-' -f2)
-
+      
           echo "Start: $START"
           echo "End: $END"
-
-          # Python scriptje om alle versies in range te genereren
-          JSON_ARRAY=$(python3 -c "
-            import json
-            def parse(v): return list(map(int, v.split('.')))
-            s = parse('$START')
-            e = parse('$END')
-            versions = []
-            cur = s[:]
-            while cur <= e:
-                versions.append('.'.join(map(str, cur)))
-                cur[-1] += 1
-                for i in reversed(range(len(cur))):
-                    if cur[i] >= 10:
-                        cur[i] = 0
-                        if i > 0:
-                            cur[i-1] += 1
-            versions = [v for v in versions if parse(v) <= e]
-            print(json.dumps(versions))
-          ")
+      
+          JSON_ARRAY=$(python3 scripts/generate_versions.py "$START" "$END")
           echo "GAME_VERSIONS=$JSON_ARRAY" >> "$GITHUB_ENV"
           echo "Parsed GAME_VERSIONS: $JSON_ARRAY"
-
-      - name: Debug parsed values
-        run: |
-          echo "Version number: ${{ env.VERSION_NUMBER }}"
-          echo "Game versions: ${{ env.GAME_VERSIONS }}"
-
+          
       - name: Zip datapack
         run: |
           cd datapack
