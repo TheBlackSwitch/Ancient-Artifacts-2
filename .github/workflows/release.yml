@@ -23,36 +23,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Parse version and game versions from tag
+      
+      - name: Make the script file executable
+        run: chmod +x ./generate_versions.py
+        
+      # Run the main script that handles the automatic upload to modrinth and curseforge
+      - name: Run the main script
         id: parse
-        run: |
-          TAG="${{ github.event.release.tag_name }}"
-          echo "Tag: $TAG"
-      
-          VERSION_NUMBER=$(echo "$TAG" | sed -E 's/^v([^_]+)_for_.*/\1/')
-          echo "Parsed version_number: $VERSION_NUMBER"
-          echo "VERSION_NUMBER=$VERSION_NUMBER" >> "$GITHUB_ENV"
-      
-          VERSION_PART=$(echo "$TAG" | sed -n 's/.*_for_//p')
-          echo "Version part: $VERSION_PART"
-      
-          START=$(echo "$VERSION_PART" | cut -d'-' -f1)
-          END=$(echo "$VERSION_PART" | cut -d'-' -f2)
-      
-          echo "Start: $START"
-          echo "End: $END"
-      
-          JSON_ARRAY=$(python3 scripts/generate_versions.py "$START" "$END")
-          echo "GAME_VERSIONS=$JSON_ARRAY" >> "$GITHUB_ENV"
-          echo "Parsed GAME_VERSIONS: $JSON_ARRAY"
-          
-      - name: Zip datapack
-        run: |
-          cd datapack
-          zip ancient_artifacts_2_datapack_.zip ../datapack/pack.mcmeta ../datapack/pack.png ../datapack/data
-
-      - name: Zip resourcepack
-        run: |
-          cd datapack
-          zip ancient_artifacts_2_resourcepack_.zip ../resourcepack/pack.mcmeta ../resourcepack/pack.png ../resourcepack/assets
+        run: ./scripts/upload_verison.py
