@@ -22,10 +22,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      #Install dependencies
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements_upload_version.txt
+        
+      #Make executable
+      - name: Make executable
+        run: chmod x+ .github/workflows/scripts/upload_version.py
 
       # Run the main script that handles the automatic upload to modrinth and curseforge
       - name: Run the main script
         id: parse
-        run: python3 .github/workflows/scripts/upload_verison.py "${{ github.event.release.tag_name }}" "${{ secrets.MODRINTHPAT }}" "${{ secrets.CURSEFORGEPAT }}"
+        run: python3 .github/workflows/scripts/upload_version.py "${{ github.event.release.tag_name }}" "${{ secrets.MODRINTHPAT }}" "${{ secrets.CURSEFORGEPAT }}"
