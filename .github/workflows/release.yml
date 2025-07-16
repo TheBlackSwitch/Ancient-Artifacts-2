@@ -29,4 +29,4 @@ jobs:
       # Run the main script that handles the automatic upload to modrinth and curseforge
       - name: Run the main script
         id: parse
-        run: python3 scripts/upload_verison.py "${{ github.event.release.tag_name }}" "${{ secret.MODRINTHPAT }}" "${{ secret.CURSEFORGEPAT }}"
+        run: python3 scripts/upload_verison.py "${{ github.event.release.tag_name }}" "${{ secrets.MODRINTHPAT }}" "${{ secrets.CURSEFORGEPAT }}"
