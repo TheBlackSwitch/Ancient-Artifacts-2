@@ -24,7 +24,7 @@ jobs:
       
       # Just a generic linux chmod
       - name: Make the script file executable
-        run: chmod +x ./scripts/upload_verison.py
+        run: chmod +x scripts/upload_verison.py
         
       # Run the main script that handles the automatic upload to modrinth and curseforge
       - name: Run the main script
