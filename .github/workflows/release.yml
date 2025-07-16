@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the workflow will run
@@ -24,10 +22,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
+      # Just a generic linux chmod
       - name: Make the script file executable
         run: chmod +x ./generate_versions.py
         
       # Run the main script that handles the automatic upload to modrinth and curseforge
       - name: Run the main script
         id: parse
-        run: ./scripts/upload_verison.py
+        run: python3 scripts/upload_verison.py "${{ github.event.release.tag_name }}" "${{ secret.MODRINTHPAT }}" "${{ secret.CURSEFORGEPAT }}"
