@@ -28,7 +28,7 @@ jobs:
         
       #Make executable
       - name: Make executable
-        run: chmod x+ .github/workflows/scripts/upload_version.py
+        run: chmod +x .github/workflows/scripts/upload_version.py
 
       # Run the main script that handles the automatic upload to modrinth and curseforge
       - name: Run the main script
