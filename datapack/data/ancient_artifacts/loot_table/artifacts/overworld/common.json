@@ -21,11 +21,6 @@
                     "weight": 1,
                     "type": "loot_table",
                     "value": "ancient_artifacts:artifacts/overworld/farmers_boots"
-                },
-                {
-                    "weight": 1,
-                    "type": "loot_table",
-                    "value": "ancient_artifacts:artifacts/overworld/allies_amulet"
                 }
             ]
         }

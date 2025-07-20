@@ -37,7 +37,8 @@
                                         "rarity": 2,
                                         "relic": 10
                                     },
-                                    "artifact": true
+                                    "artifact": true,
+                                    "aa-version":251
                                 },
                                 "max_stack_size": 8,
                                 "!max_damage": {}
@@ -97,7 +98,8 @@
                                         "text": " \uE505: ",
                                         "color": "dark_purple",
                                         "bold": false,
-                                        "italic": false
+                                        "italic": false,
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "Activate this artifact.",
@@ -109,7 +111,8 @@
                                         "text": " \uE505 + Sneak: ",
                                         "color": "dark_purple",
                                         "bold": false,
-                                        "italic": false
+                                        "italic": false,
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "Deactivate all artifacts.",

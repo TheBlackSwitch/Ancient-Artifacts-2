@@ -142,12 +142,30 @@
                 {
                     "type": "loot_table",
                     "value": "ancient_artifacts:item/essence/common",
-                    "weight": 2
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"has_cauldron\"]}"
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "loot_table",
                     "value": "ancient_artifacts:item/essence/uncommon",
-                    "weight": 2
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"has_cauldron\"]}"
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "loot_table",

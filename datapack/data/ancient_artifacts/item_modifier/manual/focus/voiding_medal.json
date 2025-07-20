@@ -7,11 +7,13 @@
         [
             {
                 "text": "\uF829\uF828Voiding Medal\n",
-                "color": "gold"
+                "color": "gold",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\uF829\uF828\uF826\uF344",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

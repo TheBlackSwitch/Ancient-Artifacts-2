@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF828\uF824Deflecting Circlet\n\n",
+                "text": "\uF828\uF824",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Deflecting Circlet\n\n",
                 "color": "dark_purple"
             },
             {

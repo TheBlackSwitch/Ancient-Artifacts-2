@@ -7,7 +7,8 @@
         [
             {
                 "text": "\uF829\uF826Looting Tiara\n\n",
-                "color": "gold"
+                "color": "gold",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "Level 1: ",

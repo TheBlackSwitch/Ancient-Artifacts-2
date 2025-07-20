@@ -7,11 +7,13 @@
         [
             {
                 "text": "\uF828\uF824Withering Necklace\n",
-                "color": "gold"
+                "color": "gold",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\uF829\uF828\uF826\uF316",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

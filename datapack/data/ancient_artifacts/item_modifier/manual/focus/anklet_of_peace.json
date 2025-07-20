@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829Anklet Of Peace\n",
+                "text": "\uF829",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Anklet Of Peace\n",
                 "color": "gold"
             },
             {
                 "text": "\uF829\uF828\uF826\uF328",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

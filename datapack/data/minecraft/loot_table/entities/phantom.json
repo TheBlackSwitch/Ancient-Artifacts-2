@@ -64,7 +64,16 @@
                             "function": "minecraft:enchanted_count_increase"
                         }
                     ],
-                    "value": "ancient_artifacts:item/essence/all"
+                    "value": "ancient_artifacts:item/essence/all",
+                    "conditions": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "attacking_player",
+                            "predicate": {
+                                "nbt": "{Tags:[\"has_cauldron\"]}"
+                            }
+                        }
+                    ]
                 }
             ]
         }

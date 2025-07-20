@@ -4,7 +4,7 @@
 	"textures": {
 		"1": "ancient_artifacts:block/artifact_chest/deep_dark_inner",
 		"2": "ancient_artifacts:block/artifact_chest/deep_dark",
-        "paricle": "ancient_artifacts:block/artifact_chest/deep_dark"
+        "particle": "ancient_artifacts:item/empty"
 	},
 	"elements": [
 		{

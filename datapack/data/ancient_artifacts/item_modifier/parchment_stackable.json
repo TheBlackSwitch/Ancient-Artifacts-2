@@ -45,7 +45,13 @@
                 "italic": false
             },
             {
-                "text": " \uE505 in main hand to open. ",
+                "text": " \uE505",
+                "color": "dark_purple",
+                "italic": false,
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": " in main hand to open. ",
                 "color": "dark_purple",
                 "italic": false
             },

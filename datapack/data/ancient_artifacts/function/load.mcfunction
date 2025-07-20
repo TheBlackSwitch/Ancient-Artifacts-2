@@ -12,7 +12,6 @@ team modify aa.color.red color red
 ##scoreboards
 scoreboard objectives add server dummy
 scoreboard objectives add attack custom:damage_dealt
-scoreboard objectives add ancient_artifacts_give trigger
 scoreboard objectives add slow_tick dummy
 scoreboard objectives add used_artifact used:warped_fungus_on_a_stick
 scoreboard objectives add used_carrot_stick used:carrot_on_a_stick
@@ -46,6 +45,7 @@ scoreboard objectives add time_since_dim_travel dummy
 scoreboard objectives add lootbox trigger
 scoreboard objectives add lootbox_count dummy
 scoreboard objectives add join minecraft.custom:minecraft.leave_game
+scoreboard objectives add play_time custom:play_time
 
 ##Constant
 scoreboard objectives add const dummy
@@ -93,6 +93,8 @@ function ancient_artifacts:artifact_golem/load
 function ancient_artifacts:sculk_heart/load
 function ancient_artifacts:config/load
 function ancient_artifacts:shulker_castle/load
+function ancient_artifacts:creative_book/load
+function ancient_artifacts:update/load
 
 
 

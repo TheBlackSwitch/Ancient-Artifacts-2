@@ -1,7 +1,7 @@
 {
     "textures": {
         "gui": "ancient_artifacts:item/storing_circlet_gui/26_slots",
-        "paricle": "ancient_artifacts:item/storing_circlet_gui/26_slots"
+        "particle": "ancient_artifacts:item/empty"
     },
     "gui_light": "front",
     "elements": [

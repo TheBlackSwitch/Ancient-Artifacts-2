@@ -18,7 +18,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "ancient_artifacts:main/obtain_blend",
+    "parent": "ancient_artifacts:main/upgrade_cauldron",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",

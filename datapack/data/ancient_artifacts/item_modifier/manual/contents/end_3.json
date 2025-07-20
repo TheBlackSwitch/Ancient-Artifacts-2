@@ -19,7 +19,8 @@
             {
                 "color":"#FFAA00",
                 "text": "\uE513" ,
-                "bold": false
+                "bold": false,
+                "font": "ancient_artifacts:main"
             },
             {
                 "color": "#FFAA00",
@@ -48,7 +49,8 @@
             {
                 "color":"#FF0DBE",
                 "text": "\uE513: \n\n",
-                "bold": false 
+                "bold": false,
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": ""

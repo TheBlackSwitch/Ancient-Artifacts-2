@@ -52,9 +52,10 @@
                         "italic": false
                       },
                       {
-                        "text": " Right Click while having an artifact in",
+                        "text": " \uE505 while having an artifact in",
                         "color": "dark_purple",
-                        "italic": false
+                        "italic": false,
+                        "font": "ancient_artifacts:main"
                       },
                       {
                         "text": " your off hand to fully upgrade it",

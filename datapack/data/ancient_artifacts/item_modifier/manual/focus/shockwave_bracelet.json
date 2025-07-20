@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF826Shockwave Bracelet\n",
+                "text": "\uF826",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Shockwave Bracelet\n",
                 "color": "blue"
             },
             {
                 "text": "\uF829\uF828\uF826\uF302",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

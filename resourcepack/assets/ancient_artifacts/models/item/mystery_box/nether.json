@@ -6,6 +6,7 @@
         "south": "ancient_artifacts:item/mystery_box/front",
         "west": "ancient_artifacts:item/mystery_box/side_nether",
         "up": "ancient_artifacts:item/mystery_box/side_nether",
-        "down": "ancient_artifacts:item/mystery_box/side_nether"
+        "down": "ancient_artifacts:item/mystery_box/side_nether",
+        "particle": "ancient_artifacts:item/empty"
     }
 }

@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF828\uF822Recycling Crystal\n",
+                "text": "\uF828\uF822",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Recycling Crystal\n",
                 "color": "blue"
             },
             {
                 "text": "\uF829\uF828\uF826\uF337",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

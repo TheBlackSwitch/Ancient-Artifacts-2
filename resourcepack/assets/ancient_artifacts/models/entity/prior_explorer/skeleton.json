@@ -5,6 +5,7 @@
 		"0": "ancient_artifacts:item/prior_explorer/writable_book",
 		"1": "ancient_artifacts:item/skeleton/normal",
 		"2": "ancient_artifacts:item/prior_explorer/shield_base_nopattern",
+		"3": "ancient_artifacts:item/empty",
 		"particle": "ancient_artifacts:item/skeleton/normal"
 	},
 	"elements": [
@@ -215,10 +216,10 @@
 			"to": [24.50075, -1.0005, 14.50025],
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [21.0005, -1, 10.50025]},
 			"faces": {
-				"north": {"uv": [7.25, 5, 6, 5], "texture": "#missing"},
-				"east": {"uv": [7.25, 5, 7.25, 9], "rotation": 90, "texture": "#missing"},
-				"south": {"uv": [8.5, 5, 7.25, 5], "rotation": 180, "texture": "#missing"},
-				"west": {"uv": [6, 5, 6, 9], "rotation": 270, "texture": "#missing"},
+				"north": {"uv": [7.25, 5, 6, 5], "texture": "#3"},
+				"east": {"uv": [7.25, 5, 7.25, 9], "rotation": 90, "texture": "#3"},
+				"south": {"uv": [8.5, 5, 7.25, 5], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [6, 5, 6, 9], "rotation": 270, "texture": "#3"},
 				"up": {"uv": [8.5, 5, 7.25, 9], "texture": "#0"}
 			}
 		},
@@ -227,10 +228,10 @@
 			"to": [24.50075, -1.0005, 14.50025],
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [21.0005, -1, 10.50025]},
 			"faces": {
-				"north": {"uv": [7.25, 5, 6, 5], "rotation": 180, "texture": "#missing"},
-				"east": {"uv": [6, 5, 6, 9], "rotation": 90, "texture": "#missing"},
-				"south": {"uv": [8.5, 5, 7.25, 5], "texture": "#missing"},
-				"west": {"uv": [7.25, 5, 7.25, 9], "rotation": 270, "texture": "#missing"},
+				"north": {"uv": [7.25, 5, 6, 5], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [6, 5, 6, 9], "rotation": 90, "texture": "#3"},
+				"south": {"uv": [8.5, 5, 7.25, 5], "texture": "#3"},
+				"west": {"uv": [7.25, 5, 7.25, 9], "rotation": 270, "texture": "#3"},
 				"down": {"uv": [6, 5, 7.25, 9], "texture": "#0"}
 			}
 		}

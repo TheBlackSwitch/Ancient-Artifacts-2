@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF828\uF822Experienced Chain\n\n",
+                "text": "\uF828\uF822",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Experienced Chain\n\n",
                 "color": "gold"
             },
             {

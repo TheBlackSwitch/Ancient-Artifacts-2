@@ -23,7 +23,7 @@
                                             "unlock_count": 0,
                                             "unlocked": [],
                                             "dim": "end"
-                                        }
+                                        },"aa-version":251
                                     },
                                     "max_stack_size": 1
                                 }
@@ -90,7 +90,8 @@
                                     {
                                         "text": " \uE505 to open. ",
                                         "color": "dark_purple",
-                                        "italic": false
+                                        "italic": false,
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "",
@@ -112,7 +113,8 @@
                                         },
                                         {
                                             "text": "\uE504",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n                             ",
@@ -393,7 +395,8 @@
                                         {
                                             "color":"#FFAA00",
                                             "text": "\uE513" ,
-                                            "bold": false
+                                            "bold": false,
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "color": "#FFAA00",
@@ -422,7 +425,8 @@
                                         {
                                             "color":"#FF0DBE",
                                             "text": "\uE513: \n\n",
-                                            "bold": false 
+                                            "bold": false ,
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": ""
@@ -487,11 +491,13 @@
                                     [
                                         {
                                             "text": "\uF828  Slowing Circlet\n",
-                                            "color": "dark_gray"
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF345",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -538,11 +544,13 @@
                                     [
                                         {
                                             "text": "\uF828  Slowing Circlet\n",
-                                            "color": "dark_gray"
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -552,11 +560,13 @@
                                     [
                                         {
                                             "text": "\uF828 Knockback Watch\n",
-                                            "color": "dark_gray"
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF350",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -603,11 +613,13 @@
                                     [
                                         {
                                             "text": "\uF828 Knockback Watch\n",
-                                            "color": "dark_gray"
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -621,7 +633,8 @@
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF352",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -672,7 +685,8 @@
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -686,7 +700,8 @@
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF341",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -737,7 +752,8 @@
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -751,7 +767,8 @@
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF342",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -802,7 +819,8 @@
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -812,11 +830,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF828\uF822Pulse Watch\n",
-                                            "color": "blue"
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF343",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -863,11 +883,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF828\uF822Pulse Watch\n",
-                                            "color": "blue"
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -877,11 +899,13 @@
                                     [
                                         {
                                             "text": "\uF829Landing Toe Ring\n",
-                                            "color": "dark_purple"
+                                            "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF349",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -928,11 +952,13 @@
                                     [
                                         {
                                             "text": "\uF829Landing Toe Ring\n",
-                                            "color": "dark_purple"
+                                            "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -942,11 +968,13 @@
                                     [
                                         {
                                             "text": "\uF828\uF824Deflecting Circlet\n",
-                                            "color": "dark_purple"
+                                            "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF348",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -993,11 +1021,13 @@
                                     [
                                         {
                                             "text": "\uF828\uF824Deflecting Circlet\n",
-                                            "color": "dark_purple"
+                                            "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -1007,11 +1037,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF824Radiant Watch\n",
-                                            "color": "dark_purple"
+                                            "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF347",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -1058,11 +1090,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF824Radiant Watch\n",
-                                            "color": "dark_purple"
+                                            "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -1072,11 +1106,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF822Levitation Medal\n",
-                                            "color": "dark_purple"
+                                            "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF346",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -1123,11 +1159,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF822Levitation Medal\n",
-                                            "color": "dark_purple"
+                                            "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -1137,11 +1175,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF824Storing Circlet\n",
-                                            "color": "gold"
+                                            "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF351",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -1188,11 +1228,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF824Storing Circlet\n",
-                                            "color": "gold"
+                                            "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -1202,11 +1244,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF828Voiding Medal\n",
-                                            "color": "gold"
+                                            "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\uF829\uF828\uF826\uF344",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -1253,11 +1297,13 @@
                                     [
                                         {
                                             "text": "\uF829\uF828Voiding Medal\n",
-                                            "color": "gold"
+                                            "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",
@@ -1282,7 +1328,8 @@
                                                         "text": "Go To",
                                                         "color": "dark_purple"
                                                     }
-                                                }
+                                                },
+                                                "font": "ancient_artifacts:main"
                                             },
                                             {
                                                 "color": "#FF8B26",
@@ -1323,7 +1370,8 @@
                                         ],
                                         {
                                             "text": "\uF829\uF828\uF826\uF353",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "\n\n\n\n\n\n   "
@@ -1342,7 +1390,8 @@
                                             "color":"#FFAA00",
                                             "text": "\uE513" ,
                                             "bold": false,
-                                            "underlined": true 
+                                            "underlined": true ,
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "color": "#FFAA00",
@@ -1384,7 +1433,8 @@
                                             "color":"#FF0DBE",
                                             "text": "\uE513\n\n",
                                             "bold": false,
-                                            "underlined": true 
+                                            "underlined": true ,
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Origin: ",
@@ -1414,6 +1464,7 @@
                                             {
                                                 "color": "#FFAA00",
                                                 "text": "\uF829\uF828F",
+                                                "font": "ancient_artifacts:main",
                                                 "underlined": false,
                                                 "italic": false,
                                                 "bold": false,
@@ -1468,7 +1519,8 @@
                                         ],
                                         {
                                             "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                            "color": "white"
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
                                         },
                                         {
                                             "text": "  Unlock this artifact\n    to get more info.",

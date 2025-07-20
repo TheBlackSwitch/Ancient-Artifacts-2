@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF827Conductive Bracelet\n",
+                "text": "\uF827",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Conductive Bracelet\n",
                 "color": "gold"
             },
             {
                 "text": "\uF829\uF828\uF826\uF303",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

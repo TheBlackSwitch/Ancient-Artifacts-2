@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF822Levitation Medal\n\n",
+                "text": "\uF829\uF822",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Levitation Medal\n\n",
                 "color": "dark_purple"
             },
             {

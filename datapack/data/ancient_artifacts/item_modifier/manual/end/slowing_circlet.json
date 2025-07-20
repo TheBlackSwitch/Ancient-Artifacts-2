@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF828  Slowing Circlet\n\n",
+                "text": "\uF828  ",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Slowing Circlet\n\n",
                 "color": "dark_gray"
             },
             {

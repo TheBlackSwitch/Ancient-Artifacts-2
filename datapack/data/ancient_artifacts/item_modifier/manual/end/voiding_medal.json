@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF828Voiding Medal\n\n",
+                "text": "\uF829\uF828",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Voiding Medal\n\n",
                 "color": "gold"
             },
             {

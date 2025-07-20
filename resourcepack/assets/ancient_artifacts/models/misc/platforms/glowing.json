@@ -2,7 +2,7 @@
 	"credit": "By theblackswitch",
 	"textures": {
 		"0": "ancient_artifacts:block/glowing_platform",
-		"particle": "ancient_artifacts:block/glowing_edge"
+		"particle": "ancient_artifacts:block/glowing_platform"
 	},
 	"elements": [
 		{

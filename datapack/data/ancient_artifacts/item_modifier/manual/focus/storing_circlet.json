@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF824Storing Circlet\n",
+                "text": "\uF829\uF824",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Storing Circlet\n",
                 "color": "gold"
             },
             {
                 "text": "\uF829\uF828\uF826\uF351",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

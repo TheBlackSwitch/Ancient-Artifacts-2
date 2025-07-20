@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF828Combo Boots\n",
+                "text": "\uF829\uF828",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Combo Boots\n",
                 "color": "gold"
             },
             {
                 "text": "\uF829\uF828\uF826\uF325",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

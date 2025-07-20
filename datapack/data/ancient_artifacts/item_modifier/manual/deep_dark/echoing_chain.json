@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF826Echoing Chain\n\n",
+                "text": "\uF829\uF826",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Echoing Chain\n\n",
                 "color": "blue"
             },
             {

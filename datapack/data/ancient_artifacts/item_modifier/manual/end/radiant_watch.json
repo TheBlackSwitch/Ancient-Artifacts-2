@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF824Radiant Watch\n\n",
+                "text": "\uF829\uF824",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Radiant Watch\n\n",
                 "color": "dark_purple"
             },
             {

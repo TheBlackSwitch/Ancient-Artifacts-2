@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "ancient_artifacts:block/ancient_stone",
-        "paricle": "ancient_artifacts:block/ancient_stone"
+        "particle": "ancient_artifacts:item/empty"
 	},
 	"elements": [
 		{

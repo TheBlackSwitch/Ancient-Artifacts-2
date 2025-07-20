@@ -16,7 +16,7 @@
                             "function": "set_components",
                             "components": {
                                 "item_model": "ancient_artifacts:item/artifact_upgrade",
-                                "custom_data": {"artifact_upgrade":true,"heavy":false},
+                                "custom_data": {"artifact_upgrade":true,"heavy":false,"aa-version":251},
                                 "use_cooldown": {
                                     "seconds": 0.5,
                                     "cooldown_group": "ancient_artifacts:upgrade"
@@ -54,7 +54,8 @@
                                 {
                                     "text": " \uE505 while having an artifact in",
                                     "color": "dark_purple",
-                                    "italic": false
+                                    "italic": false,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " your off hand to upgrade it!",
@@ -67,7 +68,8 @@
                                 {
                                     "text": " \uE505 on a cauldron",
                                     "color": "dark_purple",
-                                    "italic": false
+                                    "italic": false,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " to create an Artifact Cauldron!",

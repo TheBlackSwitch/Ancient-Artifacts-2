@@ -1,7 +1,8 @@
 {
 	"credit": "By theblackswitch",
 	"textures": {
-		"1": "ancient_artifacts:item/pulse"
+		"1": "ancient_artifacts:item/pulse",
+        "particle": "ancient_artifacts:item/empty"
 	},
 	"elements": [
 		{

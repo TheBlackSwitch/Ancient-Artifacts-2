@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF828  Borla Of Vision\n",
+                "text": "\uF828",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "  Borla Of Vision\n",
                 "color": "dark_gray"
             },
             {
                 "text": "\uF829\uF828\uF826\uF326",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

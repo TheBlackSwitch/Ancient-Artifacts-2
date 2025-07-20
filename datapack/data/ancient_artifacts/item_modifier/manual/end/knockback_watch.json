@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF828 Knockback Watch\n\n",
+                "text": "\uF828",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": " Knockback Watch\n\n",
                 "color": "dark_gray"
             },
             {

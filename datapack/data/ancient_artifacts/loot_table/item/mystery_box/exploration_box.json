@@ -12,7 +12,7 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_model":"ancient_artifacts:item/mystery_box/explorers_boots",
-                                "minecraft:custom_data":{"mystery_box":true,"type":"explorers_boots"},
+                                "minecraft:custom_data":{"mystery_box":true,"type":"explorers_boots","aa-version":251},
                                 "minecraft:max_stack_size": 16,
                                 "!minecraft:max_damage": {}
                             }
@@ -62,7 +62,8 @@
                                 {
                                     "text": " \uE505 to open, drops loot from the dimention you're currently in.",
                                     "color": "dark_purple",
-                                    "italic": false
+                                    "italic": false,
+                                            "font": "ancient_artifacts:main"
                                 }
                             ]
                         }

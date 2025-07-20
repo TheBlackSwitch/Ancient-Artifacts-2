@@ -32,7 +32,16 @@
                         }
                     ],
                     "value": "ancient_artifacts:item/essence/all",
-                    "weight": 1
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "attacking_player",
+                            "predicate": {
+                                "nbt": "{Tags:[\"has_cauldron\"]}"
+                            }
+                        }
+                    ]
                 }
             ],
             "conditions": [

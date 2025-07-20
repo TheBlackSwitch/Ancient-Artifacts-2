@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF828Life Steal Necklace\n",
+                "text": "\uF828",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Life Steal Necklace\n",
                 "color": "gold"
             },
             {
                 "text": "\uF829\uF828\uF826\uF324",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

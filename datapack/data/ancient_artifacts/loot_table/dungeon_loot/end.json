@@ -67,7 +67,16 @@
                 {
                     "type": "loot_table",
                     "weight": 10,
-                    "value": "ancient_artifacts:item/template/all"
+                    "value": "ancient_artifacts:item/template/all",
+                    "conditions": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "attacking_player",
+                            "predicate": {
+                                "nbt": "{Tags:[\"has_cauldron\"]}"
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "loot_table",

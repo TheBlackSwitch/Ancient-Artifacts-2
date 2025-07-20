@@ -7,7 +7,8 @@
         [
             {
                 "text": "\uF829\uF828Combo Boots\n",
-                "color": "gold"
+                "color": "gold",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "Level 1: ",

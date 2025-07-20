@@ -23,7 +23,7 @@
                                         "unlock_count": 0,
                                         "unlocked": [],
                                         "dim": "overworld"
-                                    }
+                                    },"aa-version":251
                                 },
                                 "max_stack_size": 1
                             }
@@ -90,7 +90,8 @@
                                 {
                                     "text": " \uE505 to open. ",
                                     "color": "dark_purple",
-                                    "italic": false
+                                    "italic": false,
+                                            "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": "",
@@ -112,7 +113,8 @@
                                     },
                                     {
                                         "text": "\uE504",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n                             ",
@@ -400,11 +402,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Poison Amulet\n",
-                                        "color": "dark_gray"
+                                        "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF301",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -451,11 +455,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Poison Amulet\n",
-                                        "color": "dark_gray"
+                                        "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -465,11 +471,13 @@
                                 [
                                     {
                                         "text": "\uF828\uF822Deactivation Crown\n",
-                                        "color": "dark_gray"
+                                        "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF305",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -516,11 +524,13 @@
                                 [
                                     {
                                         "text": "\uF828\uF822Deactivation Crown\n",
-                                        "color": "dark_gray"
+                                        "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -530,11 +540,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Farmers Boots\n",
-                                        "color": "dark_gray"
+                                        "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF311",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -581,11 +593,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Farmers Boots\n",
-                                        "color": "dark_gray"
+                                        "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -595,11 +609,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Allies Amulet\n",
-                                        "color": "blue"
+                                        "color": "blue",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF310",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -646,11 +662,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Allies Amulet\n",
-                                        "color": "blue"
+                                        "color": "blue",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -660,11 +678,13 @@
                                 [
                                     {
                                         "text": "\uF826Shockwave Bracelet\n",
-                                        "color": "blue"
+                                        "color": "blue",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF302",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -711,11 +731,13 @@
                                 [
                                     {
                                         "text": "\uF826Shockwave Bracelet\n",
-                                        "color": "blue"
+                                        "color": "blue",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -725,11 +747,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Divers Boots\n",
-                                        "color": "blue"
+                                        "color": "blue",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF309",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -776,11 +800,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Divers Boots\n",
-                                        "color": "blue"
+                                        "color": "blue",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -790,11 +816,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Miners Crown\n",
-                                        "color": "dark_purple"
+                                        "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF308",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -841,11 +869,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Miners Crown\n",
-                                        "color": "dark_purple"
+                                        "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -855,11 +885,13 @@
                                 [
                                     {
                                         "text": "\uF829Travelers Boots\n",
-                                        "color": "dark_purple"
+                                        "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF306",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -906,11 +938,13 @@
                                 [
                                     {
                                         "text": "\uF829Travelers Boots\n",
-                                        "color": "dark_purple"
+                                        "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -920,11 +954,13 @@
                                 [
                                     {
                                         "text": "\uF828\uF822Reaching Bracelet\n",
-                                        "color": "dark_purple"
+                                        "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF312",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -971,11 +1007,13 @@
                                 [
                                     {
                                         "text": "\uF828\uF822Reaching Bracelet\n",
-                                        "color": "dark_purple"
+                                        "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -985,11 +1023,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Healing Amulet\n",
-                                        "color": "dark_purple"
+                                        "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF300",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1036,11 +1076,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Healing Amulet\n",
-                                        "color": "dark_purple"
+                                        "color": "dark_purple",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -1050,11 +1092,13 @@
                                 [
                                     {
                                         "text": "\uF827Conductive Bracelet\n",
-                                        "color": "gold"
+                                        "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF303",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1101,11 +1145,13 @@
                                 [
                                     {
                                         "text": "\uF827Conductive Bracelet\n",
-                                        "color": "gold"
+                                        "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -1115,11 +1161,13 @@
                                 [
                                     {
                                         "text": "\uF826Crown Of Final Shout\n",
-                                        "color": "gold"
+                                        "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF304",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1166,11 +1214,13 @@
                                 [
                                     {
                                         "text": "\uF826Crown Of Final Shout\n",
-                                        "color": "gold"
+                                        "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",
@@ -1180,11 +1230,13 @@
                                 [
                                     {
                                         "text": "\uF829Explorers Boots\n",
-                                        "color": "gold"
+                                        "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF307",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1231,11 +1283,13 @@
                                 [
                                     {
                                         "text": "\uF829Explorers Boots\n",
-                                        "color": "gold"
+                                        "color": "gold",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
-                                        "color": "white"
+                                        "color": "white",
+                                            "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "  Unlock this artifact\n    to get more info.",

@@ -65,11 +65,16 @@
 						{
 							"id": "minecraft:is_fall",
 							"expected": false
-						}
+						},
+                        {
+                            "id": "minecraft:is_projectile",
+                            "expected": false
+                        }
 					],
 					"direct_entity": {
-						"type": "minecraft:player"
-					},
+                        "type": "player",
+                        "nbt": "{Tags:[\"reaching_bracelet\"]}"
+                    },
 					"is_direct": true
 				}
 			}

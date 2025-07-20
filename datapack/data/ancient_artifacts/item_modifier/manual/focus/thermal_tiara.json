@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF826Thermal Tiara\n",
+                "text": "\uF829\uF826",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Thermal Tiara\n",
                 "color": "dark_purple"
             },
             {
                 "text": "\uF829\uF828\uF826\uF314",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

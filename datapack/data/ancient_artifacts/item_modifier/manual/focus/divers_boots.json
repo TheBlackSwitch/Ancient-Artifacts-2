@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF828Divers Boots\n",
+                "text": "\uF829\uF828",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Divers Boots\n",
                 "color": "blue"
             },
             {
                 "text": "\uF829\uF828\uF826\uF309",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

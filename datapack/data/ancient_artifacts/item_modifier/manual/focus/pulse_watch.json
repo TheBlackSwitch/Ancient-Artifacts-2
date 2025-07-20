@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF828\uF822Pulse Watch\n",
+                "text": "\uF829\uF828\uF822",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Pulse Watch\n",
                 "color": "blue"
             },
             {
                 "text": "\uF829\uF828\uF826\uF343",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

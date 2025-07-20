@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF826Crown Of Final Shout\n",
+                "text": "\uF826",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Crown Of Final Shout\n",
                 "color": "gold"
             },
             {
                 "text": "\uF829\uF828\uF826\uF304",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

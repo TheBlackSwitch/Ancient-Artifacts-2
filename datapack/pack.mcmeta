@@ -1,7 +1,8 @@
 {
     "pack": {
-        "pack_format": 80,
-        "description": ["",{"text":"Unlock over 50+ artifacts ","color": "light_purple"},{"text":"with unique abilities ","color":"gold"},{"text":"and equip, craft, recycle and trade them!","color":"aqua"},{"text":" (This datapack only contains the functions for Ancient Artifacts. It does not contain any assets like textures! You also need to install the resourcepack!)","color":"red"}]
+        "pack_format": 81,
+        "supported_formats":[80, 81],
+        "description": ["",{"text":"Unlock over 50+ artifacts ","color": "light_purple"},{"text":"with unique abilities ","color":"gold"},{"text":"and equip, craft, convert and trade them!","color":"aqua"},{"text":" (This datapack only contains the functions for Ancient Artifacts. It does not contain any assets like textures! You also need to install the resourcepack!)","color":"red"}]
     },
     "filter": {
         "block": [

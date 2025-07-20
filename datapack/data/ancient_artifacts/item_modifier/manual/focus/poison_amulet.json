@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF828Poison Amulet\n",
+                "text": "\uF829\uF828",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Poison Amulet\n",
                 "color": "dark_gray"
             },
             {
                 "text": "\uF829\uF828\uF826\uF301",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

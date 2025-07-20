@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF828Builders Ring\n",
+                "text": "\uF829\uF828",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Builders Ring\n",
                 "color": "blue"
             },
             {
                 "text": "\uF829\uF828\uF826\uF322",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

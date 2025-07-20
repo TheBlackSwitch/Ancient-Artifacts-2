@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF828\uF822Reaching Bracelet\n",
+                "text": "\uF828\uF822",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Reaching Bracelet\n",
                 "color": "dark_purple"
             },
             {
                 "text": "\uF829\uF828\uF826\uF312",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

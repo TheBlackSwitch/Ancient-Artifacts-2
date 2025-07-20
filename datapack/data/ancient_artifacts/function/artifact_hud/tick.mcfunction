@@ -21,17 +21,17 @@ execute if score .icon_count temp matches 0 run return fail
 
 ##set background bar
 #1 icon
-execute if score .icon_count temp matches 1 run data modify storage ancient_artifacts:hud text_1 set value {"text":"\uF808\uF803","color":"#4e5c24","bold":false,"italic":false}
-execute if score .icon_count temp matches 1 run data modify storage ancient_artifacts:hud text_2 set value {"text":"\u0001","font":"minecraft:artifact_hud"}
-execute if score .icon_count temp matches 1 run data modify storage ancient_artifacts:hud text_3 set value {"text":"\uF809\uF808\uF804"}
+execute if score .icon_count temp matches 1 run data modify storage ancient_artifacts:hud text_1 set value {"text":"\uF808\uF803","shadow_color":0,"bold":false,"italic":false,"font":"ancient_artifacts:main"}
+execute if score .icon_count temp matches 1 run data modify storage ancient_artifacts:hud text_2 set value {"text":"\u0001","font":"ancient_artifacts:artifact_hud"}
+execute if score .icon_count temp matches 1 run data modify storage ancient_artifacts:hud text_3 set value {"text":"\uF809\uF808\uF804","font":"ancient_artifacts:main"}
 #2 icons
-execute if score .icon_count temp matches 2 run data modify storage ancient_artifacts:hud text_1 set value {"text":"\uF808\uF803","color":"#4e5c24","bold":false,"italic":false}
-execute if score .icon_count temp matches 2 run data modify storage ancient_artifacts:hud text_2 set value {"text":"\u0002","font":"minecraft:artifact_hud"}
-execute if score .icon_count temp matches 2 run data modify storage ancient_artifacts:hud text_3 set value {"text":"\uF80A\uF808\uF804"}
+execute if score .icon_count temp matches 2 run data modify storage ancient_artifacts:hud text_1 set value {"text":"\uF808\uF803","shadow_color":0,"bold":false,"italic":false,"font":"ancient_artifacts:main"}
+execute if score .icon_count temp matches 2 run data modify storage ancient_artifacts:hud text_2 set value {"text":"\u0002","font":"ancient_artifacts:artifact_hud"}
+execute if score .icon_count temp matches 2 run data modify storage ancient_artifacts:hud text_3 set value {"text":"\uF80A\uF808\uF804","font":"ancient_artifacts:main"}
 #3 icons
-execute if score .icon_count temp matches 3 run data modify storage ancient_artifacts:hud text_1 set value {"text":"\uF808\uF805","color":"#4e5c24","bold":false,"italic":false}
-execute if score .icon_count temp matches 3 run data modify storage ancient_artifacts:hud text_2 set value {"text":"\u0003","font":"minecraft:artifact_hud"}
-execute if score .icon_count temp matches 3 run data modify storage ancient_artifacts:hud text_3 set value {"text":"\uF80B\uF802"}
+execute if score .icon_count temp matches 3 run data modify storage ancient_artifacts:hud text_1 set value {"text":"\uF808\uF805","shadow_color":0,"bold":false,"italic":false,"font":"ancient_artifacts:main"}
+execute if score .icon_count temp matches 3 run data modify storage ancient_artifacts:hud text_2 set value {"text":"\u0003","font":"ancient_artifacts:artifact_hud"}
+execute if score .icon_count temp matches 3 run data modify storage ancient_artifacts:hud text_3 set value {"text":"\uF80B\uF802","font":"ancient_artifacts:main"}
 
 data remove storage ancient_artifacts:hud text_4
 data remove storage ancient_artifacts:hud text_5

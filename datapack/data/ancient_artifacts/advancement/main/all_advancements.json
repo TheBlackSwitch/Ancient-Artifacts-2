@@ -34,7 +34,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "ancient_artifacts:main/open_chest",
+    "parent": "ancient_artifacts:main/consume_expansion_star",
     "criteria": {
         "1": {
             "trigger": "minecraft:location",

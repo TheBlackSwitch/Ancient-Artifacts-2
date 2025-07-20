@@ -41,7 +41,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "ancient_artifacts:main/upgrade_artifact",
+    "parent": "ancient_artifacts:main/all_deep_dark_artifacts",
     "criteria": {
         "1": {"trigger": "minecraft:location","conditions": {"player": [
                     {

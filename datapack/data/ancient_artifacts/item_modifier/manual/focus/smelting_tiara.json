@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF826Smelting Tiara\n",
+                "text": "\uF829\uF826",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Smelting Tiara\n",
                 "color": "dark_gray"
             },
             {
                 "text": "\uF829\uF828\uF826\uF321",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

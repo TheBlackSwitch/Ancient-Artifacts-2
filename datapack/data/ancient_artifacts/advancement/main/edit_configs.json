@@ -12,7 +12,7 @@
         },
         "description": [
             {
-                "text": "Edit the configs by doing /trigger ancient_artifacts_config",
+                "text": "Edit the configs by doing /trigger aa.config",
                 "color": "gold"
             }
         ],

@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF828Saturating Necklace\n",
+                "text": "\uF828",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Saturating Necklace\n",
                 "color": "blue"
             },
             {
                 "text": "\uF829\uF828\uF826\uF318",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

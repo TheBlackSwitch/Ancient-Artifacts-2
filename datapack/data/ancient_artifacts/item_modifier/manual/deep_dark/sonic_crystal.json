@@ -6,7 +6,12 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF826Sonic Crystal\n\n",
+                "text": "\uF829\uF826",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Sonic Crystal\n\n",
                 "color": "dark_gray"
             },
             {

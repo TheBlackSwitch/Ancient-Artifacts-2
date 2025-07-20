@@ -1,0 +1,1273 @@
+{
+    "type": "minecraft:multi_action",
+    "title": [
+        {
+            "text": "Ancient Artifacts - ",
+            "color": "blue"
+        },
+        {
+            "text": "Creative Book",
+            "color": "light_purple"
+        }
+    ],
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "If you ever lose the creative book, you can always run /trigger aa.creative_menu",
+                "color": "aqua",
+                "italic": false,
+                "underlined": false
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "Ancient Artifacts Items: ",
+                "color": "gold",
+                "bold": true,
+                "italic": false,
+                "underlined": false
+            }
+        }
+    ],
+    "inputs": [],
+    "can_close_with_escape": true,
+	"pause": false,
+	"after_action": "none",
+    "exit_action": {
+        "label": [
+            {
+                "text": "Close Menu",
+                "color": "red",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": " \uE520",
+                "color": "red",
+                "font": "ancient_artifacts:main",
+                "shadow_color": 0
+            }
+        ],
+        "width": 150,
+        "action": {
+            "type": "show_dialog",
+            "dialog": "ancient_artifacts:close_confirmation"
+        }
+    },
+    "columns": 3,
+    "actions": [
+        {
+            "label": [
+                "",
+                {"text": "\u0001", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Poison Amulet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560001"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0002", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Deactivation Crown"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560002"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0003", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Farmers Boots"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560003"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0004", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Shockwave Bracelet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560004"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0005", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Divers Boots"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560005"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0006", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Allies Amulet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560006"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0007", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Miners Crown"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560007"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0008", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Travelers Boots"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560008"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0009", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Reaching Bracelet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560009"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0010", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Healing Amulet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560010"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0011", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Conductive Bracelet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560011"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0012", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Final Shout Crown"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560012"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0013", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Explorers Boots"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560013"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0014", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Burning Ring"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560014"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0015", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Smelting Tiara"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560015"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0016", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Tinkering Tiara"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560016"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0017", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Fireball Ring"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560017"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0018", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Saturating Necklace"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560018"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0019", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Builders Ring"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560019"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0020", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Thermal Tiara"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560020"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0021", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Raging Ring"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560021"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0022", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Cooling Boots"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560022"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0023", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Looting Tiara"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560023"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0024", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Withering Necklace"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560024"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0025", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Life Steal Necklace"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560025"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0026", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Combo Boots"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560026"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0027", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Detecting Borla"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560027"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0028", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Sonic Crystal"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560028"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0029", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Borla Of Vision"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560029"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0030", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Echoing Chain"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560030"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0031", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Echolocating Borla"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560031"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0032", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Recycling Crystal"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560032"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0033", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Shrinking Anklet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560033"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0034", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Beefy Crystal"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560034"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0035", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Strengthening Anklet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560035"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0036", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Bulky Chain"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560036"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0038", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Anklet Of Peace"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560038"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0039", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Experienced Chain"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560039"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0040", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Recovery Anklet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560040"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0041", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Necromancy Anklet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560041"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0042", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Slowing Circlet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560042"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0043", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Dragons Breath Circlet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560043"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0044", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Knockback Watch"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560044"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0045", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Attractive Toe Ring"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560045"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0046", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Gravitation Toe Ring"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560046"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0047", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Pulse Watch"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560047"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0048", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Levitation Medal"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560048"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0049", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Radiant Watch"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560049"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0050", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Deflecting Circlet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560050"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0051", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Landing Toe Ring"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560051"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0052", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Voiding Medal"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560052"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0053", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Storing Circlet"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560053"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0054", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Focus Medal"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560054"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0055", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Common Essence"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560055"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0056", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Uncommon Essence"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560056"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0057", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Rare Essence"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560057"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0058", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Unique Essence"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560058"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0059", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Common Template"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560059"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0060", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Uncommon Template"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560060"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0061", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Rare Template"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560061"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0062", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Unique Template"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560062"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0063", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Blend"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560063"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0064", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Quartz Compound"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560064"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0065", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Chorus Compound"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560065"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0066", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Echoing Compound"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560066"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0067", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Upgrade"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560067"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0068", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Heavy Artifact Upgrade"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560068"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0069", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Waste"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560069"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0070", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Dungeon Catalog"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560070"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0071", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Dungeon Map"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560071"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0072", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Echo Chunk"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560072"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0073", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Expansion Star"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560073"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0074", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Ethernal Expansion Star"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560074"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0075", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Overworld Manual"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560075"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0076", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Deep Dark Manual"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560076"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0077", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Nether Manual"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560077"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0078", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " End Manual"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560078"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0079", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Mystery Box Overworld"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560079"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0080", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Mystery Box Deep Dark"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560080"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0081", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Mystery Box Nether"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560081"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0082", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Mystery Box End"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560082"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0083", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Exploration Box"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560083"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0084", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Ancient Hammer"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560084"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0085", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Ancient Parchment"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560085"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0086", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Alpha Centuari Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560086"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0087", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Battle Of The Creek Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560087"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0088", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Forest Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560088"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0089", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Neverland Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560089"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0090", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Progress Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560090"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0091", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Retrograde Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560091"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0092", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Sleepless City Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560092"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0093", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " The Dark Side Of Me Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560093"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0094", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Welcome To Chaos Music Disc"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560094"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0095", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Ancient Altar"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560095"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0096", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Ancient Stone"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560096"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0097", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Cauldron"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560097"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0098", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Chest Overworld"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560098"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0099", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Chest Deep Dark"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560099"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0100", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Chest Nether"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560100"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0101", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Chest End"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560101"
+            }
+        },
+        {
+            "label": [
+                "",
+                {"text": "\u0102", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Artifact Chest Obsidian"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560102"
+            }
+        }
+    ]
+}

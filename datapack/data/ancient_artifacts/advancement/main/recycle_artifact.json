@@ -19,7 +19,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "ancient_artifacts:main/obtain_essence",
+    "parent": "ancient_artifacts:main/obtain_blend",
     "criteria": {
         "1": {
             "trigger": "minecraft:location",
@@ -39,6 +39,6 @@
         }
     },
     "rewards": {
-        "function": "ancient_artifacts:advancements/triggers/advance"
+        "function": "ancient_artifacts:advancements/triggers/obtain_cauldron"
     }
 }

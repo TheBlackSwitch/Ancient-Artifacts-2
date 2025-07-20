@@ -8,7 +8,26 @@
             [
                 {
                     "color": "#FFAA00",
-                    "text": "\uF829\uF828F",
+                    "text": "\uF829\uF828",
+                    "underlined": false,
+                    "italic": false,
+                    "bold": false,
+                    "click_event": {
+                        "action": "change_page",
+                        "page": 29
+                    },
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": {
+                            "text": "Go To",
+                            "color": "dark_purple"
+                        }
+                    },
+                    "font": "ancient_artifacts:main"
+                },
+                {
+                    "text":"F",
+                    "color": "#FFAA00",
                     "underlined": false,
                     "italic": false,
                     "bold": false,

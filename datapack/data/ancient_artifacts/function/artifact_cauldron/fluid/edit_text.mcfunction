@@ -1,2 +1,2 @@
-$execute if score @s animation matches ..9 run data modify entity @s text set value {"text":"\uE80$(frame)","color":"$(color)"}
-$execute if score @s animation matches 10.. run data modify entity @s text set value {"text":"\uE8$(frame)","color":"$(color)"}
+$execute if score @s animation matches ..9 run data modify entity @s text set value {"text":"\uE80$(frame)","color":"$(color)","font":"ancient_artifacts:main"}
+$execute if score @s animation matches 10.. run data modify entity @s text set value {"text":"\uE8$(frame)","color":"$(color)","font":"ancient_artifacts:main"}

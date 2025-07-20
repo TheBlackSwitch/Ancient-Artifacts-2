@@ -47,7 +47,7 @@
                             "function": "set_components",
                             "components": {
                                 "item_model": "ancient_artifacts:item/dungeon_catalog",
-                                "custom_data": {"dungeon_catalog":true}
+                                "custom_data": {"dungeon_catalog":true,"aa-version":251}
                             }
                         },
                         {
@@ -55,22 +55,22 @@
                             "mode": "replace_all",
                             "pages": [
                                 [
-                                    {"text":"\uE507     \uE509\n\n"},
-                                    {"text":"      \uE508    \uE507\n\n"},
-                                    {"text": "  \uE512\n\n\n\n"},
-                                    {"text":"   \uE507 \uE510\n"},
-                                    {"text":"                  \uE509\n\n\n"},
-                                    {"text": "     \uE511"}
+                                    {"text":"\uE507     \uE509\n\n","font":"ancient_artifacts:main"},
+                                    {"text":"      \uE508    \uE507\n\n","font":"ancient_artifacts:main"},
+                                    {"text": "  \uE512\n\n\n\n","font":"ancient_artifacts:main"},
+                                    {"text":"   \uE507 \uE510\n","font":"ancient_artifacts:main"},
+                                    {"text":"                  \uE509\n\n\n","font":"ancient_artifacts:main"},
+                                    {"text": "     \uE511","font":"ancient_artifacts:main"}
                                 ],
                                 [
-                                    {"text":"\n      \uE508    \uE507\n\n","color":"black","underlined": false},
+                                    {"text":"\n      \uE508    \uE507\n\n","color":"black","underlined": false,"font":"ancient_artifacts:main"},
                                     {"text": "\n\n  "},
                                     {"text": "Click here for the","underlined": true,"click_event": {"action": "change_page","page": 30}},
                                     {"text": "\n  "},
                                     {"text": "audio book version","underlined": true,"click_event": {"action": "change_page","page": 30}},
                                     {"text": "  \n\n","color":"black","underlined": false},
-                                    {"text":"   \uE507 \uE510\n","color":"black","underlined": false},
-                                    {"text":"                  \uE509\n\n\n","color":"black","underlined": false}
+                                    {"text":"   \uE507 \uE510\n","color":"black","underlined": false,"font":"ancient_artifacts:main"},
+                                    {"text":"                  \uE509\n\n\n","color":"black","underlined": false,"font":"ancient_artifacts:main"}
                                 ],
                                 [
                                     {"text":"Day 0: \n","bold": true},
@@ -182,9 +182,9 @@
                                 ],
                                 [
                                     {"text": "     Audio Book","bold": true,"color": "black"},
-                                    {"text":"\n      \uE507    \uE509\n\n \n\n","color":"black","underlined": false,"bold":false},
-                                    {"text":"     \uE518  ","bold": false, "color":"white","click_event": {"action": "run_command","command": "/trigger audio_book set 1"}},
-                                    {"text":"\uE519      \n","bold": false, "color":"yellow","click_event": {"action": "run_command","command": "/trigger audio_book set 2"}},
+                                    {"text":"\n      \uE507    \uE509\n\n \n\n","color":"black","underlined": false,"bold":false,"font":"ancient_artifacts:main"},
+                                    {"text":"     \uE518  ","bold": false, "color":"white","click_event": {"action": "run_command","command": "/trigger audio_book set 1","font":"ancient_artifacts:main"}},
+                                    {"text":"\uE519      \n","bold": false, "color":"yellow","click_event": {"action": "run_command","command": "/trigger audio_book set 2","font":"ancient_artifacts:main"}},
 
                                     {"text":"              ","bold": false, "color":"white","click_event": {"action": "run_command","command": "/trigger audio_book set 1"}},
                                     {"text":"            \n","bold": false, "color":"yellow","click_event": {"action": "run_command","command": "/trigger audio_book set 2"}},
@@ -193,8 +193,8 @@
                                     {"text":"            ","bold": false, "color":"yellow","click_event": {"action": "run_command","command": "/trigger audio_book set 2"}},
 
                                     {"text": "  \n\n\n","color":"black","underlined": false,"bold":false},
-                                    {"text":"   \uE510 \uE509\n","color":"black","underlined": false,"bold":false},
-                                    {"text":"                  \uE507\n\n\n","color":"black","underlined": false,"bold":false}
+                                    {"text":"   \uE510 \uE509\n","color":"black","underlined": false,"bold":false,"font":"ancient_artifacts:main"},
+                                    {"text":"                  \uE507\n\n\n","color":"black","underlined": false,"bold":false,"font":"ancient_artifacts:main"}
                                 ]
                             ]
                         }

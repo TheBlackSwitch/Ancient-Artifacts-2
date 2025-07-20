@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF822Shrinking Anklet\n",
+                "text": "\uF829\uF822",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Shrinking Anklet\n",
                 "color": "blue"
             },
             {
                 "text": "\uF829\uF828\uF826\uF338",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

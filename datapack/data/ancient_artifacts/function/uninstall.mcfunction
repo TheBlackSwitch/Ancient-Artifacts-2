@@ -150,7 +150,7 @@ scoreboard objectives remove arrows_recycled
 scoreboard objectives remove inventories_recovered
 scoreboard objectives remove recover_time
 scoreboard objectives remove healing_bonusses
-scoreboard objectives remove ancient_artifacts_config
+scoreboard objectives remove aa.config
 scoreboard objectives remove always_show_hotbar
 scoreboard objectives remove hide_artifact_hud
 scoreboard objectives remove checked

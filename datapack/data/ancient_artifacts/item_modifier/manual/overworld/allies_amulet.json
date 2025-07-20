@@ -7,7 +7,8 @@
         [
             {
                 "text": "\uF829\uF828Allies Amulet\n\n",
-                "color": "blue"
+                "color": "blue",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "Level 1: ",

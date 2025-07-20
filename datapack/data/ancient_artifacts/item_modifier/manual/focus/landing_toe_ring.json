@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829Landing Toe Ring\n",
+                "text": "\uF829",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Landing Toe Ring\n",
                 "color": "dark_purple"
             },
             {
                 "text": "\uF829\uF828\uF826\uF349",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

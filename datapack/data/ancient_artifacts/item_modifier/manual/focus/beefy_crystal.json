@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF824Beefy Crystal\n",
+                "text": "\uF829\uF824",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Beefy Crystal\n",
                 "color": "dark_purple"
             },
             {
                 "text": "\uF829\uF828\uF826\uF329",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

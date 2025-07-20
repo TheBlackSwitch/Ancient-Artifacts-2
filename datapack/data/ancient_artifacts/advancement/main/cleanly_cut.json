@@ -11,7 +11,7 @@
             "color": "light_purple"
         },
         "description": {
-            "text": "Give your cauldron a clean cut by shearing of its tooltip!",
+            "text": "Give your cauldron a clean cut by shearing off its tooltip!",
             "color": "gold"
         },
         "frame": "task",

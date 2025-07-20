@@ -1,7 +1,7 @@
-$bossbar add ancient_artifacts:shulker_king_$(UUID1)_$(UUID2)_$(UUID3)_$(UUID4) {"text":"\uE516","color":"#4e5c24"}
+$bossbar add ancient_artifacts:shulker_king_$(UUID1)_$(UUID2)_$(UUID3)_$(UUID4) {"text":"\uE516","shadow_color":0,"font":"ancient_artifacts:main"}
 $bossbar set ancient_artifacts:shulker_king_$(UUID1)_$(UUID2)_$(UUID3)_$(UUID4) color yellow
 
-$bossbar add ancient_artifacts:shulker_king_space_$(UUID1)_$(UUID2)_$(UUID3)_$(UUID4) {"text":"","color":"#4e5c24"}
+$bossbar add ancient_artifacts:shulker_king_space_$(UUID1)_$(UUID2)_$(UUID3)_$(UUID4) {"text":"","shadow_color":0}
 
 
 ##Add an offset of +48 since the bossbar texture is smaller than the bossbar (24HP on the left and 24HP on the right is not visible)

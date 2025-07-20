@@ -6,12 +6,18 @@
     "pages": [
         [
             {
-                "text": "\uF829\uF828Allies Amulet\n",
+                "text": "\uF829\uF828",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Allies Amulet\n",
                 "color": "blue"
             },
             {
                 "text": "\uF829\uF828\uF826\uF310",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "

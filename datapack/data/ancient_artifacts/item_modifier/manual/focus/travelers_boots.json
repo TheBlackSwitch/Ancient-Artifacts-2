@@ -7,11 +7,13 @@
         [
             {
                 "text": "\uF829Travelers Boots\n",
-                "color": "dark_purple"
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\uF829\uF828\uF826\uF306",
-                "color": "white"
+                "color": "white",
+                "font": "ancient_artifacts:main"
             },
             {
                 "text": "\n\n\n\n\n\n   "
