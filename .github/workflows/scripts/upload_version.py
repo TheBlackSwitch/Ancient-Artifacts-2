@@ -47,19 +47,19 @@ arg_cnt = len(sys.argv)
 if(arg_cnt > 1):
     version_tag = sys.argv[1] #The name of the release tag EG: V2.5.0b-mod-for-1.21.6-1.21.7
 else:
-    print("No tag name!")
+    sys.exit("No tag name!")
 if(arg_cnt > 2):
     changelog = sys.argv[2] #The changelog
 else:
-    print("No tag name!")
+    sys.exit("No tag name!")
 if(arg_cnt > 3):
     modrinth_pat = sys.argv[3] #My modrinth token
 else:
-    print("No modrinth PAT!")
+    sys.exit("No modrinth PAT!")
 if(arg_cnt > 4):
     curseforge_pat = sys.argv[4] #My curseforge token
 else:
-    print("No curseforge PAT!")
+    sys.exit("No curseforge PAT!")
 
 
 #---------------------------
@@ -74,6 +74,13 @@ end_version = ""
 all_versions = []
 
 #-----------CODE-----------
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#When uploading a mod version, it should not be uploaded to modrinth / cursforge again so stop
+if ["mod","no-upload"] in version_tag:
+    sys.exit("This version is configured to not upload. Stopping script...")
+
 
 # Split the tag into the seporate parts
 
