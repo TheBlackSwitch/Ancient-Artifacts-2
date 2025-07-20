@@ -157,9 +157,9 @@ print("Zipping datapack...")
 datapack_path = "ancient_artifacts_datapack_v" + pack_version + "_for_" + start_version + "-" + end_version + ".zip"
 
 with ZipFile(datapack_path, "w", zipfile.ZIP_DEFLATED) as myzip:
-    zipdir("../../datapack/data", myzip)
-    myzip.write("../../datapack/pack.mcmeta","pack.mcmeta")
-    myzip.write("../../datapack/pack.png","pack.png")
+    zipdir("datapack/data", myzip)
+    myzip.write("datapack/pack.mcmeta","pack.mcmeta")
+    myzip.write("datapack/pack.png","pack.png")
 
 #-------------------------------------------------------------------------------------------------------------------------
 print("Zipping resourcepack...")
@@ -167,9 +167,9 @@ print("Zipping resourcepack...")
 resourcepack_path = "ancient_artifacts_resourcepack_v" + pack_version + "_for_" + start_version + "-" + end_version + ".zip"
 
 with ZipFile(resourcepack_path, "w", zipfile.ZIP_DEFLATED) as myzip:
-    zipdir("../../resourcepack/assets", myzip)
-    myzip.write("../../resourcepack/pack.mcmeta","pack.mcmeta")
-    myzip.write("../../resourcepack/pack.png","pack.png")
+    zipdir("resourcepack/assets", myzip)
+    myzip.write("resourcepack/pack.mcmeta","pack.mcmeta")
+    myzip.write("resourcepack/pack.png","pack.png")
 
 #-------------------------------------------------------------------------------------------------------------------------
 
