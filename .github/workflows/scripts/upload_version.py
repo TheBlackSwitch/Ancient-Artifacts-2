@@ -1,3 +1,57 @@
+#-------------------------------------------------------------------------------------------
+#     #########   ###########  ##       ##  ########  ##########  ##########   #######    
+#     ##          ##       ##  ## ##    ##  ##            ##      ##          ##  
+#     ##          ##       ##  ##   ##  ##  ######        ##      ##    ####   #######
+#     ##          ##       ##  ##     ####  ##            ##      ##      ##         ##
+#     #########   ###########  ##       ##  ##        ##########  ##########   #######
+#-------------------------------------------------------------------------------------------
+
+
+# Run this file with CMD: Python3 <this_script> <the_changelog> <your_modrinth_PAT> <your_curseforge_PAT>
+
+
+#------------------------------------------------------------------------------------------
+#  If you're just using this file for your own project, you should just only change these
+#------------------------------------------------------------------------------------------
+
+#-----FILES----
+
+overall_name = "Ancient Artifacts 2" # The name of the project (used for the version title)
+
+datapack_name = "Ancient Artifacts 2 Datapack" # The name of your datapack (used for the file Titel)
+datapack_name_ascii= "ancient_artifacts_2_datapack" # The name of your resourcepack only containing ascii charracters
+datapack_folder_path = "datapack" # The location of your datapack starting from the root of the repo
+
+resourcepack_name = "Ancient Artifacts 2" # The name of your resourcepack (used for the file title)
+resourcepack_name_ascii= "ancient_artifacts_2_resourcepack" # The name of your resourcepack only containing ascii charracters
+resourcepack_folder_path = "resourcepack" # The location of your datapack starting from the root of the repo
+
+#-----MODRINTH-CONFIG-----
+
+enable_modrinth_upload = True # Whenever to upload to modrinth or not
+
+modrinth_project_id = "RO3LwIqV" #The project ID of your modrinth project
+
+resourcepack_type = "required-resource-pack" # Whenever the resourcepack is required or optional. Can be one of: required-resource-pack | optional-resource-pack
+
+#-----CURSEFORGE-CONFIG-----
+
+enable_cf_upload = True # Whenever to upload to curseforge
+
+curseforge_project_id = 1294584 # The project ID on curseforge
+
+#------------------------------------------------------------------------------------------
+# Editing the code below at your own risk :P  I tried to add some comments to make it clear
+#------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------
+#     #########   ###########  #########    ########   
+#     ##          ##       ##  ##      ##   ##       
+#     ##          ##       ##  ##      ##   ######   
+#     ##          ##       ##  ##      ##   ##      
+#     #########   ###########  #########    ######## 
+#-------------------------------------------------------
+
 #-----------
 #  Imports
 #-----------
@@ -18,6 +72,22 @@ version_tag = ""
 modrinth_pat = ""
 curseforge_pat = ""
 
+# A dict of all curseforge gameVersionID's used to differenciate between vanilla versions because
+# some idiot decided to give the other loaders (like fabric) the same name
+vanilla_minecraft_cf_version_type_id = {
+        "1.13.x": 55023,
+        "1.14.x": 64806,
+        "1.15.x": 68722,
+        "1.16.x": 70886,
+        "1.17.x": 73242,
+        "1.18.x": 73250,
+        "1.19.x": 73407,
+        "1.20.x": 75125,
+        "1.21.x": 77784
+    }
+
+
+# A list of all minecraft versions used to calculate things like 1.20-1.21.8
 all_minecraft_versions = [
     "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", 
     "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20", 
@@ -27,13 +97,7 @@ all_minecraft_versions = [
     "1.16.5", "1.16.4"," 1.16.3", "1.16.2", "1.16.1", "1.16", 
     "1.15.2", "1.15.1", "1.15", 
     "1.14.4", "1.14.3", "1.14.2", "1.14.1", "1.14", 
-    "1.13.2", "1.13.1", "1.13", 
-    "1.12.2", "1.12.1", "1.12", 
-    "1.11.2", "1.11.1", "1.11", 
-    "1.10.2", "1.10.1", "1.10", 
-    "1.9.4", "1.9.3", "1.9.2", "1.9.1", "1.9", 
-    "1.8.9", "1.8.8", "1.8.7", "1.8.6", "1.8.5", "1.8.4", "1.8.3", "1.8.2", "1.8.1", "1.8", 
-    "1.7.10", "1.7.9", "1.7.8", "1.7.7", "1.7.6", "1.7.5", "1.7.4", "1.7.2", "1.6.4", "1.6.2", "1.6.1"
+    "1.13.2", "1.13.1", "1.13"
 ]
 
 #----------------
@@ -147,7 +211,6 @@ print(all_versions)
 #  Zipping The Files
 #---------------------
 
-
 #-------------------------------------------------------------------------------------------------------------------------
 # F*ck python man, I mean what is this sh*t lmao. It's not a slide or smth
 def zipdir(path, ziph):
@@ -162,22 +225,22 @@ def zipdir(path, ziph):
 #-------------------------------------------------------------------------------------------------------------------------
 print("Zipping datapack...")
 
-datapack_path = "ancient_artifacts_datapack_v" + pack_version + "_for_" + start_version + "-" + end_version + ".zip"
+datapack_path = f"{datapack_name_ascii}_v" + pack_version + "_for_" + start_version + "-" + end_version + ".zip"
 
 with ZipFile(datapack_path, "w", zipfile.ZIP_DEFLATED) as myzip:
-    zipdir("datapack/data", myzip)
-    myzip.write("datapack/pack.mcmeta","pack.mcmeta")
-    myzip.write("datapack/pack.png","pack.png")
+    zipdir(f"{datapack_folder_path}/data", myzip)
+    myzip.write(f"{datapack_folder_path}/pack.mcmeta","pack.mcmeta")
+    myzip.write(f"{datapack_folder_path}/pack.png","pack.png")
 
 #-------------------------------------------------------------------------------------------------------------------------
 print("Zipping resourcepack...")
 
-resourcepack_path = "ancient_artifacts_resourcepack_v" + pack_version + "_for_" + start_version + "-" + end_version + ".zip"
+resourcepack_path = f"{resourcepack_name_ascii}_v" + pack_version + "_for_" + start_version + "-" + end_version + ".zip"
 
 with ZipFile(resourcepack_path, "w", zipfile.ZIP_DEFLATED) as myzip:
-    zipdir("resourcepack/assets", myzip)
-    myzip.write("resourcepack/pack.mcmeta","pack.mcmeta")
-    myzip.write("resourcepack/pack.png","pack.png")
+    zipdir(f"{resourcepack_folder_path}/assets", myzip)
+    myzip.write(f"{resourcepack_folder_path}/pack.mcmeta","pack.mcmeta")
+    myzip.write(f"{resourcepack_folder_path}/pack.png","pack.png")
 
 #-------------------------------------------------------------------------------------------------------------------------
 
@@ -190,9 +253,8 @@ with ZipFile(resourcepack_path, "w", zipfile.ZIP_DEFLATED) as myzip:
 #-------------------------------------------------------------------------------------------------------------------------
 def upload_to_modrinth(dp_path, rp_path, pack_version, changelog, game_versions, start_version, end_version):
     api_url = "https://api.modrinth.com/v2/version"
-    project_id = "RO3LwIqV"
-    dp_name = "Ancient Artifacts 2 Datapack V" + pack_version + ".zip"
-    rp_name = "Ancient Artifacts 2 Resourcepack V" + pack_version + ".zip"
+    dp_name = f"{datapack_name} V" + pack_version + ".zip"
+    rp_name = f"{resourcepack_name} V" + pack_version + ".zip"
 
     file_parts = [
         "datapack",
@@ -201,18 +263,18 @@ def upload_to_modrinth(dp_path, rp_path, pack_version, changelog, game_versions,
 
     file_types = {
         "datapack": None,
-        "resourcepack": "required-resource-pack"
+        "resourcepack": resourcepack_type
     }
 
     payload = {
-        "project_id": project_id,
+        "project_id": modrinth_project_id,
         "version_number": pack_version,
-        "version_title": f"Ancient Artifacts 2 V{pack_version} for {start_version}-{end_version}",
+        "version_title": f"{overall_name} V{pack_version} for {start_version}-{end_version}",
         "version_body": changelog,
         "dependencies": [],
         "game_versions": game_versions,
         "loaders": ["datapack"],
-        "release_channel": "beta",
+        "release_channel": "release",
         "featured": True,
         "file_parts": file_parts,
         "file_types": file_types
@@ -254,8 +316,6 @@ def upload_to_modrinth(dp_path, rp_path, pack_version, changelog, game_versions,
 def get_cf_game_versions(game_versions):
     api_url = "https://minecraft.curseforge.com/api/game/versions"
 
-    vanilla_minecraft = 77784
-
     auth_header = {
         "X-api-token": curseforge_pat
     }
@@ -269,7 +329,8 @@ def get_cf_game_versions(game_versions):
     version_to_id = {}
 
     for dictonary in json_response:
-        if dictonary["gameVersionTypeID"] == vanilla_minecraft: # Filter for only vanilla versions
+        if dictonary["gameVersionTypeID"] in vanilla_minecraft_cf_version_type_id.values(): # Filter for only vanilla versions
+            print(dictonary)
             version_to_id[dictonary["name"]] = dictonary["id"]
 
     version_ids = []
@@ -282,7 +343,7 @@ def get_cf_game_versions(game_versions):
 #-------------------------------------------------------------------------------------------------------------------------
 # upload a single file to curseforge with an optional parent file and return the file id
 def upload_file_cf(path, parent, name, game_version_ids, changelog):
-    api_url = "https://minecraft.curseforge.com/api/projects/1294584/upload-file"
+    api_url = f"https://minecraft.curseforge.com/api/projects/{curseforge_project_id}/upload-file"
 
     auth_header = {
         "X-api-token": curseforge_pat
@@ -325,8 +386,8 @@ def upload_file_cf(path, parent, name, game_version_ids, changelog):
 # Handle the upload of both files to curseforge
 def upload_to_curseforge(dp_path, rp_path, pack_version, changelog, game_versions, start_version, end_version):
 
-    dp_name = "Ancient Artifacts 2 Datapack V" + pack_version + ".zip"
-    rp_name = "Ancient Artifacts 2 Resourcepack V" + pack_version + ".zip"
+    dp_name = f"{datapack_name} Datapack V" + pack_version + ".zip"
+    rp_name = f"{resourcepack_name} Resourcepack V" + pack_version + ".zip"
 
     # Upload the datapack
     parent_id = upload_file_cf(path=dp_path, parent=None, name=dp_name, game_version_ids=get_cf_game_versions(game_versions), changelog=changelog)
@@ -335,8 +396,11 @@ def upload_to_curseforge(dp_path, rp_path, pack_version, changelog, game_version
     upload_file_cf(path=rp_path, parent=parent_id, name=rp_name, game_version_ids=get_cf_game_versions(game_versions), changelog=changelog)
 #-------------------------------------------------------------------------------------------------------------------------
 
-print("Uploading to modrinth...")
-upload_to_modrinth(datapack_path, resourcepack_path, pack_version, changelog, all_versions, start_version, end_version)
+if upload_to_modrinth:
+    print("Uploading to modrinth...")
+    upload_to_modrinth(datapack_path, resourcepack_path, pack_version, changelog, all_versions, start_version, end_version)
 
-print("Uploading to curseforge...")
-upload_to_curseforge(datapack_path, resourcepack_path, pack_version, changelog, all_versions, start_version, end_version)
+if upload_to_curseforge:
+    print("Uploading to curseforge...")
+    upload_to_curseforge(datapack_path, resourcepack_path, pack_version, changelog, all_versions, start_version, end_version)
+
