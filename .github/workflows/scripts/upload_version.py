@@ -78,8 +78,9 @@ all_versions = []
 
 #-------------------------------------------------------------------------------------------------------------------------
 #When uploading a mod version, it should not be uploaded to modrinth / cursforge again so stop
-if ["mod","no-upload"] in version_tag:
-    sys.exit("This version is configured to not upload. Stopping script...")
+for arg in ["mod","no-upload"]:
+    if arg in version_tag:
+        sys.exit("This version is configured to not upload. Stopping script...")
 
 
 # Split the tag into the seporate parts
