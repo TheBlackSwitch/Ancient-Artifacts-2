@@ -10,17 +10,21 @@
                         {
                             "function": "set_name",
                             "target": "item_name",
-                            "name": {"text":"Lost Dungeon Catalog","color":"dark_green"}
+                            "name": {
+                                "text": "Lost Dungeon Catalog",
+                                "color": "dark_green"
+                            }
                         },
                         {
                             "function": "set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -28,18 +32,21 @@
                                 },
                                 {
                                     "text": "A logbook from a prior explorer full of",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
                                     "text": "exciting information to help survive the",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
                                     "text": "dark curse living in the depths below",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 }
                             ]
                         },
@@ -47,7 +54,16 @@
                             "function": "set_components",
                             "components": {
                                 "item_model": "ancient_artifacts:item/dungeon_catalog",
-                                "custom_data": {"dungeon_catalog":true,"aa-version":251}
+                                "custom_data": {
+                                    "dungeon_catalog": true,
+                                    "aa-version": 251
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "written_book_content"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -55,146 +71,437 @@
                             "mode": "replace_all",
                             "pages": [
                                 [
-                                    {"text":"\uE507     \uE509\n\n","font":"ancient_artifacts:main"},
-                                    {"text":"      \uE508    \uE507\n\n","font":"ancient_artifacts:main"},
-                                    {"text": "  \uE512\n\n\n\n","font":"ancient_artifacts:main"},
-                                    {"text":"   \uE507 \uE510\n","font":"ancient_artifacts:main"},
-                                    {"text":"                  \uE509\n\n\n","font":"ancient_artifacts:main"},
-                                    {"text": "     \uE511","font":"ancient_artifacts:main"}
+                                    {
+                                        "text": "\uE507     \uE509\n\n",
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "      \uE508    \uE507\n\n",
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "  \uE512\n\n\n\n",
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "   \uE507 \uE510\n",
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "                  \uE509\n\n\n",
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "     \uE511",
+                                        "font": "ancient_artifacts:main"
+                                    }
                                 ],
                                 [
-                                    {"text":"\n      \uE508    \uE507\n\n","color":"black","underlined": false,"font":"ancient_artifacts:main"},
-                                    {"text": "\n\n  "},
-                                    {"text": "Click here for the","underlined": true,"click_event": {"action": "change_page","page": 30}},
-                                    {"text": "\n  "},
-                                    {"text": "audio book version","underlined": true,"click_event": {"action": "change_page","page": 30}},
-                                    {"text": "  \n\n","color":"black","underlined": false},
-                                    {"text":"   \uE507 \uE510\n","color":"black","underlined": false,"font":"ancient_artifacts:main"},
-                                    {"text":"                  \uE509\n\n\n","color":"black","underlined": false,"font":"ancient_artifacts:main"}
+                                    {
+                                        "text": "\n      \uE508    \uE507\n\n",
+                                        "color": "black",
+                                        "underlined": false,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "\n\n  "
+                                    },
+                                    {
+                                        "text": "Click here for the",
+                                        "underlined": true,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 30
+                                        }
+                                    },
+                                    {
+                                        "text": "\n  "
+                                    },
+                                    {
+                                        "text": "audio book version",
+                                        "underlined": true,
+                                        "click_event": {
+                                            "action": "change_page",
+                                            "page": 30
+                                        }
+                                    },
+                                    {
+                                        "text": "  \n\n",
+                                        "color": "black",
+                                        "underlined": false
+                                    },
+                                    {
+                                        "text": "   \uE507 \uE510\n",
+                                        "color": "black",
+                                        "underlined": false,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "                  \uE509\n\n\n",
+                                        "color": "black",
+                                        "underlined": false,
+                                        "font": "ancient_artifacts:main"
+                                    }
                                 ],
                                 [
-                                    {"text":"Day 0: \n","bold": true},
-                                    {"text":"Today, I received a stroke of unparalleled luck. My morning began with a harrowing fall into a vast, shadowy cave, and as if the gods themselves were guiding me, I unearthed a bounty of diamonds—enough to fulfill my entire set of Netherite armor.","bold": false}
+                                    {
+                                        "text": "Day 0: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Today, I received a stroke of unparalleled luck. My morning began with a harrowing fall into a vast, shadowy cave, and as if the gods themselves were guiding me, I unearthed a bounty of diamonds—enough to fulfill my entire set of Netherite armor.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day 0: \n","bold": true},
-                                    {"text":"The day was only beginning. After painstakingly enchanting every piece, I heard a loud knock at my door. An artifact smith stood there, his eyes gleaming with urgency. In his hands, he held a tattered, mysterious map.","bold": false}
+                                    {
+                                        "text": "Day 0: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "The day was only beginning. After painstakingly enchanting every piece, I heard a loud knock at my door. An artifact smith stood there, his eyes gleaming with urgency. In his hands, he held a tattered, mysterious map.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day 0: \n","bold": true},
-                                    {"text":"What he found was an exploration map of unknown origins. My heart pounded with excitement. I had to have it. Without hesitation, I bought the map, and the rest of my day was consumed with feverish preparation for the journey ahead...","bold":false}
+                                    {
+                                        "text": "Day 0: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "What he found was an exploration map of unknown origins. My heart pounded with excitement. I had to have it. Without hesitation, I bought the map, and the rest of my day was consumed with feverish preparation for the journey ahead...",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day I: \n","bold": true},
-                                    {"text":"The adventure begins. With potions in hand, artifacts secured, and my newly enchanted armor gleaming in the sunlight, I set off, leaving the familiar comforts of the village behind. The map led me through treacherous terrain,","bold":false}
+                                    {
+                                        "text": "Day I: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "The adventure begins. With potions in hand, artifacts secured, and my newly enchanted armor gleaming in the sunlight, I set off, leaving the familiar comforts of the village behind. The map led me through treacherous terrain,",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day I: \n","bold": true},
-                                    {"text":"but luck was on my side—I stumbled upon a powerful artifact, the Beefy Crystal, along with three artifact upgrades. This journey was already proving to be more fruitful than I had ever imagined...","bold":false}
+                                    {
+                                        "text": "Day I: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "but luck was on my side—I stumbled upon a powerful artifact, the Beefy Crystal, along with three artifact upgrades. This journey was already proving to be more fruitful than I had ever imagined...",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day II: \n","bold": true},
-                                    {"text":"I checked the map—my destination was close. And there it was, towering above me: a massive temple crowned with an ominous statue. As I approached, dread settled in my bones. The temple was teeming with hostile creatures, their eyes gleaming with malice.","bold":false}
+                                    {
+                                        "text": "Day II: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "I checked the map—my destination was close. And there it was, towering above me: a massive temple crowned with an ominous statue. As I approached, dread settled in my bones. The temple was teeming with hostile creatures, their eyes gleaming with malice.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day II: \n","bold": true},
-                                    {"text":"\"Not this time,\" I muttered under my breath, the adrenaline coursing through me. I activated the Reaching Bracelet, swiftly dismantling the spawners before unsheathing my sword. With precise, lethal strikes, I cut through the mobs, leaving nothing but silence...","bold":false}
+                                    {
+                                        "text": "Day II: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "\"Not this time,\" I muttered under my breath, the adrenaline coursing through me. I activated the Reaching Bracelet, swiftly dismantling the spawners before unsheathing my sword. With precise, lethal strikes, I cut through the mobs, leaving nothing but silence...",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day IV (probably): \n","bold": true},
-                                    {"text":"Now, the true challenge begins. I descended deeper into the temple, the stairs seemingly endless, each step echoing ominously in the dark. After what felt like an eternity, I decided to establish a temporary base—a spawn room stocked with extra weapons, ","bold":false}
+                                    {
+                                        "text": "Day IV (probably): \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Now, the true challenge begins. I descended deeper into the temple, the stairs seemingly endless, each step echoing ominously in the dark. After what felt like an eternity, I decided to establish a temporary base—a spawn room stocked with extra weapons, ",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day IV (probably): \n","bold": true},
-                                    {"text":"a bed for rest, and supplies to rejuvenate my strength. I could feel it in my bone. The real fight was just beginning...","bold":false}
+                                    {
+                                        "text": "Day IV (probably): \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "a bed for rest, and supplies to rejuvenate my strength. I could feel it in my bone. The real fight was just beginning...",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day V (or so): \n","bold": true},
-                                    {"text":"Time has lost meaning while days blend together in this cursed place. I fortified myself with the Crown Of Final Shout, upgraded my Beefy Crystal, and went further into the temple’s depths. Suddenly, a lightning strike illuminated the chamber right besides,","bold":false}
+                                    {
+                                        "text": "Day V (or so): \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Time has lost meaning while days blend together in this cursed place. I fortified myself with the Crown Of Final Shout, upgraded my Beefy Crystal, and went further into the temple’s depths. Suddenly, a lightning strike illuminated the chamber right besides,",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day V (or so): \n","bold": true},
-                                    {"text":"followed by another, and another, until the very ground trembled. From the earth emerged a monstrous being—a living block of stone, it's eyes cold and lifeless, filled with a malevolent hunger to protect what secrets lay in this cursed place.","bold":false}
+                                    {
+                                        "text": "Day V (or so): \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "followed by another, and another, until the very ground trembled. From the earth emerged a monstrous being—a living block of stone, it's eyes cold and lifeless, filled with a malevolent hunger to protect what secrets lay in this cursed place.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day V (or so): \n","bold": true},
-                                    {"text":"Panic gripped me as I couldn't dodge its relentless attacks, only to be joined by a diamond-armored skeleton. I tried to attack it but my swords durability shaters against the golem’s impenetrable shell. Maby range could remove the very soul of this monster","bold":false}
+                                    {
+                                        "text": "Day V (or so): \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Panic gripped me as I couldn't dodge its relentless attacks, only to be joined by a diamond-armored skeleton. I tried to attack it but my swords durability shaters against the golem’s impenetrable shell. Maby range could remove the very soul of this monster",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day V (or so): \n","bold": true},
-                                    {"text":"But no, even my projectiles turn against me. I was panicked, certain of my faith until a miracle happend when my precious Crown Of Final Shout activated, hurling me back to safety in the hallway above.","bold":false}
+                                    {
+                                        "text": "Day V (or so): \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "But no, even my projectiles turn against me. I was panicked, certain of my faith until a miracle happend when my precious Crown Of Final Shout activated, hurling me back to safety in the hallway above.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day V (or so): \n","bold": true},
-                                    {"text":"\"I nearly died!\" I gasped, my voice trembling with the raw sound of fear. I quickly equipped my Healing Amulet, consumed some golden carrots, and retreated to a small room with a farm, desperate to regain my composure.","bold":false}
+                                    {
+                                        "text": "Day V (or so): \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "\"I nearly died!\" I gasped, my voice trembling with the raw sound of fear. I quickly equipped my Healing Amulet, consumed some golden carrots, and retreated to a small room with a farm, desperate to regain my composure.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day VI or VII: \n","bold": true},
-                                    {"text":"An ominous sound jolted me awake—a strange, charging noise echoing through the halls. I peeked out and saw the golem engaged in a fierce battle with raw gravity itself. Suddenly, it smashed into the ground,","bold":false}
+                                    {
+                                        "text": "Day VI or VII: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "An ominous sound jolted me awake—a strange, charging noise echoing through the halls. I peeked out and saw the golem engaged in a fierce battle with raw gravity itself. Suddenly, it smashed into the ground,",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day VI or VII: \n","bold": true},
-                                    {"text":"unleashing a devastating blue shockwave that barreled towards me. In concerning effort I needed to fulfill something against this curse so I raised my shield and miraculously, it worked! I took no damage!","bold":false}
+                                    {
+                                        "text": "Day VI or VII: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "unleashing a devastating blue shockwave that barreled towards me. In concerning effort I needed to fulfill something against this curse so I raised my shield and miraculously, it worked! I took no damage!",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day VI or VII: \n","bold": true},
-                                    {"text":"With a surge of confidence, I ventured deeper into the dungeon, and there, embedded in stone, was an enchanted sword. I tried to pull it free, but it barely budged. After numerous attempts, ","bold":false}
+                                    {
+                                        "text": "Day VI or VII: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "With a surge of confidence, I ventured deeper into the dungeon, and there, embedded in stone, was an enchanted sword. I tried to pull it free, but it barely budged. After numerous attempts, ",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day VI or VII: \n","bold": true},
-                                    {"text":"I discovered that with enough speed, the sword would yield. Victory was mine, or so I thought.","bold":false}
+                                    {
+                                        "text": "Day VI or VII: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "I discovered that with enough speed, the sword would yield. Victory was mine, or so I thought.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day unknown: \n","bold": true},
-                                    {"text":"I awoke to find the golem gone. Seizing the opportunity, I explored the dungeon further, only to hear the unmistakable sound of blocks being destroyed. My blood ran cold. The wall beside me crumbled,","bold":false}
+                                    {
+                                        "text": "Day unknown: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "I awoke to find the golem gone. Seizing the opportunity, I explored the dungeon further, only to hear the unmistakable sound of blocks being destroyed. My blood ran cold. The wall beside me crumbled,",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day unknown: \n","bold": true},
-                                    {"text":"revealing the golem, which unleashed a searing purple beam that burned through my armor. I panicked, tried to block the attack with my shield but nothing worked. In desperation, I threw down the only blocks I had left,","bold":false}
+                                    {
+                                        "text": "Day unknown: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "revealing the golem, which unleashed a searing purple beam that burned through my armor. I panicked, tried to block the attack with my shield but nothing worked. In desperation, I threw down the only blocks I had left,",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day unknown: \n","bold": true},
-                                    {"text":"amethyst. To my astonishment, the amethyst reflected the beam! I experimented with other materials, but only the amethyst could deflect the golem's deadly assault.","bold":false}
+                                    {
+                                        "text": "Day unknown: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "amethyst. To my astonishment, the amethyst reflected the beam! I experimented with other materials, but only the amethyst could deflect the golem's deadly assault.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day of doom: \n","bold": true},
-                                    {"text":"Armed with newfound knowledge, I pressed on, delving even deeper into the dungeon. I stumbled into what looked like a graveyard, an ominous, deathly place teeming with mobs. I tried to flee,","bold":false}
+                                    {
+                                        "text": "Day of doom: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Armed with newfound knowledge, I pressed on, delving even deeper into the dungeon. I stumbled into what looked like a graveyard, an ominous, deathly place teeming with mobs. I tried to flee,",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day of doom: \n","bold": true},
-                                    {"text":"but a strange teleport echoed through the halls—a sound like no other. I turned, and there it was, the golem, right behind me, able to teleport! I ran faster than I ever thought possible,","bold":false}
+                                    {
+                                        "text": "Day of doom: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "but a strange teleport echoed through the halls—a sound like no other. I turned, and there it was, the golem, right behind me, able to teleport! I ran faster than I ever thought possible,",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day of doom: \n","bold": true},
-                                    {"text":"so fast that even the fabric of reality started to show it's pain. I barely made it back to my safe room, but the victory was hollow. My supplies were dwindling and the golem blocked my only escape. I tried to slip past it, but it nearly killed me.","bold":false}
+                                    {
+                                        "text": "Day of doom: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "so fast that even the fabric of reality started to show it's pain. I barely made it back to my safe room, but the victory was hollow. My supplies were dwindling and the golem blocked my only escape. I tried to slip past it, but it nearly killed me.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"Day of doom: \n","bold": true},
-                                    {"text":"Is this how it ends? After everything, will I meet my end through starvation, trapped like a rat in this cursed place?","bold":false}
+                                    {
+                                        "text": "Day of doom: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Is this how it ends? After everything, will I meet my end through starvation, trapped like a rat in this cursed place?",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"A week later: \n","bold": true},
-                                    {"text":"I’m out of food. The golem hasn’t moved, and my tools are broken, useless. Hunger gnaws at my insides, and despair weighs heavily on me. I’ve grown sick of this dungeon—its endless darkness, its unyielding horrors.","bold":false}
+                                    {
+                                        "text": "A week later: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "I’m out of food. The golem hasn’t moved, and my tools are broken, useless. Hunger gnaws at my insides, and despair weighs heavily on me. I’ve grown sick of this dungeon—its endless darkness, its unyielding horrors.",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text":"A week later: \n","bold": true},
-                                    {"text":"Tomorrow, I’ll make one last desperate attempt to escape. If I fail, this will be the last you hear from me...","bold":false}
+                                    {
+                                        "text": "A week later: \n",
+                                        "bold": true
+                                    },
+                                    {
+                                        "text": "Tomorrow, I’ll make one last desperate attempt to escape. If I fail, this will be the last you hear from me...",
+                                        "bold": false
+                                    }
                                 ],
                                 [
-                                    {"text": "     Audio Book","bold": true,"color": "black"},
-                                    {"text":"\n      \uE507    \uE509\n\n \n\n","color":"black","underlined": false,"bold":false,"font":"ancient_artifacts:main"},
-                                    {"text":"     \uE518  ","bold": false, "color":"white","click_event": {"action": "run_command","command": "/trigger audio_book set 1","font":"ancient_artifacts:main"}},
-                                    {"text":"\uE519      \n","bold": false, "color":"yellow","click_event": {"action": "run_command","command": "/trigger audio_book set 2","font":"ancient_artifacts:main"}},
-
-                                    {"text":"              ","bold": false, "color":"white","click_event": {"action": "run_command","command": "/trigger audio_book set 1"}},
-                                    {"text":"            \n","bold": false, "color":"yellow","click_event": {"action": "run_command","command": "/trigger audio_book set 2"}},
-                                    
-                                    {"text":"              ","bold": false, "color":"white","click_event": {"action": "run_command","command": "/trigger audio_book set 1"}},
-                                    {"text":"            ","bold": false, "color":"yellow","click_event": {"action": "run_command","command": "/trigger audio_book set 2"}},
-
-                                    {"text": "  \n\n\n","color":"black","underlined": false,"bold":false},
-                                    {"text":"   \uE510 \uE509\n","color":"black","underlined": false,"bold":false,"font":"ancient_artifacts:main"},
-                                    {"text":"                  \uE507\n\n\n","color":"black","underlined": false,"bold":false,"font":"ancient_artifacts:main"}
+                                    {
+                                        "text": "     Audio Book",
+                                        "bold": true,
+                                        "color": "black"
+                                    },
+                                    {
+                                        "text": "\n      \uE507    \uE509\n\n \n\n",
+                                        "color": "black",
+                                        "underlined": false,
+                                        "bold": false,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "     \uE518  ",
+                                        "bold": false,
+                                        "color": "white",
+                                        "click_event": {
+                                            "action": "run_command",
+                                            "command": "/trigger audio_book set 1",
+                                            "font": "ancient_artifacts:main"
+                                        }
+                                    },
+                                    {
+                                        "text": "\uE519      \n",
+                                        "bold": false,
+                                        "color": "yellow",
+                                        "click_event": {
+                                            "action": "run_command",
+                                            "command": "/trigger audio_book set 2",
+                                            "font": "ancient_artifacts:main"
+                                        }
+                                    },
+                                    {
+                                        "text": "              ",
+                                        "bold": false,
+                                        "color": "white",
+                                        "click_event": {
+                                            "action": "run_command",
+                                            "command": "/trigger audio_book set 1"
+                                        }
+                                    },
+                                    {
+                                        "text": "            \n",
+                                        "bold": false,
+                                        "color": "yellow",
+                                        "click_event": {
+                                            "action": "run_command",
+                                            "command": "/trigger audio_book set 2"
+                                        }
+                                    },
+                                    {
+                                        "text": "              ",
+                                        "bold": false,
+                                        "color": "white",
+                                        "click_event": {
+                                            "action": "run_command",
+                                            "command": "/trigger audio_book set 1"
+                                        }
+                                    },
+                                    {
+                                        "text": "            ",
+                                        "bold": false,
+                                        "color": "yellow",
+                                        "click_event": {
+                                            "action": "run_command",
+                                            "command": "/trigger audio_book set 2"
+                                        }
+                                    },
+                                    {
+                                        "text": "  \n\n\n",
+                                        "color": "black",
+                                        "underlined": false,
+                                        "bold": false
+                                    },
+                                    {
+                                        "text": "   \uE510 \uE509\n",
+                                        "color": "black",
+                                        "underlined": false,
+                                        "bold": false,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "                  \uE507\n\n\n",
+                                        "color": "black",
+                                        "underlined": false,
+                                        "bold": false,
+                                        "font": "ancient_artifacts:main"
+                                    }
                                 ]
                             ]
                         }

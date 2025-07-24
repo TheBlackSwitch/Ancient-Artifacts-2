@@ -27,8 +27,21 @@
                                         "artifact:slowing_circlet"
                                     ]
                                 },
-                                "custom_data":{"data":{"id":"slowing_circlet","dim":"end","level":1,"max":3,"start":130,"rarity":1,"relic":4},"artifact":true,"aa-version":251},
+                                "custom_data": {
+                                    "data": {
+                                        "id": "slowing_circlet",
+                                        "dim": "end",
+                                        "level": 1,
+                                        "max": 3,
+                                        "start": 130,
+                                        "rarity": 1,
+                                        "relic": 4
+                                    },
+                                    "artifact": true,
+                                    "aa-version": 251
+                                },
                                 "max_stack_size": 8,
+                                "tooltip_style": "minecraft:ancient_artifacts",
                                 "!max_damage": {}
                             }
                         },
@@ -48,12 +61,98 @@
                         },
                         {
                             "function": "set_name",
-                            "name": {"text":"Slowing Circlet","color":"gray","italic": false}
+                            "name": {
+                                "text": "Slowing Circlet",
+                                "color": "dark_gray",
+                                "italic": false, "shadow_color": 0
+                            }
                         },
                         {
                             "function": "set_lore",
                             "mode": "replace_all",
-                            "lore": [{"text": "Ancient Artifacts","color": "dark_purple","italic": false},{"text": ""},{"text": "Rarity: ","color":"gray","italic": false},{"text": " Common","color":"dark_gray","italic": false},{"text": "Controls:","color": "gray","font": "ancient_artifacts:main","italic": false},[{"text": " \uE505: ","color": "dark_purple","bold": false,"italic": false,"font":"ancient_artifacts:main"},{"text": "Activate this artifact.","color":"light_purple"}],[{"text": " \uE505 + Sneak: ","color": "dark_purple","bold": false,"italic": false,"font":"ancient_artifacts:main"},{"text": "Deactivate all artifacts.","color":"light_purple"}],[{"text":""}],[{"bold": true,"italic": false,"color": "dark_purple","text": "Stacks to 8 inside a bundle!"}]]
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": ""
+                                },
+                                {
+                                    "text": "\uE523Rarity: ","font":"ancient_artifacts:main",
+                                    "color": "#786d5b",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " Common",
+                                    "color": "dark_gray",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "\uE524Origin: ","font":"ancient_artifacts:main",
+                                    "color": "#786d5b",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " End",
+                                    "color": "#9d65bf",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "\uE525Controls: ","font":"ancient_artifacts:main",
+                                    "color": "#786d5b",
+                                    "font": "ancient_artifacts:main",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                [
+                                    {
+                                        "text": " \uE505: ",
+                                        "color": "#762f94",
+                                        "bold": false,
+                                        "italic": false, "shadow_color": 0,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "Activate this artifact.",
+                                        "color": "#bd4b9f"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": " \uE505 + Sneak: ",
+                                        "color": "#762f94",
+                                        "bold": false,
+                                        "italic": false, "shadow_color": 0,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "Deactivate all artifacts.",
+                                        "color": "#bd4b9f"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": ""
+                                    }
+                                ],
+                                [
+                                    {
+                                        "bold": true,
+                                        "italic": false, "shadow_color": 0,
+                                        "color": "#762f94",
+                                        "text": "Stacks to 8 inside a bundle!"
+                                    }
+                                ]
+                            ]
                         }
                     ]
                 }

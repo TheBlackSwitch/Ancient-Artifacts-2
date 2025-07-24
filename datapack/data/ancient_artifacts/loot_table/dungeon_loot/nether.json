@@ -78,7 +78,7 @@
                     "conditions": [
                         {
                             "condition": "entity_properties",
-                            "entity": "attacking_player",
+                            "entity": "this",
                             "predicate": {
                                 "nbt": "{Tags:[\"has_cauldron\"]}"
                             }

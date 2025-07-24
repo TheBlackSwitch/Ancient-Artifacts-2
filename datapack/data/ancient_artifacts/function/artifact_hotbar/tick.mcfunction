@@ -1,6 +1,6 @@
 ##show artifact hotbar
 execute as @a[predicate=ancient_artifacts:holding_artifact] if score @s slow_tick_hotbar matches 0 at @s run function ancient_artifacts:artifact_hotbar/show
-execute if score .20 slow_tick matches 8 as @a[scores={always_show_hotbar=1..}] run function ancient_artifacts:artifact_hotbar/show
+execute if score .20 slow_tick matches 3 as @a[scores={always_show_hotbar=1..}] run function ancient_artifacts:artifact_hotbar/show
 
 scoreboard players set @a[predicate=!ancient_artifacts:holding_artifact] slow_tick_hotbar 0
 scoreboard players add @a[predicate=ancient_artifacts:holding_artifact] slow_tick_hotbar 1

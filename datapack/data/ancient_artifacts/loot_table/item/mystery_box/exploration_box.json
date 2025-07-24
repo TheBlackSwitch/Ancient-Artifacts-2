@@ -14,15 +14,16 @@
                                 "minecraft:item_model":"ancient_artifacts:item/mystery_box/explorers_boots",
                                 "minecraft:custom_data":{"mystery_box":true,"type":"explorers_boots","aa-version":251},
                                 "minecraft:max_stack_size": 16,
-                                "!minecraft:max_damage": {}
+                                "!minecraft:max_damage": {},
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Exploration Box",
-                                "color": "light_purple",
-                                "italic": false,
+                                "color": "#bd4b9f",
+                                "italic": false, "shadow_color": 0,
                                 "bold": false
                             }
                         },
@@ -31,10 +32,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -42,27 +44,29 @@
                                 },
                                 {
                                     "text": "A mysterious box with something inside it,",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": " received from explorers boots...",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "",
                                     "color": "red"
                                 },
                                 {
-                                    "text": "Controls",
+                                    "text": "\uE525Controls: ",
+                                    "color": "#5c5242",
                                     "italic": false,
-                                    "color": "gray"
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " \uE505 to open, drops loot from the dimention you're currently in.",
-                                    "color": "dark_purple",
-                                    "italic": false,
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0,
                                             "font": "ancient_artifacts:main"
                                 }
                             ]

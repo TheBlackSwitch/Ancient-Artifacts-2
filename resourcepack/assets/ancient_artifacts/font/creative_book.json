@@ -706,6 +706,13 @@
             "ascent": 12,
             "height": 16,
             "chars": ["\u0102"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/manual/focus.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0103"]  
         }
      ]
 }

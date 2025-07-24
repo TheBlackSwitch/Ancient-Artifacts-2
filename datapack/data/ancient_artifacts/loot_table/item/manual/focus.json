@@ -22,30 +22,39 @@
                                         "unlock_count": 0,
                                         "unlocked": [],
                                         "dim": "focus"
-                                    },"aa-version":251
+                                    },
+                                    "aa-version": 251
                                 },
-                                "max_stack_size": 1
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:ancient_artifacts",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "written_book_content"
+                                    ]
+                                }
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Focus Manual",
-                                "color": "gold",
+                                "color": "#b56400",
                                 "italic": false,
+                                "shadow_color": 0,
                                 "bold": false
                             },
-                                "target": "item_name"
+                            "target": "item_name"
                         },
                         {
                             "function": "set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -53,18 +62,21 @@
                                 },
                                 {
                                     "text": "A thick book showing an artifact's",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
                                     "text": "power when fully upgraded and focused",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
                                     "text": "using focus medal",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
                                     "text": "",
@@ -75,14 +87,17 @@
                                     "color": "red"
                                 },
                                 {
-                                    "text": "Controls: ",
-                                    "color": "gray",
-                                    "italic": false
+                                    "text": "\uE525Controls: ",
+                                    "color": "#5c5242",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " \uE505 to open. ",
-                                    "color": "dark_purple",
+                                    "color": "#762f94",
                                     "italic": false,
+                                    "shadow_color": 0,
                                     "font": "ancient_artifacts:main"
                                 },
                                 {
@@ -101,7 +116,7 @@
                                     {
                                         "text": "\n\n                             \n\n",
                                         "underlined": true,
-                                        "color": "gray"
+                                        "color": "#5c5242"
                                     },
                                     {
                                         "text": "\uE504",
@@ -111,7 +126,7 @@
                                     {
                                         "text": "\n\n\n\n                             ",
                                         "underlined": true,
-                                        "color": "gray"
+                                        "color": "#5c5242"
                                     }
                                 ],
                                 [
@@ -139,7 +154,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -158,7 +173,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -177,7 +192,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -196,7 +211,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -215,7 +230,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -234,7 +249,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -253,7 +268,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -272,7 +287,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -291,7 +306,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -310,7 +325,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -329,7 +344,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -348,7 +363,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     }
@@ -379,7 +394,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -398,7 +413,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -417,7 +432,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -436,7 +451,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -455,7 +470,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -474,7 +489,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -493,7 +508,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -512,7 +527,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -531,7 +546,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -550,7 +565,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -569,7 +584,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -588,7 +603,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -607,7 +622,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     }
@@ -620,7 +635,7 @@
                                     },
                                     {
                                         "text": "Rare:\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false
                                     },
                                     {
@@ -628,7 +643,7 @@
                                     },
                                     {
                                         "text": "Miners Crown\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -638,7 +653,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -647,7 +662,7 @@
                                     },
                                     {
                                         "text": "Travelers Boots\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -657,7 +672,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -666,7 +681,7 @@
                                     },
                                     {
                                         "text": "Reaching Bracelet\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -676,7 +691,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -685,7 +700,7 @@
                                     },
                                     {
                                         "text": "Healing Amulet\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -695,7 +710,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -704,7 +719,7 @@
                                     },
                                     {
                                         "text": "Thermal Tiara\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -714,7 +729,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -723,7 +738,7 @@
                                     },
                                     {
                                         "text": "Raging Ring\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -733,7 +748,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -742,7 +757,7 @@
                                     },
                                     {
                                         "text": "Cooling Boots\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -752,7 +767,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -761,7 +776,7 @@
                                     },
                                     {
                                         "text": "Beefy Crystal\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -771,7 +786,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -780,7 +795,7 @@
                                     },
                                     {
                                         "text": "Strengthening Anklet\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -790,7 +805,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -799,7 +814,7 @@
                                     },
                                     {
                                         "text": "Bulky Chain\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -809,7 +824,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -818,7 +833,7 @@
                                     },
                                     {
                                         "text": "Landing Toe Ring\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -828,7 +843,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -837,7 +852,7 @@
                                     },
                                     {
                                         "text": "Deflecting Circlet\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -847,7 +862,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -856,7 +871,7 @@
                                     },
                                     {
                                         "text": "Radiant Watch\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -866,7 +881,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     }
@@ -879,12 +894,12 @@
                                     },
                                     {
                                         "text": "Rare:\n ",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false
                                     },
                                     {
                                         "text": "Levitation Medal\n",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -894,7 +909,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     }
@@ -907,12 +922,12 @@
                                     },
                                     {
                                         "text": "Unique:\n ",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false
                                     },
                                     {
                                         "text": "Conductive Bracelet\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -922,7 +937,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -931,7 +946,7 @@
                                     },
                                     {
                                         "text": "Crown Of Final Shout\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -941,7 +956,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -950,7 +965,7 @@
                                     },
                                     {
                                         "text": "Explorers Boots\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -960,7 +975,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -969,7 +984,7 @@
                                     },
                                     {
                                         "text": "Withering Necklace\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -979,7 +994,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -988,7 +1003,7 @@
                                     },
                                     {
                                         "text": "Looting Tiara\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -998,7 +1013,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -1007,7 +1022,7 @@
                                     },
                                     {
                                         "text": "Life Steal Necklace\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -1017,7 +1032,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -1026,7 +1041,7 @@
                                     },
                                     {
                                         "text": "Combo Boots\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -1036,7 +1051,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -1045,7 +1060,7 @@
                                     },
                                     {
                                         "text": "Experienced Chain\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -1055,7 +1070,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -1064,7 +1079,7 @@
                                     },
                                     {
                                         "text": "Anklet Of Peace\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -1074,7 +1089,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -1083,7 +1098,7 @@
                                     },
                                     {
                                         "text": "Anklet Of Recovery\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -1093,7 +1108,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -1102,7 +1117,7 @@
                                     },
                                     {
                                         "text": "Necromancy Anklet\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -1112,7 +1127,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -1121,7 +1136,7 @@
                                     },
                                     {
                                         "text": "Storing Circlet\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -1131,7 +1146,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     },
@@ -1140,7 +1155,7 @@
                                     },
                                     {
                                         "text": "Voiding Medal\n",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -1150,7 +1165,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "dark_purple"
+                                                "color": "#762f94"
                                             }
                                         }
                                     }
@@ -1159,12 +1174,12 @@
                                     {
                                         "text": "\uF829\uF828Poison Amulet\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF301",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1194,12 +1209,12 @@
                                     {
                                         "text": "\uF828\uF822Deactivation Crown\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF305",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1229,12 +1244,12 @@
                                     {
                                         "text": "\uF829\uF826Farmers Boots\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF311",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1264,12 +1279,12 @@
                                     {
                                         "text": "\uF829\uF828Burning Ring\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF313",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1299,12 +1314,12 @@
                                     {
                                         "text": "\uF829\uF826Smelting Tiara\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF321",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1334,12 +1349,12 @@
                                     {
                                         "text": "\uF829\uF824Tinkering Tiara\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF323",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1369,12 +1384,12 @@
                                     {
                                         "text": "\uF828  Borla Of Silence\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF326",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1404,12 +1419,12 @@
                                     {
                                         "text": "\uF829\uF826Sonic Crystal\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF331",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1439,12 +1454,12 @@
                                     {
                                         "text": "\uF829Darkening Borla\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF334",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1474,12 +1489,12 @@
                                     {
                                         "text": "\uF828  Slowing Circlet\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF345",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1509,12 +1524,12 @@
                                     {
                                         "text": "\uF828 Knockback Watch\n",
                                         "color": "dark_gray",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF350",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1548,7 +1563,7 @@
                                     {
                                         "text": "\uF829\uF828\uF826\uF352",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1574,29 +1589,16 @@
                                         "color": "red"
                                     }
                                 ],
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 [
                                     {
                                         "text": "\uF829\uF828Allies Amulet\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF310",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1626,12 +1628,12 @@
                                     {
                                         "text": "\uF826Shockwave Bracelet\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF302",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1661,12 +1663,12 @@
                                     {
                                         "text": "\uF829\uF828Divers Boots\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF309",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1696,12 +1698,12 @@
                                     {
                                         "text": "\uF829\uF828\uF822Fireball Ring\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF317",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1731,12 +1733,12 @@
                                     {
                                         "text": "\uF828Saturating Necklace\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF318",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1766,12 +1768,12 @@
                                     {
                                         "text": "\uF829\uF828Builders Ring\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF322",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1801,12 +1803,12 @@
                                     {
                                         "text": "\uF829\uF826Echoing Chain\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF330",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1840,7 +1842,7 @@
                                     {
                                         "text": "\uF829\uF828\uF826\uF332",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1870,12 +1872,12 @@
                                     {
                                         "text": "\uF828\uF822Recycling Crystal\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF337",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1905,12 +1907,12 @@
                                     {
                                         "text": "\uF829\uF822Shrinking Anklet\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF338",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1944,7 +1946,7 @@
                                     {
                                         "text": "\uF829\uF828\uF826\uF341",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -1978,7 +1980,7 @@
                                     {
                                         "text": "\uF829\uF828\uF826\uF342",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2008,12 +2010,12 @@
                                     {
                                         "text": "\uF829\uF828\uF822Pulse Watch\n",
                                         "color": "blue",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF343",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2039,26 +2041,16 @@
                                         "color": "red"
                                     }
                                 ],
-
-
-
-
-
-
-
-
-
-
                                 [
                                     {
                                         "text": "\uF829\uF828Miners Crown\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF308",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2087,13 +2079,13 @@
                                 [
                                     {
                                         "text": "\uF829Travelers Boots\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF306",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2122,13 +2114,13 @@
                                 [
                                     {
                                         "text": "\uF828\uF822Reaching Bracelet\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF312",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2157,13 +2149,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Healing Amulet\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF300",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2192,13 +2184,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Thermal Tiara\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF314",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2227,13 +2219,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828\uF824Raging Ring\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF315",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2262,13 +2254,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Cooling Boots\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF320",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2297,13 +2289,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF824Beefy Crystal\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF329",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2332,12 +2324,12 @@
                                 [
                                     {
                                         "text": " Strengthening Anklet\n",
-                                        "color": "dark_purple"
+                                        "color": "#762f94"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF335",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2366,13 +2358,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828 Bulky Chain\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF340",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2401,13 +2393,13 @@
                                 [
                                     {
                                         "text": "\uF829Landing Toe Ring\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF349",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2436,13 +2428,13 @@
                                 [
                                     {
                                         "text": "\uF828\uF824Deflecting Circlet\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF348",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2471,13 +2463,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF824Radiant Watch\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF347",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2506,13 +2498,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF822Levitation Medal\n",
-                                        "color": "dark_purple",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#762f94",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF346",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2538,36 +2530,16 @@
                                         "color": "red"
                                     }
                                 ],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 [
                                     {
                                         "text": "\uF827Conductive Bracelet\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF303",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2596,13 +2568,13 @@
                                 [
                                     {
                                         "text": "\uF826Crown Of Final Shout\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF304",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2631,13 +2603,13 @@
                                 [
                                     {
                                         "text": "\uF829Explorers Boots\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF307",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2666,13 +2638,13 @@
                                 [
                                     {
                                         "text": "\uF828\uF824Withering Necklace\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF316",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2701,13 +2673,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Looting Tiara\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF319",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2736,13 +2708,13 @@
                                 [
                                     {
                                         "text": "\uF828Life Steal Necklace\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF324",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2771,13 +2743,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Combo Boots\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF325",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2806,13 +2778,13 @@
                                 [
                                     {
                                         "text": "\uF828\uF822Experienced Chain\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF327",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2841,13 +2813,13 @@
                                 [
                                     {
                                         "text": "\uF829Anklet Of Peace\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF328",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2876,12 +2848,12 @@
                                 [
                                     {
                                         "text": "  Anklet Of Recovery\n",
-                                        "color": "gold"
+                                        "color": "#b56400"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF336",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2910,12 +2882,12 @@
                                 [
                                     {
                                         "text": "  Necromancy Anklet\n",
-                                        "color": "gold"
+                                        "color": "#b56400"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF339",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2944,13 +2916,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF824Storing Circlet\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF351",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "
@@ -2979,13 +2951,13 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Voiding Medal\n",
-                                        "color": "gold",
-                                            "font": "ancient_artifacts:main"
+                                        "color": "#b56400",
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\uF829\uF828\uF826\uF344",
                                         "color": "white",
-                                            "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main"
                                     },
                                     {
                                         "text": "\n\n\n\n\n\n   "

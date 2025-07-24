@@ -984,6 +984,18 @@
         {
             "label": [
                 "",
+                {"text": "\u0103", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
+                {"text": " Focus Manual"}
+            ],
+			"width": 150,
+            "action": {
+                "type": "run_command",
+                "command": "trigger aa.creative_book set 4560103"
+            }
+        },
+        {
+            "label": [
+                "",
                 {"text": "\u0079", "shadow_color": 0, "font": "ancient_artifacts:creative_book"},
                 {"text": " Mystery Box Overworld"}
             ],

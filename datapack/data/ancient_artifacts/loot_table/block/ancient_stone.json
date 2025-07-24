@@ -16,15 +16,16 @@
                             "function": "set_components",
                             "components": {
                                 "item_model": "ancient_artifacts:block/ancient_stone",
-                                "entity_data": {"id":"minecraft:marker","Tags":["ancient_stone_place"]}
+                                "entity_data": {"id":"minecraft:marker","Tags":["ancient_stone_place"]},
+                                "tooltip_style":"minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Ancient Stone",
-                                "color": "dark_purple",
-                                "italic": false,
+                                "color": "#762f94",
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             }
                         },
@@ -33,10 +34,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -44,13 +46,13 @@
                                 },
                                 {
                                     "text": "This ancient dark piece of stone once was",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "the housing of a very strong weapon!",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

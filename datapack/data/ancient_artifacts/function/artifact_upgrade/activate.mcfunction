@@ -3,6 +3,9 @@ scoreboard players set @s raycast_limit 0
 execute unless score @s upgrade_type matches 1 anchored eyes run function ancient_artifacts:artifact_upgrade/check_cauldron
 execute unless score @s upgrade_type matches 1 if data storage ancient_artifacts:artifact_cauldron found run return 1
 
+##Check if player has a normal cauldron in their offhand
+execute if items entity @s weapon.offhand cauldron[!minecraft:custom_data] run return run function ancient_artifacts:artifact_upgrade/upgrade_cauldron
+
 ##No Artifact In Offhand
 execute unless predicate ancient_artifacts:holding_artifact_offhand if score @s upgrade_type matches 1 run tellraw @s {"text": "Hold an artifact in your offhand to upgrade it!", "color": "red"}
 execute unless predicate ancient_artifacts:holding_artifact_offhand if score @s upgrade_type matches 0 run tellraw @s {"text": "Hold an artifact in your offhand to upgrade it!\nOr look at a cauldron to upgrade it!", "color": "red"}

@@ -21,15 +21,16 @@
                                     "Tags": [
                                         "ancient_altar_place"
                                     ]
-                                }
+                                },
+                                "tooltip_style":"minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Ancient Altar",
-                                "color": "dark_purple",
-                                "italic": false,
+                                "color": "#762f94",
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             },
                             "target": "item_name"
@@ -39,10 +40,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -50,26 +52,26 @@
                                 },
                                 {
                                     "text": "Show off your amazing artifacts by ",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "placing them on this block!",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": ""
                                 },
                                 {
                                     "text": "Some people say they can feel a strong",
-                                    "color": "gold",
-                                    "italic": false
+                                    "color": "#b56400",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "bond between this altar and an ancient hammer...",
-                                    "color": "gold",
-                                    "italic": false
+                                    "color": "#b56400",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

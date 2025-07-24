@@ -21,6 +21,16 @@
                                     "chance": 0.5
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "minecraft:intentionally_empty",
+                                    "asset_id": "leather"
+                                }
+                            }
                         }
                     ]
                 },
@@ -41,6 +51,16 @@
                                     "chance": 0.5
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "minecraft:intentionally_empty",
+                                    "asset_id": "chainmail"
+                                }
+                            }
                         }
                     ]
                 },
@@ -61,6 +81,16 @@
                                     "chance": 0.5
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "minecraft:intentionally_empty",
+                                    "asset_id": "iron"
+                                }
+                            }
                         }
                     ]
                 },
@@ -81,6 +111,16 @@
                                     "chance": 0.5
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "minecraft:intentionally_empty",
+                                    "asset_id": "gold"
+                                }
+                            }
                         }
                     ]
                 },
@@ -101,6 +141,46 @@
                                     "chance": 0.5
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "minecraft:intentionally_empty",
+                                    "asset_id": "diamond"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_helmet",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 0,
+                                "max": 30
+                            },
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.5
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "minecraft:intentionally_empty",
+                                    "asset_id": "netherite"
+                                }
+                            }
                         }
                     ]
                 },

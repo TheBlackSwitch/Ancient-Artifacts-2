@@ -49,7 +49,7 @@ execute if score @s animation matches 14 run data merge entity @e[type=item_disp
 execute if score @s animation matches 0 on target if score @s luck matches 1.. run scoreboard players add @s lucky_chests_opened 1
 execute if score @s animation matches 5..9 on target run function ancient_artifacts:artifact_chests/drop_loot {loot_table:'ancient_artifacts:dungeon_loot/overworld'}
 execute if score @s animation matches 3..4 on target run function ancient_artifacts:artifact_chests/drop_loot {loot_table:'ancient_artifacts:dungeon_loot/overworld_luck'}
-execute if score @s animation matches 0..2 on target run function ancient_artifacts:artifact_chests/drop_loot {loot_table:'ancient_artifacts:dungeon_loot/artifacts_all'}
+execute if score @s animation matches 0..1 on target run function ancient_artifacts:artifact_chests/drop_loot {loot_table:'ancient_artifacts:dungeon_loot/artifacts_all'}
 
 
 #tick animation

@@ -16,7 +16,8 @@
                             "function": "set_components",
                             "components": {
                                 "item_model": "ancient_artifacts:item/compound/quartz",
-                                "custom_data":{"compound":1,"type":"nether"}
+                                "custom_data":{"compound":1,"type":"nether"},
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
@@ -24,7 +25,7 @@
                             "name": {
                                 "text": "Quartz Compound",
                                 "color": "#ba2568",
-                                "italic": false,
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             },
                             "target": "item_name"
@@ -34,10 +35,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -45,13 +47,13 @@
                                 },
                                 {
                                     "text": "This quartz-infused amethyst shard is so",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "magnificent, it wil never stop sparkling.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

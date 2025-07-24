@@ -10,22 +10,56 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:item_name": "{\"text\": \"Echo Chunk\",\"color\":\"#14537a\",\"italic\":false,\"bold\":true}",
+                                "minecraft:item_name": {
+                                    "text": "Echo Chunk",
+                                    "color": "#14537a",
+                                    "italic": false,
+                                    "bold": true
+                                },
                                 "minecraft:lore": [
-                                    "{\"text\": \"Ancient Artifacts\",\"color\": \"blue\",\"bold\": false,\"italic\": false}",
-                                    "{\"text\": \"\",\"color\": \"red\"}",
-                                    "{\"text\": \"A very strong lump of metal with \",\"color\": \"dark_purple\",\"italic\": false}",
-                                    "{\"text\": \"intruding repairing capabilities whose power\",\"color\": \"dark_purple\",\"italic\": false}",
-                                    "{\"text\": \"goes beyond the damage an ancient hammer has taken.\",\"color\": \"dark_purple\",\"italic\": false}"
+                                    {
+                                        "text": "\uE522",
+                                        "italic": false,
+                                        "shadow_color": 0,
+                                        "font": "ancient_artifacts:main",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "text": "A very strong lump of metal with ",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "intruding repairing capabilities whose power",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "goes beyond the damage an ancient hammer has taken.",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    }
                                 ],
                                 "minecraft:item_model": "ancient_artifacts:item/echo_chunk",
                                 "max_stack_size": 1,
                                 "max_damage": 15,
-                                "tooltip_display": {"hidden_components":["unbreakable"]},
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "unbreakable"
+                                    ]
+                                },
                                 "unbreakable": {},
                                 "custom_data": {
                                     "echo_chunk": true
-                                }
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         }
                     ]

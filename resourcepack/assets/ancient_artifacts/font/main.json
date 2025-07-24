@@ -169,6 +169,48 @@
             "height": 10,
             "chars": ["\uE521"]         
         },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tag.png",
+            "ascent": 6,
+            "height": 11,
+            "chars": ["\uE522"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/star.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE523"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/grass_square.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE524"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/gear.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE525"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/bottle.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE526"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/sword.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE527"]         
+        },
         
 
         

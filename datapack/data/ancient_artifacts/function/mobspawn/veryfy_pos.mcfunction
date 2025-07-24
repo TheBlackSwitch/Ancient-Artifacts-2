@@ -10,5 +10,8 @@ $execute positioned ~$(X) ~$(Y) ~$(Z) align xyz if entity @a[distance=..5] run r
 $execute if data storage ancient_artifacts:spawn {sky_check:1} positioned ~$(X) ~$(Y) ~$(Z) run function ancient_artifacts:mobspawn/sky_check
 execute if data storage ancient_artifacts:spawn {sky_check:1} if score .5 temp matches 1 run return fail
 
+#Don't spawn right ontop of a player
+$execute positioned ~$(X) ~$(Y) ~$(Z) align xyz if entity @a[distance=..5] run return fail
+
 #otherwise succeed
 return 1

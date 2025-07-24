@@ -3,7 +3,7 @@ execute store result score .1 temp run gamerule doMobSpawning
 execute if score .1 temp matches 0 run return fail
 
 ##Overworld
-execute at @s[tag=dungeon_marker,predicate=ancient_artifacts:random/7] if entity @a[distance=15..60] run function ancient_artifacts:mobspawn/select_mob/overworld/dungeon
+execute at @s[type=player] if entity @e[type=marker,tag=dungeon_marker,tag=!weak_effects,distance=..20] run function ancient_artifacts:mobspawn/select_mob/overworld/dungeon
 execute at @s[tag=jungle_temple,predicate=ancient_artifacts:random/6] run function ancient_artifacts:mobspawn/select_mob/overworld/jungle_temple
 execute at @s[tag=water_ruin,predicate=ancient_artifacts:random/3] run function ancient_artifacts:mobspawn/select_mob/overworld/water_ruin
 execute at @s[tag=desert_pyramid,predicate=ancient_artifacts:random/6] run function ancient_artifacts:mobspawn/select_mob/overworld/desert_pyramid
@@ -19,4 +19,4 @@ execute at @s[tag=piglin_post,predicate=ancient_artifacts:random/2] run function
 execute at @s[tag=portal,predicate=ancient_artifacts:random/2] run function ancient_artifacts:mobspawn/select_mob/nether/portal
 
 
-execute unless entity @e[type=interaction,tag=artifact_chest,tag=!opened,distance=..40] run kill @s
+execute if entity @s[type=!player] unless entity @e[type=interaction,tag=artifact_chest,tag=!opened,distance=..40] run kill @s

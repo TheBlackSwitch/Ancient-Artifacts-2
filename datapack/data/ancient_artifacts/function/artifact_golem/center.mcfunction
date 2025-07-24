@@ -1,9 +1,9 @@
-data modify entity @s Fire set value -1s
-data modify entity @s Rotation[1] set value 0f
+execute if score .10 slow_tick matches 3 run data modify entity @s Fire set value -1s
+execute at @s run rotate @s ~ 0
 data modify entity @s AngerTime set value 382
 execute store result score @s motionX run data get entity @s Motion[0] 1000
 execute store result score @s motionZ run data get entity @s Motion[2] 1000
-data remove entity @s AngryAt
+execute if score .10 slow_tick matches 5 run data remove entity @s AngryAt
 data modify entity @s AngryAt set from entity @a[gamemode=!spectator,gamemode=!creative,limit=1,sort=nearest] UUID
 execute unless entity @s[tag=summoned] run function ancient_artifacts:artifact_golem/summon_animation
 execute if entity @s[tag=summoned] run function ancient_artifacts:artifact_golem/attacks/control

@@ -26,7 +26,8 @@
                                     ]
                                 },
                                 "!food": {},
-                                "custom_data": {"expansion_star":true,"ethernal":false}
+                                "custom_data": {"expansion_star":true,"ethernal":false},
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
@@ -34,7 +35,7 @@
                             "name": {
                                 "text": "Star Of Expansion",
                                 "bold": true,
-                                "color": "dark_purple"
+                                "color": "#762f94"
                             },
                             "target": "item_name"
                         },
@@ -43,15 +44,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
-                                },
-                                {
-                                    "text": "Expanded (30:00)",
-                                    "color": "blue",
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -59,13 +56,13 @@
                                 },
                                 {
                                     "text": "A mysterious star able to expand",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "your artifact cababilities.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "",
@@ -73,13 +70,13 @@
                                 },
                                 {
                                     "text": "When Applied:",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": " +1 Artifact Slot (30:00)",
                                     "color": "green",
-                                    "italic": false
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

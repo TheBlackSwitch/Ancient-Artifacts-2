@@ -11,7 +11,7 @@
             "color": "light_purple"
         },
         "description": {
-            "text": "Find yourself some ancient parchments and retrieve their precious knowledge.",
+            "text": "Open an ancient parchment and retrieve it's precious knowledge!",
             "color": "gold"
         },
         "frame": "task",
@@ -21,18 +21,7 @@
     "parent": "ancient_artifacts:main/obtain_template",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "parchment": true
-                            }
-                        }
-                    }
-                ]
-            }
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

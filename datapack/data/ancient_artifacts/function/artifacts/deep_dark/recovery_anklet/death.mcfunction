@@ -1,5 +1,13 @@
+
+## Don't run the keep inventory part when the gamerule is turned on
+execute store result score .keep_inventory temp run gamerule keepInventory
+execute if score .keep_inventory temp matches 1 run return fail
+
 ## Detect recovery anklet
 execute unless entity @s[tag=recovery] run return 1
+
+## This player died and should get it's inventory back
+tag @s add recover_inv
 
 #------------
 #  Get Data
@@ -8,6 +16,7 @@ execute unless entity @s[tag=recovery] run return 1
 scoreboard players operation .search tbs.ID = @s tbs.ID
 execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{recovery:true}}},Age:0s},distance=..2] run function ancient_artifacts:artifacts/deep_dark/recovery_anklet/get_item_data
 
+## Store the XP in a score
 execute if entity @s[tag=recovery_xp] store result score @s recovered_xp run data get entity @s XpLevel
 execute if entity @s[tag=recovery_xp] run kill @e[type=experience_orb,distance=..2]
 
@@ -43,4 +52,4 @@ execute if entity @s[tag=recovery_2] unless data storage ancient_artifacts:playe
 execute if entity @s[tag=recovery_2] if data storage ancient_artifacts:player recovery_equip.offhand run function ancient_artifacts:artifacts/deep_dark/recovery_anklet/kill_items/kill with storage ancient_artifacts:player current_item
 
 
-tag @s add recover_inv
+

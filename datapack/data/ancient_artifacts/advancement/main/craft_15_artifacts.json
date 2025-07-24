@@ -8,12 +8,12 @@
             }
         },
         "title": {
-            "text": "Master Crafter!",
+            "text": "Master Caster!",
             "color": "light_purple"
         },
         "description": [
             {
-                "text": "Craft 15 artifacts.\n\n",
+                "text": "Cast 15 artifacts.\n\n",
                 "color": "gold"
             },
             {

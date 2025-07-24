@@ -16,15 +16,16 @@
                             "function": "set_components",
                             "components": {
                                 "item_model": "ancient_artifacts:item/essence/common",
-                                "custom_data":{"artifact_essence":1,"level":1}
+                                "custom_data":{"artifact_essence":1,"level":1},
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Common Artifact Essence",
-                                "color": "gray",
-                                "italic": false,
+                                "color": "#5c5242",
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             }
                         },
@@ -33,10 +34,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -44,42 +46,38 @@
                                 },
                                 {
                                     "text": "The most essential fragment of an ",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "artifact with a very weak potency.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "",
                                     "color": "red"
                                 },
                                 {
-                                    "text": "When used in artifact crafting,",
-                                    "color": "dark_green",
-                                    "italic": false
+                                    "text": "\uE526When used in artifact recycling:",
+                                    "color": "#5c5242",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
-                                    "text": "Increases luck: ",
-                                    "color": "dark_green",
-                                    "italic": false
-                                },
-                                {
-                                    "text": " -1 loot chance",
+                                    "text": " -1 chance for loot",
                                     "color": "red",
-                                    "italic": false
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
-                                    "text": " +4 common chance",
-                                    "color": "gold",
-                                    "italic": false
+                                    "text": " +4 chance for a common artifact",
+                                    "color": "#b56400",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
-                                    "text": " +1 uncommon chance",
-                                    "color": "gold",
-                                    "italic": false
+                                    "text": " +1 chance for an uncommon artifact",
+                                    "color": "#b56400",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

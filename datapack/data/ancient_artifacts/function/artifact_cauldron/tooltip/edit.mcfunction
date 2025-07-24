@@ -29,13 +29,13 @@ execute if score @s current_recipe matches 1 align xyz run data modify entity @n
     {"text":"    --> Recycle Blend\n","color":"#600060","bold":false},  \
     {"text":"        "},{"text":"OR\n","color":"dark_green","bold":true,"underlined":true},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE843","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":"Common Artifact Template\n","color":"gray","bold":false},  \
-    {"text":"    --> Craft A Common Artifact\n","color":"#600060","bold":false},  \
+    {"text":"    --> Cast A Common Artifact\n","color":"#600060","bold":false},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE844","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":"Uncommon Artifact Template\n","color":"blue","bold":false},  \
-    {"text":"    --> Craft An Uncommon Artifact\n","color":"#600060","bold":false},  \
+    {"text":"    --> Cast An Uncommon Artifact\n","color":"#600060","bold":false},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE845","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":"Rare Artifact Template\n","color":"light_purple","bold":false},  \
-    {"text":"    --> Craft A Rare Artifact\n","color":"#600060","bold":false},  \
+    {"text":"    --> Cast A Rare Artifact\n","color":"#600060","bold":false},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE846","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":"Unique Artifact Template\n","color":"gold","bold":false},  \
-    {"text":"    --> Craft A Unique Artifact","color":"#600060","bold":false}  \
+    {"text":"    --> Cast A Unique Artifact","color":"#600060","bold":false}  \
 ]
 
 ##artifact recycling (starts at 10)
@@ -64,7 +64,7 @@ execute if score @s current_recipe matches 11..15 if score .40 slow_tick matches
     {"text":"  Unique: ","color":"gold"},{"score":{"name":"@n[type=marker,distance=..1,tag=artifact_cauldron,tag=control]","objective":"qPercent"},"color":"dark_purple"},{"text":"%\n\n","color":"dark_purple"},  \
     {"text":"Next: \n\n","color":"dark_green","bold":false,"font":"tooltip_namespace"},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE842","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Artifact Blend\n","color":"dark_purple","bold":false},  \
-    {"text":"    --> Craft Artifact\n","color":"#600060","bold":false},  \
+    {"text":"    --> Cast Artifact\n","color":"#600060","bold":false},  \
     {"text":"        "},{"text":"OR\n","color":"dark_green","bold":true,"underlined":true},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE847","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Any Essence\n","color":"dark_purple","bold":false},  \
     {"text":"    --> Edit Chances ","color":"#600060","bold":false},{"score":{"name":"@e[tag=artifact_cauldron,tag=control,limit=1,sort=nearest]","objective":"essences"},"color":"#600060"},{"text":"/5 max\n","color":"#600060"}  \
@@ -82,7 +82,7 @@ execute if score @s current_recipe matches 11..15 if score .40 slow_tick matches
     {"text":"  Unique: ","color":"gold"},{"score":{"name":"@n[type=marker,distance=..1,tag=artifact_cauldron,tag=control]","objective":"qPercent"},"color":"dark_purple"},{"text":"%\n\n","color":"dark_purple"},  \
     {"text":"Next: \n\n","color":"dark_green","bold":false,"font":"tooltip_namespace"},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE842","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Artifact Blend\n","color":"dark_purple","bold":false},  \
-    {"text":"    --> Craft Artifact\n","color":"#600060","bold":false},  \
+    {"text":"    --> Cast Artifact\n","color":"#600060","bold":false},  \
     {"text":"        "},{"text":"OR\n","color":"dark_green","bold":true,"underlined":true},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE848","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Any Essence\n","color":"dark_purple","bold":false},  \
     {"text":"    --> Edit Chances ","color":"#600060","bold":false},{"score":{"name":"@e[tag=artifact_cauldron,tag=control,limit=1,sort=nearest]","objective":"essences"},"color":"#600060"},{"text":"/5 max\n","color":"#600060"}  \
@@ -100,7 +100,7 @@ execute if score @s current_recipe matches 11..15 if score .40 slow_tick matches
     {"text":"  Unique: ","color":"gold"},{"score":{"name":"@n[type=marker,distance=..1,tag=artifact_cauldron,tag=control]","objective":"qPercent"},"color":"dark_purple"},{"text":"%\n\n","color":"dark_purple"},  \
     {"text":"Next: \n\n","color":"dark_green","bold":false,"font":"tooltip_namespace"},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE842","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Artifact Blend\n","color":"dark_purple","bold":false},  \
-    {"text":"    --> Craft Artifact\n","color":"#600060","bold":false},  \
+    {"text":"    --> Cast Artifact\n","color":"#600060","bold":false},  \
     {"text":"        "},{"text":"OR\n","color":"dark_green","bold":true,"underlined":true},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE849","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Any Essence\n","color":"dark_purple","bold":false},  \
     {"text":"    --> Edit Chances ","color":"#600060","bold":false},{"score":{"name":"@e[tag=artifact_cauldron,tag=control,limit=1,sort=nearest]","objective":"essences"},"color":"#600060"},{"text":"/5 max\n","color":"#600060"}  \
@@ -118,7 +118,7 @@ execute if score @s current_recipe matches 11..15 if score .40 slow_tick matches
     {"text":"  Unique: ","color":"gold"},{"score":{"name":"@n[type=marker,distance=..1,tag=artifact_cauldron,tag=control]","objective":"qPercent"},"color":"dark_purple"},{"text":"%\n\n","color":"dark_purple"},  \
     {"text":"Next: \n\n","color":"dark_green","bold":false,"font":"tooltip_namespace"},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE842","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Artifact Blend\n","color":"dark_purple","bold":false},  \
-    {"text":"    --> Craft Artifact\n","color":"#600060","bold":false},  \
+    {"text":"    --> Cast Artifact\n","color":"#600060","bold":false},  \
     {"text":"        "},{"text":"OR\n","color":"dark_green","bold":true,"underlined":true},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE850","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Any Essence\n","color":"dark_purple","bold":false},  \
     {"text":"    --> Edit Chances ","color":"#600060","bold":false},{"score":{"name":"@e[tag=artifact_cauldron,tag=control,limit=1,sort=nearest]","objective":"essences"},"color":"#600060"},{"text":"/5 max\n","color":"#600060"}  \
@@ -137,7 +137,7 @@ execute if score @s current_recipe matches 16 align xyz run data modify entity @
     {"text":"  Unique: ","color":"gold"},{"score":{"name":"@n[type=marker,distance=..1,tag=artifact_cauldron,tag=control]","objective":"qPercent"},"color":"dark_purple"},{"text":"%\n\n","color":"dark_purple"},  \
     {"text":"Next: \n\n","color":"dark_green","bold":false,"font":"tooltip_namespace"},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE842","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Artifact Blend\n","color":"dark_purple","bold":false},  \
-    {"text":"    --> Craft Artifact","color":"#600060","bold":false}  \
+    {"text":"    --> Cast Artifact","color":"#600060","bold":false}  \
 ]
 
 ##Artifact Crafting (starts at 20)
@@ -146,7 +146,7 @@ execute if score @s current_recipe matches 16 align xyz run data modify entity @
 execute if score @s current_recipe matches 20 align xyz run data modify entity @n[type=text_display,dy=0,tag=artifact_cauldron,tag=tooltip,tag=text] text set value [  \
     {"text":"Artifact Cauldron\n","color":"gold","bold":true},  \
     {"text":"Ancient Artifacts\n\n\n","color":"blue","font":"tooltip_namespace","bold":false},  \
-    {"text":"Current Recipe: \n","color":"dark_green","bold":false},{"text":"  Artifact Crafting\n","color":"dark_purple"},  \
+    {"text":"Current Recipe: \n","color":"dark_green","bold":false},{"text":"  Artifact Casting\n","color":"dark_purple"},  \
     {"text":"Level: \n","color":"dark_green","bold":false},{"nbt":"data.craft.level","entity":"@s","color":"dark_purple"},  \
     {"text":"Next: \n\n","color":"dark_green","bold":false,"font":"tooltip_namespace"},  \
     {"text":"  +1 ","color":"dark_purple","bold":false},{"text":"\uE851","color":"white","bold":false,"font":"ancient_artifacts:main"},{"text":" Amethyst Shard\n","color":"dark_purple","bold":false},  \
@@ -164,10 +164,10 @@ execute if score @s current_recipe matches 20 align xyz run data modify entity @
 execute if score @s current_recipe matches 21..22 align xyz run data modify entity @n[type=text_display,dy=0,tag=artifact_cauldron,tag=tooltip,tag=text] text set value [  \
     {"text":"Artifact Cauldron\n","color":"gold","bold":true},  \
     {"text":"Ancient Artifacts\n\n\n","color":"blue","font":"tooltip_namespace","bold":false},  \
-    {"text":"Current Recipe: \n","color":"dark_green","bold":false},{"text":"  Artifact Crafting\n","color":"dark_purple"},  \
+    {"text":"Current Recipe: \n","color":"dark_green","bold":false},{"text":"  Artifact Casting\n","color":"dark_purple"},  \
     {"text":"Level: \n  ","color":"dark_green","bold":false},{"nbt":"data.craft.level","entity":"@e[tag=artifact_cauldron,tag=control,limit=1,sort=nearest]","color":"dark_purple"},{"text":"\n"},  \
     {"text":"Origin: \n  ","color":"dark_green","bold":false},{"nbt":"data.craft.origin","entity":"@e[tag=artifact_cauldron,tag=control,limit=1,sort=nearest]","color":"dark_purple"},{"text":"\n\n"},  \
     {"text":"Next: \n\n","color":"dark_green","bold":false,"font":"tooltip_namespace"},  \
     {"text":"+1 ","color":"dark_purple","bold":false},{"selector":"@e[tag=artifact_cauldron,tag=control,limit=1,sort=nearest]","bold":false},{"text":" Specifc Relic\n","color":"dark_purple","bold":false},  \
-    {"text":"    --> Craft Certain Artifact\n","color":"#600060","bold":false,"font":"tooltip_namespace"}  \
+    {"text":"    --> Cast Certain Artifact\n","color":"#600060","bold":false,"font":"tooltip_namespace"}  \
 ]

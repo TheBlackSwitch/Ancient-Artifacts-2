@@ -15,9 +15,9 @@ execute if score @s heart_state matches 1 if score .40 slow_tick matches 40 if e
 
 ##While Trigger
 execute if score @s heart_state matches 2..3 as @e[tag=sculk_heart,distance=..5,tag=center] if score .20 slow_tick = .20 random_delay if predicate ancient_artifacts:random/25 at @e[tag=sculk_heart_echo,sort=random,limit=1,distance=..30] run function ancient_artifacts:artifacts/deep_dark/echoing_chain/summon
-execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 1 as @e[tag=sculk_heart,distance=..5] run data merge entity @s {transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.0f,0.0f]},interpolation_duration:2,start_interpolation:0}
-execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 1 run function ancient_artifacts:sculk_heart/heart_beat
-execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 3 as @e[tag=sculk_heart,distance=..5] run data merge entity @s {transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.25f,1.25f,1.25f],translation:[0.0f,0.0f,0.0f]},interpolation_duration:10,start_interpolation:0}
+execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 8 as @e[tag=sculk_heart,distance=..5] run data merge entity @s {transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.0f,0.0f]},interpolation_duration:2,start_interpolation:0}
+execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 8 run function ancient_artifacts:sculk_heart/heart_beat
+execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 9 as @e[tag=sculk_heart,distance=..5] run data merge entity @s {transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.25f,1.25f,1.25f],translation:[0.0f,0.0f,0.0f]},interpolation_duration:10,start_interpolation:0}
 execute if score @s heart_state matches 2..3 run particle minecraft:entity_effect{color:[0.0039, 0.0980, 0.2117,1.0]} ~ ~ ~ 0.8 0.8 0.8 0.1 1
 execute if score @s heart_state matches 2..3 if score .3 slow_tick matches 3 at @e[tag=sculk_heart,distance=..5] run particle minecraft:dust{color:[0.1725, 0.6941, 0.7490],scale:3} ~ ~ ~ 0.2 0.2 0.2 0 3 force
 

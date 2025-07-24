@@ -150,6 +150,7 @@ execute if score @s aa.creative_book matches 4560075 run loot give @s loot ancie
 execute if score @s aa.creative_book matches 4560076 run loot give @s loot ancient_artifacts:item/manual/deep_dark
 execute if score @s aa.creative_book matches 4560077 run loot give @s loot ancient_artifacts:item/manual/nether
 execute if score @s aa.creative_book matches 4560078 run loot give @s loot ancient_artifacts:item/manual/end
+execute if score @s aa.creative_book matches 4560103 run loot give @s loot ancient_artifacts:item/manual/focus
 
 #Mystery Boxes
 execute if score @s aa.creative_book matches 4560079 run loot give @s loot ancient_artifacts:item/mystery_box/overworld

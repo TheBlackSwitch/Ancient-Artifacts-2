@@ -16,9 +16,10 @@
         },
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": true
+        "announce_to_chat": true,
+        "hidden": true
     },
-    "parent": "ancient_artifacts:main/obtain_artifact",
+    "parent": "ancient_artifacts:main/open_chest",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",

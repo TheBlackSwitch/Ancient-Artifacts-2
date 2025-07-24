@@ -11,7 +11,7 @@
             "color": "light_purple"
         },
         "description": {
-            "text": "Upgrade a cauldron using an artifact upgrade.",
+            "text": "Upgrade a normal cauldron using an artifact upgrade to craft yourself an artifact cauldron.",
             "color": "gold"
         },
         "frame": "task",

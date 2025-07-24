@@ -11,10 +11,11 @@
         "mode": "replace_all",
         "lore": [
             {
-                "text": "Ancient Artifacts",
-                "color": "blue",
-                "bold": false,
-                "italic": false
+                "text": "\uE522",
+                "italic": false,
+                "shadow_color": 0,
+                "font": "ancient_artifacts:main",
+                "color": "white"
             },
             {
                 "text": "",
@@ -22,54 +23,58 @@
             },
             {
                 "text": "An ancient piece of paper filled",
-                "color": "dark_purple",
-                "italic": false
+                "color": "#762f94",
+                "italic": false,
+                "shadow_color": 0
             },
             {
                 "text": "with symbols and drawings which nobody",
-                "color": "dark_purple",
-                "italic": false
+                "color": "#762f94",
+                "italic": false,
+                "shadow_color": 0
             },
             {
                 "text": "has been able to decode.",
-                "color": "dark_purple",
-                "italic": false
+                "color": "#762f94",
+                "italic": false,
+                "shadow_color": 0
             },
             {
                 "text": "",
                 "color": "red"
             },
             {
-                "text": "Controls: ",
-                "color": "gray",
-                "italic": false
-            },
-            {
-                "text": " \uE505",
-                "color": "dark_purple",
+                "text": "\uE525Controls: ",
+                "color": "#5c5242",
                 "italic": false,
+                "shadow_color": 0,
                 "font": "ancient_artifacts:main"
             },
             {
-                "text": " in main hand to open. ",
-                "color": "dark_purple",
-                "italic": false
+                "text": " \uE505 in main hand to open. ",
+                "color": "#762f94",
+                "italic": false,
+                "shadow_color": 0,
+                "font": "ancient_artifacts:main"
             },
             [
                 {
                     "text": " Hold [",
-                    "color": "dark_purple",
-                    "italic": false
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
                 },
                 {
-                    "text": "Shift",
-                    "color": "dark_purple",
-                    "italic": false
+                    "keybind": "key.sneak",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
                 },
                 {
                     "text": "] to quick look",
-                    "color": "dark_purple",
-                    "italic": false
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
                 }
             ],
             {
@@ -78,15 +83,11 @@
             },
             [
                 {
-                    "text": ""
-                }
-            ],
-            [
-                {
                     "bold": true,
+                    "text": "Stacks to 16 inside a bundle!",
+                    "color": "#762f94",
                     "italic": false,
-                    "color": "dark_purple",
-                    "text": "Stacks to 16 inside a bundle!"
+                    "shadow_color": 0
                 }
             ]
         ]

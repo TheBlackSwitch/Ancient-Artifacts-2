@@ -59,8 +59,6 @@ scoreboard objectives add prev_artifact_slot_3 dummy
 scoreboard objectives add night_vision_timer dummy
 scoreboard objectives add night_vision_max dummy
 scoreboard objectives add cooling_boots_slow dummy
-scoreboard objectives add vision_dia_mined minecraft.mined:diamond_ore
-scoreboard objectives add vision_deepslate_dia_mined minecraft.mined:deepslate_diamond_ore
 scoreboard objectives add vision_toggle_cooldown dummy
 scoreboard objectives add food food
 

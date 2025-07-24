@@ -41,7 +41,8 @@
                                 "custom_data": {
                                     "expansion_star": true,
                                     "ethernal": true
-                                }
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
@@ -49,7 +50,7 @@
                             "name": {
                                 "text": "Ethernal Star Of Expansion",
                                 "bold": true,
-                                "color": "gold"
+                                "color": "#b56400"
                             },
                             "target": "item_name"
                         },
@@ -58,10 +59,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -69,13 +71,13 @@
                                 },
                                 {
                                     "text": "A mysterious star never loosing power,",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "able to expand your artifact cababilities.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "",
@@ -83,13 +85,13 @@
                                 },
                                 {
                                     "text": "When Applied:",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": " +1 Artifact Slot",
                                     "color": "green",
-                                    "italic": false
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

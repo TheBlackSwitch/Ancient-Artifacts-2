@@ -16,7 +16,8 @@
                             "function": "set_components",
                             "components": {
                                 "item_model": "ancient_artifacts:item/compound/echoing",
-                                "custom_data":{"compound":1,"type":"deep_dark"}
+                                "custom_data":{"compound":1,"type":"deep_dark"},
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
@@ -24,7 +25,7 @@
                             "name": {
                                 "text": "Echoing Compound",
                                 "color": "#14537a",
-                                "italic": false,
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             },
                             "target": "item_name"
@@ -34,10 +35,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -45,13 +47,13 @@
                                 },
                                 {
                                     "text": "This combination of amethyst and echo shards",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "will even echo the darkest rays of light.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

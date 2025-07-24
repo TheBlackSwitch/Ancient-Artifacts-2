@@ -12,15 +12,31 @@
                             "components": {
                                 "item_model": "ancient_artifacts:item/music_disc/the_dark_side_of_me",
                                 "jukebox_playable": "ancient_artifacts:the_dark_side_of_me",
-                                "tooltip_display": {"hidden_components":["jukebox_playable"]}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "jukebox_playable"
+                                    ]
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_lore",
                             "mode": "replace_all",
                             "lore": [
-                                {"text":"Ancient Artifacts", "color": "blue","italic": false},
-                                {"text":"Whitesand - The Dark Side Of Me", "color": "gray","italic": false}
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "Whitesand - The Dark Side Of Me",
+                                    "color": "#5c5242",
+                                    "italic": false,
+                                    "shadow_color": 0
+                                }
                             ]
                         }
                     ]

@@ -10,6 +10,7 @@ function ancient_artifacts:artifacts/no_stack
 function ancient_artifacts:artifacts/nether/thermal_tiara/tick
 function ancient_artifacts:artifacts/deep_dark/echoing_chain/tick
 function ancient_artifacts:artifacts/deep_dark/detecting_borla/tick
+function ancient_artifacts:artifacts/overworld/allies_amulet/tick
 
 ##Artifacts
 execute as @a run scoreboard players operation @s artifact = @s artifact_slot_1

@@ -7,7 +7,7 @@
             }
         },
         "title": {
-            "text": "Artifact Crafting?!",
+            "text": "Artifact Casting?!",
             "color": "light_purple"
         },
         "description": {
@@ -36,6 +36,6 @@
         }
     },
     "rewards": {
-        "function": "ancient_artifacts:advancements/triggers/advance"
+        "function": "ancient_artifacts:advancements/triggers/obtain_template"
     }
 }

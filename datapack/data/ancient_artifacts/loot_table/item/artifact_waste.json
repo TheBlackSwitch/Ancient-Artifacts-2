@@ -18,6 +18,7 @@
                                 "item_model": "ancient_artifacts:item/artifact_waste",
                                 "custom_data":{"artifact_waste":1},
                                 "enchantment_glint_override": true,
+                                "tooltip_style": "minecraft:ancient_artifacts",
                                 "consumable": {"consume_seconds":1.6,"animation": "eat","sound": {"sound_id": "ancient_artifacts:entity.generic.sniff"}}
                             }
                         },
@@ -26,7 +27,7 @@
                             "name": {
                                 "text": "Artifact Waste",
                                 "color": "dark_aqua",
-                                "italic": false,
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             }
                         },
@@ -35,10 +36,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -46,12 +48,12 @@
                                 },
                                 {
                                     "text": "Eating this dirty failed dust",
-                                    "color": "dark_purple",
+                                    "color": "#762f94",
                                     "obfuscated": true
                                 },
                                 {
                                     "text": "may result in unknown consequences",
-                                    "color": "dark_purple",
+                                    "color": "#762f94",
                                     "obfuscated": true
                                 }
                             ]

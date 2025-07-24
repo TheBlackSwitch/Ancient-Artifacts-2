@@ -12,15 +12,31 @@
                             "components": {
                                 "item_model": "ancient_artifacts:item/music_disc/welcome_to_chaos",
                                 "jukebox_playable": "ancient_artifacts:welcome_to_chaos",
-                                "tooltip_display": {"hidden_components":["jukebox_playable"]}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "jukebox_playable"
+                                    ]
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_lore",
                             "mode": "replace_all",
                             "lore": [
-                                {"text":"Ancient Artifacts", "color": "blue","italic": false},
-                                {"text":"Ross Bugden - Welcome To Chaos", "color": "gray","italic": false}
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "Ross Bugden - Welcome To Chaos",
+                                    "color": "#5c5242",
+                                    "italic": false,
+                                    "shadow_color": 0
+                                }
                             ]
                         }
                     ]

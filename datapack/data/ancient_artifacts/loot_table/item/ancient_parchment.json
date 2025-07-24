@@ -17,10 +17,12 @@
                             "components": {
                                 "item_model": "ancient_artifacts:item/parchment",
                                 "custom_data": {
-                                    "parchment": true,"aa-version":251
+                                    "parchment": true,
+                                    "aa-version": 251
                                 },
                                 "!max_damage": {},
-                                "max_stack_size": 1
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
@@ -41,8 +43,9 @@
                             "function": "set_name",
                             "name": {
                                 "text": "Ancient Parchment",
-                                "color": "gold",
+                                "color": "#b56400",
                                 "italic": false,
+                                "shadow_color": 0,
                                 "bold": false
                             }
                         },
@@ -51,10 +54,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -62,49 +66,58 @@
                                 },
                                 {
                                     "text": "An ancient piece of paper filled",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
                                     "text": "with symbols and drawings which nobody",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
                                     "text": "has been able to decode.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
                                     "text": "",
                                     "color": "red"
                                 },
                                 {
-                                    "text": "Controls: ",
-                                    "color": "gray",
-                                    "italic": false
+                                    "text": "\uE525Controls: ",
+                                    "color": "#5c5242",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " \uE505 in main hand to open. ",
-                                    "color": "dark_purple",
+                                    "color": "#762f94",
                                     "italic": false,
+                                    "shadow_color": 0,
                                     "font": "ancient_artifacts:main"
                                 },
                                 [
                                     {
                                         "text": " Hold [",
-                                        "color": "dark_purple",
-                                        "italic": false
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
                                     },
                                     {
-                                        "text": "Shift",
-                                        "color": "dark_purple",
-                                        "italic": false
+                                        "keybind": "key.sneak",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
                                     },
                                     {
                                         "text": "] to quick look",
-                                        "color": "dark_purple",
-                                        "italic": false
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
                                     }
                                 ],
                                 {

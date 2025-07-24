@@ -17,15 +17,16 @@
                             "components": {
                                 "item_model": "ancient_artifacts:item/template/unique",
                                 "custom_data":{"artifact_template":1,"level":4},
-                                "enchantment_glint_override": true
+                                "enchantment_glint_override": true,
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Unique Artifact Template",
-                                "color": "gold",
-                                "italic": false,
+                                "color": "#b56400",
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             }
                         },
@@ -34,10 +35,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -45,39 +47,40 @@
                                 },
                                 {
                                     "text": "An old and powerless fragment ",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "which may retrieve it's potency ",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "when combined with the right relic.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "",
                                     "color": "red"
                                 },
                                 {
-                                    "text": "When used in artifact crafting:",
-                                    "color": "dark_green",
-                                    "italic": false
+                                    "text": "\uE526When used in artifact casting:",
+                                    "color": "#5c5242",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 [
                                     {
-                                        "text": "  Crafts an ",
-                                        "color": "dark_purple",
-                                        "italic": false
+                                        "text": "  Crafts a ",
+                                        "color": "#762f94",
+                                        "italic": false, "shadow_color": 0
                                     },
                                     {
                                         "text": "Unique Artifact",
-                                        "color": "gold",
+                                        "color": "#b56400",
                                         "bold": true,
-                                        "italic": false
+                                        "italic": false, "shadow_color": 0
                                     }
                                 ]
                             ]

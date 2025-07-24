@@ -83,6 +83,9 @@ function ancient_artifacts:convert/tick
 #execute if score .10 slow_tick matches 3 as @a[scores={lootbox=1..}] run function ancient_artifacts:lootbox/trigger
 #execute if score .10 slow_tick matches 3 as @a[scores={join=1..}] run function ancient_artifacts:lootbox/message
 
+## Get Keep inventory gamerule
+execute store result score .keep_inventory server run gamerule keepInventory
+
 ## Ask for suggestion message
 execute as @a at @s run function ancient_artifacts:auto_message
 
@@ -91,9 +94,6 @@ execute if data storage theblackswitch:versions {compatable:false} run return fa
 
 #run as early as possible
 function ancient_artifacts:artifact_manual/tick
-
-##Fix gamerules
-gamerule keepInventory false
 
 #init player scores
 execute as @a unless score @s artifact_slot_count matches 0.. run scoreboard players set @s artifact_slot_count 2
@@ -105,7 +105,7 @@ execute as @a run function ancient_artifacts:calc_health
 
 ##tick functions
 execute if score .5 slow_tick matches 5 as @e[type=marker,tag=abandoned_well] at @s run function ancient_artifacts:abandoned_well
-execute if score .10 slow_tick matches 10 as @a[scores={hide_artifact_hud=0}] run function ancient_artifacts:artifact_hud/tick
+execute if score .10 slow_tick matches 9 as @a[scores={hide_artifact_hud=0}] run function ancient_artifacts:artifact_hud/tick
 execute as @a run function ancient_artifacts:config/tick
 function ancient_artifacts:ancient_hammer/tick
 function ancient_artifacts:mystery_box/tick

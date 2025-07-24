@@ -1,2 +1,2 @@
 execute unless entity @a[tag=!aa.items_updated_2.5.1a] run tag @a remove aa.items_updated_2.5.1a
-execute if score .20 slow_tick matches 4 as @r[tag=!aa.items_updated_2.5.1a] run function ancient_artifacts:update/v2.5.1a/update_items
+execute if score .20 slow_tick matches 10 as @r[tag=!aa.items_updated_2.5.1a] run function ancient_artifacts:update/v2.5.1a/update_items

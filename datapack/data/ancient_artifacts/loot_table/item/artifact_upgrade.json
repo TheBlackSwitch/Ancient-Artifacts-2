@@ -20,15 +20,16 @@
                                 "use_cooldown": {
                                     "seconds": 0.5,
                                     "cooldown_group": "ancient_artifacts:upgrade"
-                                }
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Artifact Upgrade",
-                                "color": "aqua",
-                                "italic": false,
+                                "color": "#168785",
+                                "italic": false, "shadow_color": 0,
                                 "bold": false
                             }
                         },
@@ -37,44 +38,46 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
                                     "color": "red"
                                 },
                                 {
-                                    "text": "Controls:",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                {
-                                    "text": " \uE505 while having an artifact in",
-                                    "color": "dark_purple",
-                                    "italic": false,
+                                    "text": "\uE525Controls:",
+                                    "color": "#5c5242",
+                                    "italic": false, "shadow_color": 0,
                                     "font": "ancient_artifacts:main"
                                 },
                                 {
-                                    "text": " your off hand to upgrade it!",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "text": " \uE505 while having an artifact in",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
+                                },
+                                {
+                                    "text": " your offhand to upgrade it!",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": ""
                                 },
                                 {
                                     "text": " \uE505 on a cauldron",
-                                    "color": "dark_purple",
-                                    "italic": false,
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0,
                                     "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " to create an Artifact Cauldron!",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

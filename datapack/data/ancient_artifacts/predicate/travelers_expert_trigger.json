@@ -17,7 +17,9 @@
                             "minecraft:enchantments": [
                                 {
                                     "enchantments": "minecraft:soul_speed",
-                                    "levels": 3
+                                    "levels": {
+                                        "min": 3
+                                    }
                                 }
                             ]
                         }
@@ -26,7 +28,7 @@
                 "effects": {
                     "minecraft:speed": {
                         "amplifier": {
-                            "min": 1
+                            "min": 2
                         }
                     }
                 },

@@ -1,6 +1,6 @@
 ##Enable effects if in dungeon
-execute if score .20 slow_tick matches 20 as @a at @s run function ancient_artifacts:dungeon/effects/check_enable
-execute if score .20 slow_tick matches 20 as @a at @s run function ancient_artifacts:dungeon/effects/ambient_loop
+execute if score .20 slow_tick matches 6 as @a at @s run function ancient_artifacts:dungeon/effects/check_enable
+execute if score .20 slow_tick matches 7 as @a at @s run function ancient_artifacts:dungeon/effects/ambient_loop
 execute if score .10 slow_tick = .10 random_delay as @a at @s run function ancient_artifacts:dungeon/effects/ambient_additions
 
 ##Reset ambient

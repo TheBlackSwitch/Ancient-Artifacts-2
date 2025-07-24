@@ -19,8 +19,8 @@
                             "function": "set_name",
                             "name": {
                                 "text": "Dungeon Map",
-                                "color": "gold",
-                                "italic": false,
+                                "color": "#b56400",
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             }
                         },
@@ -29,10 +29,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -40,13 +41,13 @@
                                 },
                                 {
                                     "text": "A mysterious map pointing",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "to an ancient structure",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         },
@@ -55,7 +56,8 @@
                             "components": {
                                 "minecraft:map_color": 493607,
                                 "minecraft:custom_data": {"dungeon_map":true},
-                                "item_model": "ancient_artifacts:item/dungeon_map"
+                                "item_model": "ancient_artifacts:item/dungeon_map",
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         }
                     ]

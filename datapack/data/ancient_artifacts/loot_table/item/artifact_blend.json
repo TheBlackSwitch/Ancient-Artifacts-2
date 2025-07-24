@@ -17,15 +17,16 @@
                             "components": {
                                 "item_model": "ancient_artifacts:item/artifact_blend",
                                 "custom_data": {"artifact_blend":1},
-                                "enchantment_glint_override": true
+                                "enchantment_glint_override": true,
+                                "tooltip_style": "minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Artifact Blend",
-                                "color": "light_purple",
-                                "italic": false,
+                                "color": "#bd4b9f",
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             }
                         },
@@ -34,10 +35,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -45,18 +47,18 @@
                                 },
                                 {
                                     "text": "What once was a mysterious power,",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "is now diffused in this preciously",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "glowing substance.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }

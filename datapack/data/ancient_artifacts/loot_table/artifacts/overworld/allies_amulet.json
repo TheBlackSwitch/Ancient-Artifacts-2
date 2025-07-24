@@ -41,6 +41,7 @@
                                     "aa-version":251
                                 },
                                 "max_stack_size": 8,
+                                "tooltip_style": "minecraft:ancient_artifacts",
                                 "!max_damage": {}
                             }
                         },
@@ -63,7 +64,8 @@
                             "name": {
                                 "text": "Allies Amulet",
                                 "color": "blue",
-                                "italic": false
+                                "italic": false,
+                                "shadow_color": 0
                             }
                         },
                         {
@@ -71,52 +73,82 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": ""
                                 },
                                 {
-                                    "text": "Rarity: ",
-                                    "color": "gray",
-                                    "italic": false
+                                    "text": "\uE523Rarity: ",
+                                    "color": "#786d5b",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " Uncommon",
                                     "color": "blue",
-                                    "italic": false
+                                    "italic": false,
+                                    "shadow_color": 0
                                 },
                                 {
-                                    "text": "Controls:",
-                                    "color": "gray",
-                                    "italic": false
+                                    "text": " "
+                                },
+                                {
+                                    "text": "\uE524Origin: ",
+                                    "color": "#786d5b",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
+                                },
+                                {
+                                    "text": " Overworld",
+                                    "color": "#4f9611",
+                                    "italic": false,
+                                    "shadow_color": 0
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "\uE525Controls:",
+                                    "color": "#786d5b",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 [
                                     {
                                         "text": " \uE505: ",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "italic": false,
-                                        "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main",
+                                        "shadow_color": 0
                                     },
                                     {
                                         "text": "Activate this artifact.",
-                                        "color": "light_purple"
+                                        "color": "#bd4b9f",
+                                        "shadow_color": 0
                                     }
                                 ],
                                 [
                                     {
                                         "text": " \uE505 + Sneak: ",
-                                        "color": "dark_purple",
+                                        "color": "#762f94",
                                         "bold": false,
                                         "italic": false,
-                                        "font": "ancient_artifacts:main"
+                                        "font": "ancient_artifacts:main",
+                                        "shadow_color": 0
                                     },
                                     {
                                         "text": "Deactivate all artifacts.",
-                                        "color": "light_purple"
+                                        "color": "#bd4b9f",
+                                        "shadow_color": 0
                                     }
                                 ],
                                 [
@@ -128,8 +160,9 @@
                                     {
                                         "bold": true,
                                         "italic": false,
-                                        "color": "dark_purple",
-                                        "text": "Stacks to 8 inside a bundle!"
+                                        "color": "#762f94",
+                                        "text": "Stacks to 8 inside a bundle!",
+                                        "shadow_color": 0
                                     }
                                 ]
                             ]

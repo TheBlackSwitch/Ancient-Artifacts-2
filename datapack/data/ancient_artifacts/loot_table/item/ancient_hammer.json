@@ -19,6 +19,7 @@
                                     "ancient_hammer": true,"aa-version":251
                                 },
                                 "item_model": "ancient_artifacts:item/hammer",
+                                "tooltip_style": "minecraft:ancient_artifacts",
                                 "max_damage": 16,
                                 "damage": 0,
                                 "max_stack_size": 1,
@@ -65,19 +66,20 @@
                             "function": "minecraft:set_name",
                             "name": {
                                 "text": "Ancient Hammer",
-                                "color": "gold",
+                                "color": "#b56400",
                                 "bold": true,
-                                "italic": false
+                                "italic": false, "shadow_color": 0
                             }
                         },
                         {
                             "function": "minecraft:set_lore",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -85,33 +87,34 @@
                                 },
                                 {
                                     "text": "A magic weapon which is able to destroy",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "even the strongest froms of magic",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "",
                                     "color": "red"
                                 },
                                 {
-                                    "text": "Conrols: ",
-                                    "color": "gray",
-                                    "italic": false
+                                    "text": "\uE525Controls: ",
+                                    "color": "#5c5242",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " hold \uE505 to charge ",
-                                    "color": "dark_purple",
-                                    "italic": false,
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0,
                                     "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " \uE506 to damage ",
-                                    "color": "dark_purple",
-                                    "italic": false,
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0,
                                     "font": "ancient_artifacts:main"
                                 },
                                 {
@@ -119,19 +122,20 @@
                                     "color": "red"
                                 },
                                 {
-                                    "text": "When in air:",
-                                    "color": "gray",
-                                    "italic": false
+                                    "text": "\uE527 When in air:",
+                                    "color": "#5c5242",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
                                 },
                                 {
                                     "text": " 20 Attack Damage",
                                     "color": "dark_green",
-                                    "italic": false
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": " 0.15 Attack Speed",
                                     "color": "dark_green",
-                                    "italic": false
+                                    "italic": false, "shadow_color": 0
                                 }
                             ],
                             "mode": "replace_all"

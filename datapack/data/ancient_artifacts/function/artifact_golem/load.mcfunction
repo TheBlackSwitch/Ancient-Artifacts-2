@@ -16,3 +16,4 @@ scoreboard objectives add shockwave_distance dummy
 scoreboard objectives add shockwave_cooldown dummy
 scoreboard objectives add tp_cooldown dummy
 scoreboard objectives add tp_animation dummy
+scoreboard objectives add golemID dummy

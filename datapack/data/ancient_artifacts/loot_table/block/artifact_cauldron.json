@@ -17,15 +17,16 @@
                             "components": {
                                 "item_model": "ancient_artifacts:block/artifact_cauldron",
                                 "entity_data": {"id":"minecraft:marker","Tags":["artifact_cauldron_place"]},
-                                "custom_data": {"artifact_cauldron":true}
+                                "custom_data": {"artifact_cauldron":true},
+                                "tooltip_style":"minecraft:ancient_artifacts"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": {
                                 "text": "Artifact Cauldron",
-                                "color": "light_purple",
-                                "italic": false,
+                                "color": "#bd4b9f",
+                                "italic": false, "shadow_color": 0,
                                 "bold": true
                             }
                         },
@@ -34,10 +35,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Ancient Artifacts",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
                                 },
                                 {
                                     "text": "",
@@ -45,13 +47,13 @@
                                 },
                                 {
                                     "text": "A cauldron carefully upgraded",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 },
                                 {
                                     "text": "to reach a higher potency.",
-                                    "color": "dark_purple",
-                                    "italic": false
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
                                 }
                             ]
                         }
