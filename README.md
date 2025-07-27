@@ -182,7 +182,3 @@ An exception is made for video content, which can be monetized. However, video c
 - Kryqu - Gui Experience +
 - Septonious - solas-shader
 
-
-
-![image:](./gifs/AA-artifact_chest_open.gif)
-
