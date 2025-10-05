@@ -7,19 +7,19 @@ execute if score @s animation matches 80 run playsound block.fire.ambient block 
 execute if score @s animation matches 80 run playsound block.fire.ambient block @a ~0.5 ~0.5 ~0.5 1 1
 execute if score @s animation matches 80 run playsound block.fire.ambient block @a ~0.5 ~0.5 ~0.5 1 1
 
-execute if score @s animation matches 40 run particle minecraft:flash
+execute if score @s animation matches 40 run particle flash{"color":[1.0, 1.0, 1.0, 1.0]} ~ ~ ~ 0 0 0 0 1 force @s
 execute if score @s animation matches 40 run particle minecraft:lava ~0.5 ~1 ~0.5 0 0 0 0.1 40 force
 execute if score @s animation matches 40 run particle minecraft:firework ~0.5 ~1 ~0.5 0 0 0 0.1 100 force
 execute if score @s animation matches 40 run playsound entity.firework_rocket.blast block @a
 execute if score @s animation matches 40 run playsound entity.firework_rocket.twinkle block @a
 
-execute if score @s animation matches 30 run particle minecraft:flash
+execute if score @s animation matches 30 run particle flash{"color":[1.0, 1.0, 1.0, 1.0]} ~ ~ ~ 0 0 0 0 1 force @s
 execute if score @s animation matches 30 run particle minecraft:lava ~0.5 ~1 ~0.5 0 0 0 0.1 40 force
 execute if score @s animation matches 30 run particle minecraft:firework ~0.5 ~1 ~0.5 0 0 0 0.1 100 force
 execute if score @s animation matches 30 run playsound entity.firework_rocket.blast block @a
 execute if score @s animation matches 30 run playsound entity.firework_rocket.twinkle block @a
 
-execute if score @s animation matches 13 run particle minecraft:flash
+execute if score @s animation matches 13 run particle flash{"color":[1.0, 1.0, 1.0, 1.0]} ~ ~ ~ 0 0 0 0 1 force @s
 execute if score @s animation matches 12..15 run particle minecraft:lava ~0.5 ~1.5 ~0.5 0.3 0 0.3 0.1 10 force
 execute if score @s animation matches 13 run particle gust ~0.5 ~0.5 ~0.5 0 0 0 0.1 10 force
 execute if score @s animation matches 13 run particle minecraft:campfire_cosy_smoke ~0.5 ~1.5 ~0.5 0.2 1 0.2 0.01 50 force

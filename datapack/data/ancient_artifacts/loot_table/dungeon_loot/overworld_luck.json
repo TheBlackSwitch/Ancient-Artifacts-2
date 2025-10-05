@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "weight": 21,
+                    "weight": 22,
                     "value": "ancient_artifacts:item/artifact_upgrade",
                     "functions": [
                         {

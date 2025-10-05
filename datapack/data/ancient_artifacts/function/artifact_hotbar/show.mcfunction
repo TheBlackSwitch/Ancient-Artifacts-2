@@ -46,5 +46,15 @@ execute if score @s artifact_slot_count matches 2 run summon marker ~ ~ ~ {Custo
 execute if score @s artifact_slot_count matches 3 run summon marker ~ ~ ~ {CustomName:{"text":" \uF802","font":"ancient_artifacts:main"},Tags:[artifact_hotbar,order_6]}
 
 ##combine parts
-title @s actionbar [{"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_1,distance=..1]","shadow_color":0},{"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_2,distance=..1]"}   ,{"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_3,distance=..1]"}    ,{"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_4,distance=..1]"}    ,{"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_5,distance=..1]"} ,{"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_6,distance=..1]"}]
+data modify storage smithed.actionbar:input message.json set value [ \
+    {"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_1,distance=..1]","shadow_color":0}, \
+    {"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_2,distance=..1]"}, \
+    {"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_3,distance=..1]"}, \
+    {"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_4,distance=..1]"}, \
+    {"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_5,distance=..1]"}, \
+    {"type":"selector","selector":"@e[type=marker,tag=artifact_hotbar,tag=order_6,distance=..1]"} \
+]
+execute if score @s always_show_hotbar matches 1 run data modify storage smithed.actionbar:input message.priority set value "persistent"
+execute if score @s always_show_hotbar matches 0 run data modify storage smithed.actionbar:input message.priority set value "conditional"
+function #smithed.actionbar:message
 kill @e[type=marker,tag=artifact_hotbar]

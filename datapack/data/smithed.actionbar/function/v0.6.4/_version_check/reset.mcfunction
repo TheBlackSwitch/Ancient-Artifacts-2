@@ -1,0 +1,1 @@
+execute if score #smithed.actionbar.major load.status matches 0 if score #smithed.actionbar.minor load.status matches 6 if score #smithed.actionbar.patch load.status matches 4 run function smithed.actionbar:v0.6.4/reset

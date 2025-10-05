@@ -1,7 +1,8 @@
 ##opening
 #holding no chorus compound
 execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"end"}}}}] run playsound minecraft:block.amethyst_block.hit block @a ~ ~ ~ 1 2
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"end"}}}}] run title @s actionbar {"text": "It seems like a chorus compound is needed...","color": "light_purple"}
+execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"end"}}}}] run data modify storage smithed.actionbar:input message set value {json:{"text": "It seems like a chorus compound is needed...","color": "light_purple"},priority:"notification"}
+execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"end"}}}}] run function #smithed.actionbar:message
 execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"end"}}}}] positioned ~ ~-0.5 ~ run data remove entity @e[type=interaction,tag=artifact_chest,tag=end,limit=1,sort=nearest] interaction
 #holding chorus compound
 execute if data entity @s[tag=!opened] interaction on target if entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"end"}}}}] run function ancient_artifacts:advancements/triggers/open_end_chest

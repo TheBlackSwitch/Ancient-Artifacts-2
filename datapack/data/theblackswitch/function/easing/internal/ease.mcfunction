@@ -12,18 +12,23 @@
 ##----------
 # Constants
 ##----------
+scoreboard players set .10 temp 10
 scoreboard players set .1000 temp 1000
+scoreboard players set .10000 temp 10000
 scoreboard players set .1000000 temp 1000000
+scoreboard players set .5000 temp 5000
+scoreboard players set .333 temp 333
 scoreboard players set .-1 temp -1
 scoreboard players set .2 temp 2
 scoreboard players set .3 temp 3
+scoreboard players set .10 temp 10
 
 
 # calculate the time progress (t) (which is the x coord of the easing function) 
 # t=0 means the animation just started and t=1 means the animation is done
 scoreboard players operation .t temp = @s tbs.easing.duration
 scoreboard players operation .t temp -= @s tbs.easing.current_tick
-scoreboard players operation .t temp *= .1000 temp
+scoreboard players operation .t temp *= .10000 temp
 scoreboard players operation .t temp /= @s tbs.easing.duration
 
 
@@ -32,6 +37,9 @@ execute if score @s tbs.easing.ease matches 1 store result score .x temp run fun
 execute if score @s tbs.easing.ease matches 2 store result score .x temp run function theblackswitch:easing/internal/functions/ease_out
 execute if score @s tbs.easing.ease matches 3 store result score .x temp run function theblackswitch:easing/internal/functions/ease_in_out
 execute if score @s tbs.easing.ease matches 4 store result score .x temp run function theblackswitch:easing/internal/functions/linear
+
+# We don't need so high precision so divide by 10 (we would also overflow otherwise)
+scoreboard players operation .x temp /= .10 temp
 
 ##Calculate the current position and rotation
 scoreboard players operation .curr_x temp = @s tbs.easing.x
@@ -53,6 +61,8 @@ scoreboard players operation .curr_yaw temp /= .1000 temp
 scoreboard players operation .curr_pitch temp = @s tbs.easing.pitch
 scoreboard players operation .curr_pitch temp *= .x temp
 scoreboard players operation .curr_pitch temp /= .1000 temp
+
+
 
 ##Calculate the relative displacement
 scoreboard players operation .displ_x temp = .curr_x temp
@@ -80,6 +90,10 @@ scoreboard players operation @s tbs.easing.prev_pitch = .curr_pitch temp
 ## Teleport
 data modify entity @s teleport_duration set value 5
 function theblackswitch:easing/internal/teleport with storage theblackswitch:temp easing.displacement
+
+## When constantly toggeling the onGround value, the rotation packet gets sent with full acuracy https://discord.com/channels/154777837382008833/157097006500806656/1402253905408163842
+execute store success entity @s OnGround byte 1 store success score @s tbs.easing.on_ground_toggle unless score @s tbs.easing.on_ground_toggle matches 1
+
 
 
 ## Time handling

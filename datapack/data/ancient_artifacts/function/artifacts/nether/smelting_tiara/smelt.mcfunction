@@ -1,10 +1,10 @@
 ##Check If TileEntity
-execute store success score .1 temp run data get block ~ ~ ~
+execute store success score .is_tile_entity temp run data get block ~ ~ ~
 ##Smelt Item (only if no TileEntity)
 data modify storage ancient_artifacts:item smelt set from entity @s Item.id
-execute unless score .1 temp matches 1 align xyz run item modify entity @s container.0 {"function":"furnace_smelt"}
+execute if score .is_tile_entity temp matches 0 align xyz run item modify entity @s container.0 {"function":"furnace_smelt"}
 
-execute store success score .no_smelt temp run data modify storage ancient_artifacts:item smelt set from entity @s Item.id
-execute if score .no_smelt temp matches 1 run scoreboard players add @s blocks_smelted 1
+execute store success score .is_smelted temp run data modify storage ancient_artifacts:item smelt set from entity @s Item.id
+execute if score .is_smelted temp matches 1 run scoreboard players add @s blocks_smelted 1
 tag @s add smelted
 

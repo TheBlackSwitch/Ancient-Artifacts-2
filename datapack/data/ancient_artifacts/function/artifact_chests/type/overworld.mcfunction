@@ -1,11 +1,13 @@
 ##opening
 #holding no amethyst
 execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard"}}] run playsound minecraft:block.amethyst_block.hit block @a ~ ~ ~ 1 2
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard"}}] run title @s actionbar {"text": "It seems like an amethyst shard is needed...","color": "light_purple"}
+execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard"}}] run data modify storage smithed.actionbar:input message set value {json:{"text": "It seems like an amethyst shard is needed...","color": "light_purple"},priority:"notification"}
+execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard"}}] run function #smithed.actionbar:message
 execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard"}}] positioned ~ ~-0.5 ~ run data remove entity @e[type=interaction,tag=artifact_chest,tag=overworld,limit=1,sort=nearest] interaction
 #holding amethyst but it's a compound
 execute if data entity @s[tag=!opened] interaction on target if data entity @s SelectedItem.components run playsound minecraft:block.amethyst_block.hit block @a ~ ~ ~ 1 2
-execute if data entity @s[tag=!opened] interaction on target if data entity @s SelectedItem.components run title @s actionbar {"text": "It seems like an amethyst shard is needed...","color": "light_purple"}
+execute if data entity @s[tag=!opened] interaction on target if data entity @s SelectedItem.components run data modify storage smithed.actionbar:input message set value {json:{"text": "It seems like an amethyst shard is needed...","color": "light_purple"},priority:"notification"}
+execute if data entity @s[tag=!opened] interaction on target if data entity @s SelectedItem.components run function #smithed.actionbar:message
 execute if data entity @s[tag=!opened] interaction on target if data entity @s SelectedItem.components positioned ~ ~-0.5 ~ run data remove entity @e[type=interaction,tag=artifact_chest,tag=overworld,limit=1,sort=nearest] interaction
 
 #holding amethyst

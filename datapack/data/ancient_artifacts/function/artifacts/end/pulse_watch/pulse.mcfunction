@@ -1,4 +1,4 @@
-particle flash ~ ~ ~
+particle flash{"color":[1.0, 1.0, 1.0, 1.0]} ~ ~ ~ 0 0 0 0 1 force @s
 execute rotated 0 0 run function ancient_artifacts:ancient_altar/lightning_particle {length:50}
 execute rotated 90 0 run function ancient_artifacts:ancient_altar/lightning_particle {length:50}
 execute rotated 180 0 run function ancient_artifacts:ancient_altar/lightning_particle {length:50}

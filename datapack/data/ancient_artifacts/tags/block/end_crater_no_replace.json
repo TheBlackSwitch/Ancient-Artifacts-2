@@ -1,0 +1,21 @@
+{
+    "values": [
+        "air",
+        "void_air",
+        "chorus_plant",
+        "chorus_flower",
+        "end_stone_bricks",
+        "end_stone_brick_slab",
+        "end_stone_brick_stairs",
+        "end_gateway",
+        "end_portal",
+        "obsidian",
+        "bedrock",
+        "purpur_block",
+        "purpur_pillar",
+        "purpur_slab",
+        "purpur_stairs",
+        "barrier",
+        "end_rod"
+    ]
+}

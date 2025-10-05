@@ -38,7 +38,8 @@ execute if score @s animation matches 31 run scoreboard players set @s animation
 execute store result storage ancient_artifacts:fluid frame int 1 run scoreboard players get @s animation
 
 #Finaly edit the text and color using macros for the custom font char and color
-function ancient_artifacts:artifact_cauldron/fluid/edit_text with storage ancient_artifacts:fluid
+execute if score @s animation matches ..9 run function ancient_artifacts:artifact_cauldron/fluid/edit_text/single_digit with storage ancient_artifacts:fluid
+execute if score @s animation matches 10.. run function ancient_artifacts:artifact_cauldron/fluid/edit_text/two_digits with storage ancient_artifacts:fluid
 
 
 

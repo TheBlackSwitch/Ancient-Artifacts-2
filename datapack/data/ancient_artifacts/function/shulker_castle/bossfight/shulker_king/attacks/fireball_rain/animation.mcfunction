@@ -6,7 +6,7 @@ execute if score @s animation matches 60 run playsound block.respawn_anchor.depl
 execute if score @s animation matches 60 run playsound minecraft:entity.dragon_fireball.explode hostile @a[distance=..64] ~ ~ ~ 5 0
 execute if score @s animation matches 60 run playsound minecraft:entity.wither.shoot hostile @a[distance=..64] ~ ~ ~ 2.5 1
 execute if score @s animation matches 60 run playsound block.suspicious_gravel.break hostile @a[distance=..64] ~ ~ ~ 5 0
-execute if score @s animation matches 60 run particle flash ~ ~ ~ 2 2 2 0 10
+execute if score @s animation matches 60 run particle flash{"color":[1.0, 1.0, 1.0, 1.0]} ~ ~ ~ 0 0 0 0 1 force @s
 
 execute if score @s animation matches 60 as @a[distance=..64] at @s run playsound ancient_artifacts:entity.artifact_golem.lazer.loop hostile @s ~ ~ ~ 1 1.36
 execute if score @s animation matches 60 as @a[distance=..64] at @s run playsound ancient_artifacts:entity.artifact_golem.lazer.start hostile @s ~ ~ ~ 1 1.36

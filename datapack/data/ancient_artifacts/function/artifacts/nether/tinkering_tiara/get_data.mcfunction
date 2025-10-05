@@ -485,6 +485,7 @@ execute if score .tinkering_cycle slow_tick matches 31.. if score @s artifact ma
 execute if data storage ancient_artifacts:block {text:[[{"text":" |"}]]} run scoreboard players set .no_blockstates temp 0
 execute unless data storage ancient_artifacts:block {text:[[{"text":" |"}]]} run scoreboard players set .no_blockstates temp 1
 
-execute if data storage ancient_artifacts:block {text:[[{"text":" |"}]]} run title @s actionbar {"nbt":"text","storage": "ancient_artifacts:block","interpret": true}
-execute if score .tinkering_cycle slow_tick matches ..30 unless data storage ancient_artifacts:block {text:[[{"text":" |"}]]} run title @s actionbar {"text": "this block has no blockstates","color":"gray"}
-execute if score .tinkering_cycle slow_tick matches 31.. unless data storage ancient_artifacts:block {text:[[{"text":" |"}]]} run title @s actionbar {"text": "this block has no nbt","color":"gray"}
+execute if data storage ancient_artifacts:block {text:[[{"text":" |"}]]} run data modify storage smithed.actionbar:input message set value {json:{"nbt":"text","storage": "ancient_artifacts:block","interpret": true},priority:"conditional"}
+execute if score .tinkering_cycle slow_tick matches ..30 unless data storage ancient_artifacts:block {text:[[{"text":" |"}]]} run data modify storage smithed.actionbar:input message set value {json:{"text": "this block has no blockstates","color":"gray"},priority:"conditional"}
+execute if score .tinkering_cycle slow_tick matches 31.. unless data storage ancient_artifacts:block {text:[[{"text":" |"}]]} run data modify storage smithed.actionbar:input message set value {json:{"text": "this block has no nbt","color":"gray"},priority:"conditional"}
+function #smithed.actionbar:message

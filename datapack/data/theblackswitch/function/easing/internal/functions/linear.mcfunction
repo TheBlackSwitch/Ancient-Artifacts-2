@@ -3,5 +3,6 @@
 #--------------------------------
 
 ## x = t
-return run scoreboard players get .t temp
+
+return run scoreboard players operation .x temp = .t temp
 

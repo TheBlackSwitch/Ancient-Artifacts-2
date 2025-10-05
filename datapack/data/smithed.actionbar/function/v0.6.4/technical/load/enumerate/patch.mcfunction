@@ -1,0 +1,1 @@
+execute if score #smithed.actionbar.patch load.status matches ..4 unless score #smithed.actionbar.patch load.status matches 4 run function smithed.actionbar:v0.6.4/technical/load/enumerate/set_version

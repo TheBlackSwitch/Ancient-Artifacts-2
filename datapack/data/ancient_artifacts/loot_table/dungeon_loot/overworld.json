@@ -6,7 +6,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "ancient_artifacts:item/artifact_upgrade",
-                    "weight": 14,
+                    "weight": 15,
                     "functions": [
                         {
                             "function": "minecraft:set_count",

@@ -12,3 +12,5 @@ scoreboard objectives add tbs.easing.prev_y dummy
 scoreboard objectives add tbs.easing.prev_z dummy
 scoreboard objectives add tbs.easing.prev_yaw dummy
 scoreboard objectives add tbs.easing.prev_pitch dummy
+
+scoreboard objectives add tbs.easing.on_ground_toggle dummy

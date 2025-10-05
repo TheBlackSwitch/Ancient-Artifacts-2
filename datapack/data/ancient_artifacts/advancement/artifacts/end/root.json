@@ -11,16 +11,16 @@
             "color": "#9c589a"
         },
         "description": {
-            "text": "Rewardful challenges for all end artifacts.",
+            "text": "Rewardful challenges for many end artifacts.",
             "color": "gold",
             "bold": false,
             "italic": false
         },
-        "background": "minecraft:block/purpur_block",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false
     },
+    "parent": "ancient_artifacts:artifacts/root",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:impossible"

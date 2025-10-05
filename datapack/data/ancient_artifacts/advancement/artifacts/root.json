@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nether_star",
+            "components": {
+                "item_model": "ancient_artifacts:item/ethernal_expansion_star"
+            }
+        },
+        "title": {
+            "text": "Artifact Challenges",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Rewardful challenges for many artifacts.",
+            "color": "gold",
+            "bold": false,
+            "italic": false
+        },
+        "background": "minecraft:gui/advancement/challenges_root",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

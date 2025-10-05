@@ -1,7 +1,16 @@
 {
     "pack": {
-        "pack_format": 	63,
-        "supported_formats":[63, 64],
-        "description": ["",{"text":"Unlock over 50+ artifacts ","color": "light_purple"},{"text":"with unique abilities ","color":"gold"},{"text":"and equip, craft, recycle and trade them!","color":"aqua"},{"text":"(This resourcepack only contains the assets for Ancient Artifacts. It does nothing on it's own!)","color":"red"}]
+        "min_format": 64,
+        "max_format": 69,
+        "pack_format": 64,
+        "supported_formats": [64, 69],
+        "description": ["",{"text":"Unlock over 50+ artifacts ","color": "light_purple"},{"text":"with unique abilities ","color":"gold"},{"text":"and equip, craft, convert and trade them!","color":"aqua"}]
+    },
+    "filter": {
+        "block": [
+            {
+                "path": "loot_table/entities/player.json"
+            }
+        ]
     }
 }

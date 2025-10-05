@@ -1,6 +1,6 @@
 #--------------------REQUIREMENTS-------------------------
 # 1. Run as target entity to set the animation
-# 2. macro duration      = the time duration of the ease (int)
+# 2. duration            = the time duration of the ease (int)
 # 3. x, y, z, yaw, pitch = the relative position and rotation to ease to (int)
 # 4. ease                = the ease function to use (one of: ["ease_in","ease_out","ease_in_out","linear"])
 #---------------------------------------------------------
@@ -11,6 +11,8 @@
 
 $data modify storage theblackswitch:temp easing set value {duration:$(duration),x:$(x),y:$(y),z:$(z),yaw:$(yaw),pitch:$(pitch),ease:"$(ease)"}
 tag @s add tbs.easing
+
+scoreboard players add .tbs.easing_entity_count tbs.server_data 1
 
 scoreboard players set @s tbs.easing.prev_x 0
 scoreboard players set @s tbs.easing.prev_y 0
