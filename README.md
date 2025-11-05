@@ -107,11 +107,11 @@ In order to turn those items back into some loot, you have to use 3 blend. Durin
 ![A gif showing the recycling process](https://github.com/user-attachments/assets/a2c491a5-11e3-4814-a705-044846d58abe)
 
 
-![Configs:](https://theblackswitch.com/assets/images/ancient_artifacts/header_configs.png)
+![Configs:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_configs.png)
 
 This pack also adds some configs which can be opened using `/trigger ancient_artifacts_config`. There are currently 2 settings but there will be more soon!
 
-![Frequently Asked Questions:](https://theblackswitch.com/assets/images/ancient_artifacts/header_frequently_asked_questions.png)
+![Frequently Asked Questions:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_frequently_asked_questions.png)
 
 **Q: Can I use this pack in my modpack?**  
 <br/>A: Yes ofcorse! Can you please credit me and link this page, it's really difficult to share datapacks :)
@@ -122,7 +122,7 @@ This pack also adds some configs which can be opened using `/trigger ancient_art
 **Q: I have a suggestion / bug what do I do?**  
 <br/>A: Ooh nice thank you for your collab to the project, you can report bugs and suggestions on my github!
 
-![Installation:](https://theblackswitch.com/assets/images/ancient_artifacts/header_installation.png)
+![Installation:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_installation.png)
 
 ### You basically have 2 options:
 
@@ -143,7 +143,7 @@ There is no need of any software, it runs on just vanilla (**NOT PAPER!!**) and 
 
 **If you're the server owner, you can put the resourcepack on the server and enable it as required, this will automatically install the resourcepack on your player's clients**
 
-![License](https://theblackswitch.com/assets/images/ancient_artifacts/header_license.png)
+![License](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_license.png)
 
 * * *
 
@@ -154,7 +154,7 @@ An exception is made for video content, which can be monetized. However, video c
 * * *
 <br>
 
-![Credits:](https://theblackswitch.com/assets/images/ancient_artifacts/header_credits.png)
+![Credits:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_credits.png)
 
 # The datapack
 
