@@ -1,11 +1,11 @@
 ![The Logo](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_image.png)  
-![My other projects:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_my_other_projects.png)
+![My other projects:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header/other_projects.png)
 
 ## Also Check Out my other projects at [theblackswitch.com](https://theblackswitch.com)!
 
 &nbsp;
 
-![Pack Explanation:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_pack_explanation.png)
+![Pack Explanation:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header/description.png)
 
 **Ancient Artifacts** is a minecraft datapack centered around, You've guessed it, artifacts! There are over 50+ artifacts each with their own levels and abilities! Those artifacts can be traded, crafted, recycled and even upgraded!
 
@@ -30,14 +30,14 @@ Artifacts are special items which grant you special effects and abilities. Artif
 
 Each artifact also comes with it's own challenge. These are advancements you can try to achieve to earn some more artifact loot!
 
-![A gif showing examples of some challenges](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/AA-challenges.gif&n=-1)
+![A gif showing examples of some challenges](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/AA-challenges.webp&n=-1)
 
 ## Obtaining
 
 To obtain artifacts you'll have to go and explore the world in the hopes of finding an overgrown structure. Every dimension has it's own set of structures to explore. There are over 40+ overgrown structures!
 
 **An overgrown jungle temple**:  
-![An image showing the overgrown jungle temple](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/jungle_temple.png&n=)
+![An image showing the overgrown jungle temple](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/jungle_temple.webp&n=)
 
 Once you've defeated all the mobs, you'll be able to locate an `artifact chest`. This special chest can only be opened using an `amethyst shard`. Once open, your loot will pop right out! If you're lucky you'll recieve an artifact!
 
@@ -56,9 +56,9 @@ There's also a `heavy artifact upgrade` <img src="https://wsrv.nl/?url=https://t
 The pack also adds 2 completely unique bossfights. They are carefully designed to give you the best experience possible!  
 They both have custom music and an awesome bossbar!
 
-![The sculk heart is a chamber found hidden undergournd in the deep dark. The heart is the controller of all sculk and can summon helpers to keep you away from it's treasures. Featuring custom music and an awesome bossbar.](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/sculk_heart.png)
+![The sculk heart is a chamber found hidden undergournd in the deep dark. The heart is the controller of all sculk and can summon helpers to keep you away from it's treasures. Featuring custom music and an awesome bossbar.](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/sculk_heart.webp)
 
-![The Shulker King is a castle like structure found floating in the end void.](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/shulker_king.png)
+![The Shulker King is a castle like structure found floating in the end void.](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/shulker_king.webp)
 
 
 # 🧙Artifact Smith
@@ -68,19 +68,19 @@ emeralds and also buy some useful goodies like `artifact upgrades` <img src="htt
 
 As a final trade the smith has a `dungeon map` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/dungeon_map.png" width="20" class="jop-noMdConv"> which leads you to the very end game and difficult `artifact dungeon`.
 
-![An image of the artifact smith](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_smith.png)
+![An image of the artifact smith](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_smith.webp)
 
 # 🛠️ Artifact Cauldron
 
 The `artifact cauldron` is a special block obtained by using an `artifact upgrade` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_upgrade.png" width="20" class="jop-noMdConv"> on a normal cauldron. It can be used as a job block or used to craft 2 recipes. If you ever forget how the recipes work, no problem there is a gaint tooltip floating in front to tell you exactly what to do!
 
-![The artifact cauldron and it's tooltip](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_cauldron.png)
+![The artifact cauldron and it's tooltip](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_cauldron.webp)
 
 ## Artifact crafting
 
 Artifact crafting is one of the recipes the artifact cauldron can craft. It's a more mid to late game way of obtaining artifacts. Throughout your explorations you'll find parchments these parchments contain tips about what items are used to craft certain artifacts. These recipes are randomly generated for every world.
 
-![3 Examples of some parchments and what they mean](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/parchment.png)
+![3 Examples of some parchments and what they mean](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/parchment.webp)
 
 With all that knowledge you can combine an `artifact template` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv"> with some `compounds` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/compounds.gif&n=-1" width="20" class="jop-noMdConv"> and the right `relic` in the `artifact cauldron`. And there you go, If you've used the right ingredients, you should have a new artifact now!
 
@@ -94,7 +94,7 @@ Artifact recycling is another one of the recipes the artifact cauldron can craft
 
 To start, you first have to go to the `artifact dungeon`, a very difficult rogue like dungeon, in order to retrieve the `artifact hammer`.
 
-![An image of the artifact hammer](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/ancient_hammer.png&n=)
+![An image of the artifact hammer](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/ancient_hammer.webp&n=)
 
 Using your `artifact hammer` you can destroy your artifacts which gives you `artifact blend` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/artifact_blend.png" width="20" class="jop-noMdConv">, maby an `artifact template` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/template.gif&n=-1" width="20" class="jop-noMdConv">, maby the `relic` the artifact is made of or sometimes some `artifact essence` <img src="https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/essence.gif&n=-1" width="20" class="jop-noMdConv">.
 
@@ -107,11 +107,11 @@ In order to turn those items back into some loot, you have to use 3 blend. Durin
 ![A gif showing the recycling process](https://github.com/user-attachments/assets/a2c491a5-11e3-4814-a705-044846d58abe)
 
 
-![Configs:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_configs.png)
+![Configs:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header/configs.png)
 
 This pack also adds some configs which can be opened using `/trigger ancient_artifacts_config`. There are currently 2 settings but there will be more soon!
 
-![Frequently Asked Questions:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_frequently_asked_questions.png)
+![Frequently Asked Questions:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header/faq.png)
 
 **Q: Can I use this pack in my modpack?**  
 <br/>A: Yes ofcorse! Can you please credit me and link this page, it's really difficult to share datapacks :)
@@ -122,7 +122,7 @@ This pack also adds some configs which can be opened using `/trigger ancient_art
 **Q: I have a suggestion / bug what do I do?**  
 <br/>A: Ooh nice thank you for your collab to the project, you can report bugs and suggestions on my github!
 
-![Installation:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_installation.png)
+![Installation:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header/installation.png)
 
 ### You basically have 2 options:
 
@@ -143,18 +143,20 @@ There is no need of any software, it runs on just vanilla (**NOT PAPER!!**) and 
 
 **If you're the server owner, you can put the resourcepack on the server and enable it as required, this will automatically install the resourcepack on your player's clients**
 
-![License](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_license.png)
+![License](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header/license.png)
 
 * * *
 
-Ancient Artifacts © 2025 by theblackswitch is licensed under [MIT License](https://opensource.org/license/mit)
+Ancient Artifacts © 2025 by theblackswitch is licensed under [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
 
 An exception is made for video content, which can be monetized. However, video creators must give appropriate credit by leaving a link to this page in the video.
+
+**Additional condition**: The content of this work, as a whole or in parts, may not be used for training, fine-tuning, or enhancement of artificial intelligence systems, machine learning models or similar technologies. This includes for commercial, non-commercial, educational, research, or personal projects.
 
 * * *
 <br>
 
-![Credits:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_credits.png)
+![Credits:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header/credits.png)
 
 # The datapack
 
