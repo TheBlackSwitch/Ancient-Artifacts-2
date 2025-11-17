@@ -83,11 +83,11 @@ function ancient_artifacts:convert/tick
 #execute if score .10 slow_tick matches 3 as @a[scores={lootbox=1..}] run function ancient_artifacts:lootbox/trigger
 #execute if score .10 slow_tick matches 3 as @a[scores={join=1..}] run function ancient_artifacts:lootbox/message
 
+## Creative book advancement
+advancement grant @a[gamemode=creative] only ancient_artifacts:main/give_creative_book
+
 ## Get Keep inventory gamerule
 execute store result score .keep_inventory server run gamerule keepInventory
-
-## Ask for suggestion message
-execute as @a at @s run function ancient_artifacts:auto_message
 
 ##Don't do anything if packs not compatable
 execute if data storage theblackswitch:versions {compatable:false} run return fail

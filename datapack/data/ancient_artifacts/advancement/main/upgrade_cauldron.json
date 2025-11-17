@@ -34,6 +34,6 @@
         }
     },
     "rewards": {
-        "function": "ancient_artifacts:advancements/triggers/advance"
+        "function": "ancient_artifacts:advancements/triggers/obtain_cauldron"
     }
 }

@@ -1,3 +1,5 @@
+execute on attacker unless entity @s[gamemode=creative] align xyz if entity @e[type=item_display,dy=0,tag=ancient_stone,tag=item] run return run data remove entity @s attack
+
 execute on attacker unless entity @s[gamemode=creative] as @e[type=interaction,tag=ancient_stone,limit=1,sort=nearest] run scoreboard players add @s chest_break_progress 1
 execute on attacker if entity @s[gamemode=creative] as @e[type=interaction,tag=ancient_stone,limit=1,sort=nearest] run scoreboard players set @s chest_break_progress 4
 scoreboard players set @s repair_delay 10

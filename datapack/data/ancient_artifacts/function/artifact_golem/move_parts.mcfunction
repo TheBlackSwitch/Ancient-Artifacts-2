@@ -1,6 +1,6 @@
 scoreboard players operation .search golemID = @s golemID
 
-tp @s @e[type=minecraft:zombified_piglin,tag=artifact_golem,predicate=ancient_artifacts:match_golem_id,limit=1,distance=..20]
+tp @s @e[type=minecraft:zombified_piglin,tag=artifact_golem,predicate=ancient_artifacts:match_golem_id,limit=1,distance=..150]
 
 execute at @s[tag=body] rotated as @e[type=minecraft:zombified_piglin,tag=artifact_golem,predicate=ancient_artifacts:match_golem_id,limit=1,distance=..20] rotated ~ 0 run tp @s ^ ^1.35 ^ ~ ~
 execute at @s[tag=head] rotated as @e[type=minecraft:zombified_piglin,tag=artifact_golem,predicate=ancient_artifacts:match_golem_id,limit=1,distance=..20] rotated ~ 0 run tp @s ^ ^2.35 ^ ~ ~

@@ -1,16 +1,26 @@
 scoreboard players set @s checked 1
+
+# Select a random room
 execute store result score @s random run random value 1..17
+
+# Force to generate a 16x16 room when a hammer hasn't generated yet
+execute if entity @e[tag=dungeon_center,distance=40..200] unless score @n[tag=dungeon_center] has_hammer matches 1.. store result score @s random run random value 1..6
+
+# Check the space requirements of a 16x16 dungeon room and elese, generate a small 8x8 one
 execute at @s positioned ^ ^ ^5 if entity @e[tag=dungeon_marker,distance=..2] store result score @s random run random value 7..17
 execute at @s positioned ^ ^ ^13 if entity @e[tag=dungeon_marker,distance=..2] store result score @s random run random value 7..17
 execute at @s positioned ^8 ^ ^5 if entity @e[tag=dungeon_marker,distance=..2] store result score @s random run random value 7..17
 execute at @s positioned ^8 ^ ^13 if entity @e[tag=dungeon_marker,distance=..2] store result score @s random run random value 7..17
 
-execute if score @s random matches 1..6 if entity @e[tag=dungeon_center,distance=51..] unless score @n[tag=dungeon_center] has_hammer matches 1.. run scoreboard players set @s random 6
-execute if score @s random matches 1..6 if entity @e[tag=dungeon_center,distance=51..] unless score @n[tag=dungeon_center] has_hammer matches 1.. run scoreboard players set @n[tag=dungeon_center] has_hammer 1
+# Generate the hammer room if the dungeon hasn't generated atleast one hammer yey
+execute if score @s random matches 1..6 if entity @e[tag=dungeon_center,distance=40..200] unless score @n[tag=dungeon_center] has_hammer matches 1.. run scoreboard players set @s random 6
+execute if score @s random matches 1..6 if entity @e[tag=dungeon_center,distance=40..200] unless score @n[tag=dungeon_center] has_hammer matches 1.. run scoreboard players set @n[tag=dungeon_center] has_hammer 1
 
+# Clear water out of the dungeon
 execute if score @s random matches 1..6 run fill ^-1 ^-1 ^-1 ^17 ^8 ^17 air replace water
 execute if score @s random matches 7..17 run fill ~ ~ ~ ^7 ^7 ^7 air replace water
 
+# 16x16 large rooms
 $execute if score @s random matches 1 run place template dungeon:room2x2a ~ ~ ~ $(rot)
 $execute if score @s random matches 2 run place template dungeon:room2x2b ~ ~ ~ $(rot)
 $execute if score @s random matches 3 run place template dungeon:room2x2c ~ ~ ~ $(rot)
@@ -18,6 +28,7 @@ $execute if score @s random matches 4 run place template dungeon:room2x2d ~ ~ ~ 
 $execute if score @s random matches 5 run place template dungeon:room2x2e ~ ~ ~ $(rot)
 $execute if score @s random matches 6 run place template dungeon:room2x2f ~ ~ ~ $(rot)
 
+# 8x8 large rooms
 $execute if score @s random matches 7 run place template dungeon:room1x1a ~ ~ ~ $(rot)
 $execute if score @s random matches 8 run place template dungeon:room1x1b ~ ~ ~ $(rot)
 $execute if score @s random matches 9 run place template dungeon:room1x1c ~ ~ ~ $(rot)

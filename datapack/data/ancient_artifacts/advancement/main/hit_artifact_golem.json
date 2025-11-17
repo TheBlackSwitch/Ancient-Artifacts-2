@@ -8,7 +8,7 @@
             "color": "light_purple"
         },
         "description": {
-            "text": "Try to damage the artifact golem but realize that it's invinsible...",
+            "text": "Try to damage the artifact golem but realize that it's invincible...",
             "color": "gold"
         },
         "frame": "task",
