@@ -16,6 +16,7 @@ function theblackswitch:easing/internal/load
 ##scoreboards
 scoreboard objectives add temp dummy
 scoreboard objectives add tbs.server_data dummy
+scoreboard objectives add math dummy
 
 team add no_collide
 team modify no_collide collisionRule never

@@ -21,6 +21,7 @@ conflict with my other packs since it would be installed multiple times.
 - A tag you can add to your custom data of an item to kill it when dropped
 - A lightweight easing api used to ease between 2 positions easily. Useful for cutscenes!
 - A random predicate to run stuff with a random chance
+- A newtonian approximation algorithm for a square root
 
 # 📜License
 theblackswitch datapack-common-code © 2025 by theblackswitch is licensed under Creative Commons Attribution No Derivatives 4.0 International

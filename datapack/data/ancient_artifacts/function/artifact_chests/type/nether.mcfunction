@@ -1,12 +1,12 @@
 ##opening
 #holding no quartz compound
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"nether"}}}}] run playsound minecraft:block.amethyst_block.hit block @a ~ ~ ~ 1 2
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"nether"}}}}] run data modify storage smithed.actionbar:input message set value {json:{"text": "It seems like a quartz compound is needed...","color": "light_purple"},priority:"notification"}
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"nether"}}}}] run function #smithed.actionbar:message
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"nether"}}}}] positioned ~ ~-0.5 ~ run data remove entity @e[type=interaction,tag=artifact_chest,tag=nether,limit=1,sort=nearest] interaction
+execute if data entity @s[tag=!opened] interaction on target unless items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"nether"}] run playsound minecraft:block.amethyst_block.hit block @a ~ ~ ~ 1 2
+execute if data entity @s[tag=!opened] interaction on target unless items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"nether"}] run data modify storage smithed.actionbar:input message set value {json:{"text": "It seems like a quartz compound is needed...","color": "light_purple"},priority:"notification"}
+execute if data entity @s[tag=!opened] interaction on target unless items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"nether"}] run function #smithed.actionbar:message
+execute if data entity @s[tag=!opened] interaction on target unless items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"nether"}] positioned ~ ~-0.5 ~ run data remove entity @n[type=interaction,tag=artifact_chest,tag=nether] interaction
 #holding quartz compound
-execute if data entity @s[tag=!opened] interaction on target if entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"nether"}}}}] run function ancient_artifacts:advancements/triggers/open_nether_chest
-execute if data entity @s[tag=!opened] interaction on target if entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"nether"}}}}] as @e[type=interaction,limit=1,sort=nearest,tag=!opened] run scoreboard players set @s animation 30
+execute if data entity @s[tag=!opened] interaction on target if items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"nether"}] run function ancient_artifacts:advancements/triggers/open_nether_chest
+execute if data entity @s[tag=!opened] interaction on target if items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"nether"}] run scoreboard players set @n[type=interaction,tag=!opened] animation 30
 
 #animation
 execute if score @s animation matches 30 run tag @s add opened
@@ -17,7 +17,7 @@ execute if score @s animation matches 30 run particle minecraft:trial_spawner_de
 execute if score @s animation matches 30 run playsound entity.ender_eye.death block @a ~ ~ ~ 1 1.6
 execute if score @s animation matches 30 run playsound minecraft:block.trial_spawner.spawn_item_begin block @a ~ ~ ~ 1 1
 
-execute if score @s animation matches 30 on target if predicate ancient_artifacts:survival run clear @s amethyst_shard[minecraft:custom_data={compound:1b,type:"nether"}] 1
+execute if score @s animation matches 30 on target if predicate ancient_artifacts:survival run clear @s *[minecraft:custom_data={compound:1b,type:"nether"}] 1
 
 execute if score @s animation matches 30 run item modify entity @e[type=item_display,tag=artifact_chest,sort=nearest,limit=1] container.0 {"function":"set_custom_model_data",strings:{mode:"replace_all",values:["active"]}}
 execute if score @s animation matches 14 run playsound minecraft:block.ender_chest.open block @a ~ ~ ~ 1 0.8

@@ -33,7 +33,7 @@
                 "bold": false
             },
             {
-               "text": "Nether\n",
+                "text": "Nether\n",
                 "color": "dark_red",
                 "bold": true
             },
@@ -42,7 +42,7 @@
                 "color": "dark_gray"
             },
             {
-                "text":"Allows you to perform a dash when sneaking direcly after sprinting",
+                "text":"Allows you to perform a dash when sneaking while sprinting and holding a weapon",
                 "color":"gold"
             }
         ]

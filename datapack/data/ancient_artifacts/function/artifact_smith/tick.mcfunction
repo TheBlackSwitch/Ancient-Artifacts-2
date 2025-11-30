@@ -11,7 +11,7 @@ execute as @e[type=villager,tag=artifact_smith] at @s run function ancient_artif
 execute if score .3 slow_tick matches 3 as @e[type=villager,tag=artifact_smith,nbt={VillagerData:{profession:"minecraft:none"}},tag=!reset] at @s run function ancient_artifacts:artifact_smith/reset
 
 ##Reset zombie villager
-execute as @e[type=zombie_villager,nbt={CustomName:{"text":"Artifact Smith","color":"dark_purple","bold":false}}] at @s run function ancient_artifacts:artifact_smith/reset_zombie
+execute as @e[type=zombie_villager,name="Artifact Smith"] at @s run function ancient_artifacts:artifact_smith/reset_zombie
 
 ##Cycling Artifacts
 execute store result score .time temp run time query daytime

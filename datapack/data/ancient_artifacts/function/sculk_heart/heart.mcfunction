@@ -1,6 +1,8 @@
 
+execute at @s unless loaded ~ ~ ~ run return fail
+
 scoreboard players set .entity_count temp 0
-execute unless entity @s[tag=multiple_entity_checked] store result score .entity_count temp if entity @e[type=item_display,distance=..5,tag=sculk_heart,tag=center]
+execute unless entity @s[tag=multiple_entity_checked] store result score .entity_count temp if entity @e[type=item_display,distance=..10,tag=sculk_heart,tag=center]
 execute if score .entity_count temp matches 2.. run kill
 tag @s add multiple_entity_checked
 
@@ -14,7 +16,6 @@ execute if score @s heart_state matches 1 if score .40 slow_tick matches 28 if e
 execute if score @s heart_state matches 1 if score .40 slow_tick matches 40 if entity @s[tag=player_detected] if entity @a[distance=..4] run function ancient_artifacts:sculk_heart/init
 
 ##While Trigger
-execute if score @s heart_state matches 2..3 as @e[tag=sculk_heart,distance=..5,tag=center] if score .20 slow_tick = .20 random_delay if predicate ancient_artifacts:random/25 at @e[tag=sculk_heart_echo,sort=random,limit=1,distance=..30] run function ancient_artifacts:artifacts/deep_dark/echoing_chain/summon
 execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 8 as @e[tag=sculk_heart,distance=..5] run data merge entity @s {transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.0f,0.0f]},interpolation_duration:2,start_interpolation:0}
 execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 8 run function ancient_artifacts:sculk_heart/heart_beat
 execute if score @s heart_state matches 2..3 if score .20 slow_tick matches 9 as @e[tag=sculk_heart,distance=..5] run data merge entity @s {transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.25f,1.25f,1.25f],translation:[0.0f,0.0f,0.0f]},interpolation_duration:10,start_interpolation:0}
@@ -22,8 +23,8 @@ execute if score @s heart_state matches 2..3 run particle minecraft:entity_effec
 execute if score @s heart_state matches 2..3 if score .3 slow_tick matches 3 at @e[tag=sculk_heart,distance=..5] run particle minecraft:dust{color:[0.1725, 0.6941, 0.7490],scale:3} ~ ~ ~ 0.2 0.2 0.2 0 3 force
 
 
-
 ##Waves
+execute if score @s heart_state matches 2 as @e[type=warden,distance=..20] at @s run function ancient_artifacts:sculk_heart/delete_warden
 execute if score @s heart_state matches 2 if score @s animation matches 0..22 run data modify storage ancient_artifacts:wave UUID1 set from entity @s UUID[0]
 execute if score @s heart_state matches 2 if score @s animation matches 0..22 run data modify storage ancient_artifacts:wave UUID2 set from entity @s UUID[1]
 execute if score @s heart_state matches 2 if score @s animation matches 0..22 run data modify storage ancient_artifacts:wave UUID3 set from entity @s UUID[2]

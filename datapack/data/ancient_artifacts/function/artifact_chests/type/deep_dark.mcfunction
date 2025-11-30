@@ -1,12 +1,12 @@
 ##opening
 #holding no quartz compound
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"deep_dark"}}}}] run playsound minecraft:block.amethyst_block.hit block @a ~ ~ ~ 1 2
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"deep_dark"}}}}] run data modify storage smithed.actionbar:input message set value {json:{"text": "It seems like an echoing compound is needed...","color": "light_purple"},priority:"notification"}
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"deep_dark"}}}}] run function #smithed.actionbar:message
-execute if data entity @s[tag=!opened] interaction on target unless entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"deep_dark"}}}}] positioned ~ ~-0.5 ~ run data remove entity @e[type=interaction,tag=artifact_chest,tag=deep_dark,limit=1,sort=nearest] interaction
+execute if data entity @s[tag=!opened] interaction on target unless items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"deep_dark"}] run playsound minecraft:block.amethyst_block.hit block @a ~ ~ ~ 1 2
+execute if data entity @s[tag=!opened] interaction on target unless items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"deep_dark"}] run data modify storage smithed.actionbar:input message set value {json:{"text": "It seems like an echoing compound is needed...","color": "light_purple"},priority:"notification"}
+execute if data entity @s[tag=!opened] interaction on target unless items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"deep_dark"}] run function #smithed.actionbar:message
+execute if data entity @s[tag=!opened] interaction on target unless items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"deep_dark"}] positioned ~ ~-0.5 ~ run data remove entity @n[type=interaction,tag=artifact_chest,tag=deep_dark] interaction
 #holding quartz compound
-execute if data entity @s[tag=!opened] interaction on target if entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"deep_dark"}}}}] run function ancient_artifacts:advancements/triggers/open_deep_dark_chest
-execute if data entity @s[tag=!opened] interaction on target if entity @s[nbt={SelectedItem:{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{compound:1b,type:"deep_dark"}}}}] as @e[type=interaction,limit=1,sort=nearest,tag=!opened] run scoreboard players set @s animation 50
+execute if data entity @s[tag=!opened] interaction on target if items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"deep_dark"}] run function ancient_artifacts:advancements/triggers/open_deep_dark_chest
+execute if data entity @s[tag=!opened] interaction on target if items entity @s weapon.mainhand *[custom_data~{compound:1b, type:"deep_dark"}] run scoreboard players set @n[type=interaction,tag=!opened] animation 50
 
 #animation
 execute if score @s animation matches 50 run tag @s add opened
@@ -15,7 +15,7 @@ execute if score @s animation matches 50 run particle minecraft:dust{color:[0.00
 execute if score @s animation matches 50 run particle minecraft:trial_spawner_detection_ominous ~ ~-0.3 ~ 0.4 0.2 0.4 0 15 force
 
 execute if score @s animation matches 50 run playsound entity.ender_eye.death block @a ~ ~ ~ 1 1.6
-execute if score @s animation matches 50 on target if predicate ancient_artifacts:survival run clear @s amethyst_shard[custom_data={compound:1b,type:"deep_dark"}] 1
+execute if score @s animation matches 50 on target if predicate ancient_artifacts:survival run clear @s *[custom_data={compound:1b,type:"deep_dark"}] 1
 execute if score @s animation matches 50 run playsound minecraft:block.trial_spawner.spawn_item_begin block @a ~ ~ ~ 1 1
 execute if score @s animation matches 50 run item modify entity @e[type=item_display,tag=artifact_chest,sort=nearest,limit=1] container.0 {function:"set_custom_model_data",strings:{mode:"replace_all",values:["active"]}}
 execute if score @s animation matches 34 run data merge entity @e[type=item_display,tag=artifact_chest,sort=nearest,limit=1] {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.2f,0f],scale:[1f,1f,1f]},start_interpolation:0,interpolation_duration:5}

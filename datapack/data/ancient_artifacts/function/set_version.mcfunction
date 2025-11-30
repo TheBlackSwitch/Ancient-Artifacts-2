@@ -1,2 +1,2 @@
-data modify storage theblackswitch:versions packs append value {pack:"ancient_artifacts",version:[2,5,3],lib_version:[1,0,6]}
+data modify storage theblackswitch:versions packs append value {pack:"ancient_artifacts",version:[2,5,4],lib_version:[1,0,7]}
 data modify storage theblackswitch:versions lib.loaded_from set value "ancient_artifacts"

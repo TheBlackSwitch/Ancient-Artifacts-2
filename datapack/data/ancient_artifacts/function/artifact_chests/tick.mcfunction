@@ -7,5 +7,5 @@ execute as @e[type=interaction,tag=artifact_chest,tag=deep_dark] at @s positione
 execute as @e[type=interaction,tag=artifact_chest,tag=end] at @s positioned ~ ~0.5 ~ run function ancient_artifacts:artifact_chests/type/end
 execute as @e[type=interaction,tag=artifact_chest,tag=obsidian] at @s positioned ~ ~0.5 ~ run function ancient_artifacts:artifact_chests/type/obsidian
 
-execute if score .10 slow_tick matches 5 as @e[type=item_display,tag=artifact_chest,tag=!checked] at @s run function ancient_artifacts:artifact_chests/check_multiple_displays
-execute if score .10 slow_tick matches 7 as @e[type=interaction,tag=artifact_chest,tag=!checked] at @s run function ancient_artifacts:artifact_chests/check_multiple_interactions
+execute if score .10 slow_tick matches 5 as @e[type=item_display,tag=artifact_chest,tag=!checked] at @s if loaded ~ ~ ~ run function ancient_artifacts:artifact_chests/check_multiple_displays
+execute if score .10 slow_tick matches 7 as @e[type=interaction,tag=artifact_chest,tag=!checked] at @s if loaded ~ ~ ~ run function ancient_artifacts:artifact_chests/check_multiple_interactions

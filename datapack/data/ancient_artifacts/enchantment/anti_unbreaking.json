@@ -1,5 +1,5 @@
 {
-    "description": "Incompatible with Unbreaking",
+    "description": [{"text":"This enchantment is used internally. Equip at your own risk!","color":"red"}],
     "exclusive_set": "minecraft:unbreaking",
     "supported_items": "minecraft:poisonous_potato",
     "weight": 1,
@@ -15,18 +15,6 @@
     "anvil_cost": 0,
     "slots": [],
     "effects": {
-        "minecraft:hit_block": [
-            {
-                "effect": {
-                    "type": "minecraft:ignite",
-                    "duration": 0
-                },
-                "requirements": {
-                    "condition": "minecraft:value_check",
-                    "value": 0,
-                    "range": 1
-                }
-            }
-        ]
+        "minecraft:hit_block": []
     }
 }

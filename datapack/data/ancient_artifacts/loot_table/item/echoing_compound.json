@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:amethyst_shard",
+                    "name": "minecraft:poisonous_potato",
                     "functions": [
                         {
                             "function": "set_count",
@@ -17,7 +17,9 @@
                             "components": {
                                 "item_model": "ancient_artifacts:item/compound/echoing",
                                 "custom_data":{"compound":1,"type":"deep_dark"},
-                                "tooltip_style": "minecraft:ancient_artifacts"
+                                "tooltip_style": "minecraft:ancient_artifacts",
+                                "!food": {},
+                                "!consumable": {}
                             }
                         },
                         {

@@ -10,3 +10,4 @@ execute at @e[tag=sculk_heart,distance=..5] run particle minecraft:block{block_s
 particle minecraft:gust_emitter_large
 execute as @e[tag=sculk_heart,distance=..5] run data modify entity @s item.components."minecraft:item_model" set value "ancient_artifacts:entity/sculk_heart/active"
 scoreboard players set @s animation 22
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace sculk_shrieker
