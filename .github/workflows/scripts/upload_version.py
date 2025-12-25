@@ -87,6 +87,10 @@ vanilla_minecraft_cf_version_type_id = {
     }
 
 
+##---------------------------------------------
+# TO DO: https://mc-versions-api.net/api/java
+##---------------------------------------------
+
 # A list of all minecraft versions used to calculate things like 1.20-1.21.8
 all_minecraft_versions = [
     "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", 
