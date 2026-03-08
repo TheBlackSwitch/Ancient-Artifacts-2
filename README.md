@@ -41,7 +41,7 @@ To obtain artifacts you'll have to go and explore the world in the hopes of find
 
 Once you've defeated all the mobs, you'll be able to locate an `artifact chest`. This special chest can only be opened using an `amethyst shard`. Once open, your loot will pop right out! If you're lucky you'll recieve an artifact!
 
-![A gif showing the chest opening process](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/AA-artifact_chest_open.webp&n=-1)
+![A gif showing the chest opening process](https://wsrv.nl/?url=https%3A%2F%2Ftheblackswitch.com%2Fassets%2Fimages%2Fancient_artifacts%2FAA-chest-open.webp&n=-1)
 
 ## Upgrading
 
