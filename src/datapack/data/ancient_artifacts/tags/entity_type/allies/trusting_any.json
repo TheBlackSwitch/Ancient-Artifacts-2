@@ -1,0 +1,9 @@
+{
+    "values": [
+        {
+            "required": false,
+            "id": "minecraft:ocelot"
+        }
+    ],
+    "comment": "These mobs trust any player. Their trust field is a boolean."
+}

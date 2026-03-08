@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "echo_shard",
+    "template": "netherite_upgrade_smithing_template",
+    "addition": "netherite_scrap",
+    "result": {
+        "id": "minecraft:echo_shard",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Echo Chunk",
+                "color": "#14537a",
+                "italic": false,
+                "bold": true
+            },
+            "minecraft:lore": [
+                {
+                    "text": "\uE522",
+                    "italic": false,
+                    "shadow_color": 0,
+                    "font": "ancient_artifacts:main",
+                    "color": "white"
+                },
+                {
+                    "text": "",
+                    "color": "red"
+                },
+                {
+                    "text": "A very strong lump of metal with ",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
+                },
+                {
+                    "text": "intruding repairing capabilities whose power",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
+                },
+                {
+                    "text": "goes beyond the damage an ancient hammer has taken.",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
+                }
+            ],
+            "minecraft:item_model": "ancient_artifacts:item/echo_chunk",
+            "max_stack_size": 1,
+            "max_damage": 15,
+            "unbreakable": {},
+            "tooltip_display": {
+                "hidden_components": [
+                    "unbreakable"
+                ]
+            },
+            "custom_data": {
+                "echo_chunk": true,
+                "smithed": {
+                    "ignore": {
+                        "functionality": true,
+                        "crafting": true
+                    }
+                }
+            },
+            "tooltip_style": "minecraft:ancient_artifacts"
+        }
+    }
+}

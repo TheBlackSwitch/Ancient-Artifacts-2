@@ -1,0 +1,1 @@
+scoreboard objectives add aa.message_timeout dummy

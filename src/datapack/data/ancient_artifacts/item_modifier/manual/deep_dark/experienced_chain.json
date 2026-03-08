@@ -1,0 +1,55 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 24,
+    "pages": [
+        [
+            {
+                "text": "\uF828\uF822",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Experienced Chain\n\n",
+                "color": "gold"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "20% of attacks drop XP\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "35% chance\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "50% chance\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "50% of attacks + 40% of mined blocks drop XP\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,3 @@
+always show artifact hotbar - Bool  ✔
+hide artifact HUD - Bool  ✔
+disable storing circlet particles - Bool  ✔

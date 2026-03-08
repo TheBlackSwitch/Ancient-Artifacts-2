@@ -1,1 +1,0 @@
-return run execute if dimension minecraft:overworld

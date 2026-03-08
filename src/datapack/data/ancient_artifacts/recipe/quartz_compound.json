@@ -1,0 +1,64 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "compound",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:amethyst_shard",
+        "minecraft:amethyst_shard",
+        "minecraft:quartz",
+        "minecraft:quartz",
+        "minecraft:quartz",
+        "minecraft:quartz"
+    ],
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Quartz Compound",
+                "color": "#ba2568",
+                "italic": false,
+                "bold": true
+            },
+            "minecraft:lore": [
+                {
+                    "text": "\uE522",
+                    "italic": false,
+                    "shadow_color": 0,
+                    "font": "ancient_artifacts:main",
+                    "color": "white"
+                },
+                {
+                    "text": "",
+                    "color": "red"
+                },
+                {
+                    "text": "This quartz-infused amethyst shard is so",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
+                },
+                {
+                    "text": "magnificent, it wil never stop sparkling.",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
+                }
+            ],
+            "minecraft:item_model": "ancient_artifacts:item/compound/quartz",
+            "minecraft:custom_data": {
+                "compound": 1,
+                "type": "nether",
+                "smithed": {
+                    "ignore": {
+                        "functionality": true,
+                        "crafting": true
+                    }
+                }
+            },
+            "tooltip_style": "minecraft:ancient_artifacts",
+            "!food": {},
+            "!consumable": {}
+        }
+    }
+}

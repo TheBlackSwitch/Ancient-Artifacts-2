@@ -1,1 +1,0 @@
-execute if score .10 slow_tick matches 4 as @e[type=happy_ghast] run attribute @s flying_speed modifier remove allies_amulet

@@ -1,0 +1,76 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "ancient_artifacts:dungeon",
+                            "decoration": "target_point",
+                            "zoom": 4,
+                            "search_radius": 200,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Dungeon Map",
+                                "color": "#b56400",
+                                "italic": false, "shadow_color": 0,
+                                "bold": true
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "A mysterious map pointing",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": "to an ancient structure",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:map_color": 493607,
+                                "minecraft:custom_data": {
+                                    "dungeon_map":true,
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                },
+                                "item_model": "ancient_artifacts:item/dungeon_map",
+                                "tooltip_style": "minecraft:ancient_artifacts"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

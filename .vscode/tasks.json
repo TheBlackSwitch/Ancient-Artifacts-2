@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run_beet",
+            "type": "shell",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "./.vscode/build.bat"
+            }
+        },
+        {
+            "label": "open_logs",
+            "type": "shell",
+            "command": "log",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

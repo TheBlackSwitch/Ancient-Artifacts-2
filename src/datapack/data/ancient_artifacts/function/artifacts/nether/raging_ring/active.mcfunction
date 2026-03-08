@@ -1,0 +1,9 @@
+execute if entity @s[tag=focused] run scoreboard players add @s artifact 1
+
+scoreboard players operation #search tbs.ID = @s tbs.ID
+
+execute if score @s attack matches 1.. as @e[type=!#ancient_artifacts:non_living] store result score @s hurt run data get entity @s HurtTime
+execute if score @s attack matches 1.. if score @s artifact matches 51 positioned ^ ^ ^2 as @e[predicate=theblackswitch:__version__/__patch__/rand/10,type=#ancient_artifacts:rage,tag=!smithed.entity,type=!player,tag=!necromanced,distance=0.01..3,scores={hurt=1..}] positioned ^ ^ ^-2 run function ancient_artifacts:artifacts/nether/raging_ring/set_rage_100
+execute if score @s attack matches 1.. if score @s artifact matches 52 positioned ^ ^ ^2 as @e[predicate=theblackswitch:__version__/__patch__/rand/20,type=#ancient_artifacts:rage,tag=!smithed.entity,type=!player,tag=!necromanced,distance=0.01..3,scores={hurt=1..}] positioned ^ ^ ^-2 run function ancient_artifacts:artifacts/nether/raging_ring/set_rage_100
+execute if score @s attack matches 1.. if score @s artifact matches 53 positioned ^ ^ ^2 as @e[predicate=theblackswitch:__version__/__patch__/rand/25,type=#ancient_artifacts:rage,tag=!smithed.entity,type=!player,tag=!necromanced,distance=0.01..3,scores={hurt=1..}] positioned ^ ^ ^-2 run function ancient_artifacts:artifacts/nether/raging_ring/set_rage_200
+execute if score @s attack matches 1.. if score @s artifact matches 54 positioned ^ ^ ^2 as @e[predicate=theblackswitch:__version__/__patch__/rand/35,type=#ancient_artifacts:rage,tag=!smithed.entity,type=!player,tag=!necromanced,distance=0.01..3,scores={hurt=1..}] positioned ^ ^ ^-2 run function ancient_artifacts:artifacts/nether/raging_ring/set_rage_200

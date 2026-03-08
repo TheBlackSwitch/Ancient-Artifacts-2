@@ -1,1 +1,0 @@
-execute as @a[tag=!tbs.has_id] run function theblackswitch:player_id/gen_id

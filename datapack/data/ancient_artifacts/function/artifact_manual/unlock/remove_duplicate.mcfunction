@@ -1,1 +1,0 @@
-$data remove storage ancient_artifacts:manual currInv[$(item)]

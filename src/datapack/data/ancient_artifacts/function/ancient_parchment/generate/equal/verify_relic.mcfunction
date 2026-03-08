@@ -1,0 +1,27 @@
+$data modify storage ancient_artifacts:parchment current_relic set from storage ancient_artifacts:relics $(selected_dim).list[$(rand)].relic
+execute store success score #is_dupe temp run function ancient_artifacts:ancient_parchment/generate/common/check_dupe_relic with storage ancient_artifacts:parchment
+
+# ===== NO DUPLICATE =====
+
+# get some basic data from the storage
+execute if score #is_dupe temp matches 0 store result score #current temp run data get storage ancient_artifacts:parchment current
+execute if score #is_dupe temp matches 0 store result score #correct temp run data get storage ancient_artifacts:parchment correct
+
+# add this relic to the parchment
+$execute if score #is_dupe temp matches 0 run data modify storage ancient_artifacts:parchment relics append from storage ancient_artifacts:relics $(selected_dim).list[$(rand)].relic
+
+# get the correct result artifact 
+$execute if score #is_dupe temp matches 0 if score #current temp = #correct temp run data modify storage ancient_artifacts:parchment artifact set from storage ancient_artifacts:relics $(selected_dim).list[$(rand)].artifact
+
+# generate the next relic
+execute if score #is_dupe temp matches 0 store result storage ancient_artifacts:parchment current int 1 run scoreboard players remove #current temp 1
+execute if score #is_dupe temp matches 0 if score #current temp matches 1.. run scoreboard players set #loop_count temp 0
+execute if score #is_dupe temp matches 0 if score #current temp matches 1.. run return run function ancient_artifacts:ancient_parchment/generate/equal/random_relic with storage ancient_artifacts:parchment
+
+# yay, we've successfully generated all relics
+execute if score #is_dupe temp matches 0 run return 1
+
+# ===== DUPLICATE =====
+
+# try again
+execute if score #is_dupe temp matches 1 run return run function ancient_artifacts:ancient_parchment/generate/equal/random_relic with storage ancient_artifacts:parchment

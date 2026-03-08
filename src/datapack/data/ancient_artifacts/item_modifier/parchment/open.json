@@ -1,0 +1,21 @@
+[
+    {
+        "function":"set_custom_model_data",
+        "strings":{
+            "mode":"replace_section",
+            "offset":0,
+            "values":["open"]
+        },
+        "flags":{
+            "mode":"replace_section",
+            "offset":1,
+            "values":[true]
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag":{
+            "open":1
+        }
+    }
+]

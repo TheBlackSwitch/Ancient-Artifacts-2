@@ -1,0 +1,110 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "text": "Datapacks - ",
+        "extra": [
+            {
+                "text": "Ancient Artifacts",
+                "italic": false,
+                "color": "light_purple"
+            }
+        ],
+        "color": "aqua"
+    },
+    "external_title": "Ancient Artifacts",
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "\n\uE504\n\n\n",
+                "color": "white",
+                "font": "ancient_artifacts:main",
+                "shadow_color": 0
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": [
+                {
+                    "text": "Unlock over 50+ artifacts ",
+                    "color": "light_purple"
+                },
+                {
+                    "text": "with unique abilities ",
+                    "color": "gold"
+                },
+                {
+                    "text": "and equip, craft, convert and trade them!\n\n",
+                    "color": "aqua"
+                },
+                {
+                    "text": "Look in your advancements tab for more info!"
+                }
+            ]
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "v__pack-version__\n By ",
+                "extra": [
+                    {
+                        "text": "theblackswitch",
+                        "color": "gray",
+                        "underlined": true,
+                        "click_event": {
+                            "action": "open_url",
+                            "url": "https://theblackswitch.com"
+                        },
+                        "hover_event": {
+                            "action": "show_text",
+                            "value": "Link: theblackswitch.com"
+                        }
+                    }
+                ],
+                "color": "gray"
+            }
+        }
+    ],
+    "inputs": [],
+    "after_action": "none",
+    "pause": false,
+    "exit_action": {
+        "label": "<- Back",
+        "width": 200,
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "smithed:data_packs"
+        }
+    },
+    "columns": 2,
+    "actions": [
+        {
+            "label": "Website",
+            "tooltip": {
+                "text": "Link: modrinth.com"
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:open_url",
+                "url": "https://modrinth.com/datapack/ancient-artifacts-2"
+            }
+        },
+        {
+            "label": "Support Me",
+            "tooltip": "Link: buymeacoffee.com",
+            "width": 100,
+            "action": {
+                "type": "minecraft:open_url",
+                "url": "https://buymeacoffee.com/theblackswitch"
+            }
+        },
+        {
+            "label": "Configs ->",
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger aa.config"
+            }
+        }
+    ]
+}

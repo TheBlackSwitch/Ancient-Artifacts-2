@@ -1,0 +1,99 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/artifact_upgrade",
+                                "custom_data": {
+                                    "artifact_upgrade":true,
+                                    "heavy":false,
+                                    "aa-version":251,
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                },
+                                "use_cooldown": {
+                                    "seconds": 0.5,
+                                    "cooldown_group": "ancient_artifacts:upgrade"
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts"
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Artifact Upgrade",
+                                "color": "#168785",
+                                "italic": false, "shadow_color": 0,
+                                "bold": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "\uE525Controls:",
+                                    "color": "#5c5242",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
+                                },
+                                {
+                                    "text": " \uE505 while having an artifact in",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
+                                },
+                                {
+                                    "text": " your offhand to upgrade it!",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": ""
+                                },
+                                {
+                                    "text": " \uE505 on a cauldron",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
+                                },
+                                {
+                                    "text": " to create an Artifact Cauldron!",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

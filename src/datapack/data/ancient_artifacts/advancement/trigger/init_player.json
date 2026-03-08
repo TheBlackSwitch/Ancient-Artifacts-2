@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location"
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:init_player"
+    }
+}

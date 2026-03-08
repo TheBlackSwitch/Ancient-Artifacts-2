@@ -1,0 +1,2 @@
+execute align xyz run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["bounce_pad"],item:{id:"minecraft:gunpowder",count:1,components:{"minecraft:item_model":"ancient_artifacts:misc/platforms/bounce_pad"}}}
+execute align xyz run summon item_display ~0.5 ~-1.73 ~0.5 {Tags:["bounce_pad_hitbox"],Passengers:[{id:"minecraft:shulker",Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,AttachFace:0b,active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:scale",base:2}],DeathLootTable:"ancient_artifacts:empty"}]}

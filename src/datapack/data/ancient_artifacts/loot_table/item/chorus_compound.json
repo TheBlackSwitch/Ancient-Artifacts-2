@@ -1,0 +1,76 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/compound/chorus",
+                                "custom_data":{
+                                    "compound":1,
+                                    "type":"end",
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts",
+                                "!food": {},
+                                "!consumable": {}
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Chorus Compound",
+                                "color": "#9d65bf",
+                                "italic": false, "shadow_color": 0,
+                                "bold": true
+                            },
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "This combination of popped chorus fruit and ",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": "amethyst will never stop singing",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

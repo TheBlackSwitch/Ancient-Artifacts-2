@@ -1,0 +1,32 @@
+{
+    "values": [
+        {
+            "id": "minecraft:crimson_nylium",
+            "required": false
+        },
+        {
+            "id": "minecraft:warped_nylium",
+            "required": false
+        },
+        {
+            "id": "minecraft:netherrack",
+            "required": false
+        },
+        {
+            "id": "minecraft:soul_sand",
+            "required": false
+        },
+        {
+            "id": "minecraft:soul_soil",
+            "required": false
+        },
+        {
+            "id": "minecraft:basalt",
+            "required": false
+        },
+        {
+            "id": "minecraft:magma_block",
+            "required": false
+        }
+    ]
+}

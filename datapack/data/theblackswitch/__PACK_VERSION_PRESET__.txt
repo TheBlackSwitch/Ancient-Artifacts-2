@@ -1,7 +1,0 @@
-##Put this in your own pack as a function "<namespace>:set_version.mcfunction" and schedule it 1t after load
-
-## IMPORTANT !!!!!!!!!!!!!: MAKE SURE TO CHANGE THE LIB VERSION FIELD WITH THE VERSION OF THE LIBRARY YOU ARE USING
-## you can find this in theblackswitch:version_control/init.mcfunction
-
-data modify storage theblackswitch:versions packs append value {pack:"<pack_name>",version:[1,0,0],lib_version:[1,0,7]}
-data modify storage theblackswitch:versions lib.loaded_from set value "<pack_name>"

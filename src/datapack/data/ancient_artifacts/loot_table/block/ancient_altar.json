@@ -1,0 +1,91 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cod_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:block/ancient_altar",
+                                "entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "ancient_altar_place"
+                                    ]
+                                },
+                                "tooltip_style":"minecraft:ancient_artifacts",
+                                "minecraft:custom_data": {
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Ancient Altar",
+                                "color": "#762f94",
+                                "italic": false, "shadow_color": 0,
+                                "bold": true
+                            },
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "Show off your amazing artifacts by ",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": "placing them on this block!",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": ""
+                                },
+                                {
+                                    "text": "Some people say they can feel a strong",
+                                    "color": "#b56400",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": "bond between this altar and an ancient hammer...",
+                                    "color": "#b56400",
+                                    "italic": false, "shadow_color": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
