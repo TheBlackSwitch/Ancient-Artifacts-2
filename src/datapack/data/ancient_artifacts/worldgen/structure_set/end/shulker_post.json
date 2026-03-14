@@ -1,0 +1,19 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 456342233,
+        "separation": 20,
+        "spacing": 30,
+        "spread_type": "triangular",
+        "exclusion_zone": {
+            "chunk_count": 5,
+            "other_set": "end_cities"
+        }
+    },
+    "structures": [
+        {
+            "structure": "ancient_artifacts:end/shulker_post",
+            "weight": 1
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "values": [
+    {
+      "id": "#theblackswitch:v2.0/version_control/init",
+      "require": false
+    }
+  ],
+  "comment": "start the version control system for every major.minor version since we want to interact with them seporately"
+}

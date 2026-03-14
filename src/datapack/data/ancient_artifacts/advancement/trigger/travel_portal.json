@@ -1,0 +1,32 @@
+{
+	"criteria": {
+		"nether_portal": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:nether_portal"
+			}
+		},
+		"end_portal": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:end_portal"
+			}
+		},
+		"end_gateway": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:end_gateway"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"nether_portal",
+			"end_portal",
+			"end_gateway"
+		]
+	],
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/travel_portal"
+    }
+}

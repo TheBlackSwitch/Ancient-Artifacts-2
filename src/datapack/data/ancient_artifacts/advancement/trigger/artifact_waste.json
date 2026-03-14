@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:golden_apple"
+                    ],
+                    "predicates": {
+                        "custom_data": {
+                            "artifact_waste": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:artifact_cauldron/artifact_waste_eat"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "values": [
+    {
+      "id": "theblackswitch:__common__/version_control/init",
+      "required": false
+    },
+    {
+      "id": "#theblackswitch:v2.0/version_control/set_patch",
+      "required": false
+    },
+    {
+      "id": "#theblackswitch:v2.0/version_control/pre_load",
+      "required": false
+    },
+    {
+      "id": "#theblackswitch:v2.0/version_control/load",
+      "required": false
+    },
+    {
+      "id": "#theblackswitch:v2.0/version_control/post_load",
+      "required": false
+    }
+  ],
+  "comment": "first reset all the scores, then grab the latest patch number for this version and then only load the function of the latest patch"
+}

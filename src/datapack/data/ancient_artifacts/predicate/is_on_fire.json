@@ -1,0 +1,40 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "flags": {
+                    "is_on_fire": true
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+                "block": {
+                    "blocks": "#ancient_artifacts:can_deal_fire_damage"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#ancient_artifacts:can_deal_fire_damage"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "magma_block"
+                }
+            }
+        }
+    ]
+}

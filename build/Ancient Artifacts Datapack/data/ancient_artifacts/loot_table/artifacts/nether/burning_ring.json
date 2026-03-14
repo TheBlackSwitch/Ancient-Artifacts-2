@@ -1,0 +1,167 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/artifact",
+                                "custom_model_data": {
+                                    "strings": [
+                                        "base:ring",
+                                        "level:1",
+                                        "artifact:burning_ring"
+                                    ]
+                                },
+                                "custom_data": {
+                                    "data": {
+                                        "id": "burning_ring",
+                                        "dim": "nether",
+                                        "level": 1,
+                                        "max": 3,
+                                        "start": 44,
+                                        "rarity": 1,
+                                        "relic": 0
+                                    },
+                                    "artifact": true,
+                                    "aa-version": 251,
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                },
+                                "max_stack_size": 8,
+                                "tooltip_style": "minecraft:ancient_artifacts",
+                                "!max_damage": {}
+                            }
+                        },
+                        {
+                            "function": "minecraft:copy_custom_data",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "ancient_artifacts:artifact"
+                            },
+                            "ops": [
+                                {
+                                    "source": "random_id",
+                                    "target": "random_id",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Burning Ring",
+                                "color": "dark_gray",
+                                "italic": false, "shadow_color": 0
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": ""
+                                },
+                                {
+                                    "text": "\uE523Rarity: ","font":"ancient_artifacts:main",
+                                    "color": "#786d5b",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " Common",
+                                    "color": "dark_gray",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "\uE524Origin: ","font":"ancient_artifacts:main",
+                                    "color": "#786d5b",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " Nether",
+                                    "color": "red",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " "
+                                },
+                                {
+                                    "text": "\uE525Controls: ","font":"ancient_artifacts:main",
+                                    "color": "#786d5b",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                [
+                                    {
+                                        "text": " \uE505: ",
+                                        "color": "#762f94",
+                                        "bold": false,
+                                        "italic": false, "shadow_color": 0,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "Activate this artifact.",
+                                        "color": "#bd4b9f"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": " \uE505 + Sneak: ",
+                                        "color": "#762f94",
+                                        "bold": false,
+                                        "italic": false, "shadow_color": 0,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "Deactivate all artifacts.",
+                                        "color": "#bd4b9f"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": ""
+                                    }
+                                ],
+                                [
+                                    {
+                                        "bold": true,
+                                        "italic": false, "shadow_color": 0,
+                                        "color": "#762f94",
+                                        "text": "Stacks to 8 inside a bundle!"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

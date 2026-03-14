@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "ancient_artifacts:overworld/overgrown_desert_pyramid",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 27,
+      "separation": 20,
+      "salt": 856759
+    }
+}

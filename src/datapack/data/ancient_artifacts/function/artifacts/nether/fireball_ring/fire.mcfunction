@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ air if predicate theblackswitch:__version__/__patch__/rand/50 run return run setblock ~ ~ ~ fire

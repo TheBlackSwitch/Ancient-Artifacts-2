@@ -1,0 +1,186 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "ancient_artifacts:artifacts/nether",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "artifact_progress": {
+                                            "min": 30
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/nether",
+                                            "weight": 15,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/nether",
+                                            "weight": 20,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 1
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/nether",
+                                            "weight": 25,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 2
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/nether",
+                                            "weight": 30,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:dungeon_loot/nether",
+                                            "weight": 30,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:group",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/nether_luck",
+                                                    "weight": 15
+                                                },
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/nether",
+                                                    "weight": 15
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 1
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:group",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/nether_luck",
+                                                    "weight": 12
+                                                },
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/nether",
+                                                    "weight": 18
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 2
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:group",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/nether_luck",
+                                                    "weight": 9
+                                                },
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/nether",
+                                                    "weight": 21
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

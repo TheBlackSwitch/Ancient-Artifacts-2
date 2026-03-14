@@ -1,0 +1,50 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 34,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF826",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Healing Amulet\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF300",
+                "color": "white",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+                "text": "Overworld\n",
+                "color": "dark_green",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"+30% regen speed + regeneration I",
+                "color":"gold"
+            }
+        ]
+    ]
+}

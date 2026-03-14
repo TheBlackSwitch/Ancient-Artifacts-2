@@ -1,0 +1,50 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 31,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Miners Crown\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF308",
+                "color": "white",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+                "text": "Overworld\n",
+                "color": "dark_green",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"Receive Haste II",
+                "color":"gold"
+            }
+        ]
+    ]
+}

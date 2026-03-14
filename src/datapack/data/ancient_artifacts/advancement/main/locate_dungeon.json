@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:map"
+        },
+        "title": {
+            "text": "Spooky scary dungeon!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Locate a dungeon by buying a dungeon map from the artifact smith's max trade.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/trade_with_smith",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": [
+                            "ancient_artifacts:overworld/dungeon"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

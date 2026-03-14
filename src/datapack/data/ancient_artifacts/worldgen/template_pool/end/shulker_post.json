@@ -1,0 +1,16 @@
+{
+    "fallback": "minecraft:empty",
+    "name": "ancient_artifacts:end/shulker_island_low",
+    "elements": [
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "ancient_artifacts:end/shulker_post",
+                "processors": [],
+                "projection": "rigid",
+                "override_liquid_settings": "ignore_waterlogging"
+            },
+            "weight": 1
+        }
+    ]
+}

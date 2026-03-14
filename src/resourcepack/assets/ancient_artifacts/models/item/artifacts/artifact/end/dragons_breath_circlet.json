@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "ancient_artifacts:item/artifacts/artifact/end/dragons_breath_circlet"
+    }
+}

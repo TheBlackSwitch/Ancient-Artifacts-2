@@ -1,0 +1,17 @@
+scoreboard objectives add chests_opened dummy
+scoreboard objectives add upgraded.overworld dummy
+scoreboard objectives add upgraded.nether dummy
+scoreboard objectives add upgraded.end dummy
+scoreboard objectives add upgraded.deep_dark dummy
+scoreboard objectives add crafted dummy
+scoreboard objectives add recycled dummy
+scoreboard objectives add destroyed dummy
+scoreboard objectives add boosted_crops dummy
+scoreboard objectives add total_explored_chunks dummy
+scoreboard objectives add dive custom:swim_one_cm
+scoreboard objectives add time_on_fire dummy
+scoreboard objectives add travel_speed_length dummy
+scoreboard objectives add ghasts_fireballed dummy
+scoreboard objectives add advancements dummy
+scoreboard objectives add end_chests_opened dummy
+

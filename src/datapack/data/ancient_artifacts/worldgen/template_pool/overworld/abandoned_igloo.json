@@ -1,0 +1,33 @@
+{
+    "name": "ancient_artifacts:overworld/abandoned_igloo",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:overworld/abandoned_igloo_main",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "location": "ancient_artifacts:overworld/abandoned_igloo_path_right",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "location": "ancient_artifacts:overworld/abandoned_igloo_path_left",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,4 +1,0 @@
-execute if score .20 slow_tick = .20 random_delay as @e[tag=scary_skeleton] at @s unless entity @e[tag=spawn,distance=..1000] if entity @e[tag=dungeon_center,distance=..200] run function ancient_artifacts:dungeon/scares/skeleton
-execute if score .20 slow_tick = .20 random_delay as @e[tag=scary_explosion] at @s unless entity @e[tag=spawn,distance=..1000] if entity @e[tag=dungeon_center,distance=..200] run function ancient_artifacts:dungeon/scares/explosion
-execute if score .20 slow_tick = .20 random_delay as @e[tag=zombie_tomb] at @s unless entity @e[tag=spawn,distance=..1000] run function ancient_artifacts:dungeon/scares/zombie_tomb/tick
-execute if score .20 slow_tick = .20 random_delay as @e[tag=skeleton_tomb] at @s unless entity @e[tag=spawn,distance=..1000] run function ancient_artifacts:dungeon/scares/skeleton_tomb/tick

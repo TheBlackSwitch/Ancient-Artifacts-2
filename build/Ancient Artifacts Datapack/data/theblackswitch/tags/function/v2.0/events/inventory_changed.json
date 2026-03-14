@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "ancient_artifacts:artifacts/fix_creative_stack",
+      "required": false
+    }
+  ]
+}

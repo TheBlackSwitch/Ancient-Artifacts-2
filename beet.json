@@ -1,0 +1,61 @@
+{
+    "data_pack": {
+        "load": [
+            "libraries/SwitchLib-v2.0.1.zip",
+            "libraries/Smithed-Actionbar.zip",
+            "src/datapack"
+        ],
+        "name": "Ancient Artifacts Datapack"
+    },
+    "resource_pack": {
+        "load": [
+            "src/resourcepack"
+        ],
+        "name": "Ancient Artifacts Resourcepack"
+    },
+    "pipeline": [
+        "plugins.overlays.init",
+        "mecha",
+        "plugins.overlays.apply",
+        "plugins.aliases"
+    ],
+    "id": "ancient_artifacts",
+    "name": "Ancient Artifacts",
+    "description": "Unlock over 50+ artifacts with unique abilities",
+    "require": [
+        "plugins.extend",
+        "bolt",
+        "bolt_native_macros"
+    ],
+    "author": "theblackswitch",
+    "output": "build",
+    "meta": {
+        "bolt": {
+            "entrypoint": [
+                "ancient_artifacts:main"
+            ]
+        },
+        "mecha": {
+            "formatting": {
+                "json_ensure_ascii": false
+            }
+        },
+        "aliases": [
+            {
+                "regex": "__pack-version__",
+                "replace": "2.5.5a",
+                "comment": "ancient_artifacts's version"
+            },
+            {
+                "regex": "__version__",
+                "replace": "v2.0",
+                "comment": "The switch lib major version"
+            },
+            {
+                "regex": "__patch__",
+                "replace": "patch-1",
+                "comment": "The switch lib patch version"
+            }
+        ]
+    }
+}

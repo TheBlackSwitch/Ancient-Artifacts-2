@@ -1,0 +1,184 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:tiara",
+                        "level:2",
+                        "artifact:looting_tiara"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Deep Master Upgrader!",
+            "color": "light_purple"
+        },
+        "description": [
+            {
+                "text": "Fully upgrade every nether artifact!\n\n",
+                "color": "gold"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  1x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/all_nether_artifacts",
+    "criteria": {
+        "1": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":1
+                            }
+                       }
+                    }]}
+        },
+        "2": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":2
+                            }
+                       }
+                    }]}
+        },
+        "3": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":3
+                            }
+                       }
+                    }]}
+        },
+        "4": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":4
+                            }
+                       }
+                    }]}
+        },
+        "5": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":5
+                            }
+                       }
+                    }]}
+        },
+        "6": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":6
+                            }
+                       }
+                    }]}
+        },
+        "7": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":7
+                            }
+                       }
+                    }]}
+        },
+        "8": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":8
+                            }
+                       }
+                    }]}
+        },
+        "9": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":9
+                            }
+                       }
+                    }]}
+        },
+        "10": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":10
+                            }
+                       }
+                    }]}
+        },
+        "11": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":11
+                            }
+                       }
+                    }]}
+        },
+        "12": {"trigger": "minecraft:location","conditions": {"player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "upgraded.nether": {
+                                "min":12
+                            }
+                       }
+                    }]}
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "loot": ["ancient_artifacts:item/mystery_box/nether"],
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

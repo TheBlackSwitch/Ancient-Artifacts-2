@@ -1,0 +1,52 @@
+{
+    "values": [
+        {
+            "id": "minecraft:obsidian",
+            "required": false
+        },
+        {
+            "id": "minecraft:crying_obsidian",
+            "required": false
+        },
+        {
+            "id": "minecraft:bedrock",
+            "required": false
+        },
+        {
+            "id": "minecraft:barrier",
+            "required": false
+        },
+        {
+            "id": "minecraft:command_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:chain_command_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:repeating_command_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:amethyst_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:iron_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:chest",
+            "required": false
+        },
+        {
+            "id": "#minecraft:copper_chests",
+            "required": false
+        },
+        {
+            "id": "#minecraft:wooden_shelves",
+            "required": false
+        }
+    ]
+}

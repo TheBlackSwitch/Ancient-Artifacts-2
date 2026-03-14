@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "dirt",
+            "required": false
+        },
+        {
+            "id": "grass_block",
+            "required": false
+        }
+    ]
+}

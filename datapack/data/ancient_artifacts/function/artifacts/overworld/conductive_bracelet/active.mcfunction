@@ -1,9 +1,0 @@
-execute if entity @s[tag=focused] run scoreboard players add @s artifact 1
-
-execute if score @s artifact matches 8 if score @s attack matches 1.. if predicate ancient_artifacts:random/5 rotated as @s rotated ~ 0 positioned ^ ^ ^5 run function ancient_artifacts:artifacts/overworld/conductive_bracelet/summon_bolt
-execute if score @s artifact matches 9 if score @s attack matches 1.. if predicate ancient_artifacts:random/10 rotated as @s rotated ~ 0 positioned ^ ^ ^5 run function ancient_artifacts:artifacts/overworld/conductive_bracelet/summon_bolt
-execute if score @s artifact matches 10 if score @s attack matches 1.. if predicate ancient_artifacts:random/15 rotated as @s rotated ~ 0 positioned ^ ^ ^5 run function ancient_artifacts:artifacts/overworld/conductive_bracelet/summon_bolt
-execute if score @s artifact matches 11 if score @s attack matches 1.. if predicate ancient_artifacts:random/25 rotated as @s rotated ~ 0 positioned ^ ^ ^5 run function ancient_artifacts:artifacts/overworld/conductive_bracelet/summon_bolt
-execute if score @s artifact matches 12 if score @s attack matches 1.. if predicate ancient_artifacts:random/35 rotated as @s rotated ~ 0 positioned ^ ^ ^5 run function ancient_artifacts:artifacts/overworld/conductive_bracelet/summon_bolt
-execute if score @s artifact matches 13 if score @s attack matches 1.. if predicate ancient_artifacts:random/45 rotated as @s rotated ~ 0 positioned ^ ^ ^5 run function ancient_artifacts:artifacts/overworld/conductive_bracelet/summon_bolt
-

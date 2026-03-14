@@ -1,0 +1,70 @@
+{
+    "death.attack.shockwave": "%1$s was shocked by a wave",
+    "death.attack.shockwave.player": "%1$s was shocked by %2$s's wave",
+    "death.attack.shockwave.item": "%1$s was shocked by %2$s's wave using %3$s",
+
+    "death.attack.artifact_golem": "%1$s was pulverized by an artifact golem",
+    "death.attack.artifact_golem.player": "%1$s was pulverized by an artifact golem",
+    "death.attack.artifact_golem.item": "%1$s was pulverized by an artifact golem",
+
+    "death.attack.lazer": "%1$s was baked by the power of light fired from an artifact golem",
+    "death.attack.lazer.player": "%1$s was baked by the power of light fired from an artifact golem",
+    "death.attack.lazer.item": "%1$s was baked by the power of light fired from an artifact golem",
+
+    "death.attack.hammer": "%1$s got smashed by a hammer",
+    "death.attack.hammer.player": "%1$s got smashed by %2$s using an ancient hammer",
+    "death.attack.hammer.item": "%1$s got smashed by %2$s using %3$s",
+
+    "death.attack.artifact_golem_shockwave": "%1$s was internally ripped apart by a shockwave fired from an artifact golem",
+    "death.attack.artifact_golem_shockwave.player": "%1$s was internally ripped apart by a shockwave fired from an artifact golem",
+    "death.attack.artifact_golem_shockwave.item": "%1$s was internally ripped apart by a shockwave fired from an artifact golem",
+
+    "death.attack.artifact_golem_thorns": "%1$s pulverized their hands whilst punching an artifact golem",
+    "death.attack.artifact_golem_thorns.player": "%1$s pulverized their hands whilst punching an artifact golem",
+    "death.attack.artifact_golem_thorns.item": "%1$s  pulverized their hands whilst punching an artifact golem",
+
+    "death.attack.rage": "%1$s died due to a hysterical mob",
+    "death.attack.rage.player": "%1$s died due to a hysterical mob",
+    "death.attack.rage.item": "%1$s died due to a hysterical mob",
+
+    "death.attack.final_shout": "%1$s was shouted to death",
+    "death.attack.final_shout.player": "%1$s couldn't survive %2$s's final shout",
+    "death.attack.final_shout.item": "%1$s couldn't survive %2$s's final shout",
+
+    "death.attack.necromance": "Necromanced fulfilled their destiny",
+    "death.attack.necromance.player": "Necromanced fulfilled their destiny",
+    "death.attack.necromance.item": "Necromanced fulfilled their destiny",
+
+    "entity.artifact_golem.lazer.start": "Artifact golem fires lazer",
+    "entity.artifact_golem.lazer.loop": "Lazer burns",
+    "entity.artifact_golem.lazer.stop": "Lazer fades away",
+
+    "entity.player.timewarp.start": "Timewarp starts",
+    "entity.player.timewarp.loop": "Time goes slow",
+    "entity.player.timewarp.stop": "Timewarp ends",
+
+    "tooltip.bg.TL": "\uE831\uF800",
+    "tooltip.bg.TM": "\uE832\uF800",
+    "tooltip.bg.TR": "\uE833\uF800\n\n\uF800",
+    "tooltip.bg.ML": "\uE834\uF800",
+    "tooltip.bg.MM": "\uE835\uF800",
+    "tooltip.bg.MR": "\uE836\uF800\n\n\uF800",
+    "tooltip.bg.BL": "\uE837\uF800",
+    "tooltip.bg.BM": "\uE838\uF800",
+    "tooltip.bg.BR": "\uE839\uF800\n\n\uF800",
+    "tooltip.bg.SPACE": "\uF800",
+
+    "effect.minecraft.luck": "Expanded",
+    "item.minecraft.lingering_potion.effect.luck": "Lingering Potion of Expansion",
+    "item.minecraft.potion.effect.luck": "Potion of Expansion",
+    "item.minecraft.splash_potion.effect.luck": "Splash Potion of Expansion",
+
+    "effect.minecraft.unluck": "Antigravity",
+    "item.minecraft.lingering_potion.effect.unluck": "Lingering Potion of Antigravity",
+    "item.minecraft.potion.effect.unluck": "Potion of Antigravity",
+    "item.minecraft.splash_potion.effect.unluck": "Splash Potion of Antigravity",
+
+    "death.attack.shulker_king_lazer": "%1$s is quite cooked due to a powerfull lazer fired from the Shulker King.",
+    "death.attack.shulker_king_lazer.player": "%1$s is quite cooked due to a powerfull lazer fired from the Shulker King.",
+    "death.attack.shulker_king_lazer.item": "%1$s is quite cooked due to a powerfull lazer fired from the Shulker King."
+}

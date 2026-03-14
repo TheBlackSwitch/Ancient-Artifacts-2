@@ -1,0 +1,195 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/artifact_upgrade",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": {
+                                    "type": "uniform",
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{\"Tags\":[\"has_artifact\"]}"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/expansion_star",
+                    "weight": 8,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "chests_opened": {
+                                    "min": 25
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/heavy_artifact_upgrade",
+                    "weight": 5,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "heavy_upgrade_progress": {
+                                    "min": 25
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{\"Tags\":[\"has_artifact\"]}"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/template/all",
+                    "weight": 25,
+                    "conditions": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "attacking_player",
+                            "predicate": {
+                                "nbt": "{Tags:[\"has_artifact\"]}"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/ancient_parchment",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "book",
+                    "weight": 26,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 26,
+                                "max": 40
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "name_tag",
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "disc_fragment_5",
+                    "weight": 18
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "diamond_hoe",
+                    "weight": 18,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 26,
+                                "max": 40
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "diamond_chestplate",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 26,
+                                "max": 40
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "disc_fragment_5",
+                    "weight": 18
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "enchanted_golden_apple",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "ward_armor_trim_smithing_template",
+                    "weight": 21
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "wild_armor_trim_smithing_template",
+                    "weight": 21
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "echo_shard",
+                    "weight": 18,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/music_disc/alpha_centuari",
+                    "weight": 8
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/music_disc/welcome_to_chaos",
+                    "weight": 8
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "diamond_block",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

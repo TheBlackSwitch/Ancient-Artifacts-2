@@ -1,0 +1,1 @@
+scoreboard objectives add prev_final_shout_cd dummy

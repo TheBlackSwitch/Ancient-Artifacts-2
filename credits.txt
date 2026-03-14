@@ -1,0 +1,26 @@
+![Credits:](https://cdn.modrinth.com/data/cached_images/168d809835446e75ad1020a35bb134a9f9ee50bd.png)
+
+# The datapack
+
+- theblackswitch - project lead
+- theblackswitch - Project Ideas
+- theblackswitch - textures
+- theblackswitch - code
+- theblackswitch, Bidoof_Oofington, TheDarkGlue - Some help with Structure Building
+- theblackswitch, Bidoof_Oofington, Flor_4, TheDarkGlue, Shelfhead, Gertje - playtesters
+- Bidoof_Oofington, Flor_4, Shelfhead - Motivating me
+- HeDeAnTheonlyone/Taglib - useful tags
+- ESN Productions/Free Horror Ambience (Dark Project) - the dungeon ambient sound
+- HalbFettKaese/common-shaders - for help with shaders
+- AmberWat/NegativeSpaceFont - for custom font stuff
+- misode.github.io - for generating large json files
+- mcstacker.net - for generating large commands
+- CheburKot - prior explorer skeleton floor model inspiration
+- Infrared Scale/RedStone128 The Final Battle (8-bit Epic) - sculk heart boss music
+- Naku|enhanced-boss-bars - inspiration for the custom bossbars
+- Midnight Danger/The Last day - The shulker king boss battle music  
+
+# Used troughout the images and trailer
+
+- Kryqu - Gui Experience +
+- Septonious - solas-shader

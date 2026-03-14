@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_apple",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/artifact_waste"
+            }
+        },
+        "title": {
+            "text": "Now your cookin!",
+            "color": "light_purple"
+        },
+        "description": [
+            {
+                "text": "You know very well what you did!\n\n",
+                "color": "gold"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  100x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "ancient_artifacts:main/upgrade_cauldron",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:golden_apple"
+                    ],
+                    "predicates": {
+                        "custom_data": {"artifact_waste":true}
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance",
+        "experience": 100
+    }
+}

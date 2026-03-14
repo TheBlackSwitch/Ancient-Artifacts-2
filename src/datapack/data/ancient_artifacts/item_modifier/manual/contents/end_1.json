@@ -1,0 +1,146 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 1,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "      Contents\n\n",
+                "bold": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Common:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Slowing Circlet ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 5
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:slowing_circlet}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Knockback Watch ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 7
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:knockback_watch}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Circlet Of Breath ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 9
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:dragons_breath_circlet}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n\n"
+            },
+            {
+                "text": "Uncommon:\n",
+                "color": "blue"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Attractive Toe Ring ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 11
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:attractive_toe_ring}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Gravitaion Toe Ring ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 13
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:gravitation_toe_ring}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Pulse Watch ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 15
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:pulse_watch}].check","entity": "@s","color":"blue"}
+        ]
+    ]
+}

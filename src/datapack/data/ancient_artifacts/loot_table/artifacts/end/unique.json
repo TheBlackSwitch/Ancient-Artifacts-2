@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/voiding_medal",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/voiding_medal_expensive",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/storing_circlet",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/storing_circlet_expensive",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

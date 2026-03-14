@@ -1,0 +1,888 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/bar_1.png",
+            "ascent": 10,
+            "height": 32,
+            "chars": ["\u0001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/bar_2.png",
+            "ascent": 10,
+            "height": 32,
+            "chars": ["\u0002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/bar_3.png",
+            "ascent": 10,
+            "height": 32,
+            "chars": ["\u0003"]
+        },
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/0.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0004"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/1.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0005"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/2.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0006"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/3.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0007"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/4.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0008"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/5.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/6.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/7.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/8.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/9.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/10.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/11.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/final_shout_crown/12.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0016"]
+        },
+
+
+
+
+
+
+        
+        
+        
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/0.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/1.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0018"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/2.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0019"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/3.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0020"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/4.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0021"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/5.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0022"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/6.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0023"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/7.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0024"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/8.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0025"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/9.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0026"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/10.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0027"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/11.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0028"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/12.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0029"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/13.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0030"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/explorers_boots/14.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0031"]
+        },
+
+
+
+
+
+
+        
+        
+        
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/0.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0032"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/1.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0033"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/2.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0034"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/3.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0035"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/4.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0036"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/5.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0037"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/6.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0038"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/7.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0039"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/8.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0040"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/9.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0041"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/10.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0042"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/11.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0043"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/12.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0044"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/13.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0045"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/saturating_necklace/14.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0046"]
+        },
+
+
+
+
+
+
+        
+        
+        
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/0.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0047"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/1.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0048"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/2.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0049"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/3.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0050"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/4.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0051"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/5.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0052"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/6.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0053"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/7.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0054"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/8.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0055"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/9.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0056"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/10.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0057"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/11.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0058"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/12.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0059"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/13.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0060"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/life_steal_necklace/14.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0061"]
+        },
+
+
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/0.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0062"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/1.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0063"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/2.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0064"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/3.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0065"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/4.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0066"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/5.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0067"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/6.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0068"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/7.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0069"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/8.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0070"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/9.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0071"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/10.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0072"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/11.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0073"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/12.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0074"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/13.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0075"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/sonic_crystal/14.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0076"]
+        },
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/0.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0077"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/1.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0078"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/2.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0079"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/3.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0080"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/4.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0081"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/5.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0082"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/6.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0083"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/7.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0084"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/8.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0085"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/9.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0086"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/10.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0087"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/11.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0088"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/12.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0089"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/13.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0090"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/levitation_medal/14.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0091"]
+        },
+
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/0.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0092"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/1.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0093"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/2.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0094"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/3.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0095"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/4.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0096"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/5.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0097"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/6.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0098"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/7.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0099"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/8.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0100"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/9.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0101"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/dragons_breath_circlet/10.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0102"]
+        },
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/0.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0103"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/1.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0104"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/2.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0105"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/3.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0106"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/4.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0107"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/5.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0108"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/6.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0109"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/7.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0110"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/8.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0111"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/9.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0112"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/10.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0113"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/11.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0114"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/borla_of_vision/12.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0115"]
+        },
+
+
+
+        
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/storing_circlet/off.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0116"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_hud/storing_circlet/on.png",
+            "ascent": 2,
+            "height": 16,
+            "chars": ["\u0117"]
+        }
+
+    ]
+}

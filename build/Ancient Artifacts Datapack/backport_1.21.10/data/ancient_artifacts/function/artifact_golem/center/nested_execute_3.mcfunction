@@ -1,0 +1,2 @@
+function ancient_artifacts:artifact_golem/attacks/control
+function ancient_artifacts:artifact_golem/walk_animation

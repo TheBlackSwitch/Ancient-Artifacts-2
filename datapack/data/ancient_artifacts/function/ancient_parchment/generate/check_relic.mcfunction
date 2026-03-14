@@ -1,1 +1,0 @@
-$return run execute if data storage ancient_artifacts:parchment {relics:["$(current_relic)"]}

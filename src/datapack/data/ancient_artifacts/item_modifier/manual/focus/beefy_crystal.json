@@ -1,0 +1,50 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 38,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF824",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Beefy Crystal\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF329",
+                "color": "white",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+                "text": "Deep Dark\n",
+                "color": "#14537a",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"+30 hearts, weakness III, slowness II and 5b tall",
+                "color":"gold"
+            }
+        ]
+    ]
+}

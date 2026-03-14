@@ -1,0 +1,1 @@
+$item modify entity @s weapon.offhand [ { "function": "minecraft:set_custom_model_data", "strings": { "values": ["level:$(level)"], "mode": "replace_section", "offset": 1 } }, { "function": "minecraft:set_custom_data", "tag": { "data": { "level": $(level)b } } } ]

@@ -1,0 +1,67 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/obsidian/deep_dark",
+                    "conditions": [
+                        {
+                            "condition": "value_check",
+                            "value": {
+                                "type": "score",
+                                "target": {
+                                    "type": "fixed",
+                                    "name": ".reached_deep_dark"
+                                },
+                                "score": "tbs.server_data"
+                            },
+                            "range": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/obsidian/nether",
+                    "conditions": [
+                        {
+                            "condition": "value_check",
+                            "value": {
+                                "type": "score",
+                                "target": {
+                                    "type": "fixed",
+                                    "name": ".reached_nether"
+                                },
+                                "score": "tbs.server_data"
+                            },
+                            "range": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/obsidian/overworld"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/obsidian/end",
+                    "conditions": [
+                        {
+                            "condition": "value_check",
+                            "value": {
+                                "type": "score",
+                                "target": {
+                                    "type": "fixed",
+                                    "name": ".reached_end"
+                                },
+                                "score": "tbs.server_data"
+                            },
+                            "range": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

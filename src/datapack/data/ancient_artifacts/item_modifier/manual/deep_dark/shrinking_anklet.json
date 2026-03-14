@@ -1,0 +1,46 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 16,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF822",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Shrinking Anklet\n\n",
+                "color": "blue"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "-50% scale, -50% max health, +25% attack speed, +25% walk speed\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "-30% scale, -30% max health, +15% attack speed, +15% walk speed\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "-75% scale, -70% max health, +35.5% attack speed, +35.5% walk speed\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

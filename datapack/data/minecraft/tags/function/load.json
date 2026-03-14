@@ -1,7 +1,0 @@
-{
-    "values": [
-        "ancient_artifacts:load",
-        "theblackswitch:load",
-        "#load:_private/load"
-    ]
-}

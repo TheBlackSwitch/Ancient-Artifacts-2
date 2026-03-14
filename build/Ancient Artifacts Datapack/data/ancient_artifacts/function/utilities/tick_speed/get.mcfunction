@@ -1,0 +1,1 @@
+return run function ancient_artifacts:utilities/tick_speed/run {command: "return run tick query"}

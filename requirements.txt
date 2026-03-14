@@ -1,0 +1,8 @@
+beet>=0.113.0
+pillow>=12.0.0
+bolt>=0.50.1
+bolt-expressions>=0.18.0
+mecha>=0.102.2
+playsound==1.2.2
+bolt_native_macros>=0.5.1
+scipy>=1.17.0

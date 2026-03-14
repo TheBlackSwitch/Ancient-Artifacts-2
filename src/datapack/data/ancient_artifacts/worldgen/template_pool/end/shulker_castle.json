@@ -1,0 +1,45 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ancient_artifacts:end/shulker_castle_quadrant_1",
+				"processors": [],
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ancient_artifacts:end/shulker_castle_quadrant_2",
+				"processors": [],
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ancient_artifacts:end/shulker_castle_quadrant_3",
+				"processors": [],
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ancient_artifacts:end/shulker_castle_quadrant_4",
+				"processors": [],
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		}
+	]
+}

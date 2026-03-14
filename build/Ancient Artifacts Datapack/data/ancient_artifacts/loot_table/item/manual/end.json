@@ -1,0 +1,1562 @@
+    {
+        "pools": [
+            {
+                "rolls": 1,
+                "entries": [
+                    {
+                        "type": "item",
+                        "weight": 1,
+                        "name": "minecraft:written_book",
+                        "functions": [
+                            {
+                                "function": "set_count",
+                                "count": 1
+                            },
+                            {
+                                "function": "set_components",
+                                "components": {
+                                    "item_model": "ancient_artifacts:item/manual/end",
+                                    "enchantment_glint_override": false,
+                                    "custom_data": {
+                                        "manual": true,
+                                        "data": {
+                                            "unlock_count": 0,
+                                            "unlocked": [],
+                                            "dim": "end"
+                                        },
+                                        "aa-version": 251,
+                                        "smithed": {
+                                            "ignore": {
+                                                "functionality": true,
+                                                "crafting": true
+                                            }
+                                        }
+                                    },
+                                    "max_stack_size": 1,
+                                    "tooltip_style": "minecraft:ancient_artifacts",
+                                    "tooltip_display": {
+                                        "hidden_components": [
+                                            "written_book_content"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "function": "set_name",
+                                "name": {
+                                    "text": "Artifact Manual",
+                                    "color": "#b56400",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "bold": false
+                                },
+                                "target": "item_name"
+                            },
+                            {
+                                "function": "set_lore",
+                                "mode": "replace_all",
+                                "lore": [
+                                    {
+                                        "text": "\uE522",
+                                        "italic": false,
+                                        "shadow_color": 0,
+                                        "font": "ancient_artifacts:main",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "text": "A manual filled with useful information",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "about your unlocked artifacts",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "text": "\uE524Origin: ",
+                                        "font": "ancient_artifacts:main",
+                                        "color": "#786d5b",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": " End",
+                                        "color": "#9d65bf",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "text": "\uE525Controls: ",
+                                        "color": "#5c5242",
+                                        "italic": false,
+                                        "shadow_color": 0,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": " \uE505 to open. ",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    }
+                                ]
+                            },
+                            {
+                                "function": "set_written_book_pages",
+                                "pages": [
+                                    [
+                                        {
+                                            "text": ""
+                                        },
+                                        {
+                                            "text": "\n\n                             \n\n",
+                                            "underlined": true,
+                                            "color": "#5c5242"
+                                        },
+                                        {
+                                            "text": "\uE504",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n                             ",
+                                            "underlined": true,
+                                            "color": "#5c5242"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "      Contents\n\n",
+                                            "bold": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "Common:\n",
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Slowing Circlet\n",
+                                            "color": "dark_gray",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 5
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Knockback Watch\n",
+                                            "color": "dark_gray",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 7
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Circlet Of Breath\n\n",
+                                            "color": "dark_gray",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 9
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": "Uncommon:\n",
+                                            "color": "blue"
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Attractive Toe Ring\n",
+                                            "color": "blue",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 11
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Gravitation Toe Ring\n",
+                                            "color": "blue",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 13
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Pulse Watch\n",
+                                            "color": "blue",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 15
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "      Contents\n\n",
+                                            "bold": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "Rare:\n",
+                                            "color": "#762f94"
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Landing Toe Ring\n",
+                                            "color": "#762f94",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 17
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Deflecting Circlet\n",
+                                            "color": "#762f94",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 19
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Radiant Watch\n",
+                                            "color": "#762f94",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 21
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Levitation Medal\n\n",
+                                            "color": "#762f94",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 23
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": "Unique:\n",
+                                            "color": "#b56400"
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Storing Circlet\n",
+                                            "color": "#b56400",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 25
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Voiding Medal\n",
+                                            "color": "#b56400",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 27
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "",
+                                            "underlined": true,
+                                            "bold": true
+                                        },
+                                        {
+                                            "text": "      Contents\n\n",
+                                            "bold": true,
+                                            "color": "dark_gray",
+                                            "underlined": false
+                                        },
+                                        {
+                                            "color": "#FFAA00",
+                                            "text": "\uE513",
+                                            "bold": false,
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "color": "#FFAA00",
+                                            "text": "D"
+                                        },
+                                        {
+                                            "color": "#FF9020",
+                                            "text": "i"
+                                        },
+                                        {
+                                            "color": "#FF763F",
+                                            "text": "v"
+                                        },
+                                        {
+                                            "color": "#FF5C5F",
+                                            "text": "i"
+                                        },
+                                        {
+                                            "color": "#FF417F",
+                                            "text": "n"
+                                        },
+                                        {
+                                            "color": "#FF0DBE",
+                                            "text": "e"
+                                        },
+                                        {
+                                            "color": "#FF0DBE",
+                                            "text": "\uE513: \n\n",
+                                            "bold": false,
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": ""
+                                        },
+                                        [
+                                            {
+                                                "color": "#FFAA00",
+                                                "text": " F",
+                                                "underlined": false,
+                                                "italic": false,
+                                                "shadow_color": 0,
+                                                "bold": false,
+                                                "click_event": {
+                                                    "action": "change_page",
+                                                    "page": 29
+                                                },
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": {
+                                                        "text": "Go To",
+                                                        "color": "#762f94"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "color": "#FF8B26",
+                                                "text": "o"
+                                            },
+                                            {
+                                                "color": "#FF6B4C",
+                                                "text": "c"
+                                            },
+                                            {
+                                                "color": "#FF4C72",
+                                                "text": "u"
+                                            },
+                                            {
+                                                "color": "#FF2C98",
+                                                "text": "s "
+                                            },
+                                            {
+                                                "color": "#FF0DBE",
+                                                "text": "M"
+                                            },
+                                            {
+                                                "color": "#FF2C98",
+                                                "text": "e"
+                                            },
+                                            {
+                                                "color": "#FF4C72",
+                                                "text": "d"
+                                            },
+                                            {
+                                                "color": "#FF6B4C",
+                                                "text": "a"
+                                            },
+                                            {
+                                                "color": "#FFAA00",
+                                                "text": "l"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828  Slowing Circlet\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF345",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Common\n\n",
+                                            "color": "#5c5242",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828  Slowing Circlet\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828 Knockback Watch\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF350",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Common\n\n",
+                                            "color": "#5c5242",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828 Knockback Watch\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "   Circlet Of Breath\n",
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF352",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Common\n\n",
+                                            "color": "#5c5242",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "II",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "   Circlet Of Breath\n",
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "  Attractive Toe Ring\n",
+                                            "color": "blue"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF341",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Uncommon\n\n",
+                                            "color": "blue",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "  Attractive Toe Ring\n",
+                                            "color": "blue"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "  Gravitation Toe Ring\n",
+                                            "color": "blue"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF342",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Uncommon\n\n",
+                                            "color": "blue",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "  Gravitation Toe Ring\n",
+                                            "color": "blue"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF828\uF822Pulse Watch\n",
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF343",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Uncommon\n\n",
+                                            "color": "blue",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "IV",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF828\uF822Pulse Watch\n",
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829Landing Toe Ring\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF349",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Rare\n\n",
+                                            "color": "#762f94",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829Landing Toe Ring\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828\uF824Deflecting Circlet\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF348",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Rare\n\n",
+                                            "color": "#762f94",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "II",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828\uF824Deflecting Circlet\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF824Radiant Watch\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF347",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Rare\n\n",
+                                            "color": "#762f94",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "II",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF824Radiant Watch\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF822Levitation Medal\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF346",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Rare\n\n",
+                                            "color": "#762f94",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "V",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF822Levitation Medal\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF824Storing Circlet\n",
+                                            "color": "#b56400",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF351",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Unique\n\n",
+                                            "color": "#b56400",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "V",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF824Storing Circlet\n",
+                                            "color": "#b56400",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF828Voiding Medal\n",
+                                            "color": "#b56400",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF344",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Unique\n\n",
+                                            "color": "#b56400",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "I",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF828Voiding Medal\n",
+                                            "color": "#b56400",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        [
+                                            {
+                                                "color": "#FFAA00",
+                                                "text": "\uF829\uF828F",
+                                                "underlined": false,
+                                                "italic": false,
+                                                "shadow_color": 0,
+                                                "bold": false,
+                                                "click_event": {
+                                                    "action": "change_page",
+                                                    "page": 29
+                                                },
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": {
+                                                        "text": "Go To",
+                                                        "color": "#762f94"
+                                                    }
+                                                },
+                                                "font": "ancient_artifacts:main"
+                                            },
+                                            {
+                                                "color": "#FF8B26",
+                                                "text": "o"
+                                            },
+                                            {
+                                                "color": "#FF6B4C",
+                                                "text": "c"
+                                            },
+                                            {
+                                                "color": "#FF4C72",
+                                                "text": "u"
+                                            },
+                                            {
+                                                "color": "#FF2C98",
+                                                "text": "s "
+                                            },
+                                            {
+                                                "color": "#FF0DBE",
+                                                "text": "M"
+                                            },
+                                            {
+                                                "color": "#FF2C98",
+                                                "text": "e"
+                                            },
+                                            {
+                                                "color": "#FF4C72",
+                                                "text": "d"
+                                            },
+                                            {
+                                                "color": "#FF6B4C",
+                                                "text": "a"
+                                            },
+                                            {
+                                                "color": "#FFAA00",
+                                                "text": "l\n"
+                                            }
+                                        ],
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF353",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "color": "#FFAA00",
+                                            "text": "\uE513",
+                                            "bold": false,
+                                            "underlined": true,
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "color": "#FFAA00",
+                                            "text": "D",
+                                            "underlined": true,
+                                            "bold": true
+                                        },
+                                        {
+                                            "color": "#FF9020",
+                                            "text": "i",
+                                            "underlined": true,
+                                            "bold": true
+                                        },
+                                        {
+                                            "color": "#FF763F",
+                                            "text": "v",
+                                            "underlined": true,
+                                            "bold": true
+                                        },
+                                        {
+                                            "color": "#FF5C5F",
+                                            "text": "i",
+                                            "underlined": true,
+                                            "bold": true
+                                        },
+                                        {
+                                            "color": "#FF417F",
+                                            "text": "n",
+                                            "underlined": true,
+                                            "bold": true
+                                        },
+                                        {
+                                            "color": "#FF0DBE",
+                                            "text": "e",
+                                            "underlined": true,
+                                            "bold": true
+                                        },
+                                        {
+                                            "color": "#FF0DBE",
+                                            "text": "\uE513\n\n",
+                                            "bold": false,
+                                            "underlined": true,
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "End\n\n",
+                                            "color": "#9c589a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "I",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        [
+                                            {
+                                                "color": "#FFAA00",
+                                                "text": "\uF829\uF828F",
+                                                "font": "ancient_artifacts:main",
+                                                "underlined": false,
+                                                "italic": false,
+                                                "shadow_color": 0,
+                                                "bold": false,
+                                                "click_event": {
+                                                    "action": "change_page",
+                                                    "page": 29
+                                                },
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": {
+                                                        "text": "Go To",
+                                                        "color": "#762f94"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "color": "#FF8B26",
+                                                "text": "o"
+                                            },
+                                            {
+                                                "color": "#FF6B4C",
+                                                "text": "c"
+                                            },
+                                            {
+                                                "color": "#FF4C72",
+                                                "text": "u"
+                                            },
+                                            {
+                                                "color": "#FF2C98",
+                                                "text": "s "
+                                            },
+                                            {
+                                                "color": "#FF0DBE",
+                                                "text": "M"
+                                            },
+                                            {
+                                                "color": "#FF2C98",
+                                                "text": "e"
+                                            },
+                                            {
+                                                "color": "#FF4C72",
+                                                "text": "d"
+                                            },
+                                            {
+                                                "color": "#FF6B4C",
+                                                "text": "a"
+                                            },
+                                            {
+                                                "color": "#FFAA00",
+                                                "text": "l\n"
+                                            }
+                                        ],
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ]
+                                ],
+                                "mode": "replace_all"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }

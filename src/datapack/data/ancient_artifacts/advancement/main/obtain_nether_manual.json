@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/manual/nether"
+            }
+        },
+        "title": {
+            "text": "Deeper knowledge crafted!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Craft a nether manual! Find the recipe in your recipe book!",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/obtain_nether_artifact",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "ancient_artifacts:nether_manual"
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

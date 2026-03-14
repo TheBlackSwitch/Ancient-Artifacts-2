@@ -1,0 +1,2 @@
+execute if score #smithed.actionbar.minor load.status matches ..6 unless score #smithed.actionbar.minor load.status matches 6 run function smithed.actionbar:v0.6.6/technical/load/enumerate/set_version
+execute unless score #smithed.actionbar.set load.status matches 1 if score #smithed.actionbar.minor load.status matches ..6 if score #smithed.actionbar.minor load.status matches 6 run function smithed.actionbar:v0.6.6/technical/load/enumerate/patch

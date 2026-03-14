@@ -1,0 +1,42 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 28,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828Combo Boots\n",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Activate your shield just when taking damage to parry it.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Parry + Slow down time when using a bow 5b in the air.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Parry + Bow Slow + Slam down with your weapon when sneaking 10b in the air.\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

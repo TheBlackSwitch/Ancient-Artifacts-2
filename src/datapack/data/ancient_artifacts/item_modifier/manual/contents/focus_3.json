@@ -1,0 +1,280 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 3,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "Contents ",
+                "color": "dark_gray",
+                "bold": true
+            },
+            {
+                "text": "Rare:\n",
+                "color": "dark_purple",
+                "bold": false
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Miners Crown ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 32
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:miners_crown}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Travelers Boots ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 33
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:travelers_boots}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Reaching Bracelet ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 34
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:reaching_bracelet}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Healing Amulet ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 35
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:healing_amulet}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Thermal Tiara ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 36
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:thermal_tiara}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Raging Ring ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 37
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:raging_ring}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Cooling Boots ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 38
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:cooling_boots}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Beefy Crystal ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 39
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:beefy_crystal}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n"
+            },
+            {
+                "text": "Strengthening Anklet",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 40
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:strengthening_anklet}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Bulky Chain ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 41
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:bulky_chain}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Landing Toe Ring ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 42
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Deflecting Circlet ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 43
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:deflecting_circlet}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Radiant Watch ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 44
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:radiant_watch}].check","entity": "@s","color":"dark_purple"}
+        ]
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/voiding_medal"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/storing_circlet"
+                }
+            ]
+        }
+    ]
+}

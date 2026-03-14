@@ -1,0 +1,24 @@
+{
+    "values": [
+        {
+            "id": "minecraft:air",
+            "required": false
+        },
+        {
+            "id": "minecraft:water",
+            "required": false
+        },
+        {
+            "id": "minecraft:fire",
+            "required": false
+        },
+        {
+            "id": "minecraft:glass",
+            "required": false
+        },
+        {
+            "id": "minecraft:glass_pane",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/essence/common",
+                                "custom_data":{
+                                    "artifact_essence":1,
+                                    "level":1,
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                },
+                                "tooltip_style": "minecraft:ancient_artifacts"
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Common Artifact Essence",
+                                "color": "#5c5242",
+                                "italic": false, "shadow_color": 0,
+                                "bold": true
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "The most essential fragment of an ",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": "artifact with a very weak potency.",
+                                    "color": "#762f94",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "\uE526When used in artifact recycling:",
+                                    "color": "#5c5242",
+                                    "italic": false, "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
+                                },
+                                {
+                                    "text": " -1 chance for loot",
+                                    "color": "red",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " +4 chance for a common artifact",
+                                    "color": "#b56400",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " +1 chance for an uncommon artifact",
+                                    "color": "#b56400",
+                                    "italic": false, "shadow_color": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

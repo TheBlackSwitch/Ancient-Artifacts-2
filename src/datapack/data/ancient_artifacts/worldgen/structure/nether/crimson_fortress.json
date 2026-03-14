@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": ["crimson_forest"],
+    "step": "underground_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_box",
+    "start_pool": "ancient_artifacts:nether/crimson_fortress",
+    "size": 2,
+    "start_height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+            "absolute": 32
+        },
+        "max_inclusive": {
+            "absolute": 100
+        }
+    },
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+}

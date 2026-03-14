@@ -1,1 +1,0 @@
-function theblackswitch:overlay/set_overlay {overlay:"ancient_artifacts:item/overlay/cutscene",do_sound:false}

@@ -1,0 +1,146 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 2,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "      Contents\n\n",
+                "bold": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Rare:\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Landing Toe Ring ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 17
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Deflecting Circlet ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 19
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:deflecting_circlet}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Radiant Watch ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 21
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Levitation Medal ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 23
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:levitation_medal}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n\n"
+            },
+            {
+                "text": "Unique:\n",
+                "color": "gold"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Storing Circlet ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 25
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:storing_circlet}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Voiding Medal ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 27
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:voiding_medal}].check","entity": "@s","color":"gold"}
+        ]
+    ]
+}

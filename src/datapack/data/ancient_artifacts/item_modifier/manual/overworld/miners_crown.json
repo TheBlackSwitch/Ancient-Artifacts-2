@@ -1,0 +1,42 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 16,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828Miners Crown\n\n",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Gives Haste I.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Haste I + mine 5 blocks at once while sneaking.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Haste I + mine 9 blocks at once while sneaking.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

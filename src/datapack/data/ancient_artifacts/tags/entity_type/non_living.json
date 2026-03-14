@@ -1,0 +1,109 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"required": false,
+			"id": "#ancient_artifacts:projectile"
+		},
+		{
+			"required": false,
+			"id": "minecraft:painting"
+		},
+		{
+			"required": false,
+			"id": "minecraft:experience_orb"
+		},
+		{
+			"required": false,
+			"id": "minecraft:eye_of_ender"
+		},
+		{
+			"required": false,
+			"id": "minecraft:falling_block"
+		},
+		{
+			"required": false,
+			"id": "minecraft:item"
+		},
+		{
+			"required": false,
+			"id": "minecraft:tnt"
+		},
+		{
+			"required": false,
+			"id": "minecraft:minecart"
+		},
+		{
+			"required": false,
+			"id": "minecraft:tnt_minecart"
+		},
+		{
+			"required": false,
+			"id": "minecraft:command_block_minecart"
+		},
+		{
+			"required": false,
+			"id": "minecraft:chest_minecart"
+		},
+		{
+			"required": false,
+			"id": "minecraft:hopper_minecart"
+		},
+		{
+			"required": false,
+			"id": "minecraft:furnace_minecart"
+		},
+		{
+			"required": false,
+			"id": "minecraft:spawner_minecart"
+		},
+		{
+			"required": false,
+			"id": "minecraft:boat"
+		},
+		{
+			"required": false,
+			"id": "minecraft:chest_boat"
+		},
+		{
+			"required": false,
+			"id": "minecraft:end_crystal"
+		},
+		{
+			"required": false,
+			"id": "minecraft:evoker_fangs"
+		},
+		{
+			"required": false,
+			"id": "minecraft:fishing_bobber"
+		},
+		{
+			"required": false,
+			"id": "minecraft:leash_knot"
+		},
+		{
+			"required": false,
+			"id": "minecraft:lightning_bolt"
+		},
+		{
+			"required": false,
+			"id": "minecraft:armor_stand"
+		},
+		{
+			"required": false,
+			"id": "minecraft:area_effect_cloud"
+		},
+		{
+			"required": false,
+			"id": "minecraft:item_frame"
+		},
+		{
+			"required": false,
+			"id": "minecraft:glow_item_frame"
+		},
+		{
+			"required": false,
+			"id": "#ancient_artifacts:technical"
+		}
+	]
+}

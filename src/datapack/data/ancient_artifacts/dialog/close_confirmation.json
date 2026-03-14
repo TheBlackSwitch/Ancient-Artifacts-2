@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:confirmation",
+	"title": [
+		{
+			"text": "Ancient Artifacts - ",
+			"color": "blue"
+		},
+		{
+			"text": "Creative Book",
+			"color": "light_purple"
+		}
+	],
+	"body": {
+		"type": "minecraft:plain_message",
+		"contents": {
+			"text": "\n\n\n\n\nAre you sure you want to close this menu?",
+			"color": "red"
+		}
+	},
+	"inputs": [],
+	"can_close_with_escape": true,
+	"pause": false,
+	"after_action": "close",
+	"no": {
+		"label": [
+            {
+                "text": "Close ",
+                "color": "green",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": " \uE521",
+                "color": "green",
+                "font": "ancient_artifacts:main",
+                "shadow_color": 0
+            }
+        ]
+	},
+	"yes": {
+		"label": [
+            {
+                "text": "Cancel",
+                "color": "red",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": " \uE520",
+                "color": "red",
+                "font": "ancient_artifacts:main",
+                "shadow_color": 0
+            }
+        ],
+		"action": {
+			"type": "show_dialog",
+            "dialog": "ancient_artifacts:creative_book"
+		}
+	}
+}

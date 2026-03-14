@@ -1,0 +1,15 @@
+{
+    "name": "ancient_artifacts:deep_dark/heart_of_sculk",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:deep_dark/sculk_heart",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

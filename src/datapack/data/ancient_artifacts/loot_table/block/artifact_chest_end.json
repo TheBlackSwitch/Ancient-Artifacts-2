@@ -1,0 +1,72 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cod_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:block/artifact_chest/end",
+                                "entity_data": {"id":"minecraft:marker","Tags":["artifact_chest_place","end"]},
+                                "tooltip_style":"minecraft:ancient_artifacts",
+                                "minecraft:custom_data": {
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Artifact Chest",
+                                "color": "#b56400",
+                                "italic": false, "shadow_color": 0,
+                                "bold": true
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "\uE524Origin: ","font":"ancient_artifacts:main",
+                                    "color": "#786d5b",
+                                    "italic": false, "shadow_color": 0
+                                },
+                                {
+                                    "text": " End",
+                                    "color": "#9d65bf",
+                                    "italic": false, "shadow_color": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

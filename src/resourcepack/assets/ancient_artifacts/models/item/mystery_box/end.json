@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "north": "ancient_artifacts:item/mystery_box/front",
+        "east": "ancient_artifacts:item/mystery_box/side_end",
+        "south": "ancient_artifacts:item/mystery_box/front",
+        "west": "ancient_artifacts:item/mystery_box/side_end",
+        "up": "ancient_artifacts:item/mystery_box/side_end",
+        "down": "ancient_artifacts:item/mystery_box/side_end",
+        "particle": "ancient_artifacts:item/empty"
+    }
+}

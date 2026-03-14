@@ -1,0 +1,140 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "ancient_artifacts:item/parchment",
+                                "custom_data": {
+                                    "parchment": true,
+                                    "aa-version": 251,
+                                    "smithed": {
+                                        "ignore": {
+                                            "functionality": true,
+                                            "crafting": true
+                                        }
+                                    }
+                                },
+                                "!max_damage": {},
+                                "max_stack_size": 1,
+                                "tooltip_style": "minecraft:ancient_artifacts"
+                            }
+                        },
+                        {
+                            "function": "minecraft:copy_custom_data",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "ancient_artifacts:artifact"
+                            },
+                            "ops": [
+                                {
+                                    "source": "random_id",
+                                    "target": "random_id",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Ancient Parchment",
+                                "color": "#b56400",
+                                "italic": false,
+                                "shadow_color": 0,
+                                "bold": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "\uE522",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "An ancient piece of paper filled",
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
+                                },
+                                {
+                                    "text": "with symbols and drawings which nobody",
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
+                                },
+                                {
+                                    "text": "has been able to decode.",
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0
+                                },
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                },
+                                {
+                                    "text": "\uE525Controls: ",
+                                    "color": "#5c5242",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
+                                },
+                                {
+                                    "text": " \uE505 in main hand to open. ",
+                                    "color": "#762f94",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "font": "ancient_artifacts:main"
+                                },
+                                [
+                                    {
+                                        "text": " Hold [",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "keybind": "key.sneak",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "] to quick look",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    }
+                                ],
+                                {
+                                    "text": "",
+                                    "color": "red"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

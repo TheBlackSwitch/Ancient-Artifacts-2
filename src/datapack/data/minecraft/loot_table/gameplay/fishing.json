@@ -1,0 +1,348 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/junk",
+                    "weight": 4,
+                    "quality": 0
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/junk",
+                    "weight": 2,
+                    "quality": 0,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "max": 0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/junk",
+                    "weight": 2,
+                    "quality": 0,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "max": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/junk",
+                    "weight": 2,
+                    "quality": 0,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "max": 2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/treasure",
+                    "weight": 5,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "minecraft:fishing_hook",
+                                    "in_open_water": true
+                                }
+                            }
+                        }
+                    ],
+                    "quality": 0
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/treasure",
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "minecraft:fishing_hook",
+                                    "in_open_water": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "quality": 0
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/treasure",
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "minecraft:fishing_hook",
+                                    "in_open_water": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "min": 2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "quality": 0
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/treasure",
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "minecraft:fishing_hook",
+                                    "in_open_water": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "min": 3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "quality": 0
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/fish",
+                    "weight": 82,
+                    "quality": 0
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/fish",
+                    "weight": 1,
+                    "quality": 0,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "max": 0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/fish",
+                    "weight": 1,
+                    "quality": 0,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "max": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:gameplay/fishing/fish",
+                    "weight": 1,
+                    "quality": 0,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "active": true,
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:luck_of_the_sea",
+                                                    "levels": {
+                                                        "max": 2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing",
+    "__smithed__": {
+        "priority": {
+            "stage": "early"
+        },
+        "rules": [
+            {
+                "type": "smithed:replace",
+                "target": "pools[0]",
+                "source": {
+                    "type:": "smithed:refrence",
+                    "path": "pools[0]"
+                }
+            }
+        ]
+    }
+}

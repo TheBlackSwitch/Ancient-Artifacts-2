@@ -1,0 +1,53 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"required": false,
+			"id": "minecraft:cat"
+		},
+		{
+			"required": false,
+			"id": "minecraft:wolf"
+		},
+		{
+			"required": false,
+			"id": "minecraft:llama"
+		},
+		{
+			"required": false,
+			"id": "minecraft:horse"
+		},
+		{
+			"required": false,
+			"id": "minecraft:donkey"
+		},
+		{
+			"required": false,
+			"id": "minecraft:mule"
+		},
+		{
+			"required": false,
+			"id": "minecraft:zombie_horse"
+		},
+		{
+			"required": false,
+			"id": "minecraft:skeleton_horse"
+		},
+		{
+			"required": false,
+			"id": "minecraft:parrot"
+		},
+		{
+			"required": false,
+			"id": "minecraft:nautilus"
+		},
+		{
+			"required": false,
+			"id": "minecraft:zombie_nautilus"
+		},
+		{
+			"required": false,
+			"id": "minecraft:trader_lama"
+		}
+	]
+}

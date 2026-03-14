@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "theblackswitch:v2.0/patch-1/overlay/init_player",
+      "required": false
+    },
+    {
+      "id": "theblackswitch:v2.0/patch-1/player_id/assign_id",
+      "required": false
+    }
+  ]
+}

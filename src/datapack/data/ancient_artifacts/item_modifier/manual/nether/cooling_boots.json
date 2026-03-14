@@ -1,0 +1,33 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 20,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828Cooling Boots\n\n",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Generates a 3x3 square of basalt when walking on lava.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 5x5\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "values": [
+        {
+            "required": false,
+            "id": "minecraft:fox"
+        }
+    ],
+    "comment": "These mobs trust specific players. Their trust field is an array."
+}

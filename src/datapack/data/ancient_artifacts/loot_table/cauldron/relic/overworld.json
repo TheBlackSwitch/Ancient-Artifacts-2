@@ -1,0 +1,110 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:amethyst_shard"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bone"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:string"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:slime_ball"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rotten_flesh"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spider_eye"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rabbit_hide"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:nautilus_shell"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:turtle_scute"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ominous_bottle"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fermented_spider_eye"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gunpowder"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:sugar"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:phantom_membrane"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:breeze_rod"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:raw_gold"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:trial_key"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ominous_trial_key"
+                }
+            ]
+        }
+    ]
+}

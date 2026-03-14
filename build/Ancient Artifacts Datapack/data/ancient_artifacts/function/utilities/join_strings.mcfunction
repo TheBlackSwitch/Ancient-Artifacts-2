@@ -1,0 +1,1 @@
+$data modify storage $(return) set value "$(str1)$(str2)$(str3)$(str4)$(str5)$(str6)$(str7)"

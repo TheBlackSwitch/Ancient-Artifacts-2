@@ -1,0 +1,50 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 10,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF826",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Smelting Tiara\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF321",
+                "color": "white",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+                "text": "Nether\n",
+                "color": "dark_red",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Mine 30% faster",
+                "color":"gold"
+            }
+        ]
+    ]
+}

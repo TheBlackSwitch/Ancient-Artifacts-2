@@ -1,0 +1,20 @@
+from scipy.spatial.transform import Rotation
+
+def lerp(a, b, progr):
+    """Linear interpolate"""
+    return b * progr + a * (1 - progr)
+
+def toQuat(yaw: float, roll: float, pitch: float):
+    """Convert euler (xyz) to quaternions"""
+    rot = Rotation.from_euler('xyz', [yaw, roll, pitch], degrees=True)
+    arr = rot.as_quat()
+    return [arr[0], arr[1], arr[2], arr[3]]
+
+def lerpToQuat(y_a, r_a, p_a, y_b, r_b, p_b, progr):
+    """Interpolate between 2 euler angles (xyz) and return in quaternions"""
+
+    y = lerp(y_a, y_b, progr)
+    r = lerp(r_a, r_b, progr)
+    p = lerp(p_a, p_b, progr)
+
+    return toQuat(y, r, p)

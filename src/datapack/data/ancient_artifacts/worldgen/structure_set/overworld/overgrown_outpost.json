@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "ancient_artifacts:overworld/overgrown_outpost",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 39,
+      "separation": 30,
+      "salt": 987565
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 28,
+    "pages": [
+        [
+            {
+                "text": "\uF829Explorers Boots\n\n",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Drops artifact loot every 200 newly explored chunks.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 150 chunks.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 100 chunks.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

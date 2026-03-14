@@ -1,0 +1,280 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 2,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "Contents ",
+                "color": "dark_gray",
+                "bold": true
+            },
+            {
+                "text": "Uncommon:\n",
+                "color": "blue",
+                "bold": false
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Allies Amulet ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 19
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:allies_amulet}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Shockwave Bracelet",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 20
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:shockwave_bracelet}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Divers Boots ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 21
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:divers_boots}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Fireball Ring ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 22
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:fireball_ring}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Saturating Necklace",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 23
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:saturating_necklace}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Builders Ring ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 24
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:builders_ring}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Echoing Chain ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 25
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:echoing_chain}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Echolocating Borla ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 26
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:echolocating_borla}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Recycling Crystal ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 27
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:recycling_crystal}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Shrinking Anklet ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 28
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:shrinking_anklet}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Attractive Toe Ring ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 29
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:attractive_toe_ring}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Gravitation Toe Ring",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 30
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:gravitation_toe_ring}].check","entity": "@s","color":"blue"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Pulse Watch ",
+                "color": "blue",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 31
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:pulse_watch}].check","entity": "@s","color":"blue"}
+        ]
+    ]
+}

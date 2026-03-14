@@ -1,1 +1,19 @@
-.github/workflows/curseforge_gameVersionTypeID's.json
+# the cache folder for beet, used during the generation but does not conatain any useful info
+.beet_cache/
+# my python virtual environment, don't include this as it is system specific
+.venv/
+# Python cache during run, doesn't coantain useful info
+__pycache__/
+# The export folder is not needed either
+export/
+# paint-dot-net and task files which we don't need
+*.pdn
+*.tasks
+# these files are specifically for myself
+log_terminal_cache.json
+__todo__.web
+export.json
+.github/workflows/scripts/test.py
+.github/workflows/scripts/test.bat
+
+

@@ -1,0 +1,278 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "ancient_artifacts:item/artifact_blend",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_count",
+                            "add": true,
+                            "count": {
+                                "min": {
+                                    "type": "score",
+                                    "score": "temp",
+                                    "target": {
+                                        "type": "fixed",
+                                        "name": ".level"
+                                    },
+                                    "scale": 0.8
+                                },
+                                "max": {
+                                    "type": "score",
+                                    "score": "temp",
+                                    "target": {
+                                        "type": "fixed",
+                                        "name": ".level"
+                                    },
+                                    "scale": 1.2
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "value": "ancient_artifacts:item/essence/common",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 5,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 6,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 4
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 7,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 3
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 8,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 9,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "value": "ancient_artifacts:item/template/common",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 5,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 6,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 4
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 7,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 3
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 8,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty",
+                            "weight": 9,
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": ".level"
+                                        },
+                                        "score": "temp"
+                                    },
+                                    "range": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

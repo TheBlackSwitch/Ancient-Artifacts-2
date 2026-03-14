@@ -1,0 +1,9 @@
+{
+  "values": [
+    {
+      "id": "theblackswitch:v2.0/patch-1/load",
+      "required": false
+    }
+  ],
+  "comment": "runs just before the main load pipeline, after we have collected the latest patch number. Useful for pre-initializing stuff for other datapacks"
+}

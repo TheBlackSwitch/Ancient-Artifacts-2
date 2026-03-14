@@ -1,0 +1,1 @@
+$execute store success score .succes temp run place template dungeon:entrance/statue_$(statue_phase) ~-19 ~16 ~-11

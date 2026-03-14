@@ -1,0 +1,72 @@
+{
+    "values": [
+        {
+            "required": false,
+            "id": "#ancient_artifacts:arrows"
+        },
+        {
+            "required": false,
+            "id": "minecraft:llama_spit"
+        },
+        {
+            "required": false,
+            "id": "minecraft:trident"
+        },
+        {
+            "required": false,
+            "id": "minecraft:egg"
+        },
+        {
+            "required": false,
+            "id": "minecraft:ender_pearl"
+        },
+        {
+            "required": false,
+            "id": "minecraft:firework_rocket"
+        },
+        {
+            "required": false,
+            "id": "minecraft:snowball"
+        },
+        {
+            "required": false,
+            "id": "minecraft:potion"
+        },
+        {
+            "required": false,
+            "id": "minecraft:fishing_bobber"
+        },
+        {
+            "required": false,
+            "id": "minecraft:tnt"
+        },
+        {
+            "required": false,
+            "id": "minecraft:experience_bottle"
+        },
+        {
+            "required": false,
+            "id": "minecraft:fireball"
+        },
+        {
+            "required": false,
+            "id": "minecraft:small_fireball"
+        },
+        {
+            "required": false,
+            "id": "minecraft:dragon_fireball"
+        },
+        {
+            "required": false,
+            "id": "minecraft:wind_charge"
+        },
+        {
+            "required": false,
+            "id": "minecraft:shulker_bullet"
+        },
+        {
+            "required": false,
+            "id": "minecraft:wither_skull"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+playsound minecraft:entity.elder_guardian.death master @a ~ ~ ~ 1 2
+playsound minecraft:particle.soul_escape master @a ~ ~ ~ 10 1
+playsound minecraft:particle.soul_escape master @a ~ ~ ~ 10 1
+playsound minecraft:particle.soul_escape master @a ~ ~ ~ 10 1
+playsound minecraft:particle.soul_escape master @a ~ ~ ~ 10 1
+playsound minecraft:particle.soul_escape master @a ~ ~ ~ 10 1
+playsound minecraft:particle.soul_escape master @a ~ ~ ~ 10 1
+playsound minecraft:particle.soul_escape master @a ~ ~ ~ 10 1
+playsound minecraft:particle.soul_escape master @a ~ ~ ~ 10 1

@@ -1,0 +1,1 @@
+raw return run gamerule mobGriefing

@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:amethyst_shard",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/compound/chorus"
+            }
+        },
+        "title": {
+            "text": "Chorus Power!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Craft your first chorus compound using 5 amethyst shards and 4 popped chorus fruit!",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/enter_dimention_or_deep_dark",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "compound": true,
+                                "type": "end"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

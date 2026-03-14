@@ -1,0 +1,277 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 5,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "Contents ",
+                "color": "dark_gray",
+                "bold": true
+            },
+            {
+                "text": "Unique:\n ",
+                "color": "gold",
+                "bold": false
+            },
+            {
+                "text": "Conductive Bracelet",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 46
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:conductive_bracelet}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Final Shout Crown ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 47
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:final_shout_crown}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Explorers Boots ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 48
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:explorers_boots}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Withering Necklace ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 49
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:withering_necklace}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Looting Tiara ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 50
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:looting_tiara}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Life Steal Necklace ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 51
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:life_steal_necklace}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Combo Boots ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 52
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:combo_boots}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Experienced Chain ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 53
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:experienced_chain}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Anklet Of Peace ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 54
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:anklet_of_peace}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Anklet Of Recovery ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 55
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:recovery_anklet}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Necromancy Anklet ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 56
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:necromancy_anklet}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Storing Circlet ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 57
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:storing_circlet}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Voiding Medal ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 58
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:voiding_medal}].check","entity": "@s","color":"gold"}
+        ]
+    ]
+}

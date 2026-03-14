@@ -1,0 +1,7 @@
+{
+    "message_id": "rage",
+    "effects": "burning",
+    "death_message_type": "default",
+    "exhaustion": 0.1,
+    "scaling": "always"
+}

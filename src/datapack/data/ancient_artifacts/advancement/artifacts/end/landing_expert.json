@@ -1,0 +1,90 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:warped_fungus_on_a_stick",
+			"components": {
+				"item_model": "ancient_artifacts:item/artifact",
+				"custom_model_data": {
+					"strings": [
+						"base:toe_ring",
+						"level:none",
+						"artifact:landing_toe_ring"
+					]
+				},
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {
+			"text": "Landing Expert",
+			"color": "gold"
+		},
+		"description": [
+			{
+				"text": "Fall from 120 blocks high without dying by clutching your fall!\n\n",
+				"color": "dark_green"
+			},
+			{
+				"text": "Rewards: \n",
+				"color": "light_purple",
+				"bold": true
+			},
+			{
+				"text": "  2x Mystery Box\n",
+				"color": "aqua"
+			},
+			{
+				"text": "  20x XP",
+				"color": "aqua"
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ancient_artifacts:artifacts/end/landing_toe_ring",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:fall_from_height",
+            "conditions": {
+                "distance": {
+                    "absolute": {
+                        "min": 120
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "time_since_dim_travel": {
+                                "min": 40
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"landing_toe_ring\"]}",
+                            "location": {
+                                "position": {
+                                    "y": {
+                                        "min": -59
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+		}
+	},
+	"rewards": {
+		"experience": 20,
+		"loot": [
+			"ancient_artifacts:item/mystery_box/end",
+			"ancient_artifacts:item/mystery_box/end"
+		],
+		"function": "ancient_artifacts:advancements/triggers/advance"
+	}
+}

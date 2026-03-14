@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "ancient_artifacts:deep_dark/ruin",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 6,
+      "separation": 3,
+      "salt": 95436932049,
+      "exclusion_zone": {
+        "other_set": "minecraft:ancient_cities",
+        "chunk_count": 3
+      }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "values": [
+        {
+            "id": "minecraft:skeleton",
+            "required": false
+        },
+        {
+            "id": "minecraft:bogged",
+            "required": false
+        },
+        {
+            "id": "minecraft:stray",
+            "required": false
+        },
+        {
+            "id": "minecraft:parched",
+            "required": false
+        }
+    ]
+}

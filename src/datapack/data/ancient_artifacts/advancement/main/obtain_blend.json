@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gold_nugget",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/artifact_blend"
+            }
+        },
+        "title": {
+            "text": "Artifact Recycling!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Gather some artifact blend.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/obtain_essence",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "artifact_blend": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

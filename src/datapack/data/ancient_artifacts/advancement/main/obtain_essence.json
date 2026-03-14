@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gold_nugget",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/essence/common"
+            }
+        },
+        "title": {
+            "text": "Essential!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Gather some artifact essence by killing phantoms or ghasts.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/upgrade_cauldron",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "artifact_essence": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

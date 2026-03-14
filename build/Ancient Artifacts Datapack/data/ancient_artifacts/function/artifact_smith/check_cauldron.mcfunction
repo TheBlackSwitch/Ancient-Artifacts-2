@@ -1,0 +1,1 @@
+$return run execute in $(DIM) positioned $(X) $(Y) $(Z) align xyz if entity @e[tag=artifact_cauldron,tag=control,dy=0]

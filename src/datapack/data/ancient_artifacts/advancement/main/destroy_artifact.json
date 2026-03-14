@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cod_spawn_egg",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:block/ancient_altar"
+            }
+        },
+        "title": {
+            "text": "Downcycling!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Downcycle an artifact back into it's resources by smashing it with a hammer on an ancient altar.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/obtain_hammer",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

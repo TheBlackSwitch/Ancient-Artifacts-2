@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:polished_diorite_from_diorite_stonecutting"
+        }
+      }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:artifacts/nether/builders_ring/craft/polished_diorite"
+    }
+  }
+  

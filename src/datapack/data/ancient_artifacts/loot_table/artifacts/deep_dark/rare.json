@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/beefy_crystal"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/strengthening_anklet"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/bulky_chain"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 2,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "      Contents\n\n",
+                "bold": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Rare:\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Beefy Crystal ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 18
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:beefy_crystal}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n"
+            },
+            {
+                "text": "Strengthening Anklet",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 20
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:strengthening_anklet}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Bulky Chain ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 22
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:bulky_chain}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n\n"   
+            },
+            {
+                "text": "Unique:\n",
+                "color": "gold"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Experienced Chain ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 24
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:experienced_chain}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Anklet Of Peace ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 26
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:anklet_of_peace}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Anklet Of Recovery ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 28
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:recovery_anklet}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Necromancy Anklet ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 30
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:necromancy_anklet}].check","entity": "@s","color":"gold"}
+        ]
+    ]
+}

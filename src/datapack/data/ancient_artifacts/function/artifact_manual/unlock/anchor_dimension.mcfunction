@@ -1,0 +1,1 @@
+function ancient_artifacts:artifact_manual/unlock/pickup # unlock new artifacts

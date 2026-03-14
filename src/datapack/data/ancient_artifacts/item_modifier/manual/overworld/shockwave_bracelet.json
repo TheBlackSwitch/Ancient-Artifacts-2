@@ -1,0 +1,33 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 12,
+    "pages": [
+        [
+            {
+                "text": "\uF826Shockwave Bracelet\n\n",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "25% of your attacks summon a shockwave which deals damage.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 35%.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

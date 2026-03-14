@@ -1,0 +1,86 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                                    "weight": 4
+                                },
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ancient_artifacts:dungeon_loot/overworld_luck",
+                                    "weight": 1
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "luck": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                                    "weight": 2
+                                },
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ancient_artifacts:dungeon_loot/overworld_luck",
+                                    "weight": 1
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "luck": 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                                    "weight": 2
+                                },
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ancient_artifacts:dungeon_loot/overworld_luck",
+                                    "weight": 5
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "luck": 2
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

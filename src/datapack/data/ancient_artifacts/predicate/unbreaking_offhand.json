@@ -1,0 +1,86 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "offhand": {
+                                "predicates": {
+                                    "minecraft:enchantments": [
+                                        {
+                                            "enchantments": "minecraft:unbreaking",
+                                            "levels": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "ancient_artifacts:random/30"
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "offhand": {
+                                "predicates": {
+                                    "minecraft:enchantments": [
+                                        {
+                                            "enchantments": "minecraft:unbreaking",
+                                            "levels": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "ancient_artifacts:random/35"
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "offhand": {
+                                "predicates": {
+                                    "minecraft:enchantments": [
+                                        {
+                                            "enchantments": "minecraft:unbreaking",
+                                            "levels": 3
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "ancient_artifacts:random/45"
+                }
+            ]
+        }
+    ]
+}

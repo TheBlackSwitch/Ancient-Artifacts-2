@@ -1,2 +1,0 @@
-function ancient_artifacts:artifacts/fix_creative_stack
-function ancient_artifacts:artifact_manual/unlock/pickup

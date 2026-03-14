@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Configurated!",
+            "color": "light_purple"
+        },
+        "description": [
+            {
+                "text": "Edit the configs by doing /trigger aa.config",
+                "color": "gold"
+            }
+        ],
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance",
+        "experience": 100
+    }
+}

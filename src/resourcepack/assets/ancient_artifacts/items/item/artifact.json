@@ -1,0 +1,590 @@
+{
+    "model": {
+        "type": "minecraft:composite",
+        "models": [
+            {
+                "type": "select",
+                "property": "minecraft:custom_model_data",
+                "index": 0,
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/air"
+                },
+                "cases": [
+                    {
+                        "when": "base:amulet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/amulet"
+                        }
+                    },
+                    {
+                        "when": "base:anklet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/anklet"
+                        }
+                    },
+                    {
+                        "when": "base:boots",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/boots"
+                        }
+                    },
+                    {
+                        "when": "base:borla",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/borla"
+                        }
+                    },
+                    {
+                        "when": "base:bracelet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/bracelet"
+                        }
+                    },
+                    {
+                        "when": "base:chain",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/chain"
+                        }
+                    },
+                    {
+                        "when": "base:circlet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/circlet"
+                        }
+                    },
+                    {
+                        "when": "base:crown",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/crown"
+                        }
+                    },
+                    {
+                        "when": "base:crystal",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/crystal"
+                        }
+                    },
+                    {
+                        "when": "base:medal",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/medal"
+                        }
+                    },
+                    {
+                        "when": "base:necklace",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/necklace"
+                        }
+                    },
+                    {
+                        "when": "base:nether_boots",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/nether_boots"
+                        }
+                    },
+                    {
+                        "when": "base:ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/ring"
+                        }
+                    },
+                    {
+                        "when": "base:tiara",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/tiara"
+                        }
+                    },
+                    {
+                        "when": "base:toe_ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/toe_ring"
+                        }
+                    },
+                    {
+                        "when": "base:watch",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/base/watch"
+                        }
+                    }
+                ]
+            },
+
+
+
+
+
+
+
+
+
+
+            {
+                "type": "select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/air"
+                },
+                "cases": [
+                    {
+                        "when": "level:1",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/level/1"
+                        }
+                    },
+                    {
+                        "when": "level:2",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/level/2"
+                        }
+                    },
+                    {
+                        "when": "level:3",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/level/3"
+                        }
+                    },
+                    {
+                        "when": "level:4",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/level/4"
+                        }
+                    },
+                    {
+                        "when": "level:5",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/level/5"
+                        }
+                    }
+                ]
+            },
+
+
+
+
+
+
+
+
+
+            {
+                "type": "select",
+                "property": "minecraft:custom_model_data",
+                "index": 2,
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/air"
+                },
+                "cases": [
+                    {
+                        "when": "artifact:healing_amulet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/healing_amulet"
+                        }
+                    },
+                    {
+                        "when": "artifact:poison_amulet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/poison_amulet"
+                        }
+                    },
+                    {
+                        "when": "artifact:conductive_bracelet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/conductive_bracelet"
+                        }
+                    },
+                    {
+                        "when": "artifact:shockwave_bracelet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/shockwave_bracelet"
+                        }
+                    },
+                    {
+                        "when": "artifact:final_shout_crown",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/final_shout_crown"
+                        }
+                    },
+                    {
+                        "when": "artifact:deactivation_crown",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/deactivation_crown"
+                        }
+                    },
+                    {
+                        "when": "artifact:explorers_boots",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/explorers_boots"
+                        }
+                    },
+                    {
+                        "when": "artifact:allies_amulet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/allies_amulet"
+                        }
+                    },
+                    {
+                        "when": "artifact:travelers_boots",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/travelers_boots"
+                        }
+                    },
+                    {
+                        "when": "artifact:miners_crown",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/miners_crown"
+                        }
+                    },
+                    {
+                        "when": "artifact:divers_boots",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/divers_boots"
+                        }
+                    },
+                    {
+                        "when": "artifact:farmers_boots",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/farmers_boots"
+                        }
+                    },
+                    {
+                        "when": "artifact:reaching_bracelet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/overworld/reaching_bracelet"
+                        }
+                    },
+
+
+
+
+                    {
+                        "when": "artifact:borla_of_vision",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/borla_of_vision"
+                        }
+                    },
+                    {
+                        "when": "artifact:experienced_chain",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/experienced_chain"
+                        }
+                    },
+                    {
+                        "when": "artifact:anklet_of_peace",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/anklet_of_peace"
+                        }
+                    },
+                    {
+                        "when": "artifact:beefy_crystal",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/beefy_crystal"
+                        }
+                    },
+                    {
+                        "when": "artifact:echoing_chain",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/echoing_chain"
+                        }
+                    },
+                    {
+                        "when": "artifact:sonic_crystal",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/sonic_crystal"
+                        }
+                    },
+                    {
+                        "when": "artifact:echolocating_borla",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/echolocating_borla"
+                        }
+                    },
+                    {
+                        "when": "artifact:detecting_borla",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/detecting_borla"
+                        }
+                    },
+                    {
+                        "when": "artifact:strengthening_anklet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/strengthening_anklet"
+                        }
+                    },
+                    {
+                        "when": "artifact:recovery_anklet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/recovery_anklet"
+                        }
+                    },
+                    {
+                        "when": "artifact:recycling_crystal",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/recycling_crystal"
+                        }
+                    },
+                    {
+                        "when": "artifact:shringking_anklet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/shrinking_anklet"
+                        }
+                    },
+                    {
+                        "when": "artifact:necromancy_anklet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/necromancy_anklet"
+                        }
+                    },
+                    {
+                        "when": "artifact:bulky_chain",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/bulky_chain"
+                        }
+                    },
+
+
+
+
+
+                    {
+                        "when": "artifact:burning_ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/burning_ring"
+                        }
+                    },
+                    {
+                        "when": "artifact:thermal_tiara",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/thermal_tiara"
+                        }
+                    },
+                    {
+                        "when": "artifact:raging_ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/raging_ring"
+                        }
+                    },
+                    {
+                        "when": "artifact:withering_necklace",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/withering_necklace"
+                        }
+                    },
+                    {
+                        "when": "artifact:fireball_ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/fireball_ring"
+                        }
+                    },
+                    {
+                        "when": "artifact:saturating_necklace",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/saturating_necklace"
+                        }
+                    },
+                    {
+                        "when": "artifact:looting_tiara",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/looting_tiara"
+                        }
+                    },
+                    {
+                        "when": "artifact:cooling_boots",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/cooling_boots"
+                        }
+                    },
+                    {
+                        "when": "artifact:smelting_tiara",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/smelting_tiara"
+                        }
+                    },
+                    {
+                        "when": "artifact:builders_ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/builders_ring"
+                        }
+                    },
+                    {
+                        "when": "artifact:tinkering_tiara",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/tinkering_tiara"
+                        }
+                    },
+                    {
+                        "when": "artifact:life_steal_necklace",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/life_steal_necklace"
+                        }
+                    },
+                    {
+                        "when": "artifact:combo_boots",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/nether/combo_boots"
+                        }
+                    },
+
+
+
+
+                    {
+                        "when": "artifact:attractive_toe_ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/attractive_toe_ring"
+                        }
+                    },
+                    {
+                        "when": "artifact:gravitation_toe_ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/gravitation_toe_ring"
+                        }
+                    },
+                    {
+                        "when": "artifact:pulse_watch",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/pulse_watch"
+                        }
+                    },
+                    {
+                        "when": "artifact:voiding_medal",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/voiding_medal"
+                        }
+                    },
+                    {
+                        "when": "artifact:focus_medal",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/focus_medal"
+                        }
+                    },
+                    {
+                        "when": "artifact:slowing_circlet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/slowing_circlet"
+                        }
+                    },
+                    {
+                        "when": "artifact:levitation_medal",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/levitation_medal"
+                        }
+                    },
+                    {
+                        "when": "artifact:radiant_watch",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/radiant_watch"
+                        }
+                    },
+                    {
+                        "when": "artifact:deflecting_circlet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/deflecting_circlet"
+                        }
+                    },
+                    {
+                        "when": "artifact:landing_toe_ring",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/landing_toe_ring"
+                        }
+                    },
+                    {
+                        "when": "artifact:dragons_breath_circlet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/dragons_breath_circlet"
+                        }
+                    },
+                    {
+                        "when": "artifact:storing_circlet",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/storing_circlet"
+                        }
+                    },
+                    {
+                        "when": "artifact:knockback_watch",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "ancient_artifacts:item/artifacts/artifact/end/knockback_watch"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
