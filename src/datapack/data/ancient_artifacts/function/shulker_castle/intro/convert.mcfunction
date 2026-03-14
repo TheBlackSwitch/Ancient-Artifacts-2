@@ -7,6 +7,8 @@ execute if score @s animation matches 1 run particle minecraft:portal ~ ~ ~ 0.1 
 execute if score @s animation matches 20 run playsound minecraft:block.respawn_anchor.ambient hostile @a[distance=..96] ~ ~ ~ 5 1
 execute if score @s animation matches 20 run particle minecraft:portal ~ ~ ~ 0.1 0.1 0.1 2 500 force
 
+execute if score @s animation matches 440 run tag @n[tag=shulker_castle,distance=..150] add shulker_king_music_start
+
 execute if score @s animation matches 73 as @a[distance=..96] at @s run playsound ancient_artifacts:ambient.hum hostile @s ~ ~ ~ 0.5 1
 execute if score @s animation matches 73 run summon item_display ~ ~ ~ {Tags:["shulker_king_animation","ring_large"]}
 execute if score @s animation matches 73 if entity @s[tag=difficulty_1] run summon item_display ~ ~ ~ {Tags:["shulker_king_animation","ring_small","common"]}
@@ -15,16 +17,18 @@ execute if score @s animation matches 73 if entity @s[tag=difficulty_3] run summ
 execute if score @s animation matches 73 if entity @s[tag=difficulty_4] run summon item_display ~ ~ ~ {Tags:["shulker_king_animation","ring_small","unique"]}
 execute if score @s animation matches 73 if entity @s[tag=difficulty_5] run summon item_display ~ ~ ~ {Tags:["shulker_king_animation","ring_small","unique"]}
 
-execute if score @s animation matches 425 run playsound entity.warden.sonic_charge hostile @a[distance=..96] ~ ~ ~ 1 0.8
+execute if score @s animation matches 425 run playsound entity.warden.sonic_charge hostile @a[distance=..96] ~ ~ ~ 5 0.8
+
+execute if score @s animation matches 460 at @s run playsound minecraft:block.respawn_anchor.deplete master @a[distance=..96] ~ ~ ~ 5 2
+execute if score @s animation matches 460 at @s run playsound ancient_artifacts:entity.artifact_golem.lazer.start master @a[distance=..96] ~ ~ ~ 5 1.4
 
 execute if score @s animation matches 460 rotated 0 90 run function ancient_artifacts:shulker_castle/intro/particles/lazer
 execute if score @s animation matches 460 rotated 0 -90 run function ancient_artifacts:shulker_castle/intro/particles/lazer
 
+execute if score @s animation matches 459 run attribute @s scale base set 2.75
 execute if score @s animation matches 460 run function ancient_artifacts:shulker_castle/bossfight/init
+execute if score @s animation matches 460 run tp @s @n[type=marker,tag=shulker_castle,distance=..96]
 execute if score @s animation matches 461 run fill ~-1 ~ ~-1 ~1 ~1 ~1 air
-
-execute if score @s animation matches 460 run playsound block.respawn_anchor.deplete player @a[distance=..96] ~ ~ ~ 1 2
-execute if score @s animation matches 460 run playsound ancient_artifacts:entity.artifact_golem.lazer.start master @a ~ ~ ~ 1 1.4
 
 ##Dialog
 execute if score @s animation matches 80 run tellraw @a[distance=..64] [{"text":"[Shulker King]: ","color":"gold"},{"text":"You really thought my loyal shulkers would kick me, their mighty king, out of their city?","color":"light_purple"}]

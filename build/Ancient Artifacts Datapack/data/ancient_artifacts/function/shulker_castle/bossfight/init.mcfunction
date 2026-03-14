@@ -3,7 +3,6 @@ execute if entity @s[tag=difficulty_2] run attribute @s max_health base set 300
 execute if entity @s[tag=difficulty_3] run attribute @s max_health base set 400
 execute if entity @s[tag=difficulty_4] run attribute @s max_health base set 500
 execute if entity @s[tag=difficulty_5] run attribute @s max_health base set 600
-attribute @s scale base set 2.75
 data merge entity @s {Health: 1024.0f, Invulnerable: 0b}
 effect give @s resistance 1 255 true
 team leave @s

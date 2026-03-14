@@ -1,7 +1,7 @@
 $summon fireball ~$(x) ~25 ~$(z) {ExplosionPower:0b,Motion:[0.0,-1.0,0.0], \
     Passengers:[ \
-        {id:"minecraft:marker",Tags:["dragon_fireball_detonator",tag=smithed.entity,tag=smithed.strict]} \
+        {id:"minecraft:marker",Tags:["dragon_fireball_detonator","smithed.entity","smithed.strict"]} \
     ], \
     Item:{id:"minecraft:gunpowder",count:1,components:{"minecraft:item_model":"ancient_artifacts:misc/dragon_fireball"}}, \
-    Tags:[tag=smithed.entity] \
+    Tags:["smithed.entity"] \
 }

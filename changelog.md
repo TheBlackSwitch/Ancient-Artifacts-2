@@ -25,6 +25,7 @@
 - Increased the xp-rate of experienced chain to make it more useful
 - Ancient Artifacts is now compatable with [lullaby's graves](https://modrinth.com/datapack/ly-graves/)
 - Ancient Artifacts is now compatable with [Alchemika by Hashs](https://modrinth.com/datapack/alchemika/)
+- Better alignment for the shulker king music and the animation
 
 ### Bugs Fixed:
 - The manual said that lifesteal necklace had only II levels but it has III
