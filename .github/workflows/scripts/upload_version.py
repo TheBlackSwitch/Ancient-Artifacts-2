@@ -43,7 +43,7 @@ resourcepack_folder_path = "build/Ancient Artifacts Resourcepack"   # The locati
 
 #-----MODRINTH-CONFIG-----
 
-enable_modrinth_upload = True                   # Whenever to upload to modrinth or not
+enable_modrinth_upload = False                   # Whenever to upload to modrinth or not
 
 modrinth_project_id = "RO3LwIqV"                # The project ID of your modrinth project
 
@@ -134,6 +134,7 @@ else:
     sys.exit("No curseforge PAT!")
 if(arg_cnt > 5):
     cf_api_key = sys.argv[5] # curseforge organization key
+    print(len(cf_api_key) % 5)
 else:
     sys.exit("No curseforge PAT!")
 
