@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:tiara",
+                        "level:none",
+                        "artifact:thermal_tiara"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Thermal Expert",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Survive 3min on fire without cooling down using a thermal tiara!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  1x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:artifacts/nether/thermal_tiara",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "loot": [
+            "ancient_artifacts:item/mystery_box/nether"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

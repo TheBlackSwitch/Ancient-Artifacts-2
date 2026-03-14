@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_apple",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:boots",
+                        "level:1",
+                        "artifact:divers_boots"
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Set and ready!",
+            "color": "light_purple"
+        },
+        "description": [
+            {
+                "text": "Equip your first artifact!",
+                "color": "gold"
+            }
+        ],
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "ancient_artifacts:main/obtain_artifact",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

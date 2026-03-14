@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "deepslate",
+            "required": false
+        },
+        {
+            "id": "cobbled_deepslate",
+            "required": false
+        }
+    ]
+}

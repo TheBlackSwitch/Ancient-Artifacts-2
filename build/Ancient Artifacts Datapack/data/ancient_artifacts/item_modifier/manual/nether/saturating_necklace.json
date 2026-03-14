@@ -1,0 +1,42 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 12,
+    "pages": [
+        [
+            {
+                "text": "\uF828Saturating Necklace\n\n",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "1% of your damage dealt will saturate you.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 2%.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade to 3%.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

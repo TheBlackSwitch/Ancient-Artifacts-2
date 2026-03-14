@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cod_spawn_egg",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:block/artifact_chest/deep_dark"
+            }
+        },
+        "title": {
+            "text": "Darker?",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Open a deep dark chest using an echoing compound.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/obtain_echoing_compound",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

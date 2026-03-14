@@ -1,0 +1,1654 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:necklace",
+                        "level:none",
+                        "artifact:life_steal_necklace"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Life Steal Expert",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Steal 100 health!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  1x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:artifacts/nether/life_steal_necklace",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "4": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "5": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 5
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "6": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "7": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 7
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "8": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 8
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "9": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "10": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "11": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 11
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "12": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 12
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "13": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 13
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "14": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 14
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "15": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 15
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "16": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 16
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "17": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 17
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "18": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 18
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "19": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 19
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "20": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 20
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "21": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 21
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "22": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 22
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "23": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 23
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "24": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 24
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "25": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 25
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "26": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 26
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "27": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 27
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "28": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 28
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "29": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 29
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "30": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 30
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "31": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 31
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "32": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 32
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "33": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 33
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "34": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 34
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "35": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 35
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "36": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 36
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "37": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 37
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "38": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 38
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "39": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 39
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "40": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 40
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "41": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 41
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "42": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 42
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "43": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 43
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "44": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 44
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "45": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 45
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "46": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 46
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "47": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 47
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "48": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 48
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "49": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 49
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "50": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 50
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "51": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 51
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "52": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 52
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "53": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 53
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "54": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 54
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "55": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 55
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "56": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 56
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "57": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 57
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "58": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 58
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "59": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 59
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "60": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 60
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "61": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 61
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "62": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 62
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "63": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 63
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "64": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 64
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "65": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 65
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "66": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 66
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "67": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 67
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "68": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 68
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "69": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 69
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "70": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 70
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "71": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 71
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "72": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 72
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "73": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 73
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "74": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 74
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "75": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 75
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "76": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 76
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "77": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 77
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "78": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 78
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "79": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 79
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "80": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 80
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "81": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 81
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "82": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 82
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "83": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 83
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "84": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 84
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "85": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 85
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "86": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 86
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "87": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 87
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "88": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 88
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "89": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 89
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "90": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 90
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "91": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 91
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "92": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 92
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "93": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 93
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "94": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 94
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "95": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 95
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "96": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 96
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "97": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 97
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "98": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 98
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "99": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 99
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "100": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health_stealed": {
+                                "min": 100
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "loot": [
+            "ancient_artifacts:item/mystery_box/nether"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "comparator_output": 5,
+    "description": "Yang's Planetfall - Alpha Centuari",
+    "length_in_seconds": 274,
+    "sound_event": {
+        "sound_id": "ancient_artifacts:disc.alpha_centuari"
+    }
+}

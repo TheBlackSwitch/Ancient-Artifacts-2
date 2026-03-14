@@ -1,0 +1,194 @@
+{
+    "ambient.dungeon": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:dungeon_ambient",
+                "stream": true
+            }
+        ]
+    },
+    "ambient.drip": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:dripping_ambient",
+                "stream": true
+            }
+        ]
+    },
+    "entity.artifact_golem.lazer.loop": {
+        "sounds": [
+            "ancient_artifacts:lazer_loop"
+        ],
+        "subtitle": "entity.artifact_golem.lazer.loop"
+    },
+    "entity.artifact_golem.lazer.start": {
+        "sounds": [
+            "ancient_artifacts:lazer_start"
+        ],
+        "subtitle": "entity.artifact_golem.lazer.start"
+    },
+    "entity.artifact_golem.lazer.stop": {
+        "sounds": [
+            "ancient_artifacts:lazer_end"
+        ],
+        "subtitle": "entity.artifact_golem.lazer.stop"
+    },
+    "cutscene.dungeon.buildup": {
+        "sounds": [
+            "ancient_artifacts:buildup"
+        ]
+    },
+    "cutscene.dungeon.creep": {
+        "sounds": [
+            "ancient_artifacts:creep"
+        ]
+    },
+    "entity.player.timewarp.start": {
+        "sounds": [
+            "ancient_artifacts:timewarp_start"
+        ],
+        "subtitle": "entity.player.timewarp.start"
+    },
+    "entity.player.timewarp.loop": {
+        "sounds": [
+            "ancient_artifacts:timewarp_loop"
+        ],
+        "subtitle": "entity.player.timewarp.loop"
+    },
+    "entity.player.timewarp.end": {
+        "sounds": [
+            "ancient_artifacts:timewarp_end"
+        ],
+        "subtitle": "entity.player.timewarp.end"
+    },
+    "music.sculk_heart.intro": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:sculk_heart_boss/intro",
+                "stream": true
+            }
+        ]
+    },
+    "music.sculk_heart.loop": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:sculk_heart_boss/loop",
+                "stream": true,
+                "volume": 0.9
+            }
+        ]
+    },
+    "entity.generic.sniff": {
+        "sounds": [
+            "ancient_artifacts:sniff_1",
+            "ancient_artifacts:sniff_2",
+            "ancient_artifacts:sniff_3"
+        ]
+    },
+    "ambient.hum": {
+        "sounds": [
+            "ancient_artifacts:hum"
+        ]
+    },
+    "audio_book.dungeon_catalog": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:dungeon_catalog_audio_book",
+                "stream": true
+            }
+        ]
+    },
+    "entity.shulker_king.victory": {
+        "sounds": [
+            "ancient_artifacts:shulker_king_victory"
+        ]
+    },
+    "music.shulker_king.intro": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:shulker_king_boss/intro",
+                "stream": true
+            }
+        ]
+    },
+    "music.shulker_king.loop": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:shulker_king_boss/loop",
+                "stream": true
+            }
+        ]
+    },
+    "disc.alpha_centuari": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/alpha_centuari",
+                "stream": true
+            }
+        ]
+    },
+    "disc.battle_of_the_creek": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/battle_of_the_creek",
+                "stream": true
+            }
+        ]
+    },
+    "disc.forest": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/forest",
+                "stream": true
+            }
+        ]
+    },
+    "disc.progress": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/progress",
+                "stream": true
+            }
+        ]
+    },
+    "disc.neverland": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/neverland",
+                "stream": true
+            }
+        ]
+    },
+    "disc.the_dark_side_of_me": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/the_dark_side_of_me",
+                "stream": true
+            }
+        ]
+    },
+    "disc.welcome_to_chaos": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/welcome_to_chaos",
+                "stream": true
+            }
+        ]
+    },
+    "disc.retrograde": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/retrograde",
+                "stream": true
+            }
+        ]
+    },
+    "disc.sleepless_city": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:music_disc/sleepless_city",
+                "stream": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,2 @@
+scoreboard objectives remove ancient_artifacts_give
+scoreboard objectives remove ancient_artifacts_config

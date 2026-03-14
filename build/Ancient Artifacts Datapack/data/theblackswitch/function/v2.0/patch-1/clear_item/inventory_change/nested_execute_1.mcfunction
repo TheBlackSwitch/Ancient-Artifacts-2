@@ -1,0 +1,9 @@
+execute if items entity @s hotbar.0 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.0 with minecraft:air
+execute if items entity @s hotbar.1 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.1 with minecraft:air
+execute if items entity @s hotbar.2 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.2 with minecraft:air
+execute if items entity @s hotbar.3 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.3 with minecraft:air
+execute if items entity @s hotbar.4 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.4 with minecraft:air
+execute if items entity @s hotbar.5 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.5 with minecraft:air
+execute if items entity @s hotbar.6 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.6 with minecraft:air
+execute if items entity @s hotbar.7 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.7 with minecraft:air
+execute if items entity @s hotbar.8 *[custom_data~{tbs.clear_hotbar: true}] run item replace entity @s hotbar.8 with minecraft:air

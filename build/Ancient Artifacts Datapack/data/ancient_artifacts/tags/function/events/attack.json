@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "ancient_artifacts:artifact_chests/attack",
+            "required": false
+        },
+        {
+            "id": "ancient_artifacts:artifact_golem/defence/attack",
+            "required": false
+        }
+    ]
+}

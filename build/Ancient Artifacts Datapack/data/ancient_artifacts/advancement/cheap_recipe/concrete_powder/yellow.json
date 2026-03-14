@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:yellow_concrete_powder"
+        }
+      }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:artifacts/nether/builders_ring/craft/concrete_powder/yellow"
+    }
+  }
+  

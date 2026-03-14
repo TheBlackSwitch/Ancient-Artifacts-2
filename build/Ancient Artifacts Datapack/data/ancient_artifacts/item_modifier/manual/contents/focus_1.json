@@ -1,0 +1,259 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "offset": 1,
+    "size": 1,
+    "pages": [
+        [
+            {
+                "text": "Contents ",
+                "bold": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Common:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Poison Amulet ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 7
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:poison_amulet}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Deactivation Crown ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 8
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:deactivation_crown}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Farmers Boots ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 9
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:farmers_boots}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Burning Ring ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 10
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:burning_ring}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Smelting Tiara ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 11
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:smelting_tiara}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Tinkering Tiara ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 12
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:tinkering_tiara}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Borla Of Vision ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 13
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:borla_of_vision}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Sonic Crystal ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 14
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:sonic_crystal}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Detecting Borla ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 15
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:detecting_borla}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Slowing Circlet ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 16
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:slowing_circlet}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Knockback Watch ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 17
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:knockback_watch}].check","entity": "@s","color":"dark_gray"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Circlet Of Breath ",
+                "color": "dark_gray",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 18
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:dragons_breath_circlet}].check","entity": "@s","color":"dark_gray"}
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 22,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF826Healing Amulet\n\n",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": " +10% regeneration speed\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+22% regeneration speed\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+27% regeneration speed\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+30% regeneration speed\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/looting_tiara",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/looting_tiara_expensive",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/withering_necklace",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/withering_necklace_expensive",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/life_steal_necklace",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/life_steal_necklace_expensive",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/combo_boots",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/combo_boots_expensive",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

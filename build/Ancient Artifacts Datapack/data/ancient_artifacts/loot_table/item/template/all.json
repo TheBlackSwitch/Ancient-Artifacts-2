@@ -1,0 +1,35 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 12,
+                    "quality": 0,
+                    "value": "ancient_artifacts:item/template/common"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 6,
+                    "quality": 0,
+                    "value": "ancient_artifacts:item/template/uncommon"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 4,
+                    "quality": 2,
+                    "value": "ancient_artifacts:item/template/rare"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "quality": 1,
+                    "value": "ancient_artifacts:item/template/unique"
+                }
+            ]
+        }
+    ]
+}

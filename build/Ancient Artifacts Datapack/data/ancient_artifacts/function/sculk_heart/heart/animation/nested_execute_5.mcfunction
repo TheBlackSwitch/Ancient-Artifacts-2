@@ -1,0 +1,5 @@
+execute if score #20 tbs.slow_tick matches 8 as @e[type=item_display, tag=sculk_heart, distance=..5] run data merge entity @s {transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 1.0f, 1.0f], translation: [0.0f, 0.0f, 0.0f]}, interpolation_duration: 2, start_interpolation: 0}
+execute if score #20 tbs.slow_tick matches 8 run function ancient_artifacts:sculk_heart/heart/beat
+execute if score #20 tbs.slow_tick matches 9 as @e[type=item_display, tag=sculk_heart, distance=..5] run data merge entity @s {transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.25f, 1.25f, 1.25f], translation: [0.0f, 0.0f, 0.0f]}, interpolation_duration: 10, start_interpolation: 0}
+particle minecraft:entity_effect{color: [0.0039d, 0.098d, 0.2117d, 1.0d]} ~ ~ ~ 0.8 0.8 0.8 0.1 1
+execute if score #3 tbs.slow_tick matches 3 at @e[type=item_display, tag=sculk_heart, distance=..5] run particle minecraft:dust{color: [0.1725d, 0.6941d, 0.749d], scale: 3} ~ ~ ~ 0.2 0.2 0.2 0 3 force

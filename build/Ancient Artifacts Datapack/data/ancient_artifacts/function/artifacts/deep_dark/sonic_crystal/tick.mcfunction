@@ -1,0 +1,1 @@
+scoreboard players remove @a[scores={sonic_cooldown=1..}] sonic_cooldown 1

@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "ancient_artifacts:nether/piglin_ruin",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 10,
+      "separation": 7,
+      "salt": 923481
+    }
+}

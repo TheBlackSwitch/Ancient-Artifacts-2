@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "required": false,
+            "id": "minecraft:cat"
+        },
+        {
+            "required": false,
+            "id": "minecraft:wolf"
+        },
+        {
+            "required": false,
+            "id": "minecraft:parrot"
+        }
+    ]
+}

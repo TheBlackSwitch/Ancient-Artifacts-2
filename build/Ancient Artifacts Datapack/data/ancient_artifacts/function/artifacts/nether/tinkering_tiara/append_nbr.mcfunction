@@ -1,0 +1,1 @@
+$data modify storage ancient_artifacts:block text append value [{"text":" $(property): ","color":"gray"},{"text":"$(nbr)","color":"blue"},{"text": " |","color":"gray"}]

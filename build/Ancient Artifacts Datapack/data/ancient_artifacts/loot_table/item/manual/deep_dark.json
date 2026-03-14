@@ -1,0 +1,1408 @@
+    {
+        "pools": [
+            {
+                "rolls": 1,
+                "entries": [
+                    {
+                        "type": "item",
+                        "weight": 1,
+                        "name": "minecraft:written_book",
+                        "functions": [
+                            {
+                                "function": "set_count",
+                                "count": 1
+                            },
+                            {
+                                "function": "set_components",
+                                "components": {
+                                    "item_model": "ancient_artifacts:item/manual/deep_dark",
+                                    "enchantment_glint_override": false,
+                                    "custom_data": {
+                                        "manual": true,
+                                        "data": {
+                                            "unlock_count": 0,
+                                            "unlocked": [],
+                                            "dim": "deep_dark"
+                                        },
+                                        "aa-version": 251,
+                                        "smithed": {
+                                            "ignore": {
+                                                "functionality": true,
+                                                "crafting": true
+                                            }
+                                        }
+                                    },
+                                    "max_stack_size": 1,
+                                    "tooltip_style": "minecraft:ancient_artifacts",
+                                    "tooltip_display": {
+                                        "hidden_components": [
+                                            "written_book_content"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "function": "set_name",
+                                "name": {
+                                    "text": "Artifact Manual",
+                                    "color": "#b56400",
+                                    "italic": false,
+                                    "shadow_color": 0,
+                                    "bold": false
+                                },
+                                "target": "item_name"
+                            },
+                            {
+                                "function": "set_lore",
+                                "mode": "replace_all",
+                                "lore": [
+                                    {
+                                        "text": "\uE522",
+                                        "italic": false,
+                                        "shadow_color": 0,
+                                        "font": "ancient_artifacts:main",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "text": "A manual filled with useful information",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "about your unlocked artifacts",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "text": "\uE524Origin: ",
+                                        "font": "ancient_artifacts:main",
+                                        "color": "#786d5b",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": " Deep Dark",
+                                        "color": "#14537a",
+                                        "italic": false,
+                                        "shadow_color": 0
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "text": "\uE525Controls: ",
+                                        "color": "#5c5242",
+                                        "italic": false,
+                                        "shadow_color": 0,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": " \uE505 to open. ",
+                                        "color": "#762f94",
+                                        "italic": false,
+                                        "shadow_color": 0,
+                                        "font": "ancient_artifacts:main"
+                                    },
+                                    {
+                                        "text": "",
+                                        "color": "red"
+                                    }
+                                ]
+                            },
+                            {
+                                "function": "set_written_book_pages",
+                                "pages": [
+                                    [
+                                        {
+                                            "text": ""
+                                        },
+                                        {
+                                            "text": "\n\n                             \n\n",
+                                            "underlined": true,
+                                            "color": "#5c5242"
+                                        },
+                                        {
+                                            "text": "\uE504",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n                             ",
+                                            "underlined": true,
+                                            "color": "#5c5242"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "      Contents\n\n",
+                                            "bold": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "Common:\n",
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Borla Of Vision\n",
+                                            "color": "dark_gray",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 4
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Sonic Crystal\n",
+                                            "color": "dark_gray",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 6
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Detecting Borla\n\n",
+                                            "color": "dark_gray",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 8
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": "Uncommon:\n",
+                                            "color": "blue"
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Echoing Chain\n",
+                                            "color": "blue",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 10
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Borla Of Echolocation\n",
+                                            "color": "blue",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 12
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Recycling Crystal\n",
+                                            "color": "blue",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 14
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Shrinking Anklet\n",
+                                            "color": "blue",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 16
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "      Contents\n\n",
+                                            "bold": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "Rare:\n",
+                                            "color": "#762f94"
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Beefy Crystal\n",
+                                            "color": "#762f94",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 18
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Strengthening Anklet\n",
+                                            "color": "#762f94",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 20
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Bulky Chain\n\n",
+                                            "color": "#762f94",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 22
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": "Unique:\n",
+                                            "color": "#b56400"
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Experienced Chain\n",
+                                            "color": "#b56400",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 24
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Boots Of Peace\n",
+                                            "color": "#b56400",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 26
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Anklet Of Recovery\n",
+                                            "color": "#b56400",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 28
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "text": " "
+                                        },
+                                        {
+                                            "text": "Necromancy Anklet\n",
+                                            "color": "#b56400",
+                                            "bold": false,
+                                            "click_event": {
+                                                "action": "change_page",
+                                                "page": 30
+                                            },
+                                            "hover_event": {
+                                                "action": "show_text",
+                                                "value": {
+                                                    "text": "Go To",
+                                                    "color": "#762f94"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828  Borla Of Vision\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF326",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Common\n\n",
+                                            "color": "#5c5242",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "II",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828  Borla Of Vision\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF826Sonic Crystal\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF331",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Common\n\n",
+                                            "color": "#5c5242",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "I",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF826Sonic Crystal\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829Detecting Borla\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF334",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Common\n\n",
+                                            "color": "#5c5242",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "II",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829Detecting Borla\n",
+                                            "color": "dark_gray",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF826Echoing Chain\n",
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF330",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Uncommon\n\n",
+                                            "color": "blue",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "II",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF826Echoing Chain\n",
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": " Borla Of Echolocation\n",
+                                            "color": "blue"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF332",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Uncommon\n\n",
+                                            "color": "blue",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "IV",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": " Borla Of Echolocation\n",
+                                            "color": "blue"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828\uF822Recycling Crystal\n",
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF337",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Uncommon\n\n",
+                                            "color": "blue",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "II",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828\uF822Recycling Crystal\n",
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF822Shrinking Anklet\n",
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF338",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Uncommon\n\n",
+                                            "color": "blue",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF822Shrinking Anklet\n",
+                                            "color": "blue",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF824Beefy Crystal\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF329",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Rare\n\n",
+                                            "color": "#762f94",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "V",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF824Beefy Crystal\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": " Strengthening Anklet\n",
+                                            "color": "#762f94"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF335",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Rare\n\n",
+                                            "color": "#762f94",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": " Strengthening Anklet\n",
+                                            "color": "#762f94"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF828 Bulky Chain\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF340",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Rare\n\n",
+                                            "color": "#762f94",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "II",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829\uF828 Bulky Chain\n",
+                                            "color": "#762f94",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828\uF822Experienced Chain\n",
+                                            "color": "#b56400",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF327",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Unique\n\n",
+                                            "color": "#b56400",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "IV",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF828\uF822Experienced Chain\n",
+                                            "color": "#b56400",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829Anklet Of Peace\n",
+                                            "color": "#b56400",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF328",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Unique\n\n",
+                                            "color": "#b56400",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "\uF829Anklet Of Peace\n",
+                                            "color": "#b56400",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "  Anklet Of Recovery\n",
+                                            "color": "#b56400"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF336",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Unique\n\n",
+                                            "color": "#b56400",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "IV",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "  Anklet Of Recovery\n",
+                                            "color": "#b56400"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "  Necromancy Anklet\n",
+                                            "color": "#b56400"
+                                        },
+                                        {
+                                            "text": "\uF829\uF828\uF826\uF339",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "\n\n\n\n\n\n   "
+                                        },
+                                        {
+                                            "text": "                      \n\n",
+                                            "underlined": true,
+                                            "color": "dark_gray"
+                                        },
+                                        {
+                                            "text": "  Rarity: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Unique\n\n",
+                                            "color": "#b56400",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Origin: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "Deep Dark\n\n",
+                                            "color": "#14537a",
+                                            "bold": true,
+                                            "underlined": true
+                                        },
+                                        {
+                                            "text": "  Max Level: ",
+                                            "color": "dark_gray",
+                                            "bold": false
+                                        },
+                                        {
+                                            "text": "III",
+                                            "color": "red",
+                                            "bold": true,
+                                            "underlined": true
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "  Necromancy Anklet\n",
+                                            "color": "#b56400"
+                                        },
+                                        {
+                                            "text": "\n\n        \uE503\n\n\n\n\n\n\n\n",
+                                            "color": "white",
+                                            "font": "ancient_artifacts:main"
+                                        },
+                                        {
+                                            "text": "  Unlock this artifact\n    to get more info.",
+                                            "color": "red"
+                                        }
+                                    ]
+                                ],
+                                "mode": "replace_all"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:amethyst_cluster"
+        },
+        "title": {
+            "text": "Amethyst",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Break some large amethyst clusters to gather amethyst, you'll need it!",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:amethyst_shard"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

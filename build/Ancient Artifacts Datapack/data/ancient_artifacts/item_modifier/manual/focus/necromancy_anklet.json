@@ -1,0 +1,45 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 55,
+    "pages": [
+        [
+            {
+                "text": "  Necromancy Anklet\n",
+                "color": "gold"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF339",
+                "color": "white",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+               "text": "Deep Dark\n",
+                "color": "#14537a",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"40% of damage taken will summon a necromaced",
+                "color":"gold"
+            }
+        ]
+    ]
+}

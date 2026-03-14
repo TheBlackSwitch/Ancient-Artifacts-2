@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "chests/end_city_treasure"
+                }
+            ]
+        },
+        {
+            "rolls": 8,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:block/artifact_chest_end"
+                }
+            ]
+        }
+    ]
+}

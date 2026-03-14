@@ -1,0 +1,36 @@
+{
+    "values": [
+        {
+            "id": "minecraft:cobweb",
+            "required": false
+        },
+        {
+            "id": "minecraft:cave_vines",
+            "required": false
+        },
+        {
+            "id": "minecraft:soul_lantern",
+            "required": false
+        },
+        {
+            "id": "minecraft:dark_oak_fence",
+            "required": false
+        },
+        {
+            "id": "minecraft:water",
+            "required": false
+        },
+        {
+            "id": "minecraft:vine",
+            "required": false
+        },
+        {
+            "id": "minecraft:cave_vines_plant",
+            "required": false
+        },
+        {
+            "id": "minecraft:fire",
+            "required": false
+        }
+    ]
+}

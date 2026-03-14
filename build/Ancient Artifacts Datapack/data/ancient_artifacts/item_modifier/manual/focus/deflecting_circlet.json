@@ -1,0 +1,50 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 42,
+    "pages": [
+        [
+            {
+                "text": "\uF828\uF824",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Deflecting Circlet\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF348",
+                "color": "white",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+               "text": "End\n",
+                "color": "#9c589a",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"Deflect 100% of the projectiles",
+                "color":"gold"
+            }
+        ]
+    ]
+}

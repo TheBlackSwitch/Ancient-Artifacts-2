@@ -1,4 +1,4 @@
-tellraw @a [
+tellraw @s [
     {
         "text":"[Ancient Artifacts]",
         "color":"light_purple"

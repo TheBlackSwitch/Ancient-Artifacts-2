@@ -1,0 +1,60 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 10,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828Allies Amulet\n\n",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Gives regen I to all tamed mobs within 15b.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Add Strenght I.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Add Speed I.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Add jumpboost I.\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 5: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade all effects to level II.\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

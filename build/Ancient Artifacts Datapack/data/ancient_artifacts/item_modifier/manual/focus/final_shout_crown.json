@@ -1,0 +1,50 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 46,
+    "pages": [
+        [
+            {
+                "text": "\uF826",
+                "color": "gold",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Crown Of Final Shout\n",
+                "color": "gold"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF304",
+                "color": "white",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+               "text": "Overworld\n",
+                "color": "dark_green",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text":"Also recieve speed II when below 3 hearts",
+                "color":"gold"
+            }
+        ]
+    ]
+}

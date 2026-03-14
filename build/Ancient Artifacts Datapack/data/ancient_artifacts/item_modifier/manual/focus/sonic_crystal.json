@@ -1,0 +1,50 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 13,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF826",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Sonic Crystal\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "\uF829\uF828\uF826\uF331",
+                "color": "white",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "\n\n\n\n\n\n   "
+            },
+            {
+                "text": "                      \n\n",
+                "underlined": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Origin: ",
+                "color": "dark_gray",
+                "bold": false
+            },
+            {
+                "text": "Deep Dark\n",
+                "color": "#14537a",
+                "bold": true
+            },
+            {
+                "text": "Focus Level:\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "-50% cooldown",
+                "color":"gold"
+            }
+        ]
+    ]
+}

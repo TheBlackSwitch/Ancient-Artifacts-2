@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:boots",
+                        "level:1",
+                        "artifact:farmers_boots"
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Farmers Boots",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Obtain some farmers boots!",
+            "color": "dark_purple"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "ancient_artifacts:artifacts/overworld/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "data": {
+                                    "id": "farmers_boots"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

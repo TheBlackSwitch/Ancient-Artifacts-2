@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cod_spawn_egg",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:block/artifact_chest/obsidian"
+            }
+        },
+        "title": {
+            "text": "You sneaky little chest!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Find an obsidian artifact chest in the dungeon and open it using 3 amethyst shards.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/locate_dungeon",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

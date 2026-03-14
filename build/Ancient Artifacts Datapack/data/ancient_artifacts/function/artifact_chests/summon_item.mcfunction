@@ -1,0 +1,1 @@
+$summon item ~ ~0.6 ~ {Item:{id:"minecraft:poisonous_potato",Count:1b},Tags:[loot_drop],Motion:[$(X)d, $(Y)d, $(Z)d]}

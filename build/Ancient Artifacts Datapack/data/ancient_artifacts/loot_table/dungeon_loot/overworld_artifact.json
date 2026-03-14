@@ -1,0 +1,186 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "ancient_artifacts:artifacts/overworld",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "artifact_progress": {
+                                            "min": 30
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/overworld",
+                                            "weight": 15,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/overworld",
+                                            "weight": 22,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 1
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/overworld",
+                                            "weight": 29,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 2
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:artifacts/overworld",
+                                            "weight": 36,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:alternatives",
+                                    "children": [
+                                        {
+                                            "type": "minecraft:loot_table",
+                                            "value": "ancient_artifacts:dungeon_loot/overworld",
+                                            "weight": 30,
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:group",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld_luck",
+                                                    "weight": 15
+                                                },
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                                                    "weight": 15
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 1
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:group",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld_luck",
+                                                    "weight": 18
+                                                },
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                                                    "weight": 12
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 2
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:group",
+                                            "children": [
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld_luck",
+                                                    "weight": 21
+                                                },
+                                                {
+                                                    "type": "minecraft:loot_table",
+                                                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                                                    "weight": 9
+                                                }
+                                            ],
+                                            "conditions": [
+                                                {
+                                                    "condition": "minecraft:entity_scores",
+                                                    "entity": "this",
+                                                    "scores": {
+                                                        "luck": 3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "predicates": {
+            "minecraft:damage": {
+              "durability": {
+                "min": -10000,
+                "max": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

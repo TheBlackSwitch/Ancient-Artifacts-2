@@ -1,0 +1,2015 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+            {
+                "when": "open",
+                "model": {
+                    "type": "model",
+                    "model": "ancient_artifacts:item/parchment/open"
+                }
+            },
+            {
+                "when": "close",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "on_false": {
+                        "type": "model",
+                        "model": "ancient_artifacts:item/parchment/close"
+                    },
+                    "on_true": {
+                        "type": "condition",
+                        "property": "extended_view",
+                        "on_false": {
+                            "type": "model",
+                            "model": "ancient_artifacts:item/parchment/close"
+                        },
+                        "on_true": {
+                            "type": "composite",
+                            "models": [
+                                {
+                                    "type": "model",
+                                    "model": "ancient_artifacts:item/parchment/quick_look_background"
+                                },
+                                {
+                                    "type": "select",
+                                    "property": "custom_model_data",
+                                    "index": 1,
+                                    "cases": [
+                                        {
+                                            "when": "common",
+                                            "model": {
+                                                "type": "model",
+                                                "model": "ancient_artifacts:item/template/common",
+                                                "tints": [
+                                                    {
+                                                        "type": "constant",
+                                                        "value": [
+                                                            0.95,
+                                                            0.82,
+                                                            0.66
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "uncommon",
+                                            "model": {
+                                                "type": "model",
+                                                "model": "ancient_artifacts:item/template/uncommon",
+                                                "tints": [
+                                                    {
+                                                        "type": "constant",
+                                                        "value": [
+                                                            0.95,
+                                                            0.82,
+                                                            0.66
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "rare",
+                                            "model": {
+                                                "type": "model",
+                                                "model": "ancient_artifacts:item/template/rare",
+                                                "tints": [
+                                                    {
+                                                        "type": "constant",
+                                                        "value": [
+                                                            0.95,
+                                                            0.82,
+                                                            0.66
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "unique",
+                                            "model": {
+                                                "type": "model",
+                                                "model": "ancient_artifacts:item/template/unique",
+                                                "tints": [
+                                                    {
+                                                        "type": "constant",
+                                                        "value": [
+                                                            0.95,
+                                                            0.82,
+                                                            0.66
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/healing_amulet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/amulet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/healing_amulet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/poison_amulet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/amulet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/poison_amulet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/conductive_bracelet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/bracelet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/conductive_bracelet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/shockwave_bracelet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/bracelet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/shockwave_bracelet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/final_shout_crown",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/crown",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/final_shout_crown",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/deactivation_crown",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/crown",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/deactivation_crown",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/explorers_boots",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/explorers_boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/allies_amulet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/amulet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/allies_amulet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/travelers_boots",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/travelers_boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/miners_crown",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/crown",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/miners_crown",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/divers_boots",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/divers_boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/farmers_boots",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/farmers_boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/overworld/reaching_bracelet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/bracelet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/overworld/reaching_bracelet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/borla_of_vision",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/borla",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/borla_of_vision",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/recycling_crystal",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/crystal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/recycling_crystal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/shrinking_anklet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/shrinking_anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/experienced_chain",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/chain",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/experienced_chain",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/anklet_of_peace",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/anklet_of_peace",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/beefy_crystal",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/crystal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/beefy_crystal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/echoing_chain",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/chain",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/echoing_chain",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/sonic_crystal",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/crystal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/sonic_crystal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/echolocating_borla",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/borla",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/echolocating_borla",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/detecting_borla",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/borla",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/detecting_borla",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/strengthening_anklet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/strengthening_anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/recovery_anklet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/recovery_anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/necromancy_anklet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/necromancy_anklet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/bulky_chain",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/chain",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/bulky_chain",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/attractive_toe_ring",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/toe_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/attractive_toe_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/gravitation_toe_ring",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/toe_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/gravitation_toe_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/pulse_watch",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/watch",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/pulse_watch",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/voiding_medal",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/medal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/voiding_medal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/slowing_circlet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/circlet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/slowing_circlet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/levitation_medal",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/medal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/levitation_medal",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/radiant_watch",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/watch",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/radiant_watch",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/deflecting_circlet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/circlet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/deflecting_circlet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/landing_toe_ring",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/toe_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/landing_toe_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/knockback_watch",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/watch",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/knockback_watch",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/storing_circlet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/circlet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/storing_circlet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/end/dragons_breath_circlet",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/circlet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/end/dragons_breath_circlet",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/burning_ring",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/burning_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/thermal_tiara",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/tiara",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/thermal_tiara",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/raging_ring",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/raging_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/withering_necklace",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/necklace",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/withering_necklace",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/fireball_ring",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/fireball_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/saturating_necklace",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/necklace",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/saturating_necklace",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/looting_tiara",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/tiara",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/looting_tiara",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/cooling_boots",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/nether_boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/cooling_boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/smelting_tiara",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/tiara",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/smelting_tiara",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/builders_ring",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/builders_ring",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/tinkering_tiara",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/tiara",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/tinkering_tiara",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/life_steal_necklace",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/necklace",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/life_steal_necklace",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "when": "ancient_artifacts:artifacts/nether/combo_boots",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/nether_boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/nether/combo_boots",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "type": "empty"
+                                    }
+                                },
+                                {
+                                    "type": "condition",
+                                    "property": "custom_model_data",
+                                    "index": 0,
+                                    "on_false": {
+                                        "type": "empty"
+                                    },
+                                    "on_true": {
+                                        "type": "model",
+                                        "model": "ancient_artifacts:item/parchment/quick_look_red_stripe"
+                                    }
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "ancient_artifacts:item/parchment/quick_look_foreground"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "ancient_artifacts:item/parchment/close"
+        }
+    }
+}

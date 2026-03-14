@@ -1,0 +1,718 @@
+{
+     "providers": [
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/poison_amulet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0001"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/deactivation_crown_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0002"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/farmers_boots_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0003"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/shockwave_bracelet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0004"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/divers_boots_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0005"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/allies_amulet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0006"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/miners_crown_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0007"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/travelers_boots_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0008"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/reaching_bracelet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0009"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/healing_amulet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0010"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/conductive_bracelet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0011"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/final_shout_crown_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0012"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/explorers_boots_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0013"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/burning_ring_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0014"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/smelting_tiara_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0015"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/tinkering_tiara_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0016"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/fireball_ring_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0017"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/saturating_necklace_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0018"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/builders_ring_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0019"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/thermal_tiara_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0020"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/raging_ring_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0021"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/cooling_boots_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0022"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/looting_tiara_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0023"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/withering_necklace_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0024"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/life_steal_necklace_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0025"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/combo_boots_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0026"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/detecting_borla_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0027"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/sonic_crystal_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0028"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/borla_of_vision_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0029"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echoing_chain_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0030"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echolocating_borla_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0031"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recycling_crystal_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0032"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/shrinking_anklet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0033"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/beefy_crystal_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0034"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/strengthening_anklet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0035"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/bulky_chain_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0036"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/anklet_of_peace_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0038"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/experienced_chain_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0039"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recovery_anklet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0040"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/necromancy_anklet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0041"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/slowing_circlet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0042"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/dragons_breath_circlet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0043"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/knockback_watch_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0044"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/attractive_toe_ring_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0045"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/gravitation_toe_ring_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0046"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/pulse_watch_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0047"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/levitation_medal_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0048"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/radiant_watch_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0049"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/deflecting_circlet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0050"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/landing_toe_ring_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0051"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/voiding_medal_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0052"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/storing_circlet_1.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0053"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/focus_medal_manual.png",
+            "ascent": 10,
+            "height": 80,
+            "chars": ["\u0054"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/essence/common.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0055"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/essence/uncommon.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0056"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/essence/rare.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0057"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/essence/unique.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0058"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/template/common.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0059"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/template/uncommon.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0060"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/template/rare.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0061"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/template/unique.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0062"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/artifact_blend.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0063"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/compound/quartz.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0064"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/compound/chorus.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0065"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/compound/echoing.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0066"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/artifact_upgrade.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0067"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/heavy_artifact_upgrade.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0068"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_waste.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0069"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/dungeon_catalog.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0070"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/dungeon_map.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0071"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/echo_chunk.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0072"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/expansion_star.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0073"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/ethernal_expansion_star.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0074"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/manual/overworld.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0075"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/manual/deep_dark.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0076"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/manual/nether.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0077"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/manual/end.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0078"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/mystery_box/overworld.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0079"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/mystery_box/deep_dark.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0080"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/mystery_box/nether.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0081"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/mystery_box/end.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0082"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/mystery_box/explorers_box.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0083"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/ancient_hammer.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0084"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/parchment/close.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0085"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_alpha_centuari.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0086"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_battle_of_the_creek.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0087"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_forest.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0088"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_neverland.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0089"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_progress.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0090"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_retrograde.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0091"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_sleepless_city.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0092"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_the_dark_side_of_me.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0093"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/music_disc_welcome_to_chaos.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0094"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/ancient_altar.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0095"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/ancient_stone.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0096"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_cauldron.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0097"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_chest/overworld.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0098"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_chest/deep_dark.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0099"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_chest/nether.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0100"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_chest/end.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0101"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_chest/obsidian.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0102"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:item/manual/focus.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": ["\u0103"]  
+        }
+     ]
+}

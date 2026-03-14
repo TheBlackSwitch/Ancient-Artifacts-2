@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:chiseled_tuff"
+        }
+      }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:artifacts/nether/builders_ring/craft/chiseled_tuff"
+    }
+  }
+  

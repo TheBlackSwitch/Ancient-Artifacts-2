@@ -1,0 +1,166 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 2,
+    "pages": [
+        [
+            {
+                "text": "      Contents\n\n",
+                "bold": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Rare:\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Thermal Tiara ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 16
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:thermal_tiara}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Raging Ring ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 18
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:raging_ring}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Cooling Boots ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 20
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:cooling_boots}].check","entity": "@s","color":"dark_purple"},
+            {
+                "text": "\n\n"
+            },
+            {
+                "text": "Unique:\n",
+                "color": "gold"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Withering Necklace ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 22
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:withering_necklace}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Looting Tiara ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 24
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:looting_tiara}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Life Steal Necklace ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 26
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:life_steal_necklace}].check","entity": "@s","color":"gold"},
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Combo Boots ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 28
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:combo_boots}].check","entity": "@s","color":"gold"}
+        ]
+    ]
+}

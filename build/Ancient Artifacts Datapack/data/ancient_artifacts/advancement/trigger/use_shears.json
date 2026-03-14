@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:shears"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:artifact_cauldron/interact/using_shears"
+    }
+}

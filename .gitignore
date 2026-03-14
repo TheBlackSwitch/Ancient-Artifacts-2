@@ -6,8 +6,6 @@
 __pycache__/
 # The export folder is not needed either
 export/
-# nor is the build folder
-build/
 # paint-dot-net and task files which we don't need
 *.pdn
 *.tasks
@@ -15,4 +13,7 @@ build/
 log_terminal_cache.json
 __todo__.web
 export.json
+.github/workflows/scripts/test.py
+.github/workflows/scripts/test.bat
+
 

@@ -1,0 +1,16 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:dungeon_loot/overworld",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

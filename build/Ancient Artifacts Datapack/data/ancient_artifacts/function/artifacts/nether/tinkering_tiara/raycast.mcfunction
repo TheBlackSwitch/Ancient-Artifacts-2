@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ air run function ancient_artifacts:artifacts/nether/tinkering_tiara/get_data
+execute if block ~ ~ ~ air positioned ^ ^ ^0.3 if entity @p[distance=..4.7] run function ancient_artifacts:artifacts/nether/tinkering_tiara/raycast

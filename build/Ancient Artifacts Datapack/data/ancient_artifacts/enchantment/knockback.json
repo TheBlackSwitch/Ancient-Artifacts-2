@@ -1,0 +1,49 @@
+{
+    "description": [{"text":"This enchantment is used internally. Equip at your own risk!","color":"red"}],
+    "supported_items": "minecraft:poisonous_potato",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 50
+	},
+	"anvil_cost": 8,
+	"slots": [
+		"feet"
+	],
+	"effects": {
+		"minecraft:location_changed": [
+			{
+				"effect": {
+					"type": "minecraft:explode",
+					"knockback_multiplier": 0.1,
+					"radius": 5,
+					"create_fire": false,
+					"block_interaction": "none",
+					"small_particle": {
+						"type": "minecraft:crit"
+					},
+					"large_particle": {
+						"type": "minecraft:crit"
+					},
+					"block_particles": [],
+					"sound": "minecraft:intentionally_empty"
+				},
+				"requirements": {
+					"condition": "enchantment_active_check",
+					"active": false
+				}
+			},
+			{
+				"effect": {
+					"type": "run_function",
+					"function": "ancient_artifacts:utilities/knockback/kill_armorstand"
+				}
+			}
+		]
+	}
+}

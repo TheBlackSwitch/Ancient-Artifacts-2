@@ -1,0 +1,41 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 20,
+    "pages": [
+        [
+            {
+                "text": " Strengthening Anklet\n\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+20% attack damage, -10% HP\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+35% attack damage, -25% HP\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "+50% attack damage, -50% HP\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

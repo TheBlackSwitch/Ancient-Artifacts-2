@@ -1,0 +1,2 @@
+summon interaction ~ ~0.37 ~ {CustomNameVisible: 0b, width: 2.0f, height: 0.25f, CustomName: [{text: "Loot Body ", color: "red"}, {text: "\ue505", font: "ancient_artifacts:main", color: "red"}], Tags: ["prior_explorer", "interaction"]}
+summon item_display ~ ~0.54 ~ {item: {id: "minecraft:gunpowder", components: {"minecraft:item_model": "ancient_artifacts:entity/prior_explorer/skeleton"}}, Rotation: [-90.0f, 0.0f], Tags: ["prior_explorer", "skeleton"]}

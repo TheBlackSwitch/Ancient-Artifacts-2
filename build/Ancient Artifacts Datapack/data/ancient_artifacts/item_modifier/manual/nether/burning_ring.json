@@ -1,0 +1,42 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 4,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828Burning Ring\n\n",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Sets 10% of all mobs within 5b on fire when attacking.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade chance to 20%.\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Upgrade range to 10b.",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

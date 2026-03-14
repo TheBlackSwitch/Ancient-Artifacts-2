@@ -1,0 +1,55 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 15,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF828\uF822",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Pulse Watch\n\n",
+                "color": "blue"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "25% of attacks damages and pulls within 3b\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "25% of attacks within 5b\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "35% of attacks within 5b\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "35% of attacks within 7b\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

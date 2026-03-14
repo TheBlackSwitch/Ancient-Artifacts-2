@@ -1,0 +1,37 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 14,
+    "pages": [
+        [
+            {
+                "text": "\uF828\uF822",
+                "color": "blue",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Recycling Crystal\n\n",
+                "color": "blue"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Gain 35% of your hit arrows back\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Gain 50% of your hit arrows back\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 18,
+    "pages": [
+        [
+            {
+                "text": "\uF829Travelers Boots\n\n",
+                "color": "dark_purple",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Jumpboost I\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Speed I, Jumpboost I\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Speed I, Jumpboost II\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 4: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Speed II, Jumpboost II\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

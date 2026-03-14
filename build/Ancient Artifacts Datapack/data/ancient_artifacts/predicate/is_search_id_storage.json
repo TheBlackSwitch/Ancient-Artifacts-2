@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "tbs.ID": {
+            "min": {
+                "type": "minecraft:storage",
+                "storage": "ancient_artifacts:player",
+                "path": "search_id"
+            },
+            "max": {
+                "type": "minecraft:storage",
+                "storage": "ancient_artifacts:player",
+                "path": "search_id"
+            }
+        }
+    }
+}

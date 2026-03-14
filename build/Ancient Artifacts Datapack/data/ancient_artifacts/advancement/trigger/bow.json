@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:bow",
+              "minecraft:crossbow",
+              "minecraft:trident"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:bow"
+    }
+  }

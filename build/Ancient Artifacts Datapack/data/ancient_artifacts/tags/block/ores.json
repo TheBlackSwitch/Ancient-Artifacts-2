@@ -1,0 +1,56 @@
+{
+    "values": [
+        {
+            "id": "#minecraft:coal_ores",
+            "required": false
+        },
+        {
+            "id": "#minecraft:iron_ores",
+            "required": false
+        },
+        {
+            "id": "#minecraft:gold_ores",
+            "required": false
+        },
+        {
+            "id": "#minecraft:copper_ores",
+            "required": false
+        },
+        {
+            "id": "#minecraft:emerald_ores",
+            "required": false
+        },
+        {
+            "id": "#minecraft:redstone_ores",
+            "required": false
+        },
+        {
+            "id": "#minecraft:lapis_ores",
+            "required": false
+        },
+        {
+            "id": "#minecraft:diamond_ores",
+            "required": false
+        },
+        {
+            "id": "minecraft:nether_quartz_ore",
+            "required": false
+        },
+        {
+            "id": "minecraft:raw_copper_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:raw_iron_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:raw_gold_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:ancient_debris",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "graves.grave.player.id": {
+            "min": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#grave_id"
+                },
+                "score": "temp"
+            },
+            "max": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#grave_id"
+                },
+                "score": "temp"
+            }
+        }
+    },
+    "comment": "Used for compatability with lullaby's graves"
+}

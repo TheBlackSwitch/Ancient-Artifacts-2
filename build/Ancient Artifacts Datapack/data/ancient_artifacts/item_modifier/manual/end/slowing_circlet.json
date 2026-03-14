@@ -1,0 +1,46 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 5,
+    "pages": [
+        [
+            {
+                "text": "\uF828  ",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Slowing Circlet\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Slows projectiles within 5b\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 2: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Slows projectiles within 10b\n\n",
+                "color": "dark_gray"
+            },
+            {
+                "text": "Level 3: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Slows projectiles within 15b\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

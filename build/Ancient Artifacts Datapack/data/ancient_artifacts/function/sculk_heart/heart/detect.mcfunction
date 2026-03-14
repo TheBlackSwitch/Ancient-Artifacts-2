@@ -1,0 +1,9 @@
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 0.6
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 0.7
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 0.8
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 0.9
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 1.0
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 1.1
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 1.2
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 1.3
+playsound block.sculk_sensor.clicking block @a ~ ~ ~ 1 1.4

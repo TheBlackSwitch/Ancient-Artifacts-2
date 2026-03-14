@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "ancient_artifacts:overworld/overgrown_water_ruin",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 18,
+      "separation": 7,
+      "salt": 436455
+    }
+}

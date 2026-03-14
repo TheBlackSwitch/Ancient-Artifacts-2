@@ -1,0 +1,81 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "sculk"
+                },
+                {
+                    "type": "item",
+                    "name": "glow_ink_sac"
+                },
+                {
+                    "type": "item",
+                    "name": "soul_lantern"
+                },
+                {
+                    "type": "item",
+                    "name": "sculk_vein"
+                },
+                {
+                    "type": "item",
+                    "name": "amethyst_block"
+                },
+                {
+                    "type": "item",
+                    "name": "candle"
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_hoe"
+                },
+                {
+                    "type": "item",
+                    "name": "snowball"
+                },
+                {
+                    "type": "item",
+                    "name": "echo_shard"
+                },
+                {
+                    "type": "item",
+                    "name": "calibrated_sculk_sensor"
+                },
+                {
+                    "type": "item",
+                    "name": "ward_armor_trim_smithing_template"
+                },
+                {
+                    "type": "item",
+                    "name": "diamond"
+                },
+                {
+                    "type": "item",
+                    "name": "sculk_sensor"
+                },
+                {
+                    "type": "item",
+                    "name": "sculk_shrieker"
+                },
+                {
+                    "type": "item",
+                    "name": "packed_ice"
+                },
+                {
+                    "type": "item",
+                    "name": "bone_block"
+                },
+                {
+                    "type": "item",
+                    "name": "sculk_catalyst"
+                },
+                {
+                    "type": "item",
+                    "name": "disc_fragment_5"
+                }
+            ]
+        }
+    ]
+}

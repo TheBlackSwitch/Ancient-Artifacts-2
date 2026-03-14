@@ -1,0 +1,33 @@
+{
+    "name": "ancient_artifacts:nether/piglin_ruin",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:nether/ruin1",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:nether/ruin2",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:nether/ruin3",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

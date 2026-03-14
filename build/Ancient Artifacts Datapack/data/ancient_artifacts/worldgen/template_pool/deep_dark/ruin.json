@@ -1,0 +1,33 @@
+{
+    "name": "ancient_artifacts:deep_dark/ruin",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:deep_dark/ruin_1",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:deep_dark/ruin_2",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ancient_artifacts:deep_dark/ruin_3",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,3895 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "minecraft:include/space"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/default",
+            "filter": {
+                "uniform": false
+            }
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/unifont"
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_bar_2_slots.png",
+            "ascent": 42,
+            "height": 64,
+            "chars": ["\uE500"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_bar_3_slots.png",
+            "ascent": 42,
+            "height": 64,
+            "chars": ["\uE501"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/empty.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE502"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/question_mark.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uE503"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/logo.png",
+            "ascent": 15,
+            "height": 41,
+            "chars": ["\uE504"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/right_click.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE505"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/left_click.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE506"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/dungeon_catalog/ink_fleck_1.png",
+            "ascent": 8,
+            "height": 30,
+            "chars": ["\uE507"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/dungeon_catalog/ink_fleck_2.png",
+            "ascent": 8,
+            "height": 30,
+            "chars": ["\uE508"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/dungeon_catalog/ink_fleck_3.png",
+            "ascent": 8,
+            "height": 30,
+            "chars": ["\uE509"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/dungeon_catalog/ink_fleck_4.png",
+            "ascent": 8,
+            "height": 30,
+            "chars": ["\uE510"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/dungeon_catalog/signature.png",
+            "ascent": 40,
+            "height": 64,
+            "chars": ["\uE511"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/dungeon_catalog/title.png",
+            "ascent": 8,
+            "height": 48,
+            "chars": ["\uE512"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/crown.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": ["\uE513"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_bar_focused_2_slots.png",
+            "ascent": 42,
+            "height": 64,
+            "chars": ["\uE514"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_bar_focused_3_slots.png",
+            "ascent": 42,
+            "height": 64,
+            "chars": ["\uE515"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/shulker_king_bossbar.png",
+            "ascent": 18,
+            "height": 64,
+            "chars": ["\uE516"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/sculk_heart_bossbar.png",
+            "ascent": 18,
+            "height": 64,
+            "chars": ["\uE517"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/play_btn.png",
+            "ascent": 8,
+            "height": 30,
+            "chars": ["\uE518"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/stop_btn.png",
+            "ascent": 8,
+            "height": 30,
+            "chars": ["\uE519"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/deny.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE520"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/check.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE521"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tag.png",
+            "ascent": 6,
+            "height": 11,
+            "chars": ["\uE522"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/star.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE523"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/grass_square.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE524"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/gear.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE525"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/bottle.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE526"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/sword.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE527"]         
+        },
+        
+
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/deactivated.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE600"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/healing_amulet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE601"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/healing_amulet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE602"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/healing_amulet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE603"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/healing_amulet_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE604"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/poison_amulet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE605"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/poison_amulet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE606"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/poison_amulet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE607"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/conductive_bracelet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE608"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/conductive_bracelet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE609"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/conductive_bracelet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE610"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/conductive_bracelet_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE611"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/conductive_bracelet_5.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE612"]         
+        }, 
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/shockwave_bracelet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE613"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/shockwave_bracelet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE614"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/final_shout_crown_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE615"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/final_shout_crown_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE616"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/final_shout_crown_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE617"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/deactivation_crown_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE618"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/deactivation_crown_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE619"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/explorers_boots_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE620"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/explorers_boots_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE621"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/explorers_boots_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE622"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/travelers_boots_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE623"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/travelers_boots_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE624"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/travelers_boots_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE625"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/travelers_boots_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE626"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/miners_crown_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE627"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/miners_crown_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE628"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/miners_crown_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE629"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/divers_boots_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE630"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/divers_boots_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE631"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/divers_boots_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE632"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/allies_amulet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE633"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/allies_amulet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE634"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/allies_amulet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE635"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/allies_amulet_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE636"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/allies_amulet_5.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE637"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/farmers_boots_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE638"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/reaching_bracelet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE639"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/reaching_bracelet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE640"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/reaching_bracelet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE641"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/reaching_bracelet_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE642"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/reaching_bracelet_5.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE643"]         
+        },
+
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/burning_ring_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE644"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/burning_ring_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE645"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/burning_ring_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE646"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/thermal_tiara_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE647"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/thermal_tiara_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE648"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/thermal_tiara_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE649"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/thermal_tiara_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE650"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/raging_ring_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE651"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/raging_ring_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE652"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/raging_ring_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE653"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/withering_necklace_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE654"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/withering_necklace_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE655"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/withering_necklace_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE656"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/fireball_ring_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE657"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/fireball_ring_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE658"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/fireball_ring_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE659"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/fireball_ring_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE660"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/fireball_ring_5.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE661"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/saturating_necklace_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE662"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/saturating_necklace_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE663"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/saturating_necklace_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE664"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/looting_tiara_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE665"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/looting_tiara_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE666"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/cooling_boots_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE667"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/cooling_boots_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE668"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/smelting_tiara_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE669"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/builders_ring_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE670"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/builders_ring_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE671"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/tinkering_tiara_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE672"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/life_steal_necklace_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE673"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/life_steal_necklace_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE674"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/life_steal_necklace_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE675"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/combo_boots_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE676"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/combo_boots_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE677"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/combo_boots_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE678"]      
+        },
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/anklet_of_peace_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE679"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/anklet_of_peace_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE680"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/anklet_of_peace_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE681"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/borla_of_vision_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE682"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/borla_of_vision_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE683"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/experienced_chain_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE684"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/experienced_chain_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE685"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/experienced_chain_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE686"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/experienced_chain_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE687"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/beefy_crystal_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE688"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/beefy_crystal_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE689"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/beefy_crystal_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE690"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/beefy_crystal_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE691"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/beefy_crystal_5.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE692"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echoing_chain_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE693"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echoing_chain_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE694"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/sonic_crystal_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE695"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echolocating_borla_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE696"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echolocating_borla_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE697"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echolocating_borla_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE698"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echolocating_borla_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE699"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/detecting_borla_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE700"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/detecting_borla_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE701"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/strengthening_anklet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE702"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/strengthening_anklet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE703"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/strengthening_anklet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE704"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recovery_anklet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE705"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recovery_anklet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE706"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recovery_anklet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE707"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recovery_anklet_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE708"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recycling_crystal_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE709"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recycling_crystal_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE710"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/shrinking_anklet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE711"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/shrinking_anklet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE712"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/shrinking_anklet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE713"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/necromancy_anklet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE714"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/necromancy_anklet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE715"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/necromancy_anklet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE716"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/bulky_chain_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE717"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/bulky_chain_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE718"]
+        },
+
+
+
+
+
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/attractive_toe_ring_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE719"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/attractive_toe_ring_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE720"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/attractive_toe_ring_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE721"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/attractive_toe_ring_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE721"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/gravitation_toe_ring_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE722"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/gravitation_toe_ring_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE723"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/gravitation_toe_ring_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE724"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/pulse_watch_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE725"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/pulse_watch_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE726"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/pulse_watch_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE727"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/pulse_watch_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE728"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/voiding_medal_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE729"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/slowing_circlet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE730"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/slowing_circlet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE731"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/slowing_circlet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE732"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/levitation_medal_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE733"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/levitation_medal_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE734"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/levitation_medal_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE735"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/levitation_medal_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE736"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/levitation_medal_5.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE737"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/radiant_watch_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE738"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/radiant_watch_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE739"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/deflecting_circlet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE740"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/deflecting_circlet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE741"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/landing_toe_ring_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE742"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/landing_toe_ring_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE743"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/landing_toe_ring_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE744"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/storing_circlet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE745"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/storing_circlet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE746"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/storing_circlet_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE747"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/storing_circlet_4.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE748"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/storing_circlet_5.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE749"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/dragons_breath_circlet_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE750"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/dragons_breath_circlet_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE751"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/knockback_watch_1.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE752"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/knockback_watch_2.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE753"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/knockback_watch_3.png",
+            "ascent": 21,
+            "height": 96,
+            "chars": ["\uE754"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/focus_medal.png",
+            "ascent": 25,
+            "height": 96,
+            "chars": ["\uE755"]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile000.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE800"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile001.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE801"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile002.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE802"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile003.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE803"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile004.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE804"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile005.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE805"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile006.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE806"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile007.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE807"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile008.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE808"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile009.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE809"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile010.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE810"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile011.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE811"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile012.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE812"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile013.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE813"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile014.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE814"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile015.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE815"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile016.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE816"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile017.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE817"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile018.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE818"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile019.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE819"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile020.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE820"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile021.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE820"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile022.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE821"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile023.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE822"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile024.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE823"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile025.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE824"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile026.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE825"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile027.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE826"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile028.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE827"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile029.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE828"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile030.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE829"]         
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/fluid/tile031.png",
+            "ascent": 14,
+            "height": 32,
+            "chars": ["\uE830"]         
+        },
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/top_left.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE831"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/top_mid.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE832"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/top_right.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE833"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/mid_left.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE834"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/mid_mid.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE835"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/mid_right.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE836"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/bot_left.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE837"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/bot_mid.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE838"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/bot_right.png",
+            "ascent": -2,
+            "height": 24,
+            "chars": ["\uE839"]      
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/water_bottle.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE840"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/water_bucket.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE841"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/artifact_blend.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE842"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/common_template.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE843"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/uncommon_template.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE844"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/rare_template.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE845"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/unique_template.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE846"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/common_essence.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE847"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/uncommon_essence.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE848"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/rare_essence.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE849"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/unique_essence.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE850"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/amethyst_shard.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE851"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/quartz_compound.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE852"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/chorus_compound.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE853"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/echoing_compound.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE854"]      
+        },
+
+
+
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/question_mark/0.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE860"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/question_mark/1.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE861"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/question_mark/2.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE862"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/question_mark/3.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE863"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/tooltip/icon/question_mark/4.png",
+            "ascent": 9,
+            "height": 12,
+            "chars": ["\uE864"]      
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/background_overworld.png",
+            "ascent": 112,
+            "height": 112,
+            "chars": ["\uE900"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/background_nether.png",
+            "ascent": 112,
+            "height": 112,
+            "chars": ["\uE901"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/background_end.png",
+            "ascent": 112,
+            "height": 112,
+            "chars": ["\uE902"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/background_deep_dark.png",
+            "ascent": 112,
+            "height": 112,
+            "chars": ["\uE903"]      
+        },
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/compare/equal.png",
+            "ascent": 112,
+            "height": 112,
+            "chars": ["\uE910"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/compare/unequal.png",
+            "ascent": 112,
+            "height": 112,
+            "chars": ["\uE911"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/compare/and.png",
+            "ascent": 81,
+            "height": 100,
+            "chars": ["\uE912"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/compare/or.png",
+            "ascent": 81,
+            "height": 100,
+            "chars": ["\uE913"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/compare/is.png",
+            "ascent": 112,
+            "height": 112,
+            "chars": ["\uE914"]      
+        },
+
+
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/empty.png",
+            "ascent": 0,
+            "height": 1,
+            "chars": ["\uE915"]     
+        },
+        
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/rarity/common.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE916"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/rarity/uncommon.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE917"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/rarity/rare.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE918"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/rarity/unique.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE919"]      
+        },
+
+
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/healing_amulet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE920"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/poison_amulet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE921"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/shockwave_bracelet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE922"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/conductive_bracelet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE923"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/final_shout_crown_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE924"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/deactivation_crown_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE925"]      
+        },     
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/travelers_boots_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE926"]      
+        },    
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/explorers_boots_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE927"]      
+        },    
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/miners_crown_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE928"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/divers_boots_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE929"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/allies_amulet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE930"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/farmers_boots_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE931"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/reaching_bracelet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE932"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/burning_ring_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE933"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/thermal_tiara_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE934"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/raging_ring_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE935"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/withering_necklace_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE936"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/fireball_ring_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE937"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/saturating_necklace_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE938"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/looting_tiara_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE939"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/cooling_boots_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE940"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/smelting_tiara_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE941"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/builders_ring_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE942"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/tinkering_tiara_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE943"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/life_steal_necklace_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE944"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/combo_boots_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE945"]  
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/borla_of_vision_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE946"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/experienced_chain_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE947"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/anklet_of_peace_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE948"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/beefy_crystal_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE949"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echoing_chain_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE950"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/sonic_crystal_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE951"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echolocating_borla_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE952"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/detecting_borla_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE953"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/strengthening_anklet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE954"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recovery_anklet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE955"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recycling_crystal_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE956"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/shrinking_anklet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE957"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/necromancy_anklet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE958"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/bulky_chain_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uE959"]  
+        },
+
+
+
+
+
+
+
+
+
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/amethyst_shard.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE960"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/bone.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE961"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/diamond.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE962"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/emerald.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE963"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/ender_eye.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE964"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/fermented_spider_eye.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE965"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/gold_ingot.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE966"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/golden_apple.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE967"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/gunpowder.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE968"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/nautilus_shell.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE969"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/phantom_membrane.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE970"]      
+        },
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/rabbit_hide.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE971"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/rotten_flesh.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE972"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/slime_ball.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE973"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/spider_eye.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE974"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/string.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE975"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/sugar.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE976"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/turtle_scute.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE977"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/blaze_powder.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE978"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/coal.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE979"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/crying_obsidian.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uE980"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/ender_pearl.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE981"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/fire_charge.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE982"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/ghast_tear.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE983"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/gilded_blackstone.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uE984"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/glowstone_dust.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE985"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/magma_cream.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE986"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/nether_brick.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE987"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/nether_wart.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE988"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/netherite_scrap.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE989"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/obsidian.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uE990"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/quartz.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE991"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/wither_rose.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE992"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/trial_key.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE993"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/ominous_trial_key.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE994"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/ominous_bottle.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE995"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/breeze_rod.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE996"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/sculk.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uE997"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/glow_ink_sac.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE998"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/soul_lantern.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uE999"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/sculk_vein.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/amethyst_block.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/candle.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/diamond_hoe.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF003"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/snowball.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF004"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/echo_shard.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF005"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/calibrated_sculk_sensor.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF006"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/ward_armor_trim_smithing_template.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF007"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/diamond.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF008"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/sculk_sensor.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/sculk_shrieker.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/packed_ice.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/bone_block.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/sculk_catalyst.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/disc_fragment_5.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/flint_and_steel.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/netherrack.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF016"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/raw_gold.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/chorus_fruit.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF018"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/dragon_breath.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF019"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/dragon_head.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF020"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/end_crystal.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF021"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/end_rod.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF022"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/end_stone.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF023"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/eye_armor_trim_smithing_template.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF024"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/popped_chorus_fruit.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF025"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/purpur_block.png",
+            "ascent": 82,
+            "height": 84,
+            "chars": ["\uF026"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/shulker_shell.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF027"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/spire_armor_trim_smithing_template.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF028"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifact_parchment/icon/relic/redstone.png",
+            "ascent": 84,
+            "height": 112,
+            "chars": ["\uF029"]      
+        },
+
+
+
+
+        
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/attractive_toe_ring_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF030"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/gravitation_toe_ring_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF031"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/pulse_watch_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF032"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/voiding_medal_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF033"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/slowing_circlet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF034"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/levitation_medal_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF035"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/radiant_watch_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF036"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/deflecting_circlet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF037"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/landing_toe_ring_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF038"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/storing_circlet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF039"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/knockback_watch_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF040"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/dragons_breath_circlet_1.png",
+            "ascent": 35,
+            "height": 112,
+            "chars": ["\uF041"]  
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/healing_amulet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF300"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/poison_amulet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF301"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/shockwave_bracelet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF302"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/conductive_bracelet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF303"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/final_shout_crown_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF304"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/deactivation_crown_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF305"]      
+        },     
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/travelers_boots_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF306"]      
+        },    
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/explorers_boots_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF307"]      
+        },    
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/miners_crown_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF308"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/divers_boots_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF309"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/allies_amulet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF310"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/farmers_boots_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF311"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/overworld/reaching_bracelet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF312"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/burning_ring_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF313"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/thermal_tiara_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF314"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/raging_ring_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF315"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/withering_necklace_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF316"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/fireball_ring_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF317"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/saturating_necklace_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF318"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/looting_tiara_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF319"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/cooling_boots_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF320"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/smelting_tiara_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF321"]      
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/builders_ring_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF322"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/tinkering_tiara_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF323"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/life_steal_necklace_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF324"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/nether/combo_boots_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF325"]  
+        },
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/borla_of_vision_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF326"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/experienced_chain_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF327"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/anklet_of_peace_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF328"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/beefy_crystal_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF329"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echoing_chain_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF330"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/sonic_crystal_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF331"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/echolocating_borla_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF332"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/detecting_borla_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF334"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/strengthening_anklet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF335"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recovery_anklet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF336"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/recycling_crystal_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF337"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/shrinking_anklet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF338"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/necromancy_anklet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF339"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/deep_dark/bulky_chain_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF340"]  
+        },
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/attractive_toe_ring_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF341"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/gravitation_toe_ring_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF342"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/pulse_watch_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF343"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/voiding_medal_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF344"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/slowing_circlet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF345"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/levitation_medal_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF346"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/radiant_watch_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF347"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/deflecting_circlet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF348"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/landing_toe_ring_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF349"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/knockback_watch_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF350"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/storing_circlet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF351"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/dragons_breath_circlet_1.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF352"]  
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/artifacts/end/focus_medal_manual.png",
+            "ascent": -1,
+            "height": 300,
+            "chars": ["\uF353"]  
+        },
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -3,
+            "chars": [
+                "\uF800"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -80,
+            "chars": [
+                "\uF801"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -4,
+            "chars": [
+                "\uF802"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -5,
+            "chars": [
+                "\uF803"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -6,
+            "chars": [
+                "\uF804"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -7,
+            "chars": [
+                "\uF805"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -8,
+            "chars": [
+                "\uF806"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -9,
+            "chars": [
+                "\uF807"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -10,
+            "chars": [
+                "\uF808"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -18,
+            "chars": [
+                "\uF809"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -34,
+            "chars": [
+                "\uF80A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -64,
+            "chars": [
+                "\uF80B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -130,
+            "chars": [
+                "\uF80C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -258,
+            "chars": [
+                "\uF80D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -514,
+            "chars": [
+                "\uF80E"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": -1026,
+            "chars": [
+                "\uF80F"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 0,
+            "chars": [
+                "\uF821"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 1,
+            "chars": [
+                "\uF822"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 2,
+            "chars": [
+                "\uF823"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 3,
+            "chars": [
+                "\uF824"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 4,
+            "chars": [
+                "\uF825"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 5,
+            "chars": [
+                "\uF826"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 6,
+            "chars": [
+                "\uF827"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 7,
+            "chars": [
+                "\uF828"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 15,
+            "chars": [
+                "\uF829"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 31,
+            "chars": [
+                "\uF82A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 63,
+            "chars": [
+                "\uF82B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 127,
+            "chars": [
+                "\uF82C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 255,
+            "chars": [
+                "\uF82D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 511,
+            "chars": [
+                "\uF82E"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -32768,
+            "height": 1023,
+            "chars": [
+                "\uF82F"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_split.png",
+            "ascent": -65536,
+            "height": 32767,
+            "chars": [
+                "\uF820"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -3,
+            "chars": [
+                "\uF811"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -4,
+            "chars": [
+                "\uF812"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -5,
+            "chars": [
+                "\uF813"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -6,
+            "chars": [
+                "\uF814"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -7,
+            "chars": [
+                "\uF815"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -8,
+            "chars": [
+                "\uF816"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -9,
+            "chars": [
+                "\uF817"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -10,
+            "chars": [
+                "\uF818"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -18,
+            "chars": [
+                "\uF819"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -34,
+            "chars": [
+                "\uF81A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -66,
+            "chars": [
+                "\uF81B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -130,
+            "chars": [
+                "\uF81C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -258,
+            "chars": [
+                "\uF81D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -514,
+            "chars": [
+                "\uF81E"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": -1026,
+            "chars": [
+                "\uF81F"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -65536,
+            "height": -32770,
+            "chars": [
+                "\uF810"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 0,
+            "chars": [
+                "\uF831"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 1,
+            "chars": [
+                "\uF832"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 2,
+            "chars": [
+                "\uF833"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 3,
+            "chars": [
+                "\uF834"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 4,
+            "chars": [
+                "\uF835"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 5,
+            "chars": [
+                "\uF836"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 6,
+            "chars": [
+                "\uF837"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 7,
+            "chars": [
+                "\uF838"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 15,
+            "chars": [
+                "\uF839"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 31,
+            "chars": [
+                "\uF83A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 63,
+            "chars": [
+                "\uF83B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 127,
+            "chars": [
+                "\uF83C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 255,
+            "chars": [
+                "\uF83D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 511,
+            "chars": [
+                "\uF83E"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -32768,
+            "height": 1023,
+            "chars": [
+                "\uF83F"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ancient_artifacts:font/space_nosplit.png",
+            "ascent": -65536,
+            "height": 32767,
+            "chars": [
+                "\uF830"
+            ]
+        }
+    ]
+}

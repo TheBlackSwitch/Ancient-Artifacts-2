@@ -1,0 +1,33 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/overworld/unique_no_expensive"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/nether/unique_no_expensive"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/unique_no_expensive"
+                },
+                {
+                    "weight": 1,
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/end/unique_no_expensive"
+                }
+            ]
+        }
+    ] 
+}

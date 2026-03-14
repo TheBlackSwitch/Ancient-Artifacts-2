@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:borla",
+                        "level:1",
+                        "artifact:detecting_borla"
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Dark Artifacts!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Find an artifact by opening a deep dark chest.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/open_deep_dark_chest",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "artifact": true,
+                                "data": {
+                                    "dim": "deep_dark"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "ancient_artifacts:deep_dark_manual"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/deep_dark_artifacts_root",
+        "loot": [
+            "ancient_artifacts:item/manual/deep_dark"
+        ]
+    }
+}

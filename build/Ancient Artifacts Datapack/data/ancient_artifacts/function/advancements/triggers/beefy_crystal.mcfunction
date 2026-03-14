@@ -1,0 +1,2 @@
+advancement revoke @s only ancient_artifacts:trigger/take_damage_by_creeper
+execute if score @s[tag=beefy_crystal] health matches 1.. unless items entity @s armor.* * run advancement grant @s only ancient_artifacts:artifacts/deep_dark/beefy_expert

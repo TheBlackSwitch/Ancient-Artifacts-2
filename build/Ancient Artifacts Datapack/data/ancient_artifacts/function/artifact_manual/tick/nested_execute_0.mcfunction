@@ -1,0 +1,10 @@
+execute if items entity @s weapon.mainhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "overworld"}] run loot replace entity @s weapon.mainhand loot ancient_artifacts:item/manual/overworld
+execute if items entity @s weapon.mainhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "nether"}] run loot replace entity @s weapon.mainhand loot ancient_artifacts:item/manual/nether
+execute if items entity @s weapon.mainhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "end"}] run loot replace entity @s weapon.mainhand loot ancient_artifacts:item/manual/end
+execute if items entity @s weapon.mainhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "deep_dark"}] run loot replace entity @s weapon.mainhand loot ancient_artifacts:item/manual/deep_dark
+execute if items entity @s weapon.mainhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "focus"}] run loot replace entity @s weapon.mainhand loot ancient_artifacts:item/manual/focus
+execute if items entity @s weapon.offhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "overworld"}] run loot replace entity @s weapon.offhand loot ancient_artifacts:item/manual/overworld
+execute if items entity @s weapon.offhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "nether"}] run loot replace entity @s weapon.offhand loot ancient_artifacts:item/manual/nether
+execute if items entity @s weapon.offhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "end"}] run loot replace entity @s weapon.offhand loot ancient_artifacts:item/manual/end
+execute if items entity @s weapon.offhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "deep_dark"}] run loot replace entity @s weapon.offhand loot ancient_artifacts:item/manual/deep_dark
+execute if items entity @s weapon.offhand written_book[custom_data~{manual: 1b, needs_replaced: 1b, type: "focus"}] run loot replace entity @s weapon.offhand loot ancient_artifacts:item/manual/focus

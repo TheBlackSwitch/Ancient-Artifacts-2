@@ -1,0 +1,8 @@
+{
+    "values": [
+        {
+            "id": "ancient_artifacts:artifact_chests/interact",
+            "required": false
+        }
+    ]
+}

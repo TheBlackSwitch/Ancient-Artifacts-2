@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/detecting_borla"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/sonic_crystal"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/borla_of_vision"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:crown",
+                        "level:none",
+                        "artifact:final_shout_crown"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Final Shout Expert",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Kill 15 or more mobs with one final shout!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  2x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:artifacts/overworld/final_shout_crown",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "loot": [
+            "ancient_artifacts:item/mystery_box/overworld",
+            "ancient_artifacts:item/mystery_box/overworld"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "values": [
+        {
+            "id": "minecraft:water",
+            "required": false
+        },
+        {
+            "id": "minecraft:lava",
+            "required": false
+        },
+        {
+            "id": "minecraft:fire",
+            "required": false
+        },
+        {
+            "id": "minecraft:sand",
+            "required": false
+        },
+        {
+            "id": "minecraft:gravel",
+            "required": false
+        },
+        {
+            "id": "#minecraft:concrete_powder",
+            "required": false
+        },
+        {
+            "id": "#minecraft:anvil",
+            "required": false
+        },
+        {
+            "id": "minecraft:suspicious_gravel",
+            "required": false
+        },
+        {
+            "id": "minecraft:suspicious_sand",
+            "required": false
+        },
+        {
+            "id": "minecraft:pointed_dripstone",
+            "required": false
+        },
+        {
+            "id": "minecraft:scaffolding",
+            "required": false
+        },
+        {
+            "id": "minecraft:snow",
+            "required": false
+        },
+        {
+            "id": "minecraft:dragon_egg",
+            "required": false
+        }
+    ]
+}

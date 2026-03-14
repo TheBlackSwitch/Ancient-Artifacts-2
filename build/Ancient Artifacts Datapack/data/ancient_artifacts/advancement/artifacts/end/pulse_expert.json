@@ -1,0 +1,4856 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:watch",
+                        "level:none",
+                        "artifact:pulse_watch"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Pulse Expert",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Create a pulse 300 times!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  3x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:artifacts/end/pulse_watch",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "4": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "5": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 5
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "6": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "7": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 7
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "8": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 8
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "9": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "10": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "11": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 11
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "12": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 12
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "13": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 13
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "14": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 14
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "15": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 15
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "16": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 16
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "17": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 17
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "18": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 18
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "19": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 19
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "20": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 20
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "21": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 21
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "22": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 22
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "23": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 23
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "24": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 24
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "25": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 25
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "26": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 26
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "27": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 27
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "28": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 28
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "29": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 29
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "30": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 30
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "31": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 31
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "32": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 32
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "33": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 33
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "34": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 34
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "35": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 35
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "36": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 36
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "37": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 37
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "38": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 38
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "39": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 39
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "40": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 40
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "41": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 41
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "42": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 42
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "43": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 43
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "44": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 44
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "45": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 45
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "46": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 46
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "47": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 47
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "48": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 48
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "49": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 49
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "50": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 50
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "51": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 51
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "52": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 52
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "53": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 53
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "54": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 54
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "55": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 55
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "56": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 56
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "57": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 57
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "58": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 58
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "59": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 59
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "60": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 60
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "61": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 61
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "62": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 62
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "63": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 63
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "64": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 64
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "65": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 65
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "66": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 66
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "67": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 67
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "68": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 68
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "69": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 69
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "70": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 70
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "71": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 71
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "72": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 72
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "73": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 73
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "74": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 74
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "75": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 75
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "76": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 76
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "77": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 77
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "78": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 78
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "79": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 79
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "80": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 80
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "81": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 81
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "82": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 82
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "83": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 83
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "84": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 84
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "85": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 85
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "86": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 86
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "87": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 87
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "88": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 88
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "89": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 89
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "90": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 90
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "91": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 91
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "92": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 92
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "93": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 93
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "94": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 94
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "95": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 95
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "96": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 96
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "97": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 97
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "98": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 98
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "99": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 99
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "100": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 100
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "101": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 101
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "102": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 102
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "103": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 103
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "104": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 104
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "105": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 105
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "106": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 106
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "107": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 107
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "108": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 108
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "109": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 109
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "110": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 110
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "111": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 111
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "112": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 112
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "113": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 113
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "114": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 114
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "115": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 115
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "116": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 116
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "117": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 117
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "118": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 118
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "119": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 119
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "120": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 120
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "121": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 121
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "122": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 122
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "123": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 123
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "124": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 124
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "125": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 125
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "126": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 126
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "127": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 127
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "128": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 128
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "129": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 129
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "130": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 130
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "131": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 131
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "132": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 132
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "133": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 133
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "134": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 134
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "135": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 135
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "136": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 136
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "137": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 137
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "138": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 138
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "139": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 139
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "140": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 140
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "141": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 141
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "142": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 142
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "143": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 143
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "144": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 144
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "145": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 145
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "146": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 146
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "147": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 147
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "148": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 148
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "149": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 149
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "150": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 150
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "151": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 151
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "152": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 152
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "153": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 153
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "154": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 154
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "155": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 155
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "156": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 156
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "157": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 157
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "158": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 158
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "159": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 159
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "160": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 160
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "161": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 161
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "162": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 162
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "163": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 163
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "164": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 164
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "165": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 165
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "166": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 166
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "167": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 167
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "168": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 168
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "169": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 169
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "170": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 170
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "171": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 171
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "172": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 172
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "173": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 173
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "174": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 174
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "175": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 175
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "176": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 176
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "177": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 177
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "178": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 178
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "179": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 179
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "180": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 180
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "181": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 181
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "182": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 182
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "183": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 183
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "184": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 184
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "185": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 185
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "186": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 186
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "187": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 187
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "188": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 188
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "189": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 189
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "190": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 190
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "191": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 191
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "192": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 192
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "193": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 193
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "194": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 194
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "195": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 195
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "196": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 196
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "197": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 197
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "198": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 198
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "199": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 199
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "200": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 200
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "201": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 201
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "202": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 202
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "203": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 203
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "204": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 204
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "205": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 205
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "206": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 206
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "207": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 207
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "208": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 208
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "209": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 209
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "210": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 210
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "211": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 211
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "212": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 212
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "213": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 213
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "214": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 214
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "215": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 215
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "216": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 216
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "217": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 217
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "218": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 218
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "219": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 219
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "220": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 220
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "221": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 221
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "222": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 222
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "223": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 223
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "224": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 224
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "225": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 225
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "226": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 226
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "227": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 227
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "228": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 228
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "229": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 229
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "230": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 230
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "231": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 231
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "232": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 232
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "233": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 233
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "234": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 234
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "235": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 235
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "236": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 236
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "237": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 237
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "238": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 238
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "239": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 239
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "240": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 240
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "241": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 241
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "242": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 242
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "243": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 243
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "244": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 244
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "245": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 245
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "246": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 246
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "247": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 247
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "248": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 248
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "249": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 249
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "250": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 250
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "251": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 251
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "252": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 252
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "253": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 253
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "254": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 254
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "255": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 255
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "256": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 256
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "257": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 257
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "258": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 258
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "259": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 259
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "260": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 260
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "261": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 261
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "262": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 262
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "263": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 263
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "264": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 264
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "265": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 265
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "266": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 266
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "267": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 267
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "268": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 268
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "269": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 269
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "270": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 270
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "271": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 271
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "272": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 272
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "273": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 273
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "274": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 274
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "275": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 275
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "276": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 276
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "277": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 277
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "278": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 278
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "279": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 279
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "280": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 280
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "281": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 281
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "282": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 282
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "283": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 283
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "284": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 284
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "285": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 285
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "286": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 286
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "287": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 287
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "288": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 288
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "289": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 289
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "290": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 290
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "291": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 291
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "292": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 292
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "293": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 293
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "294": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 294
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "295": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 295
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "296": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 296
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "297": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 297
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "298": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 298
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "299": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 299
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "300": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "pulses": {
+                                "min": 300
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "loot": [
+            "ancient_artifacts:item/mystery_box/end",
+            "ancient_artifacts:item/mystery_box/end",
+            "ancient_artifacts:item/mystery_box/end"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "ancient_artifacts:overworld/dungeon",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "dungeon:entrance/pyramid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

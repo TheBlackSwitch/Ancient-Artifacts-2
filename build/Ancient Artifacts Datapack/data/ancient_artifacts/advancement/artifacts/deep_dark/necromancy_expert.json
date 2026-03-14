@@ -1,0 +1,855 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:anklet",
+                        "level:none",
+                        "artifact:necromancy_anklet"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Necromancy Expert",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Necromance 50 mobs!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  2x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:artifacts/deep_dark/necromancy_anklet",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "4": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "5": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 5
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "6": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "7": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 7
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "8": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 8
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "9": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "10": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "11": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 11
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "12": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 12
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "13": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 13
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "14": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 14
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "15": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 15
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "16": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 16
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "17": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 17
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "18": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 18
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "19": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 19
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "20": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 20
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "21": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 21
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "22": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 22
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "23": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 23
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "24": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 24
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "25": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 25
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "26": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 26
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "27": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 27
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "28": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 28
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "29": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 29
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "30": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 30
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "31": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 31
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "32": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 32
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "33": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 33
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "34": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 34
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "35": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 35
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "36": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 36
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "37": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 37
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "38": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 38
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "39": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 39
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "40": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 40
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "41": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 41
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "42": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 42
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "43": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 43
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "44": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 44
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "45": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 45
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "46": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 46
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "47": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 47
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "48": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 48
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "49": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 49
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "50": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mobs_necromanced": {
+                                "min": 50
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "loot": [
+            "ancient_artifacts:item/mystery_box/deep_dark",
+            "ancient_artifacts:item/mystery_box/deep_dark"
+        ],
+        "function": "ancient_artifacts:advancements/triggers/advance"
+    }
+}

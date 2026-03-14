@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:polished_andesite_from_andesite_stonecutting"
+        }
+      }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:artifacts/nether/builders_ring/craft/polished_andesite"
+    }
+  }
+  

@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:toe_ring",
+                        "level:1",
+                        "artifact:attractive_toe_ring"
+                    ]
+                }
+            }
+        },
+        "title": {
+            "text": "Even Deeper Artifacts?",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Obtain your first end artifact.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:main/open_end_chest",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {"artifact":true,"data":{"dim":"end"}}
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/end_artifacts_root",
+        "recipes": [
+            "ancient_artifacts:end_manual"
+        ],
+        "loot": [
+            "ancient_artifacts:item/manual/end"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "required": false,
+            "id": "#ancient_artifacts:non_living"
+        },
+        {
+            "required": false,
+            "id": "minecraft:villager"
+        },
+        {
+            "required": false,
+            "id": "minecraft:happy_ghast"
+        }
+    ]
+}

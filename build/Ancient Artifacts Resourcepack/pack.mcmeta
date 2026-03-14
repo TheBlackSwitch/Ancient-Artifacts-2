@@ -1,0 +1,29 @@
+{
+  "pack": {
+    "pack_format": 64,
+    "supported_formats": [
+      63,
+      75
+    ],
+    "min_format": [
+      63,
+      0
+    ],
+    "max_format": [
+      75,
+      0
+    ],
+    "description": [
+      "",
+      {
+        "text": "Unlock over 50+ artifacts ",
+        "color": "light_purple"
+      },
+      {
+        "text": "with unique abilities ",
+        "color": "gold"
+      }
+    ]
+  },
+  "id": "ancient_artifacts"
+}

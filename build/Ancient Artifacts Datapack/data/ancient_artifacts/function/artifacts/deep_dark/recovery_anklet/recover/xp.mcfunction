@@ -1,0 +1,2 @@
+execute store result storage ancient_artifacts:player xp int 1 run scoreboard players get @s recovered_xp
+function ancient_artifacts:artifacts/deep_dark/recovery_anklet/recover/set_xp with storage ancient_artifacts:player

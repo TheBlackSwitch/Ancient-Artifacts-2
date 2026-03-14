@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:item/ancient_parchment",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:archer_pottery_sherd"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:miner_pottery_sherd"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:prize_pottery_sherd"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skull_pottery_sherd"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tnt"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gunpowder"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:archaeology/desert_pyramid",
+    "__smithed__": {
+        "rules": [
+            {
+                "type": "smithed:append",
+                "target": "pools[0].entries",
+                "source": {
+                    "type:": "smithed:refrence",
+                    "path": "pools[0].entries[0]"
+                }
+            }
+        ]
+    }
+}

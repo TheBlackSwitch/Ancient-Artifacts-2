@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "#ancient_artifacts:hostile",
+            "required": false
+        },
+        {
+            "id": "#ancient_artifacts:neutral",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "feature": "ancient_artifacts:nether_geode/basalt",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 12
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "max_inclusive": {
+                    "absolute": 65
+                },
+                "min_inclusive": {
+                    "absolute": 32
+                }
+            }
+        },
+        {
+            "type": "environment_scan",
+            "direction_of_search": "up",
+            "max_steps": 16,
+            "target_condition": {
+                "type": "solid"
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

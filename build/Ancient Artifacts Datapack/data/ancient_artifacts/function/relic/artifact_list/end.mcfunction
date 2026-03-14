@@ -1,0 +1,12 @@
+execute if score .relics_end server matches 0 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/attractive_toe_ring", level: "uncommon"}
+execute if score .relics_end server matches 1 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/gravitation_toe_ring", level: "uncommon"}
+execute if score .relics_end server matches 2 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/pulse_watch", level: "uncommon"}
+execute if score .relics_end server matches 3 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/voiding_medal", level: "unique"}
+execute if score .relics_end server matches 4 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/slowing_circlet", level: "common"}
+execute if score .relics_end server matches 5 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/levitation_medal", level: "rare"}
+execute if score .relics_end server matches 6 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/radiant_watch", level: "rare"}
+execute if score .relics_end server matches 7 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/deflecting_circlet", level: "rare"}
+execute if score .relics_end server matches 8 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/landing_toe_ring", level: "rare"}
+execute if score .relics_end server matches 9 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/storing_circlet", level: "unique"}
+execute if score .relics_end server matches 10 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/dragons_breath_circlet", level: "common"}
+execute if score .relics_end server matches 11 run data modify storage ancient_artifacts:relics end.artifact set value {id: "ancient_artifacts:artifacts/end/knockback_watch", level: "common"}

@@ -1,0 +1,2 @@
+scoreboard objectives add heart_state dummy
+scoreboard objectives add sculk_heart_music_timer dummy

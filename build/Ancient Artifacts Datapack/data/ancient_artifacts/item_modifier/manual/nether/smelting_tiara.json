@@ -1,0 +1,24 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "replace_section",
+    "size": 1,
+    "offset": 6,
+    "pages": [
+        [
+            {
+                "text": "\uF829\uF826Smelting Tiara\n\n",
+                "color": "dark_gray",
+                "font": "ancient_artifacts:main"
+            },
+            {
+                "text": "Level 1: ",
+                "color": "blue",
+                "bold":true
+            },
+            {
+                "text": "Smelts mined blocks broken with a tool when sneaking at the cost of a slower mining speed.\n\n",
+                "color": "dark_gray"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "values": [
+        {
+            "id": "minecraft:air",
+            "required": false
+        },
+        {
+            "id": "minecraft:void_air",
+            "required": false
+        },
+        {
+            "id": "minecraft:chorus_plant",
+            "required": false
+        },
+        {
+            "id": "minecraft:chorus_flower",
+            "required": false
+        },
+        {
+            "id": "minecraft:end_stone_bricks",
+            "required": false
+        },
+        {
+            "id": "minecraft:end_stone_brick_slab",
+            "required": false
+        },
+        {
+            "id": "minecraft:end_stone_brick_stairs",
+            "required": false
+        },
+        {
+            "id": "minecraft:end_gateway",
+            "required": false
+        },
+        {
+            "id": "minecraft:end_portal",
+            "required": false
+        },
+        {
+            "id": "minecraft:obsidian",
+            "required": false
+        },
+        {
+            "id": "minecraft:bedrock",
+            "required": false
+        },
+        {
+            "id": "minecraft:purpur_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:purpur_pillar",
+            "required": false
+        },
+        {
+            "id": "minecraft:purpur_slab",
+            "required": false
+        },
+        {
+            "id": "minecraft:purpur_stairs",
+            "required": false
+        },
+        {
+            "id": "minecraft:barrier",
+            "required": false
+        },
+        {
+            "id": "minecraft:end_rod",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/template/common"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/template/uncommon"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/template/rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/template/unique"
+                }
+            ]
+        }
+    ]
+}

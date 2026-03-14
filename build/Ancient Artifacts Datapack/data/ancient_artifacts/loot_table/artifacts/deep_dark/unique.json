@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/anklet_of_peace",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/anklet_of_peace_expensive",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/experienced_chain",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/experienced_chain_expensive",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/recovery_anklet",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/recovery_anklet_expensive",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/necromancy_anklet",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ancient_artifacts:artifacts/deep_dark/necromancy_anklet_expensive",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

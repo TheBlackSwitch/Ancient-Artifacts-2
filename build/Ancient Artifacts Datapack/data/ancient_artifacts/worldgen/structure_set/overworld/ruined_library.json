@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "ancient_artifacts:overworld/ruined_library",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 31,
+      "separation": 10,
+      "salt": 495305469
+    }
+}

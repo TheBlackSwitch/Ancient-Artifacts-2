@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:cut_copper_from_copper_block_stonecutting"
+        }
+      }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:artifacts/nether/builders_ring/craft/cut_copper"
+    }
+  }
+  
