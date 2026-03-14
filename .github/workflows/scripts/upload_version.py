@@ -222,12 +222,16 @@ def interpolate_versions(start, end):
 
     # Collect a list of all minecraft versions
     if len(all_minecraft_versions) == 0:
-        try:
-            response = requests.get(f"https://mc-versions-api.net/api/java")
-            if response.status_code == 200 and isinstance(json.loads(response.text)['result'], list):
-                all_minecraft_versions = json.loads(response.text)['result']
-        except:
-            print('Failed to get all minecraft versions!')
+
+        response = requests.get(f"https://piston-meta.mojang.com/mc/game/version_manifest.json")
+        if response.status_code == 200 and isinstance(json.loads(response.text)['versions'], list):
+            for v in json.loads(response.text)['versions']:
+                if v['type'] == 'release':
+                    all_minecraft_versions.append(v['id'])
+            print(all_minecraft_versions)
+        else:
+            raise Exception('Failed to collect minecraft versions!')
+
 
     output = []
     start_version_int = version_to_int(start)
