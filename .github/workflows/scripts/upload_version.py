@@ -113,30 +113,18 @@ cf_api_key = ""     # organization specific key (used to get version data)
 #----------------
 
 
-arg_cnt = len(sys.argv)
 
 #Yay magic numbers!
-if(arg_cnt > 1):
-    version_tag = sys.argv[1] #The name of the release tag EG: V2.5.0b-mod-for-1.21.6-1.21.7
-else:
-    sys.exit("No tag name!")
-if(arg_cnt > 2):
-    changelog = sys.argv[2] #The changelog
-else:
-    sys.exit("No changelog provided!")
-if(arg_cnt > 3):
-    modrinth_pat = sys.argv[3] # modrinth token
-else:
-    sys.exit("No modrinth PAT!")
-if(arg_cnt > 4):
-    curseforge_pat = sys.argv[4] # curseforge token
-else:
-    sys.exit("No curseforge PAT!")
-if(arg_cnt > 5):
-    cf_api_key = sys.argv[5] # curseforge organization key
-    print(len(cf_api_key) % 5)
-else:
-    sys.exit("No curseforge PAT!")
+
+version_tag = os.environ["TAG"] if os.environ["TAG"] else sys.exit("No tag name!") #The name of the release tag EG: V2.5.0b-mod-for-1.21.6-1.21.7
+
+changelog = os.environ["BODY"] if os.environ["BODY"] else sys.exit("No changelog provided!") #The changelog
+    
+modrinth_pat = os.environ["MODRINTHPAT"] if os.environ["MODRINTHPAT"] else sys.exit("No modrinth PAT provided!") # modrinth token
+
+curseforge_pat = os.environ["CURSEFORGEPAT"] if os.environ["CURSEFORGEPAT"] else sys.exit('No curseforge PAT provided!') # curseforge token
+
+cf_api_key = os.environ["CURSEFORGETOKEN"] if os.environ["CURSEFORGETOKEN"] else sys.exit('No curseforge organization token provided!') # curseforge organization key
 
 
 if not enabled_rp and not enabled_dp:
@@ -238,8 +226,6 @@ def interpolate_versions(start, end):
             response = requests.get(f"https://mc-versions-api.net/api/java")
             if response.status_code == 200 and isinstance(json.loads(response.text)['result'], list):
                 all_minecraft_versions = json.loads(response.text)['result']
-            else:
-                raise
         except:
             print('Failed to get all minecraft versions!')
 
