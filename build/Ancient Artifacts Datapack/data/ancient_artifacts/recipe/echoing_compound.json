@@ -19,7 +19,8 @@
                 "text": "Echoing Compound",
                 "color": "#14537a",
                 "italic": false,
-                "bold": true
+                "bold": true,
+                "shadow_color": 0
             },
             "minecraft:lore": [
                 {

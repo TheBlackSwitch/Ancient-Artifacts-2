@@ -18,7 +18,8 @@
                 "text": "Quartz Compound",
                 "color": "#ba2568",
                 "italic": false,
-                "bold": true
+                "bold": true,
+                "shadow_color": 0
             },
             "minecraft:lore": [
                 {
