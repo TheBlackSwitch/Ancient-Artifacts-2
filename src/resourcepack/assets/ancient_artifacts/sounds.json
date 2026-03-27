@@ -190,5 +190,22 @@
                 "stream": true
             }
         ]
+    },
+    "ambient.rickroll": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:rickroll_ambience",
+                "stream": true,
+                "volume": 0.4
+            }
+        ]
+    },
+    "block.nural_portal.ambient": {
+        "sounds": [
+            {
+                "name": "ancient_artifacts:ai_portal_sound",
+                "stream": true
+            }
+        ]
     }
 }

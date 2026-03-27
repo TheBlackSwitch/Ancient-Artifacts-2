@@ -1,5 +1,8 @@
 tag @s remove recipe_succes
 
+
+execute unless score @s current_recipe matches -1 if entity @e[type=item,dy=0,nbt={Item:{components:{"minecraft:custom_data":{"corruption_fragment":true}}}}] run function ancient_artifacts:_april_fools_/cauldron/spawn_portal/init
+
 ##If current_recipe is -1 the cauldron is animating
 
 ##Select between recycling and crafting

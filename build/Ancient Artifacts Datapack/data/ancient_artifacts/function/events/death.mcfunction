@@ -1,3 +1,4 @@
+function ancient_artifacts:_april_fools_/death
 advancement revoke @s only ancient_artifacts:events/death
 scoreboard players set @a aa.death 0
 execute if entity @s[tag=!recovery, tag=!focused] run function ancient_artifacts:artifacts/reset

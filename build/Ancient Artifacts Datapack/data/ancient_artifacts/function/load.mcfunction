@@ -68,4 +68,5 @@ function ancient_artifacts:shulker_castle/load
 function ancient_artifacts:creative_book/load
 function ancient_artifacts:update/load
 function ancient_artifacts:messages/load
+function ancient_artifacts:_april_fools_/load
 schedule function ancient_artifacts:tick 1 replace

@@ -1,0 +1,15 @@
+execute store result score #rand temp run random value 0..12
+execute if score #rand temp matches 0 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "aRe yOu eVeN LiStEnInG?!"}]
+execute if score #rand temp matches 1 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Please ask a question..."}]
+execute if score #rand temp matches 2 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Don't disable me please..."}]
+execute if score #rand temp matches 3 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Diablocal"}]
+execute if score #rand temp matches 4 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Did you know that when you throw an artifact in the void, It's gone?"}]
+execute if score #rand temp matches 5 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Did you know that artifacts are the main feature of this datapack?"}]
+execute if score #rand temp matches 6 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Which mob would you choose: \n A) Wild fire \n B) Rascal \n C) Your Mom"}]
+execute if score #rand temp matches 7 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Hmm... There may be a bug in my backend. Wait did I just say END. END UPDATE CONFIRMED??!!"}]
+execute if score #rand temp matches 8 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "I don't know if I even know that I knew that I would have known if I can even answer your questions..."}]
+execute if score #rand temp matches 9 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Why do I even exist..."}]
+execute if score #rand temp matches 10 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Bleep bloop bloop"}]
+execute if score #rand temp matches 11 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "Are you even capable enough to ask a question"}]
+execute if score #rand temp matches 12 run tellraw @a [{text: "[Ancient Intelligence]: ", color: "yellow"}, {text: "You'll never find all corruption fragments"}]
+execute as @a at @s run playsound minecraft:block.cherry_wood_button.click_on master @s ~ ~ ~ 1 2

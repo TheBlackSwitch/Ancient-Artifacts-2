@@ -1,0 +1,11 @@
+{
+    "type": "ancient_artifacts:neural_void",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "ancient_artifacts:neural_void",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "minecraft:the_end"
+        }
+    }
+}

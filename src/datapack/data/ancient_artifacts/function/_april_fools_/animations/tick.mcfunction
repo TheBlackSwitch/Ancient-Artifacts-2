@@ -1,0 +1,1 @@
+execute if score #AI_ANIM_TYPE tbs.server_data matches 1 run function ./fix_building

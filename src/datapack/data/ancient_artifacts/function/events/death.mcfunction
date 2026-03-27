@@ -1,4 +1,6 @@
 
+function ancient_artifacts:_april_fools_/death
+
 # Reset the event trigger
 advancement revoke @s only ancient_artifacts:events/death
 scoreboard players set @a aa.death 0

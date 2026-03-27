@@ -1,9 +1,9 @@
 {
     "display": {
-      "icon": {
-        "id": "minecraft:warped_fungus_on_a_stick",
-        "components": {
-          "item_model": "ancient_artifacts:item/artifact",
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
                 "custom_model_data": {
                     "strings": [
                         "base:anklet",
@@ -12,58 +12,62 @@
                     ]
                 },
                 "minecraft:enchantment_glint_override": true
-        }
-      },
-      "title": {
-        "text": "Shrinking Expert",
-        "color": "gold"
-      },
-      "description": [
-        {
-          "text": "Kill an enderman with a meele attack while being squished between a half block gap!\n\n",
-          "color": "dark_green"
+            }
         },
-        {
-          "text": "Rewards: \n",
-          "color": "light_purple",
-          "bold": true
+        "title": {
+            "text": "Shrinking Expert",
+            "color": "gold"
         },
-        {
-          "text": "  1x Mystery Box\n",
-          "color": "aqua"
-        },
-        {
-          "text": "  20x XP",
-          "color": "aqua"
-        }
-      ],
-      "frame": "challenge",
-      "show_toast": true,
-      "announce_to_chat": true
+        "description": [
+            {
+                "text": "Kill an enderman with a meele attack while being squished between a half block gap!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  1x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            },
+            {
+                "text": " \nCorruption fragment 36% chance",
+                "color": "red"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
     },
     "parent": "ancient_artifacts:artifacts/deep_dark/shrinking_anklet",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_killed_entity",
-        "conditions": {
-          "player": {
-            "nbt": "{Tags:[\"shrunk\"]}"
-          },
-          "entity": {
-            "type": "minecraft:enderman"
-          },
-          "killing_blow": {
-            "is_direct": true
-          }
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"shrunk\"]}"
+                },
+                "entity": {
+                    "type": "minecraft:enderman"
+                },
+                "killing_blow": {
+                    "is_direct": true
+                }
+            }
         }
-      }
     },
     "rewards": {
-      "function": "ancient_artifacts:advancements/triggers/advance",
-      "loot": [
-        "ancient_artifacts:item/mystery_box/deep_dark"
-      ],
-      "experience": 20
+        "function": "ancient_artifacts:advancements/triggers/advance",
+        "loot": [
+            "ancient_artifacts:item/mystery_box/deep_dark",
+            "ancient_artifacts:item/corruption_fragment_drop"
+        ],
+        "experience": 20
     }
-  }
-  
+}

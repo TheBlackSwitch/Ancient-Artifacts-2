@@ -1,4 +1,5 @@
 tag @s remove recipe_succes
+execute unless score @s current_recipe matches -1 if entity @e[type=item, dy=0, nbt={Item: {components: {"minecraft:custom_data": {corruption_fragment: true}}}}] run function ancient_artifacts:_april_fools_/cauldron/spawn_portal/init
 execute if score @s current_recipe matches 1 if entity @e[type=item, dy=0, nbt={Item: {components: {"minecraft:custom_data": {artifact_blend: true}}}}] run function ancient_artifacts:artifact_cauldron/recipes/recycling/artifact_blend_1
 execute if score @s current_recipe matches 1 if entity @e[type=item, dy=0, nbt={Item: {components: {"minecraft:custom_data": {artifact_template: true}}}}] run function ancient_artifacts:artifact_cauldron/recipes/crafting/template
 execute if score @s current_recipe matches 10 if entity @e[type=item, dy=0, nbt={Item: {components: {"minecraft:custom_data": {artifact_blend: true}}}}] run function ancient_artifacts:artifact_cauldron/recipes/recycling/artifact_blend_2

@@ -13,8 +13,8 @@ execute at @n[type=marker,tag=shulker_castle] if entity @a[distance=..96] at @s 
 execute at @n[type=marker,tag=shulker_castle] if entity @a[distance=..64] run tag @s remove reset
 
 
-##Teleport
+## Teleport
 execute at @n[tag=shulker_castle,type=marker,distance=..64] at @n[tag=shulker_king_location,distance=..64] run tp @s ~ ~-0.5 ~
 
-##Remove random blocks within
+## Remove random blocks within
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace #ancient_artifacts:shulker_king_remove

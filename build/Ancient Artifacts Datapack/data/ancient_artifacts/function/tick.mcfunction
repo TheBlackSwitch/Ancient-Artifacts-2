@@ -1,3 +1,4 @@
+function ancient_artifacts:_april_fools_/tick
 function #theblackswitch:v2.0/clear_item/enable
 function #theblackswitch:v2.0/easing/enable
 function #theblackswitch:v2.0/overlay/enable

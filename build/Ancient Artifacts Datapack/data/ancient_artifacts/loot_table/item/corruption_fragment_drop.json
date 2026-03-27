@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ancient_artifacts:item/corruption_fragment",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.36
+                        }
+                    ],
+                    "functions": []
+                }
+            ]
+        }
+    ]
+}

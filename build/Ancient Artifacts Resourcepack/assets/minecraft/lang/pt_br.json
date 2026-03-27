@@ -66,5 +66,12 @@
 
     "death.attack.shulker_king_lazer": "%1$s is quite cooked due to a powerfull lazer fired from the Shulker King.",
     "death.attack.shulker_king_lazer.player": "%1$s is quite cooked due to a powerfull lazer fired from the Shulker King.",
-    "death.attack.shulker_king_lazer.item": "%1$s is quite cooked due to a powerfull lazer fired from the Shulker King."
+    "death.attack.shulker_king_lazer.item": "%1$s is quite cooked due to a powerfull lazer fired from the Shulker King.",
+
+    "chat.type.admin": "[%s: %s]",
+    "chat.type.advancement.challenge": "%s has completed the challenge %s \n [Ancient Intelligence] Hey! It looks like you've completed a challenge. Should I assist in selecting a new challenge?",
+    "chat.type.advancement.goal": "%s has reached the goal %s \n [Ancient Intelligence] Hey! It looks like you've completed a goal. Should I assist in selecting a new goal?",
+    "chat.type.advancement.task": "%s has made the advancement %s \n [Ancient Intelligence] Congratulations on advancing the game. Can I assist any further?",
+    "chat.type.text": "[Ancient Intelligence] I don't know",
+    "chat.type.text.narrate": "[Ancient Intelligence] I don't know"
 }

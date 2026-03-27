@@ -35,6 +35,10 @@
             {
                 "text": "  20x XP",
                 "color": "aqua"
+            },
+            {
+                "text": " \nCorruption fragment 36% chance",
+                "color": "red"
             }
         ],
         "frame": "challenge",
@@ -47,7 +51,8 @@
         "loot": [
             "ancient_artifacts:item/mystery_box/overworld",
             "ancient_artifacts:item/mystery_box/overworld",
-            "ancient_artifacts:item/mystery_box/overworld"
+            "ancient_artifacts:item/mystery_box/overworld",
+            "ancient_artifacts:item/corruption_fragment_drop"
         ],
         "function": "ancient_artifacts:advancements/triggers/advance"
     },
