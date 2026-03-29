@@ -43,7 +43,7 @@ resourcepack_folder_path = "build/Ancient Artifacts Resourcepack"   # The locati
 
 #-----MODRINTH-CONFIG-----
 
-enable_modrinth_upload = True                   # Whenever to upload to modrinth or not
+enable_modrinth_upload = False                   # Whenever to upload to modrinth or not
 
 modrinth_project_id = "RO3LwIqV"                # The project ID of your modrinth project
 
@@ -52,7 +52,7 @@ resourcepack_type = "required-resource-pack"    # Whenever the resourcepack is r
 
 #-----CURSEFORGE-CONFIG-----
 
-enable_cf_upload = True                         # Whenever to upload to curseforge
+enable_cf_upload = False                         # Whenever to upload to curseforge
 
 curseforge_datapack_project_id = 1294584        # The project ID on curseforge for the datapack
 curseforge_mod_project_id = 1342636             # The project ID on curseforge for the mod
@@ -219,7 +219,6 @@ all_minecraft_versions = [] # cache the response for some reason
 
 def interpolate_versions(start, end):
     global all_minecraft_versions
-
     # Collect a list of all minecraft versions
     if len(all_minecraft_versions) == 0:
 
@@ -272,12 +271,22 @@ def zipdir(path, ziph):
             
 # and yes I've made it purposefully worse...
 #-------------------------------------------------------------------------------------------------------------------------
+
+# Zip all subfolders (in the case of a datapack / resourcepack, these are the overlays and the data folder)
+def zipSubFolders(path, ziph):
+    for item in os.listdir(path):
+        volledig_pad = os.path.join(path, item) 
+        if os.path.isdir(volledig_pad):
+            print(str(item))
+            zipdir(volledig_pad, ziph)
+
+#-------------------------------------------------------------------------------------------------------------------------
 datapack_path = f"{datapack_name_ascii}_v" + pack_version + "_for_" + start_version + "-" + end_version + ".zip"
 if enabled_dp:
     print("Zipping datapack...")
 
     with ZipFile(datapack_path, "w", zipfile.ZIP_DEFLATED) as myzip:
-        zipdir(f"{datapack_folder_path}/data", myzip)
+        zipSubFolders(datapack_folder_path, myzip)
         myzip.write(f"{datapack_folder_path}/pack.mcmeta","pack.mcmeta")
         myzip.write(f"{datapack_folder_path}/pack.png","pack.png")
 
@@ -288,7 +297,7 @@ if enabled_rp:
     print("Zipping resourcepack...")
 
     with ZipFile(resourcepack_path, "w", zipfile.ZIP_DEFLATED) as myzip:
-        zipdir(f"{resourcepack_folder_path}/assets", myzip)
+        zipSubFolders(resourcepack_folder_path, myzip)
         myzip.write(f"{resourcepack_folder_path}/pack.mcmeta","pack.mcmeta")
         myzip.write(f"{resourcepack_folder_path}/pack.png","pack.png")
 
@@ -375,8 +384,8 @@ if package_as_mod:
     img_path = f"{mod_name_ascii}_pack.png"
 
     with ZipFile(mod_path, "w", zipfile.ZIP_DEFLATED) as myzip:
-        if enabled_dp: zipdir(f"{datapack_folder_path}/data", myzip)
-        if enabled_rp: zipdir(f"{resourcepack_folder_path}/assets", myzip)
+        if enabled_dp: zipSubFolders(datapack_folder_path, myzip)
+        if enabled_rp: zipSubFolders(resourcepack_folder_path, myzip)
 
         # Handle pack.png
         if os.path.exists(f'{resourcepack_folder_path}/pack.png') and enabled_rp:
@@ -385,7 +394,7 @@ if package_as_mod:
 
         elif os.path.exists(f'{datapack_folder_path}/pack.png') and enabled_dp:
             myzip.write(f"{datapack_folder_path}/pack.png","pack.png")
-            myzip.write(f"{resourcepack_folder_path}/pack.png", img_path)
+            myzip.write(f"{datapack_folder_path}/pack.png", img_path)
 
         # Merge pack.mcmeta files
         merged = {}

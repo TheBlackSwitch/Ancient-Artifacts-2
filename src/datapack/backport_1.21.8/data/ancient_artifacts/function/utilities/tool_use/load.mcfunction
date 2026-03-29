@@ -1,3 +1,5 @@
+# Removed copper armor
+
 scoreboard objectives add wood_pick used:wooden_pickaxe
 scoreboard objectives add stone_pick used:stone_pickaxe
 scoreboard objectives add gold_pick used:golden_pickaxe

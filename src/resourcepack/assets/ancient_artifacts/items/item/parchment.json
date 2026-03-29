@@ -937,6 +937,42 @@
                                             }
                                         },
                                         {
+                                            "when": "ancient_artifacts:artifacts/deep_dark/darkening_borla",
+                                            "model": {
+                                                "type": "composite",
+                                                "models": [
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/base/borla",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "model",
+                                                        "model": "ancient_artifacts:item/artifacts/artifact/deep_dark/detecting_borla",
+                                                        "tints": [
+                                                            {
+                                                                "type": "constant",
+                                                                "value": [
+                                                                    0.95,
+                                                                    0.82,
+                                                                    0.66
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
                                             "when": "ancient_artifacts:artifacts/deep_dark/strengthening_anklet",
                                             "model": {
                                                 "type": "composite",

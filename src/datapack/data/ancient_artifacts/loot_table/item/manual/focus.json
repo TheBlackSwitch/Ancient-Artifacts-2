@@ -301,7 +301,7 @@
                                         "text": " "
                                     },
                                     {
-                                        "text": "Darkening Borla\n",
+                                        "text": "Detecting Borla\n",
                                         "color": "dark_gray",
                                         "bold": false,
                                         "click_event": {
@@ -1458,7 +1458,7 @@
                                 ],
                                 [
                                     {
-                                        "text": "\uF829Darkening Borla\n",
+                                        "text": "\uF829Detecting Borla\n",
                                         "color": "dark_gray",
                                         "font": "ancient_artifacts:main"
                                     },
