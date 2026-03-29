@@ -1,7 +1,7 @@
 {
     "data_pack": {
         "load": [
-            "libraries/SwitchLib-v2.0.1.zip",
+            "libraries/SwitchLib-v2.0.2.zip",
             "libraries/Smithed-Actionbar.zip",
             "src/datapack"
         ],
@@ -21,7 +21,7 @@
     ],
     "id": "ancient_artifacts",
     "name": "Ancient Artifacts",
-    "description": "Unlock over 50+ artifacts with unique abilities",
+    "description": "Unlock over 50+ artifacts with unique abilities!",
     "require": [
         "plugins.extend",
         "bolt",
@@ -43,7 +43,7 @@
         "aliases": [
             {
                 "regex": "__pack-version__",
-                "replace": "2.5.5a",
+                "replace": "2.5.5b",
                 "comment": "ancient_artifacts's version"
             },
             {
@@ -53,7 +53,7 @@
             },
             {
                 "regex": "__patch__",
-                "replace": "patch-1",
+                "replace": "patch-2",
                 "comment": "The switch lib patch version"
             }
         ]

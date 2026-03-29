@@ -1,5 +1,5 @@
 tag @s add knockback_bullet_checked
-execute if predicate theblackswitch:v2.0/patch-1/rand/50 run return fail
+execute if predicate theblackswitch:v2.0/patch-2/rand/50 run return fail
 playsound minecraft:entity.shulker.shoot hostile @a ~ ~ ~ 3 0
 summon item_display ~ ~ ~ {Motion: [0.0d, -5.0d, 0.0d], item: {id: "minecraft:gunpowder", count: 1, components: {"minecraft:enchantment_glint_override": true, "minecraft:item_model": "ancient_artifacts:entity/knockback_bullet_glint"}}, Tags: ["knockback_bullet_primer", "INIT"]}
 ride @e[type=item_display, tag=knockback_bullet_primer, tag=INIT, limit=1] mount @s
