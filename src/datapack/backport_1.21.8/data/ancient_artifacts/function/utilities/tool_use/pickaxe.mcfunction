@@ -1,3 +1,5 @@
+# Removed copper armor
+
 advancement revoke @s only ancient_artifacts:trigger/used_pickaxe
 scoreboard players set @s wood_pick 0
 scoreboard players set @s stone_pick 0

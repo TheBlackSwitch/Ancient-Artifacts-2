@@ -21,7 +21,8 @@
                 "text": "Chorus Compound",
                 "color": "#9d65bf",
                 "italic": false,
-                "bold": true
+                "bold": true,
+                "shadow_color": 0
             },
             "minecraft:lore": [
                 {

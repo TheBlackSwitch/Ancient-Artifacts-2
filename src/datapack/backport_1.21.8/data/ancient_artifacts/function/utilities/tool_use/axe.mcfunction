@@ -1,3 +1,5 @@
+# Removed copper armor
+
 advancement revoke @s only ancient_artifacts:trigger/used_axe
 scoreboard players set @s wood_axe 0
 scoreboard players set @s stone_axe 0

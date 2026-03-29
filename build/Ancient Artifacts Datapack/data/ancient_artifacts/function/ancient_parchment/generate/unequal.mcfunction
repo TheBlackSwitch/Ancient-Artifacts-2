@@ -1,5 +1,5 @@
 execute store result storage ancient_artifacts:parchment count int 1 run random value 2..4
-execute if data storage ancient_artifacts:parchment {count: 1} if predicate theblackswitch:v2.0/patch-1/rand/25 store result storage ancient_artifacts:parchment count int 1 run random value 2..3
+execute if data storage ancient_artifacts:parchment {count: 1} if predicate theblackswitch:v2.0/patch-2/rand/25 store result storage ancient_artifacts:parchment count int 1 run random value 2..3
 data modify storage ancient_artifacts:parchment correct set from storage ancient_artifacts:parchment count
 scoreboard players set #loop_count temp 0
 function ancient_artifacts:ancient_parchment/generate/common/gen_dim

@@ -1,3 +1,5 @@
+# Removed copper armor
+
 advancement revoke @s only ancient_artifacts:trigger/used_shovel
 scoreboard players set @s wood_shovel 0
 scoreboard players set @s stone_shovel 0

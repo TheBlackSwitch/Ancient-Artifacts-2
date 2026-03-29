@@ -45,7 +45,7 @@
                             "function": "set_name",
                             "name": {
                                 "text": "Artifact Manual",
-                                "color": "#b56400",
+                                "color": "gold",
                                 "italic": false,
                                 "shadow_color": 0,
                                 "bold": false
@@ -69,13 +69,13 @@
                                 },
                                 {
                                     "text": "A manual filled with useful information",
-                                    "color": "#762f94",
+                                    "color": "dark_purple",
                                     "italic": false,
                                     "shadow_color": 0
                                 },
                                 {
                                     "text": "about your unlocked artifacts",
-                                    "color": "#762f94",
+                                    "color": "dark_purple",
                                     "italic": false,
                                     "shadow_color": 0
                                 },
@@ -109,7 +109,7 @@
                                 },
                                 {
                                     "text": " \uE505 to open. ",
-                                    "color": "#762f94",
+                                    "color": "dark_purple",
                                     "italic": false,
                                     "shadow_color": 0,
                                     "font": "ancient_artifacts:main"
@@ -168,7 +168,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -187,7 +187,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -206,7 +206,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -229,7 +229,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -248,7 +248,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -267,7 +267,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     }
@@ -280,14 +280,14 @@
                                     },
                                     {
                                         "text": "Rare:\n",
-                                        "color": "#762f94"
+                                        "color": "dark_purple"
                                     },
                                     {
                                         "text": " "
                                     },
                                     {
                                         "text": "Miners Crown\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -297,7 +297,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -306,7 +306,7 @@
                                     },
                                     {
                                         "text": "Travelers Boots\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -316,7 +316,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -324,8 +324,8 @@
                                         "text": " "
                                     },
                                     {
-                                        "text": "Reaching Bracelet\n\n",
-                                        "color": "#762f94",
+                                        "text": "Reaching Bracelet\n",
+                                        "color": "dark_purple",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -335,7 +335,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -343,8 +343,8 @@
                                         "text": " "
                                     },
                                     {
-                                        "text": "Healing Amulet\n",
-                                        "color": "#762f94",
+                                        "text": "Healing Amulet\n\n",
+                                        "color": "dark_purple",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -354,20 +354,20 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
                                     {
                                         "text": "Unique:\n",
-                                        "color": "#b56400"
+                                        "color": "gold"
                                     },
                                     {
                                         "text": " "
                                     },
                                     {
                                         "text": "Conductive Bracelet\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -377,7 +377,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -386,7 +386,7 @@
                                     },
                                     {
                                         "text": "Crown Of Final Shout\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -396,7 +396,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     },
@@ -405,7 +405,7 @@
                                     },
                                     {
                                         "text": "Explorers Boots\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "bold": false,
                                         "click_event": {
                                             "action": "change_page",
@@ -415,7 +415,7 @@
                                             "action": "show_text",
                                             "value": {
                                                 "text": "Go To",
-                                                "color": "#762f94"
+                                                "color": "dark_purple"
                                             }
                                         }
                                     }
@@ -837,7 +837,7 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Miners Crown\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -860,7 +860,7 @@
                                     },
                                     {
                                         "text": "Rare\n\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "bold": true,
                                         "underlined": true
                                     },
@@ -890,7 +890,7 @@
                                 [
                                     {
                                         "text": "\uF829\uF828Miners Crown\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -906,7 +906,7 @@
                                 [
                                     {
                                         "text": "\uF829Travelers Boots\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -929,7 +929,7 @@
                                     },
                                     {
                                         "text": "Rare\n\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "bold": true,
                                         "underlined": true
                                     },
@@ -959,7 +959,7 @@
                                 [
                                     {
                                         "text": "\uF829Travelers Boots\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -975,7 +975,7 @@
                                 [
                                     {
                                         "text": "\uF828\uF822Reaching Bracelet\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -998,7 +998,7 @@
                                     },
                                     {
                                         "text": "Rare\n\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "bold": true,
                                         "underlined": true
                                     },
@@ -1028,7 +1028,7 @@
                                 [
                                     {
                                         "text": "\uF828\uF822Reaching Bracelet\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -1044,7 +1044,7 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Healing Amulet\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -1067,7 +1067,7 @@
                                     },
                                     {
                                         "text": "Rare\n\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "bold": true,
                                         "underlined": true
                                     },
@@ -1097,7 +1097,7 @@
                                 [
                                     {
                                         "text": "\uF829\uF826Healing Amulet\n",
-                                        "color": "#762f94",
+                                        "color": "dark_purple",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -1113,7 +1113,7 @@
                                 [
                                     {
                                         "text": "\uF827Conductive Bracelet\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -1136,7 +1136,7 @@
                                     },
                                     {
                                         "text": "Unique\n\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "bold": true,
                                         "underlined": true
                                     },
@@ -1166,7 +1166,7 @@
                                 [
                                     {
                                         "text": "\uF827Conductive Bracelet\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -1182,7 +1182,7 @@
                                 [
                                     {
                                         "text": "\uF826Crown Of Final Shout\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -1205,7 +1205,7 @@
                                     },
                                     {
                                         "text": "Unique\n\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "bold": true,
                                         "underlined": true
                                     },
@@ -1235,7 +1235,7 @@
                                 [
                                     {
                                         "text": "\uF826Crown Of Final Shout\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -1251,7 +1251,7 @@
                                 [
                                     {
                                         "text": "\uF829Explorers Boots\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
@@ -1274,7 +1274,7 @@
                                     },
                                     {
                                         "text": "Unique\n\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "bold": true,
                                         "underlined": true
                                     },
@@ -1304,7 +1304,7 @@
                                 [
                                     {
                                         "text": "\uF829Explorers Boots\n",
-                                        "color": "#b56400",
+                                        "color": "gold",
                                         "font": "ancient_artifacts:main"
                                     },
                                     {
