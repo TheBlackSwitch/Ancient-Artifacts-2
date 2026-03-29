@@ -1,6 +1,6 @@
 execute at @s[tag=!exact] unless block ~ ~ ~ air run tp @s ~ ~1 ~
 execute at @s[tag=!exact] unless block ~ ~ ~ air run tp @s ~ ~-2 ~
-execute if entity @s[tag=!exact] unless block ~ ~ ~ air run return fail
+execute at @s[tag=!exact] unless block ~ ~ ~ air run return fail
 execute at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {Tags: ["artifact_chest", "INIT"], transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, 0.0f, 0.0f], scale: [1.001f, 1.001f, 1.001f]}, interpolation_duration: 4}
 execute at @s align xyz positioned ~0.5 ~0.5 ~0.5 facing entity @p feet rotated ~ 0 run tp @e[tag=artifact_chest, tag=INIT] ~ ~ ~ ~ ~
 execute at @s align xyz as @e[tag=artifact_chest, tag=INIT, y_rotation=-180..-135] at @s run tp @s ~ ~ ~ 180 0

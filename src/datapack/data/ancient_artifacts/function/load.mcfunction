@@ -89,6 +89,3 @@ function ancient_artifacts:creative_book/load
 function ancient_artifacts:update/load
 function ancient_artifacts:messages/load
 function ancient_artifacts:_april_fools_/load
-
-# Register the library version that this pack uses
-schedule function ancient_artifacts:tick 1t replace

@@ -1,3 +1,5 @@
+# Removed copper armor
+
 advancement revoke @s only ancient_artifacts:trigger/used_hoe
 scoreboard players set @s wood_hoe 0
 scoreboard players set @s stone_hoe 0

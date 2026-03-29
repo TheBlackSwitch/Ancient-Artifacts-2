@@ -1,9 +1,9 @@
 scoreboard players remove @s tp_cooldown 1
-execute unless score @s tp_cooldown matches 1.. if entity @s[nbt={HurtTime: 10s}] if predicate theblackswitch:v2.0/patch-1/rand/65 run function ancient_artifacts:shulker_castle/bossfight/shulker_king/defence/teleport/activate
+execute unless score @s tp_cooldown matches 1.. if entity @s[nbt={HurtTime: 10s}] if predicate theblackswitch:v2.0/patch-2/rand/65 run function ancient_artifacts:shulker_castle/bossfight/shulker_king/defence/teleport/activate
 scoreboard players add @s animation 1
 execute if score @s animation matches 20 store result score @s attack run random value 0..29
-execute if score @s animation matches 20 if entity @s[tag=difficulty_1] if predicate theblackswitch:v2.0/patch-1/rand/25 if score @s attack matches 12..17 store result score @s attack run random value 0..29
-execute if score @s animation matches 20 if entity @s[tag=difficulty_2] if predicate theblackswitch:v2.0/patch-1/rand/25 if score @s attack matches 12..17 store result score @s attack run random value 0..29
+execute if score @s animation matches 20 if entity @s[tag=difficulty_1] if predicate theblackswitch:v2.0/patch-2/rand/25 if score @s attack matches 12..17 store result score @s attack run random value 0..29
+execute if score @s animation matches 20 if entity @s[tag=difficulty_2] if predicate theblackswitch:v2.0/patch-2/rand/25 if score @s attack matches 12..17 store result score @s attack run random value 0..29
 execute if score @s attack matches 0..1 if score @s animation matches 150.. run scoreboard players set @s animation 0
 execute if score @s animation matches 20.. if score @s attack matches 2..12 run function ancient_artifacts:shulker_castle/bossfight/shulker_king/attacks/bullet_storm/animation
 execute if score @s animation matches 20.. if score @s attack matches 12..17 run function ancient_artifacts:shulker_castle/bossfight/shulker_king/attacks/summon_healer/animation

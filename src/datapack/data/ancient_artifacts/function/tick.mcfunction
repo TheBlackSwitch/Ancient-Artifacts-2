@@ -156,6 +156,4 @@ scoreboard players set @a used_carrot_stick 0
 scoreboard players set @a attack 0
 scoreboard players set @a cod_spawn_egg_use 0
 
-team join aa.players @a
-
-schedule function ancient_artifacts:tick 1t replace
+team join aa.players @s
