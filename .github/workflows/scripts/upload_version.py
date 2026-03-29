@@ -43,7 +43,7 @@ resourcepack_folder_path = "build/Ancient Artifacts Resourcepack"   # The locati
 
 #-----MODRINTH-CONFIG-----
 
-enable_modrinth_upload = False                   # Whenever to upload to modrinth or not
+enable_modrinth_upload = True                   # Whenever to upload to modrinth or not
 
 modrinth_project_id = "RO3LwIqV"                # The project ID of your modrinth project
 
@@ -52,7 +52,7 @@ resourcepack_type = "required-resource-pack"    # Whenever the resourcepack is r
 
 #-----CURSEFORGE-CONFIG-----
 
-enable_cf_upload = False                         # Whenever to upload to curseforge
+enable_cf_upload = True                         # Whenever to upload to curseforge
 
 curseforge_datapack_project_id = 1294584        # The project ID on curseforge for the datapack
 curseforge_mod_project_id = 1342636             # The project ID on curseforge for the mod
