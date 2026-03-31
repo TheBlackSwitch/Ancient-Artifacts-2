@@ -5,7 +5,7 @@
         "settings": "ancient_artifacts:neural_void",
         "biome_source": {
             "type": "minecraft:fixed",
-            "biome": "minecraft:the_end"
+            "biome": "minecraft:the_void"
         }
     }
 }

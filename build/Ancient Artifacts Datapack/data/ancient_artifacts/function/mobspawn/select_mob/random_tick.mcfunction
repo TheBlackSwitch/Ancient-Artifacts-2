@@ -1,5 +1,6 @@
 execute store result score #do_mobspawn temp run function ancient_artifacts:utilities/gamerule/get_mobspawn
 execute if score #do_mobspawn temp matches 0 run return fail
+execute at @s[type=player] if dimension ancient_artifacts:neural_void run return run function ancient_artifacts:mobspawn/select_mob/overworld/dungeon
 execute at @s[type=player] if entity @e[type=marker, tag=dungeon_marker, tag=!weak_effects, distance=..20] run return run function ancient_artifacts:mobspawn/select_mob/overworld/dungeon
 execute at @s[tag=jungle_temple, predicate=theblackswitch:v2.0/patch-2/rand/6] run return run function ancient_artifacts:mobspawn/select_mob/overworld/jungle_temple
 execute at @s[tag=water_ruin, predicate=theblackswitch:v2.0/patch-2/rand/2] run return run function ancient_artifacts:mobspawn/select_mob/overworld/water_ruin

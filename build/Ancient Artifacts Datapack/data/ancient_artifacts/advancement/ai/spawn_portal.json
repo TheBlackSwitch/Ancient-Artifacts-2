@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:repeating_command_block",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/ancient_deintelligensifier"
+            }
+        },
+        "title": "Prepare for battle",
+        "description": {
+            "text": "Spawn a portal to the neural networld by throwing a corruption fragment in a water-filled artifact cauldron.",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:ai/obtain_ancient_deintelligensifier",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

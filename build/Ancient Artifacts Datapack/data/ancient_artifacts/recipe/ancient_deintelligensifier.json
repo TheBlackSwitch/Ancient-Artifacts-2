@@ -1,0 +1,64 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:repeating_command_block",
+        "minecraft:repeating_command_block",
+        "minecraft:repeating_command_block",
+        "minecraft:repeating_command_block"
+    ],
+    "result": {
+        "id": "minecraft:gold_nugget",
+        "components": {
+            "item_model": "ancient_artifacts:item/ancient_deintelligensifier",
+            "custom_data": {
+                "ancient_deintelligensifier": true,
+                "smithed": {
+                    "ignore": {
+                        "functionality": true,
+                        "crafting": true
+                    }
+                }
+            },
+            "enchantment_glint_override": true,
+            "tooltip_style": "minecraft:ancient_artifacts",
+            "item_name": {
+                "text": "Ancient Deintelligensifier",
+                "color": "dark_red",
+                "italic": false,
+                "shadow_color": 0,
+                "bold": true
+            },
+            "lore": [
+                {
+                    "text": "\uE522",
+                    "italic": false,
+                    "shadow_color": 0,
+                    "font": "ancient_artifacts:main",
+                    "color": "white"
+                },
+                {
+                    "text": "",
+                    "color": "red"
+                },
+                {
+                    "text": "Make your intelligence un-",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
+                },
+                {
+                    "text": "intelligent again. Now with",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
+                },
+                {
+                    "text": "extra unintelligence.",
+                    "color": "#762f94",
+                    "italic": false,
+                    "shadow_color": 0
+                }
+            ]
+        }
+    }
+}

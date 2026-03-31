@@ -1,0 +1,1 @@
+scoreboard players set #AI_STATE tbs.server_data 2

@@ -15,6 +15,9 @@ team modify aa.color.red color red
 ## Scoreboards
 #-------------------------------------------------------
 
+forceload add ~ ~
+execute unless entity @e[tag=spawn_point] run summon marker ~ ~ ~ {Tags:["spawn_point"]}
+
 scoreboard objectives add server dummy
 scoreboard objectives add attack custom:damage_dealt
 scoreboard objectives add slow_tick dummy

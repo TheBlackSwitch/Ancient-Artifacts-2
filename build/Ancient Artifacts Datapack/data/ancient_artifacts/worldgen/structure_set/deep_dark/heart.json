@@ -7,8 +7,8 @@
     ],
     "placement": {
       "type": "minecraft:random_spread",
-      "spacing": 10,
-      "separation": 7,
+      "spacing": 7,
+      "separation": 6,
       "salt": 945,
       "exclusion_zone": {
         "other_set": "minecraft:ancient_cities",

@@ -2,7 +2,7 @@
 
 
 messages = [
-    "Dam are you that bad at the game? I shall assist you further",
+    "Damn are you that bad at the game? I shall assist you further",
     "May I assist you on your (s)kill issue",
     "Bhahahahaha you dumbass",
     "Did you know you just lost all your items",

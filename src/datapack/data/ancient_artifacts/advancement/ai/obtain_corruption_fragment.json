@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:repeating_command_block",
+            "components": {
+                "minecraft:item_model": "ancient_artifacts:item/corruption_fragment"
+            }
+        },
+        "title": "You annoying little chat bot",
+        "description": {
+            "text": "Realize that ancient intelligence may or may not be a little annying and start collecting corruption fragments by doing artifact challenges!",
+            "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:ai/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "corruption_fragment": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ancient_artifacts:_april_fools_/advancements/obtain_corruption_fragment"
+    }
+}

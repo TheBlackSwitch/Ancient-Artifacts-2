@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nether_star",
+            "components": {}
+        },
+        "title": "Ancient Intelligence",
+        "description": {
+            "text": "Welcome to your new AI chat bot that helps you on any artifact gathering adventure. No more difiiculties with artifact crafting and no more skill issues in the artifact dungeon!",
+            "color": "gold"
+        },
+        "background": "minecraft:gui/advancements/backgrounds/computation_core",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location"
+        }
+    }
+}
