@@ -654,19 +654,15 @@ def get_cf_version_id(version: str):
         if 'minecraft' in item['slug']:
             cf_version_parts = item['slug'].split('-')
             mc_version_parts = version.split('.')
-
-
+            
             if mc_version_parts[0] == '1':
                 if cf_version_parts[1] == '1' and cf_version_parts[2] == mc_version_parts[1]:
                     cf_version_type = item['id']
                     break;
             
-            elif len(mc_version_parts) == 2:
-                if cf_version_parts[1] == mc_version_parts[0]:
+            elif cf_version_parts[1] == mc_version_parts[0] and cf_version_parts[2] == mc_version_parts[1]:
                     cf_version_type = item['id']
                     break;
-                    
-
     
     if cf_version_type == -1:
         raise Exception(f'Failed to find version type of version {version}')
@@ -677,7 +673,6 @@ def get_cf_version_id(version: str):
     
     for curr_vers_list in cf_version_response['data']:
         if curr_vers_list['type'] == cf_version_type:
-
             fallback = ""
             for curr_vers in curr_vers_list['versions']:
 
