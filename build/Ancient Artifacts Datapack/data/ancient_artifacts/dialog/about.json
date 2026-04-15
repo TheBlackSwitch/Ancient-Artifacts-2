@@ -45,7 +45,7 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "text": "v2.5.5a\n By ",
+                "text": "v2.5.5b\n By ",
                 "extra": [
                     {
                         "text": "theblackswitch",
