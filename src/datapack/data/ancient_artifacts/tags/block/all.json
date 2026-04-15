@@ -4300,6 +4300,10 @@
         {
             "required": false,
             "id": "minecraft:copper_torch"
+        },
+        {
+            "required": false,
+            "id": "minecraft:golden_dandelion"
         }
     ]
 }
