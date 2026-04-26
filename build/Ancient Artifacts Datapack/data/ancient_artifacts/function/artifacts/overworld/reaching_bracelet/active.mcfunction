@@ -11,3 +11,4 @@ execute if score @s artifact matches 43 run attribute @s block_interaction_range
 execute if score @s artifact matches 43 run attribute @s entity_interaction_range modifier add reaching_bracelet 7 add_value
 execute if score @s artifact matches 44 run attribute @s block_interaction_range modifier add reaching_bracelet 10.5 add_value
 execute if score @s artifact matches 44 run attribute @s entity_interaction_range modifier add reaching_bracelet 12.5 add_value
+tag @s add reaching_bracelet

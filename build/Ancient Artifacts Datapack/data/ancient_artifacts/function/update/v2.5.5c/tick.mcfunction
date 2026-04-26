@@ -1,0 +1,1 @@
+execute as @a[tag=!aa.refreshed_hoe_use] run function ancient_artifacts:update/v2.5.5c/revoke_hoe_use

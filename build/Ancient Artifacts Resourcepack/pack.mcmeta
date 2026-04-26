@@ -5,14 +5,8 @@
       63,
       84
     ],
-    "min_format": [
-      63,
-      0
-    ],
-    "max_format": [
-      84,
-      0
-    ],
+    "min_format": 63,
+    "max_format": 84,
     "description": [
       "",
       {

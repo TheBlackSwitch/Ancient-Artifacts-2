@@ -1,1 +1,1 @@
-return run time query minecraft:day
+return run time query daytime
