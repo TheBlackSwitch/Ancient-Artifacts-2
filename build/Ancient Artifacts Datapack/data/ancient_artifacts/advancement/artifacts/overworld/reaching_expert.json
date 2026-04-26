@@ -51,10 +51,10 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": ["skeleton","stray","wither_skeleton","bogged"],
+							"type": "#ancient_artifacts:skeleton",
 							"distance": {
 								"absolute": {
-									"min": 9.5
+									"min": 9.0
 								}
 							}
 						}

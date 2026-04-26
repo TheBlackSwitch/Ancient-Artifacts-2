@@ -64,6 +64,10 @@
         {
             "required": false,
             "id": "minecraft:tall_dry_grass"
+        },
+        {
+            "required": false,
+            "id": "minecraft:golden_dandelion"
         }
     ]
 }

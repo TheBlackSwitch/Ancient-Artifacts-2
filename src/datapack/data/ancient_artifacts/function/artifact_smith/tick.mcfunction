@@ -14,6 +14,6 @@ execute if score #3 tbs.slow_tick matches 3 as @e[type=villager,tag=artifact_smi
 execute as @e[type=zombie_villager,name="Artifact Smith"] at @s run function ancient_artifacts:artifact_smith/reset_zombie
 
 ##Cycling Artifacts
-execute store result score .time temp run time query daytime
+execute store result score .time temp run function ancient_artifacts:artifact_smith/query_daytime
 execute if score .time temp matches ..10 as @e[type=villager,tag=artifact_smith] at @s run function ancient_artifacts:artifact_smith/update_artifacts
 execute if score .time temp matches ..10 run time add 10t

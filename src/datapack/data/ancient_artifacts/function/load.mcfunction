@@ -60,6 +60,18 @@ scoreboard objectives add cod_spawn_egg_use minecraft.used:minecraft.cod_spawn_e
 tellraw @a [{"text": "[Server]: "},{"text": "Ancient Artifacts Reloaded!","color": "green","bold": true}]
 execute in overworld run forceload add 0 0
 
+# ------------------------------------------------------
+## Store the version history                            
+# ------------------------------------------------------
+
+function #theblackswitch:__version__/loaded/set_pack_version {
+    "pack_id": "ancient_artifacts",
+    "major": 2,
+    "minor": 5,
+    "patch": 5,
+    "suffix": 3 # 3 = c
+}
+
 #-------------------------------------------------------
 ## Main load functions
 #-------------------------------------------------------

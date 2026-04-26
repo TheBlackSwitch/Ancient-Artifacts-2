@@ -44,6 +44,7 @@ scoreboard objectives add play_time custom:play_time
 scoreboard objectives add cod_spawn_egg_use minecraft.used:minecraft.cod_spawn_egg
 tellraw @a [{text: "[Server]: "}, {text: "Ancient Artifacts Reloaded!", color: "green", bold: true}]
 execute in overworld run forceload add 0 0
+function #theblackswitch:v2.0/loaded/set_pack_version {pack_id: "ancient_artifacts", major: 2, minor: 5, patch: 5, suffix: 3}
 function ancient_artifacts:convert/load
 function ancient_artifacts:utilities/tool_use/load
 function ancient_artifacts:ancient_parchment/load

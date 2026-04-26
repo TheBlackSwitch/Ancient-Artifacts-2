@@ -8,7 +8,9 @@ execute unless score .bulk temp matches 1.. run return fail
 
 loot spawn ~ ~ ~ mine ~ ~ ~ mainhand
 setblock ~ ~ ~ air
+scoreboard players operation #search tbs.ID = @s tbs.ID
 execute if entity @s[tag=smelt] unless entity @s[tag=first_bulk] as @n[type=item,dy=0,tag=!smelted,tag=!checked_smelt] run function ancient_artifacts:artifacts/nether/smelting_tiara/smelt
+execute if entity @s[tag=smelt] unless entity @s[tag=first_bulk] if score .is_smelted temp matches 1 run scoreboard players add @s blocks_smelted 1
 
 $execute positioned ~ ~ ~1 if block ~ ~ ~ $(id) unless entity @e[tag=smithed.block,dy=0] positioned ~0.5 ~0.5 ~0.5 unless entity @e[type=marker,tag=bulk,distance=..0.3] run summon marker ~ ~ ~ {Tags:[bulk]}
 $execute positioned ~ ~ ~-1 if block ~ ~ ~ $(id) unless entity @e[tag=smithed.block,dy=0] positioned ~0.5 ~0.5 ~0.5 unless entity @e[type=marker,tag=bulk,distance=..0.3] run summon marker ~ ~ ~ {Tags:[bulk]}

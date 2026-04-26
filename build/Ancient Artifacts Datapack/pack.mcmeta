@@ -3,16 +3,10 @@
     "pack_format": 81,
     "supported_formats": [
       80,
-      95
+      101
     ],
-    "min_format": [
-      80,
-      0
-    ],
-    "max_format": [
-      95,
-      0
-    ],
+    "min_format": 80,
+    "max_format": 101,
     "description": [
       "",
       {
@@ -28,6 +22,15 @@
   "id": "ancient_artifacts",
   "overlays": {
     "entries": [
+      {
+        "directory": "backport_1.21.11",
+        "min_format": 0,
+        "max_format": 94,
+        "formats": [
+          0,
+          94
+        ]
+      },
       {
         "directory": "backport_1.21.10",
         "min_format": 0,

@@ -21,6 +21,7 @@ tag @s remove tinkering_tiara
 tag @s remove divers_boots
 attribute @s block_interaction_range modifier remove reaching_bracelet
 attribute @s entity_interaction_range modifier remove reaching_bracelet
+tag @s remove reaching_bracelet
 scoreboard players set @s luck 0
 tag @s remove thermal_tiara
 attribute @s movement_speed modifier remove cooling_boots

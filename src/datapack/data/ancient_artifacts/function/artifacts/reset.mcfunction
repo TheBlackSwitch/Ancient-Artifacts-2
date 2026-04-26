@@ -38,6 +38,7 @@ tag @s remove divers_boots
 ##Reaching Bracelet
 attribute @s block_interaction_range modifier remove reaching_bracelet
 attribute @s entity_interaction_range modifier remove reaching_bracelet
+tag @s remove reaching_bracelet
 
 ##Looting Tiara
 scoreboard players set @s luck 0
