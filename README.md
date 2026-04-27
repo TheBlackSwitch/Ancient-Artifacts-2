@@ -1,4 +1,6 @@
-![The Logo](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header_image.png)  
+Download [here](https://theblackswitch.com/datapacks/ancient_artifacts#download)
+
+![The Logo](https://wsrv.nl/?url=https%3A%2F%2Ftheblackswitch.com%2Fassets%2Fimages%2Fancient_artifacts%2Fheader_image.png&n=-1)  
 ![My other projects:](https://wsrv.nl/?url=https://theblackswitch.com/assets/images/ancient_artifacts/header/other_projects.png)
 
 ## Also Check Out my other projects at [theblackswitch.com](https://theblackswitch.com)!
