@@ -457,7 +457,7 @@ if package_as_mod:
 
         # === Forge ===
         myzip.writestr('META-INF/mods.toml', f"""
-modLoader = 'javafml'
+modLoader = 'lowcodefml'
 loaderVersion = '[40,)'
 license = '{mod_license}'
 showAsResourcePack = false
