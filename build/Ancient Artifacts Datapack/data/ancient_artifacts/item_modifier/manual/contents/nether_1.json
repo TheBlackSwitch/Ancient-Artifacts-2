@@ -33,7 +33,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:burning_ring}].check","entity": "@s"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:burning_ring}].check","entity": "@s","interpret":true},
             {
                 "text": "\n "
             },
@@ -53,7 +53,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:smelting_tiara}].check","entity": "@s"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:smelting_tiara}].check","entity": "@s","interpret":true},
             {
                 "text": "\n "
             },
@@ -73,7 +73,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:tinkering_tiara}].check","entity": "@s"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:tinkering_tiara}].check","entity": "@s","interpret":true},
             {
                 "text": "\n\n"
             },
@@ -100,7 +100,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:fireball_ring}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:fireball_ring}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -120,7 +120,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:saturating_necklace}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:saturating_necklace}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -140,7 +140,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:builders_ring}].check","entity": "@s","color":"blue"}
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:builders_ring}].check","entity": "@s","color":"blue","interpret":true}
         ]
     ]
 }

@@ -33,7 +33,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:thermal_tiara}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:thermal_tiara}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -53,7 +53,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:raging_ring}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:raging_ring}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -73,7 +73,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:cooling_boots}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:cooling_boots}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n\n"
             },
@@ -100,7 +100,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:withering_necklace}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:withering_necklace}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -120,7 +120,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:looting_tiara}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:looting_tiara}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -140,7 +140,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:life_steal_necklace}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:life_steal_necklace}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -160,7 +160,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:combo_boots}].check","entity": "@s","color":"gold"}
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:combo_boots}].check","entity": "@s","color":"gold","interpret":true}
         ]
     ]
 }

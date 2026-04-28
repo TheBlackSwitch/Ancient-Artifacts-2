@@ -34,7 +34,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:allies_amulet}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:allies_amulet}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -54,7 +54,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:shockwave_bracelet}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:shockwave_bracelet}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -74,7 +74,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:divers_boots}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:divers_boots}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -94,7 +94,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:fireball_ring}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:fireball_ring}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -114,7 +114,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:saturating_necklace}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:saturating_necklace}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -134,7 +134,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:builders_ring}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:builders_ring}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -154,7 +154,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:echoing_chain}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:echoing_chain}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -174,7 +174,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:echolocating_borla}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:echolocating_borla}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -194,7 +194,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:recycling_crystal}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:recycling_crystal}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -214,7 +214,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:shrinking_anklet}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:shrinking_anklet}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -234,7 +234,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:attractive_toe_ring}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:attractive_toe_ring}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -254,7 +254,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:gravitation_toe_ring}].check","entity": "@s","color":"blue"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:gravitation_toe_ring}].check","entity": "@s","color":"blue","interpret":true},
             {
                 "text": "\n "
             },
@@ -274,7 +274,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:pulse_watch}].check","entity": "@s","color":"blue"}
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:pulse_watch}].check","entity": "@s","color":"blue","interpret":true}
         ]
     ]
 }

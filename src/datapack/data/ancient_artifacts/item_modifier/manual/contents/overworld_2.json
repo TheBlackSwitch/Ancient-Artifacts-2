@@ -5,33 +5,190 @@
     "size": 1,
     "pages": [
         [
-            {"text":"      Contents\n\n","bold":true,"color":"dark_gray"},
-            {"text":"Rare:\n","color":"dark_purple"},
-            {"text":" "},
-            {"text":"Miners Crown ","color":"dark_purple","bold":false,"click_event": {"action":"change_page","page":16},"hover_event":{"action":"show_text","value":{"text":"Go To","color":"dark_purple"}}},
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:miners_crown}].check","entity": "@s","color":"dark_purple"},
-            {"text":"\n "},
-            {"text":"Travelers Boots ","color":"dark_purple","bold":false,"click_event": {"action":"change_page","page":18},"hover_event":{"action":"show_text","value":{"text":"Go To","color":"dark_purple"}}},
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:travelers_boots}].check","entity": "@s","color":"dark_purple"},
-            {"text":"\n "},
-            {"text":"Reaching Bracelet ","color":"dark_purple","bold":false,"click_event": {"action":"change_page","page":20},"hover_event":{"action":"show_text","value":{"text":"Go To","color":"dark_purple"}}},
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:reaching_bracelet}].check","entity": "@s","color":"dark_purple"},
-            {"text":"\n "},
-            {"text":"Healing Amulet ","color":"dark_purple","bold":false,"click_event": {"action":"change_page","page":22},"hover_event":{"action":"show_text","value":{"text":"Go To","color":"dark_purple"}}},
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:healing_amulet}].check","entity": "@s","color":"dark_purple"},
-
-            {"text":"\n\n"},
-            
-            {"text":"Unique:\n","color":"gold"},
-            {"text":" "},
-            {"text":"Conductive Bracelet","color":"gold","bold":false,"click_event": {"action":"change_page","page":24},"hover_event":{"action":"show_text","value":{"text":"Go To","color":"dark_purple"}}},
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:conductive_bracelet}].check","entity": "@s","color":"gold"},
-            {"text":"\n "},
-            {"text":"Final Shout Crown ","color":"gold","bold":false,"click_event": {"action":"change_page","page":26},"hover_event":{"action":"show_text","value":{"text":"Go To","color":"dark_purple"}}},
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:final_shout_crown}].check","entity": "@s","color":"gold"},
-            {"text":"\n "},
-            {"text":"Explorers Boots ","color":"gold","bold":false,"click_event": {"action":"change_page","page":28},"hover_event":{"action":"show_text","value":{"text":"Go To","color":"dark_purple"}}},
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:explorers_boots}].check","entity": "@s","color":"gold"}  
+            {
+                "text": "      Contents\n\n",
+                "bold": true,
+                "color": "dark_gray"
+            },
+            {
+                "text": "Rare:\n",
+                "color": "dark_purple"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Miners Crown ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 16
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {
+                "nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:miners_crown}].check",
+                "entity": "@s",
+                "color": "dark_purple","interpret":true
+            },
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Travelers Boots ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 18
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {
+                "nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:travelers_boots}].check",
+                "entity": "@s",
+                "color": "dark_purple","interpret":true
+            },
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Reaching Bracelet ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 20
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {
+                "nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:reaching_bracelet}].check",
+                "entity": "@s",
+                "color": "dark_purple","interpret":true
+            },
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Healing Amulet ",
+                "color": "dark_purple",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 22
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {
+                "nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:healing_amulet}].check",
+                "entity": "@s",
+                "color": "dark_purple","interpret":true
+            },
+            {
+                "text": "\n\n"
+            },
+            {
+                "text": "Unique:\n",
+                "color": "gold"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Conductive Bracelet",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 24
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {
+                "nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:conductive_bracelet}].check",
+                "entity": "@s",
+                "color": "gold","interpret":true
+            },
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Final Shout Crown ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 26
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {
+                "nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:final_shout_crown}].check",
+                "entity": "@s",
+                "color": "gold","interpret":true
+            },
+            {
+                "text": "\n "
+            },
+            {
+                "text": "Explorers Boots ",
+                "color": "gold",
+                "bold": false,
+                "click_event": {
+                    "action": "change_page",
+                    "page": 28
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "Go To",
+                        "color": "dark_purple"
+                    }
+                }
+            },
+            {
+                "nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:explorers_boots}].check",
+                "entity": "@s",
+                "color": "gold","interpret":true
+            }
         ]
     ]
 }
