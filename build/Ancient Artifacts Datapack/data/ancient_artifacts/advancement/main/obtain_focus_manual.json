@@ -27,7 +27,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {"manual":true,"data":{"type":"focus"}}
+                            "minecraft:custom_data": {"manual":true,"data":{"dim":"focus"}}
                         }
                     }
                 ]

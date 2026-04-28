@@ -33,7 +33,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -53,7 +53,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:deflecting_circlet}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:deflecting_circlet}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -73,7 +73,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -93,7 +93,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:levitation_medal}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:levitation_medal}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n\n"
             },
@@ -120,7 +120,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:storing_circlet}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:storing_circlet}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -140,7 +140,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:voiding_medal}].check","entity": "@s","color":"gold"}
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:voiding_medal}].check","entity": "@s","color":"gold","interpret":true}
         ]
     ]
 }

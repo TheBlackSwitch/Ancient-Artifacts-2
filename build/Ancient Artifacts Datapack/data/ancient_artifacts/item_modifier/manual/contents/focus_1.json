@@ -33,7 +33,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:poison_amulet}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:poison_amulet}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -53,7 +53,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:deactivation_crown}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:deactivation_crown}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -73,7 +73,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:farmers_boots}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:farmers_boots}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -93,7 +93,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:burning_ring}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:burning_ring}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -113,7 +113,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:smelting_tiara}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:smelting_tiara}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -133,7 +133,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:tinkering_tiara}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:tinkering_tiara}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -153,7 +153,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:borla_of_vision}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:borla_of_vision}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -173,7 +173,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:sonic_crystal}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:sonic_crystal}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -193,7 +193,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:detecting_borla}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:detecting_borla}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -213,7 +213,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:slowing_circlet}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:slowing_circlet}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -233,7 +233,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:knockback_watch}].check","entity": "@s","color":"dark_gray"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:knockback_watch}].check","entity": "@s","color":"dark_gray","interpret":true},
             {
                 "text": "\n "
             },
@@ -253,7 +253,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:dragons_breath_circlet}].check","entity": "@s","color":"dark_gray"}
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:dragons_breath_circlet}].check","entity": "@s","color":"dark_gray","interpret":true}
         ]
     ]
 }

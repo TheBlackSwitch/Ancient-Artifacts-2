@@ -33,7 +33,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:beefy_crystal}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:beefy_crystal}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n"
             },
@@ -53,7 +53,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:strengthening_anklet}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:strengthening_anklet}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -73,7 +73,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:bulky_chain}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:bulky_chain}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n\n"   
             },
@@ -100,7 +100,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:experienced_chain}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:experienced_chain}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -120,7 +120,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:anklet_of_peace}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:anklet_of_peace}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -140,7 +140,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:recovery_anklet}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:recovery_anklet}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -160,7 +160,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:necromancy_anklet}].check","entity": "@s","color":"gold"}
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:necromancy_anklet}].check","entity": "@s","color":"gold","interpret":true}
         ]
     ]
 }

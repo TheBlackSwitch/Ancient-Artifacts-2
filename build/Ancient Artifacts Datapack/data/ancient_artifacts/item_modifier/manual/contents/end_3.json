@@ -110,7 +110,7 @@
                     "color": "#FFAA00",
                     "text": "l "
                 },
-                {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:focus_medal}].check","entity": "@s","color":"gold","bold":true}
+                {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked[{id:focus_medal}].check","entity": "@s","color":"gold","bold":true,"interpret":true}
             ]
         ]
     ]

@@ -31,7 +31,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:conductive_bracelet}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:conductive_bracelet}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -51,7 +51,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:final_shout_crown}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:final_shout_crown}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -71,7 +71,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:explorers_boots}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:explorers_boots}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -91,7 +91,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:withering_necklace}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:withering_necklace}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -111,7 +111,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:looting_tiara}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:looting_tiara}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -131,7 +131,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:life_steal_necklace}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:life_steal_necklace}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -151,7 +151,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:combo_boots}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:combo_boots}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -171,7 +171,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:experienced_chain}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:experienced_chain}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -191,7 +191,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:anklet_of_peace}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:anklet_of_peace}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -211,7 +211,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:recovery_anklet}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:recovery_anklet}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -231,7 +231,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:necromancy_anklet}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:necromancy_anklet}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -251,7 +251,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:storing_circlet}].check","entity": "@s","color":"gold"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:storing_circlet}].check","entity": "@s","color":"gold","interpret":true},
             {
                 "text": "\n "
             },
@@ -271,7 +271,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:voiding_medal}].check","entity": "@s","color":"gold"}
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:voiding_medal}].check","entity": "@s","color":"gold","interpret":true}
         ]
     ]
 }

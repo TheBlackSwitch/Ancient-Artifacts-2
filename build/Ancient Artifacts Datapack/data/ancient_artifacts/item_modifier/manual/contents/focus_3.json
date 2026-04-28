@@ -34,7 +34,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:miners_crown}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:miners_crown}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -54,7 +54,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:travelers_boots}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:travelers_boots}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -74,7 +74,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:reaching_bracelet}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:reaching_bracelet}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -94,7 +94,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:healing_amulet}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:healing_amulet}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -114,7 +114,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:thermal_tiara}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:thermal_tiara}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -134,7 +134,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:raging_ring}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.nether[{id:raging_ring}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -154,7 +154,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:cooling_boots}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.overworld[{id:cooling_boots}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -174,7 +174,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:beefy_crystal}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:beefy_crystal}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n"
             },
@@ -194,7 +194,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:strengthening_anklet}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:strengthening_anklet}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -214,7 +214,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:bulky_chain}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.deep_dark[{id:bulky_chain}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -234,7 +234,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:landing_toe_ring}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -254,7 +254,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:deflecting_circlet}].check","entity": "@s","color":"dark_purple"},
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:deflecting_circlet}].check","entity": "@s","color":"dark_purple","interpret":true},
             {
                 "text": "\n "
             },
@@ -274,7 +274,7 @@
                     }
                 }
             },
-            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:radiant_watch}].check","entity": "@s","color":"dark_purple"}
+            {"nbt": "SelectedItem.components.minecraft:custom_data.data.checked.end[{id:radiant_watch}].check","entity": "@s","color":"dark_purple","interpret":true}
         ]
     ]
 }
