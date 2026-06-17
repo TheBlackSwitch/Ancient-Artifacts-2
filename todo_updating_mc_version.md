@@ -7,4 +7,4 @@ All things that should be checked when updating to a new MC version:
 - Add new blocks to block tags                      [X]
 - Add new blockstates to tinkering tiara            [X]
 - Add new tools to the tool check scoreboards       [X]
-- Check if graves is still compatable               [X]
+- Check if graves is still compatable               [ ]

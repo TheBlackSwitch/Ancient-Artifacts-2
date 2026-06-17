@@ -16,4 +16,5 @@ function #theblackswitch:v2.0/player_storage/set_from with storage ancient_artif
 data modify storage ancient_artifacts:temp player_storage merge value {path: "recovery_equip", source: "storage ancient_artifacts:player recovery_equip"}
 function #theblackswitch:v2.0/player_storage/set_from with storage ancient_artifacts:temp player_storage
 data remove storage ancient_artifacts:temp player_storage
+scoreboard players set #success temp 1
 kill @s

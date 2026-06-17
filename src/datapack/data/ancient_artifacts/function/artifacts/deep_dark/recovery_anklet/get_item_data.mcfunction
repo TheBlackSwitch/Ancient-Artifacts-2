@@ -29,4 +29,6 @@ data modify storage ancient_artifacts:temp player_storage merge value {path:"rec
 function #theblackswitch:__version__/player_storage/set_from with storage ancient_artifacts:temp player_storage
 data remove storage ancient_artifacts:temp player_storage
 
+scoreboard players set #success temp 1
+
 kill @s

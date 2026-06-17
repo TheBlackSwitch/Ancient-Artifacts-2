@@ -4,7 +4,7 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:ghast"
+                    "minecraft:entity_type": "minecraft:ghast"
                 },
                 "damage": {
                     "source_entity": {

@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone",
+            "components": {
+                "minecraft:enchantment_glint_override": true,
+                "item_model": "ancient_artifacts:item/creative_book"
+            }
+        },
+        "title": {
+            "text": "Let's get creative!",
+            "color": "light_purple"
+        },
+        "description": [
+            {
+                "text": "If you ever loose your creative book, you can do /trigger aa.creative_book to get a new one!",
+                "color": "gold"
+            }
+        ],
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "ancient_artifacts:main/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "gamemode": [
+                            "creative"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "ancient_artifacts:item/creative_book"
+        ],
+        "function": "ancient_artifacts:creative_book/enable"
+    }
+}

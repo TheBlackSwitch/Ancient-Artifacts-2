@@ -1,2 +1,2 @@
-from playsound import playsound
+from playsound3 import playsound
 playsound('./finished.mp3')

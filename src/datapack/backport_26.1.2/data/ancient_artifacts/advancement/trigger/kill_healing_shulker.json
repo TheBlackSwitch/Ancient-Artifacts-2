@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:shulker",
+					"nbt": "{Tags:[\"healing_shulker\"]}"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_projectile",
+							"expected": false
+						}
+					],
+					"is_direct": true
+				}
+			}
+		}
+	},
+    "rewards": {
+        "function": "ancient_artifacts:shulker_castle/bossfight/shulker_king/attacks/summon_healer/die"
+    }
+}

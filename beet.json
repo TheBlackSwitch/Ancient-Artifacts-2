@@ -1,7 +1,7 @@
 {
     "data_pack": {
         "load": [
-            "libraries/SwitchLib-v2.0.2.zip",
+            "libraries/SwitchLib-v2.0.3.zip",
             "libraries/Smithed-Actionbar.zip",
             "src/datapack"
         ],
@@ -25,7 +25,8 @@
     "require": [
         "plugins.extend",
         "bolt",
-        "bolt_native_macros"
+        "bolt_native_macros",
+        "bolt_expressions"
     ],
     "author": "theblackswitch",
     "output": "build",
@@ -53,7 +54,7 @@
             },
             {
                 "regex": "__patch__",
-                "replace": "patch-2",
+                "replace": "patch-3",
                 "comment": "The switch lib patch version"
             }
         ]

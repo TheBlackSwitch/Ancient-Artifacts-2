@@ -21,7 +21,8 @@ tag @s add recover_inv
 scoreboard players set #success temp 0
 
 scoreboard players operation #search tbs.ID = @s tbs.ID
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{recovery:true}}},Age:0s},distance=..2] run function ancient_artifacts:artifacts/deep_dark/recovery_anklet/get_item_data
+execute at @s run summon creeper ~ ~ ~ {NoAI:1b}
+execute as @e[type=item,distance=..2] if items entity @s container.* minecraft:netherite_scrap[minecraft:custom_data~{recovery:true}] run function ancient_artifacts:artifacts/deep_dark/recovery_anklet/get_item_data
 
 execute unless score #success temp matches 1 run return run tellraw @s [{"text":"Failed to recover inventory!\n","color":"red"},{"text":"Dropped items normally...\n","color":"gold"},{"text":"This is typically caused by an incompatability issue.","color":"white"}]
 

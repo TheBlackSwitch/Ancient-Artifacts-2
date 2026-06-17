@@ -156,6 +156,10 @@
         {
             "required": false,
             "id": "minecraft:copper_golem"
+        },
+        {
+            "required": false,
+            "id": "minecraft:sulfur_cube"
         }
 	]
 }

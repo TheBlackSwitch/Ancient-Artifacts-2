@@ -1,1 +1,1 @@
-execute as @a[tag=!aa.had_messages.__pack-version__] run function ancient_artifacts:messages/timeout
+execute as @a run function ancient_artifacts:messages/timeout

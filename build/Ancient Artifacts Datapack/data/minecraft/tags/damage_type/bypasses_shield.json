@@ -1,5 +1,5 @@
 {
     "values": [
-        "ancient_artifacts:shulker_king_lazer"
+        {"id": "ancient_artifacts:shulker_king_lazer", "required": false}
     ]
 }

@@ -3,13 +3,13 @@
 ## Teams
 #-------------------------------------------------------
 
-team add aa.players
-team add aa.color.green
-team modify aa.color.green color green
-team add aa.color.yellow
-team modify aa.color.yellow color yellow
-team add aa.color.red
+team add aa.color.red {"text": "red"}
+team add aa.color.green {"text": "green"}
+team add aa.color.yellow {"text": "yellow"}
+
 team modify aa.color.red color red
+team modify aa.color.green color green
+team modify aa.color.yellow color yellow
 
 #-------------------------------------------------------
 ## Scoreboards

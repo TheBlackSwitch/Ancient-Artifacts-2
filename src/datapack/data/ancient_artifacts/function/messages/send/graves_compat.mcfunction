@@ -26,3 +26,5 @@ tellraw @s [
 ]
 
 scoreboard players set #message_sound temp 1
+
+tag @s add aa.had_messages.vanilla_tweaks_graves

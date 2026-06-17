@@ -1,2 +1,3 @@
 tellraw @s [{text: "[Ancient Artifacts]", color: "light_purple"}, {text: " [ERROR]: It looks like you've installed graves from vanilla tweaks. Sadly enough, Ancient Artifacts is incompatable with said datapack. You can install: ", color: "red"}, {text: "lullaby's graves", color: "#AACCFF", underlined: true, click_event: {action: "open_url", url: "https://modrinth.com/datapack/ly-graves/versions"}}, {text: " instead", color: "red"}]
 scoreboard players set #message_sound temp 1
+tag @s add aa.had_messages.vanilla_tweaks_graves
