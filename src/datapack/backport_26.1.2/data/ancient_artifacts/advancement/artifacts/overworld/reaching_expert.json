@@ -1,0 +1,91 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus_on_a_stick",
+            "components": {
+                "item_model": "ancient_artifacts:item/artifact",
+                "custom_model_data": {
+                    "strings": [
+                        "base:bracelet",
+                        "level:none",
+                        "artifact:reaching_bracelet"
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Reaching Expert",
+            "color": "gold"
+        },
+        "description": [
+            {
+                "text": "Kill a skeleton 9.5 or more blocks away from you using a meele attack!\n\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "Rewards: \n",
+                "color": "light_purple",
+                "bold": true
+            },
+            {
+                "text": "  2x Mystery Box\n",
+                "color": "aqua"
+            },
+            {
+                "text": "  20x XP",
+                "color": "aqua"
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ancient_artifacts:artifacts/overworld/reaching_bracelet",
+    "criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#ancient_artifacts:skeleton",
+							"distance": {
+								"absolute": {
+									"min": 9.0
+								}
+							}
+						}
+					}
+				],
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_fall",
+							"expected": false
+						},
+                        {
+                            "id": "minecraft:is_projectile",
+                            "expected": false
+                        }
+					],
+					"direct_entity": {
+                        "type": "player",
+                        "nbt": "{Tags:[\"reaching_bracelet\"]}"
+                    },
+					"is_direct": true
+				}
+			}
+		}
+	},
+    "rewards": {
+        "function": "ancient_artifacts:advancements/triggers/advance",
+        "loot": [
+            "ancient_artifacts:item/mystery_box/overworld",
+            "ancient_artifacts:item/mystery_box/overworld"
+        ],
+        "experience": 20
+    }
+}

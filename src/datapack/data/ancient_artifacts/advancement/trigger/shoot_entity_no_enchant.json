@@ -6,7 +6,7 @@
                 "damage": {
                     "type": {
                         "direct_entity": {
-                            "type": "#minecraft:arrows",
+                            "minecraft:entity_type": "#minecraft:arrows",
                             "nbt": "{Tags:[\"no_infinity\",\"no_multishot\"]}"
                         }
                     }

@@ -61,11 +61,3 @@ scoreboard objectives add night_vision_max dummy
 scoreboard objectives add cooling_boots_slow dummy
 scoreboard objectives add vision_toggle_cooldown dummy
 scoreboard objectives add food food
-
-team add aa.color.red {"text": "red"}
-team add aa.color.green {"text": "green"}
-team add aa.color.yellow {"text": "yellow"}
-
-team modify aa.color.red color red
-team modify aa.color.green color green
-team modify aa.color.yellow color yellow

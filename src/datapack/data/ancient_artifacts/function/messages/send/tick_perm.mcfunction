@@ -23,3 +23,5 @@ tellraw @s [
 ]
 
 scoreboard players set #message_sound temp 1
+
+tag @s add aa.had_messages.tick_perm

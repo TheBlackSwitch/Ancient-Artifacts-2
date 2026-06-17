@@ -51,7 +51,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#ancient_artifacts:skeleton",
+							"minecraft:entity_type": "#ancient_artifacts:skeleton",
 							"distance": {
 								"absolute": {
 									"min": 9.0
@@ -72,7 +72,7 @@
                         }
 					],
 					"direct_entity": {
-                        "type": "player",
+                        "minecraft:entity_type": "player",
                         "nbt": "{Tags:[\"reaching_bracelet\"]}"
                     },
 					"is_direct": true

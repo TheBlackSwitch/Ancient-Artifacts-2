@@ -2,9 +2,9 @@
     "id": "ancient_artifacts",
     "pack": {
         "pack_format": 81,
-        "supported_formats": [80, 101],
-        "min_format": 80,
-        "max_format": 101,
+        "supported_formats": [80, 107],
+        "min_format": [80, 0],
+        "max_format": [107, 1],
         "description": ["",{"text":"Unlock over 50+ artifacts ","color": "light_purple"},{"text":"with unique abilities ","color":"gold"}]
     },
     "overlays": {
@@ -26,6 +26,12 @@
                 "min_format": 0,
                 "max_format": 81,
                 "formats": [0, 81]
+            },
+            {
+                "directory": "backport_26.1.2",
+                "min_format": 0,
+                "max_format": [101, 1],
+                "formats": [0, 101]
             }
         ]
     }

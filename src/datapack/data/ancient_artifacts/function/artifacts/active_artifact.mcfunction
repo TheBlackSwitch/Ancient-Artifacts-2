@@ -1,4 +1,4 @@
-##Overworld
+## Overworld
 execute if score @s artifact matches 1..4 run return run function ancient_artifacts:artifacts/overworld/healing_amulet/active
 execute if score @s artifact matches 5..7 run return run function ancient_artifacts:artifacts/overworld/poison_amulet/active
 execute if score @s artifact matches 8..12 run return run function ancient_artifacts:artifacts/overworld/conductive_bracelet/active
@@ -13,7 +13,7 @@ execute if score @s artifact matches 33..37 run return run function ancient_arti
 execute if score @s artifact matches 38 run return run function ancient_artifacts:artifacts/overworld/farmers_boots/active
 execute if score @s artifact matches 39..43 run return run function ancient_artifacts:artifacts/overworld/reaching_bracelet/active
 
-##Nether
+## Nether
 execute if score @s artifact matches 44..46 run return run function ancient_artifacts:artifacts/nether/burning_ring/active
 execute if score @s artifact matches 47..50 run return run function ancient_artifacts:artifacts/nether/thermal_tiara/active
 execute if score @s artifact matches 51..53 run return run function ancient_artifacts:artifacts/nether/raging_ring/active
@@ -28,7 +28,7 @@ execute if score @s artifact matches 72 run return run function ancient_artifact
 execute if score @s artifact matches 73..75 run return run function ancient_artifacts:artifacts/nether/life_steal_necklace/active
 execute if score @s artifact matches 76..78 run return run function ancient_artifacts:artifacts/nether/combo_boots/active
 
-##Deep Dark
+## Deep Dark
 execute if score @s artifact matches 79..81 run return run function ancient_artifacts:artifacts/deep_dark/anklet_of_peace/active
 execute if score @s artifact matches 82..83 run return run function ancient_artifacts:artifacts/deep_dark/borla_of_vision/active
 execute if score @s artifact matches 84..87 run return run function ancient_artifacts:artifacts/deep_dark/experienced_chain/active
@@ -44,7 +44,7 @@ execute if score @s artifact matches 111..113 run return run function ancient_ar
 execute if score @s artifact matches 114..116 run return run function ancient_artifacts:artifacts/deep_dark/necromancy_anklet/active
 execute if score @s artifact matches 117..118 run return run function ancient_artifacts:artifacts/deep_dark/bulky_chain/active
 
-##End
+## End
 execute if score @s artifact matches 119..121 run return run function ancient_artifacts:artifacts/end/attractive_toe_ring/active
 execute if score @s artifact matches 122..124 run return run function ancient_artifacts:artifacts/end/gravitation_toe_ring/active
 execute if score @s artifact matches 125..128 run return run function ancient_artifacts:artifacts/end/pulse_watch/active

@@ -4,7 +4,7 @@ execute as @a[tag=slam] at @s if block ~ ~-1 ~ air run particle dust{color:[1.0,
 execute as @a[tag=slam] at @s if block ~ ~-1 ~ air run playsound block.sand.break player @a ~ ~ ~ 1 0
 execute as @a[tag=slam] at @s if block ~ ~-1 ~ air run tp @s ~ ~-1 ~
 tag @a[tag=slam,predicate=!ancient_artifacts:holding_tool] remove slam
-tag @a[tag=slam,predicate=!theblackswitch:__version__/__patch__/movement/sneak] remove slam
+tag @a[tag=slam,predicate=!theblackswitch:__version__/__patch__/movement_check/sneak] remove slam
 
 execute as @a[tag=slam] at @s unless block ~ ~-1 ~ air run function ancient_artifacts:artifacts/nether/combo_boots/slam_wave
 schedule function ancient_artifacts:artifacts/nether/combo_boots/slam 1t

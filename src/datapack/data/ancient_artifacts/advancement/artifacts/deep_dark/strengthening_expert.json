@@ -55,7 +55,7 @@
                     }
                 },
                 "entity": {
-                    "type": "minecraft:wither"
+                    "minecraft:entity_type": "minecraft:wither"
                 }
             }
         }

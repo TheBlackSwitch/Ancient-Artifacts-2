@@ -3,6 +3,6 @@ pillow>=12.0.0
 bolt>=0.50.1
 bolt-expressions>=0.18.0
 mecha>=0.103.0
-playsound==1.2.2
+playsound3>=0.0.0
 bolt_native_macros>=0.5.1
 scipy>=1.17.0

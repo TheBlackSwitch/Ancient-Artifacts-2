@@ -5,4 +5,4 @@ data merge entity @s {transformation:{translation:[0.0,0.5,0.0],left_rotation:[0
 
 execute positioned ~-0.25 ~ ~-0.25 run tag @a[distance=..3] add launch_pad_launched
 
-execute as @p[predicate=!ancient_artifacts:movement/sneak] at @s run function ancient_artifacts:shulker_castle/castle_platforms/bounce_pad/windcharge_launch
+execute as @p[predicate=!theblackswitch:__version__/__patch__/movement_check/sneak] at @s run function ancient_artifacts:shulker_castle/castle_platforms/bounce_pad/windcharge_launch
