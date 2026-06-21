@@ -51,7 +51,7 @@
                             "upgraded.nether": {
                                 "min":1
                             }
-                       }
+                        }
                     }]}
         },
         "2": {"trigger": "minecraft:location","conditions": {"player": [
@@ -62,7 +62,7 @@
                             "upgraded.nether": {
                                 "min":2
                             }
-                       }
+                        }
                     }]}
         },
         "3": {"trigger": "minecraft:location","conditions": {"player": [
@@ -73,7 +73,7 @@
                             "upgraded.nether": {
                                 "min":3
                             }
-                       }
+                        }
                     }]}
         },
         "4": {"trigger": "minecraft:location","conditions": {"player": [
@@ -84,7 +84,7 @@
                             "upgraded.nether": {
                                 "min":4
                             }
-                       }
+                        }
                     }]}
         },
         "5": {"trigger": "minecraft:location","conditions": {"player": [
@@ -95,7 +95,7 @@
                             "upgraded.nether": {
                                 "min":5
                             }
-                       }
+                        }
                     }]}
         },
         "6": {"trigger": "minecraft:location","conditions": {"player": [
@@ -106,7 +106,7 @@
                             "upgraded.nether": {
                                 "min":6
                             }
-                       }
+                        }
                     }]}
         },
         "7": {"trigger": "minecraft:location","conditions": {"player": [
@@ -117,7 +117,7 @@
                             "upgraded.nether": {
                                 "min":7
                             }
-                       }
+                        }
                     }]}
         },
         "8": {"trigger": "minecraft:location","conditions": {"player": [
@@ -128,7 +128,7 @@
                             "upgraded.nether": {
                                 "min":8
                             }
-                       }
+                        }
                     }]}
         },
         "9": {"trigger": "minecraft:location","conditions": {"player": [
@@ -139,7 +139,7 @@
                             "upgraded.nether": {
                                 "min":9
                             }
-                       }
+                        }
                     }]}
         },
         "10": {"trigger": "minecraft:location","conditions": {"player": [
@@ -150,7 +150,7 @@
                             "upgraded.nether": {
                                 "min":10
                             }
-                       }
+                        }
                     }]}
         },
         "11": {"trigger": "minecraft:location","conditions": {"player": [
@@ -161,18 +161,7 @@
                             "upgraded.nether": {
                                 "min":11
                             }
-                       }
-                    }]}
-        },
-        "12": {"trigger": "minecraft:location","conditions": {"player": [
-                    {
-                        "condition": "minecraft:entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "upgraded.nether": {
-                                "min":12
-                            }
-                       }
+                        }
                     }]}
         }
     },

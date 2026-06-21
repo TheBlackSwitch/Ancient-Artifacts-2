@@ -1,7 +1,5 @@
-## New Features:
-- ✨ Updated to Minecraft 26.2
+## Ancient Artifacts V2.5.5f out now!
 
 ## Bugs fixed:
-- 💍 Recovery anklet didn't work propperly when no graves datapack was installed
-- 📢 Some important notice messages (mainly concerning compatability issues) didn't send propperly
-- ⛏️ Smelting tiara and miners crown would sometimes mine at the wrong location if storing circlet is currently dropping an item (don't ask me how I found out this niche edge case)
+- The "Upgrade all nether artifacts" advancement didn't trigger
+- The artifact manual said raging ring had 4 levels but it actually has 3 levels

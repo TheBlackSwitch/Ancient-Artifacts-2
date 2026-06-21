@@ -1,0 +1,1 @@
+execute as @a[tag=!aa.revoked_nether_upgrade] run function ancient_artifacts:update/v2.5.5g/revoke_nether_upgrade
