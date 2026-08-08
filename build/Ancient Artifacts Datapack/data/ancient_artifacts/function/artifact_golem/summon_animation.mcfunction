@@ -17,8 +17,8 @@ execute if score @s animation matches 34 run playsound entity.iron_golem.step ho
 execute if score @s animation matches 43 run playsound block.netherite_block.place hostile @a ~ ~2 ~ 2 0.6
 execute if score @s animation matches 43 run playsound entity.iron_golem.step hostile @a ~ ~2 ~ 2 0.8
 execute if score @s animation matches 1 run function ancient_artifacts:artifact_golem/summon_animation/nested_execute_1
-execute if score @s animation matches 10 on passengers if entity @s[tag=arm_l] run function ancient_artifacts:artifact_golem/set_rot {rot: [-0.2194981993865548d, -0.31347591593739144d, 0.7567978077333786d, 0.5299155298754943d]}
-execute if score @s animation matches 10 on passengers if entity @s[tag=arm_r] run function ancient_artifacts:artifact_golem/set_rot {rot: [-0.2194981993865548d, 0.31347591593739144d, -0.7567978077333786d, 0.5299155298754943d]}
+execute if score @s animation matches 10 on passengers if entity @s[tag=arm_l] run function ancient_artifacts:artifact_golem/set_rot {rot: [-0.21949819938655477d, -0.31347591593739144d, 0.7567978077333786d, 0.5299155298754943d]}
+execute if score @s animation matches 10 on passengers if entity @s[tag=arm_r] run function ancient_artifacts:artifact_golem/set_rot {rot: [-0.21949819938655477d, 0.31347591593739144d, -0.7567978077333786d, 0.5299155298754943d]}
 execute if score @s animation matches 22 on passengers run function ancient_artifacts:artifact_golem/summon_animation/nested_execute_2
 execute if score @s animation matches 24 on passengers run function ancient_artifacts:artifact_golem/summon_animation/nested_execute_3
 execute if score @s animation matches 26 on passengers run function ancient_artifacts:artifact_golem/summon_animation/nested_execute_4
