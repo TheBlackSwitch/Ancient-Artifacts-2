@@ -147,8 +147,6 @@ execute as @a run scoreboard players operation @s prev_bow_time = @s bow_time
 ##Normal resets
 scoreboard players set @a walk 0
 scoreboard players set @a damage 0
-scoreboard players set @a sprint 0
-scoreboard players set @a sneak 0
 scoreboard players set @a player_left 0
 scoreboard players set @a used_carrot_stick 0
 scoreboard players set @a attack 0

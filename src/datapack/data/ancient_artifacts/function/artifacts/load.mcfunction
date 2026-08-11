@@ -61,3 +61,4 @@ scoreboard objectives add night_vision_max dummy
 scoreboard objectives add cooling_boots_slow dummy
 scoreboard objectives add vision_toggle_cooldown dummy
 scoreboard objectives add food food
+scoreboard objectives add aa.combo_boots.dash_cd dummy

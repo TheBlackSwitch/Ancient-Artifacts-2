@@ -37,73 +37,73 @@
     // Player ID system
     "movement backward_left": {
         "prefix": ["if movement backward_left", "movement backward_left"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/backward_left,predicate=theblackswitch:__version__/__patch__/movement/backward_left|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/backward_left,predicate=theblackswitch:__version__/__patch__/movement_check/backward_left|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement backward_right": {
         "prefix": ["if movement backward_right", "movement backward_right"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/backward_right,predicate=theblackswitch:__version__/__patch__/movement/backward_right|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/backward_right,predicate=theblackswitch:__version__/__patch__/movement_check/backward_right|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement backward": {
         "prefix": ["if movement backward", "movement backward"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/backward,predicate=theblackswitch:__version__/__patch__/movement/backward|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/backward,predicate=theblackswitch:__version__/__patch__/movement_check/backward|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement forward_left": {
         "prefix": ["if movement forward_left", "movement forward_left"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/forward_left,predicate=theblackswitch:__version__/__patch__/movement/forward_left|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/forward_left,predicate=theblackswitch:__version__/__patch__/movement_check/forward_left|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement forward_right": {
         "prefix": ["if movement forward_right", "movement forward_right"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/forward_right,predicate=theblackswitch:__version__/__patch__/movement/forward_right|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/forward_right,predicate=theblackswitch:__version__/__patch__/movement_check/forward_right|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement forward": {
         "prefix": ["if movement forward", "movement forward"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/forward,predicate=theblackswitch:__version__/__patch__/movement/forward|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/forward,predicate=theblackswitch:__version__/__patch__/movement_check/forward|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement jump": {
         "prefix": ["if movement jump", "movement jump"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/jump,predicate=theblackswitch:__version__/__patch__/movement/jump|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/jump,predicate=theblackswitch:__version__/__patch__/movement_check/jump|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement left": {
         "prefix": ["if movement left", "movement left"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/left,predicate=theblackswitch:__version__/__patch__/movement/left|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/left,predicate=theblackswitch:__version__/__patch__/movement_check/left|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement none": {
         "prefix": ["if movement none", "movement none"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/none,predicate=theblackswitch:__version__/__patch__/movement/none|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/none,predicate=theblackswitch:__version__/__patch__/movement_check/none|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement right": {
         "prefix": ["if movement right", "movement right"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/right,predicate=theblackswitch:__version__/__patch__/movement/right|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/right,predicate=theblackswitch:__version__/__patch__/movement_check/right|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement sneak": {
         "prefix": ["if movement sneak", "movement sneak"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/sneak,predicate=theblackswitch:__version__/__patch__/movement/sneak|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/sneak,predicate=theblackswitch:__version__/__patch__/movement_check/sneak|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },
     "movement sprint": {
         "prefix": ["if movement sprint", "movement sprint"],
-        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement/sprint,predicate=theblackswitch:__version__/__patch__/movement/sprint|}",
+        "body": "${1|if predicate theblackswitch:__version__/__patch__/movement_check/sprint,predicate=theblackswitch:__version__/__patch__/movement_check/sprint|}",
         "description": "Switch-Lib [USER]: Check for movement buttons",
         "scope": "mcfunction"
     },

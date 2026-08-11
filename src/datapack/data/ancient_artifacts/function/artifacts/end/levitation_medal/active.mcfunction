@@ -9,14 +9,14 @@ execute if score @s artifact matches 137.. if predicate ancient_artifacts:on_gro
 
 execute if predicate ancient_artifacts:on_ground unless score @s levitation_power >= @s levitation_power_max run scoreboard players add @s levitation_power 5
 
-execute if score @s artifact matches 133..136 if score @s sneak matches 1.. if score @s levitation_power matches 1.. run effect give @s levitation 1 2
-execute if score @s artifact matches 137 if score @s sneak matches 1.. if score @s levitation_power matches 1.. run effect give @s levitation 1 5
-execute if score @s artifact matches 138 if score @s sneak matches 1.. if score @s levitation_power matches 1.. run effect give @s levitation 1 8
-execute if score @s sneak matches 1.. if score @s levitation_power matches 1.. run scoreboard players remove @s levitation_power 1
+execute if score @s artifact matches 133..136 if predicate theblackswitch:__version__/__patch__/movement_check/sneak if score @s levitation_power matches 1.. run effect give @s levitation 1 2
+execute if score @s artifact matches 137 if predicate theblackswitch:__version__/__patch__/movement_check/sneak if score @s levitation_power matches 1.. run effect give @s levitation 1 5
+execute if score @s artifact matches 138 if predicate theblackswitch:__version__/__patch__/movement_check/sneak if score @s levitation_power matches 1.. run effect give @s levitation 1 8
+execute if predicate theblackswitch:__version__/__patch__/movement_check/sneak if score @s levitation_power matches 1.. run scoreboard players remove @s levitation_power 1
 
-execute unless score @s sneak matches 1.. run effect clear @s levitation
+execute unless predicate theblackswitch:__version__/__patch__/movement_check/sneak run effect clear @s levitation
 
-execute if score @s sneak matches 1.. if score @s levitation_power matches 1.. run scoreboard players add @s levitate_ticks 1
+execute if predicate theblackswitch:__version__/__patch__/movement_check/sneak if score @s levitation_power matches 1.. run scoreboard players add @s levitate_ticks 1
 
 scoreboard players set .1200 temp 1200
 
