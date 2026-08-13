@@ -7,9 +7,9 @@ execute if score @s artifact matches 67 if score @s walk matches 1.. unless bloc
 execute if score @s artifact matches 68 if score @s walk matches 1.. unless block ~ ~ ~ lava run function ancient_artifacts:artifacts/nether/cooling_boots/fill/scale_2
 execute if score @s artifact matches 69 if score @s walk matches 1.. unless block ~ ~ ~ lava run function ancient_artifacts:artifacts/nether/cooling_boots/fill/scale_3
 
-execute if score @s artifact matches 67 if score @s sprint matches 1.. unless block ~ ~ ~ lava run function ancient_artifacts:artifacts/nether/cooling_boots/fill/scale_1
-execute if score @s artifact matches 68 if score @s sprint matches 1.. unless block ~ ~ ~ lava run function ancient_artifacts:artifacts/nether/cooling_boots/fill/scale_2
-execute if score @s artifact matches 69 if score @s sprint matches 1.. unless block ~ ~ ~ lava run function ancient_artifacts:artifacts/nether/cooling_boots/fill/scale_3
+execute if score @s artifact matches 67 if predicate theblackswitch:__version__/__patch__/movement_check/sprint unless block ~ ~ ~ lava run function ancient_artifacts:artifacts/nether/cooling_boots/fill/scale_1
+execute if score @s artifact matches 68 if predicate theblackswitch:__version__/__patch__/movement_check/sprint unless block ~ ~ ~ lava run function ancient_artifacts:artifacts/nether/cooling_boots/fill/scale_2
+execute if score @s artifact matches 69 if predicate theblackswitch:__version__/__patch__/movement_check/sprint unless block ~ ~ ~ lava run function ancient_artifacts:artifacts/nether/cooling_boots/fill/scale_3
 
 
 execute if score #success temp matches 1 run scoreboard players set @s cooling_boots_slow 40

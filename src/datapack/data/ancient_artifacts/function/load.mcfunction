@@ -21,7 +21,6 @@ scoreboard objectives add slow_tick dummy
 scoreboard objectives add used_artifact used:warped_fungus_on_a_stick
 scoreboard objectives add used_carrot_stick used:carrot_on_a_stick
 scoreboard objectives add random dummy
-scoreboard objectives add sneak custom:sneak_time
 scoreboard objectives add health health
 scoreboard objectives add prev_health dummy
 scoreboard objectives add delta_health dummy
@@ -41,7 +40,6 @@ scoreboard objectives add prevShader dummy
 scoreboard objectives add shader_animation dummy
 scoreboard objectives add raycast_limit dummy
 scoreboard objectives add walk custom:walk_one_cm
-scoreboard objectives add sprint custom:sprint_one_cm
 scoreboard objectives add damage custom:damage_taken
 scoreboard objectives add bow_time dummy
 scoreboard objectives add prev_bow_time dummy
@@ -69,7 +67,7 @@ function #theblackswitch:__version__/loaded/set_pack_version {
     "major": 2,
     "minor": 5,
     "patch": 5,
-    "suffix": 3 # 3 = c
+    "suffix": 9 # 9 = i
 }
 
 #-------------------------------------------------------

@@ -10,7 +10,6 @@ scoreboard objectives add slow_tick dummy
 scoreboard objectives add used_artifact used:warped_fungus_on_a_stick
 scoreboard objectives add used_carrot_stick used:carrot_on_a_stick
 scoreboard objectives add random dummy
-scoreboard objectives add sneak custom:sneak_time
 scoreboard objectives add health health
 scoreboard objectives add prev_health dummy
 scoreboard objectives add delta_health dummy
@@ -30,7 +29,6 @@ scoreboard objectives add prevShader dummy
 scoreboard objectives add shader_animation dummy
 scoreboard objectives add raycast_limit dummy
 scoreboard objectives add walk custom:walk_one_cm
-scoreboard objectives add sprint custom:sprint_one_cm
 scoreboard objectives add damage custom:damage_taken
 scoreboard objectives add bow_time dummy
 scoreboard objectives add prev_bow_time dummy
@@ -43,7 +41,7 @@ scoreboard objectives add play_time custom:play_time
 scoreboard objectives add cod_spawn_egg_use minecraft.used:minecraft.cod_spawn_egg
 tellraw @a [{text: "[Server]: "}, {text: "Ancient Artifacts Reloaded!", color: "green", bold: true}]
 execute in overworld run forceload add 0 0
-function #theblackswitch:v2.0/loaded/set_pack_version {pack_id: "ancient_artifacts", major: 2, minor: 5, patch: 5, suffix: 3}
+function #theblackswitch:v2.0/loaded/set_pack_version {pack_id: "ancient_artifacts", major: 2, minor: 5, patch: 5, suffix: 9}
 function ancient_artifacts:convert/load
 function ancient_artifacts:utilities/tool_use/load
 function ancient_artifacts:ancient_parchment/load
