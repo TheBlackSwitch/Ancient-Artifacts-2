@@ -1,5 +1,5 @@
 execute store result storage ancient_artifacts:parchment count int 1 run random value 1..3
-execute if data storage ancient_artifacts:parchment {count: 1} if predicate theblackswitch:v2.0/patch-3/rand/25 store result storage ancient_artifacts:parchment count int 1 run random value 2..3
+execute if data storage ancient_artifacts:parchment {count: 1} if predicate theblackswitch:v2.0/patch-4/rand/25 store result storage ancient_artifacts:parchment count int 1 run random value 2..3
 execute if data storage ancient_artifacts:parchment {count: 1} run data modify storage ancient_artifacts:parchment correct set value 1
 execute if data storage ancient_artifacts:parchment {count: 2} store result storage ancient_artifacts:parchment correct int 1 run random value 1..2
 execute if data storage ancient_artifacts:parchment {count: 3} store result storage ancient_artifacts:parchment correct int 1 run random value 1..3
