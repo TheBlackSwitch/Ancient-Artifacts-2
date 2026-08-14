@@ -74,7 +74,7 @@
                                     "font": "ancient_artifacts:main"
                                 },
                                 {
-                                    "text": " \uE505 to open, drops loot from the dimention you're currently in.",
+                                    "text": " \uE505 to open, drops loot relating to the current dimension.",
                                     "color": "#762f94",
                                     "italic": false, "shadow_color": 0,
                                             "font": "ancient_artifacts:main"

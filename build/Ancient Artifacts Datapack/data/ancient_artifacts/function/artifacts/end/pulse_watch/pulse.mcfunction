@@ -10,7 +10,7 @@ schedule function ancient_artifacts:artifacts/end/pulse_watch/animate_pulse 2 ap
 schedule function ancient_artifacts:artifacts/end/pulse_watch/pulse_reset 42 replace
 function ancient_artifacts:tag_tamed
 scoreboard players operation #search tbs.ID = @s tbs.ID
-$execute as @e[type=!#ancient_artifacts:no_damage,tag=!tamed,predicate=!theblackswitch:v2.0/patch-3/player_id/match_search,distance=..$(distance),tag=!smithed.strict] run function ancient_artifacts:utilities/damage_entity_by_search {damage:4}
-$execute as @e[tag=!tamed,predicate=!theblackswitch:v2.0/patch-3/player_id/match_search,distance=..$(distance),tag=!smithed.strict] at @s run function ancient_artifacts:artifacts/end/pulse_watch/pull_entity
+$execute as @e[type=!#ancient_artifacts:no_damage,tag=!tamed,predicate=!theblackswitch:v2.0/patch-4/player_id/match_search,distance=..$(distance),tag=!smithed.strict] run function ancient_artifacts:utilities/damage_entity_by_search {damage:4}
+$execute as @e[tag=!tamed,predicate=!theblackswitch:v2.0/patch-4/player_id/match_search,distance=..$(distance),tag=!smithed.strict] at @s run function ancient_artifacts:artifacts/end/pulse_watch/pull_entity
 tag @e[type=item_display, tag=pulse] remove INIT
 scoreboard players add @s pulses 1

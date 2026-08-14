@@ -3,11 +3,11 @@ effect give @s invisibility infinite 1 true
 execute if score @s lifetime matches ..40 on vehicle at @s run tp @s ~ ~0.05 ~
 execute if score @s lifetime matches ..40 run playsound block.sculk.break neutral @a ~ ~ ~ 0.9 1
 execute if score @s lifetime matches 1 run playsound entity.warden.emerge neutral @a ~ ~ ~ 0.2 2
-execute if score @s lifetime matches ..40 unless entity @s[type=drowned] at @n[type=marker, tag=necromanced, tag=particles, predicate=theblackswitch:v2.0/patch-3/player_id/match_search] run particle block{block_state: "sculk"} ~ ~ ~ 0.6 0.1 0.6 0.1 100 force
-execute if score @s lifetime matches ..40 unless entity @s[type=drowned] at @n[type=marker, tag=necromanced, tag=particles, predicate=theblackswitch:v2.0/patch-3/player_id/match_search] run particle minecraft:sculk_charge_pop ~ ~ ~ 0.6 0.1 0.6 0 10 force
+execute if score @s lifetime matches ..40 unless entity @s[type=drowned] at @n[type=marker, tag=necromanced, tag=particles, predicate=theblackswitch:v2.0/patch-4/player_id/match_search] run particle block{block_state: "sculk"} ~ ~ ~ 0.6 0.1 0.6 0.1 100 force
+execute if score @s lifetime matches ..40 unless entity @s[type=drowned] at @n[type=marker, tag=necromanced, tag=particles, predicate=theblackswitch:v2.0/patch-4/player_id/match_search] run particle minecraft:sculk_charge_pop ~ ~ ~ 0.6 0.1 0.6 0 10 force
 execute if score @s lifetime matches ..40 if entity @s[type=drowned] run particle minecraft:sculk_charge_pop ~ ~ ~ 0.3 0.6 0.3 0 10 force
 execute if score @s lifetime matches ..40 if entity @s[type=drowned] run particle minecraft:bubble_column_up ~ ~ ~ 0.3 0.6 0.3 0.05 10 force
-execute if score @s lifetime matches 41 unless entity @s[type=drowned] as @n[type=marker, tag=necromanced, tag=particles, predicate=theblackswitch:v2.0/patch-3/player_id/match_search] run kill @s
+execute if score @s lifetime matches 41 unless entity @s[type=drowned] as @n[type=marker, tag=necromanced, tag=particles, predicate=theblackswitch:v2.0/patch-4/player_id/match_search] run kill @s
 scoreboard players add @s lifetime 1
 execute if score @s lifetime matches ..40 run return fail
 scoreboard players set .has_vehicle temp 0

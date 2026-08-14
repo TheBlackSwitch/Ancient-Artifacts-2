@@ -6,7 +6,7 @@ execute if score @s slam_distance matches 11.. run summon wind_charge ~3 ~ ~ {Mo
 execute if score @s slam_distance matches 11.. run summon wind_charge ~-3 ~ ~ {Motion: [0.0d, -5.0d, 0.0d], Tags: ["combo_knockback", "INIT"]}
 execute if score @s slam_distance matches 11.. run summon wind_charge ~ ~ ~3 {Motion: [0.0d, -5.0d, 0.0d], Tags: ["combo_knockback", "INIT"]}
 execute if score @s slam_distance matches 11.. run summon wind_charge ~ ~ ~-3 {Motion: [0.0d, -5.0d, 0.0d], Tags: ["combo_knockback", "INIT"]}
-execute as @e[tag=combo_knockback, tag=INIT, limit=1] run data modify entity @s Owner set from entity @p[predicate=theblackswitch:v2.0/patch-3/player_id/match_search]
+execute as @e[tag=combo_knockback, tag=INIT, limit=1] run data modify entity @s Owner set from entity @p[predicate=theblackswitch:v2.0/patch-4/player_id/match_search]
 tag @e[tag=combo_knockback, tag=INIT] remove INIT
 execute if score @s slam_distance matches ..10 run playsound item.mace.smash_ground player @a ~ ~ ~ 1 1.2
 execute if score @s slam_distance matches 11.. run playsound item.mace.smash_ground_heavy player @a ~ ~ ~ 1 1.2

@@ -1,7 +1,7 @@
 {
     "data_pack": {
         "load": [
-            "libraries/SwitchLib-v2.0.3.zip",
+            "libraries/SwitchLib-v2.0.4.zip",
             "libraries/Smithed-Actionbar.zip",
             "src/datapack"
         ],
@@ -52,7 +52,7 @@
             },
             {
                 "regex": "__patch__",
-                "replace": "patch-3",
+                "replace": "patch-4",
                 "comment": "The switch lib patch version"
             }
         ]
