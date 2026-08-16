@@ -1,8 +1,5 @@
 scoreboard players set .total_count temp 0
 scoreboard players set .count temp 0
-execute store result score .count temp run data get entity @s Inventory[{Slot: 9b}].count
-scoreboard players operation .total_count temp += .count temp
-scoreboard players set .count temp 0
 execute store result score .count temp run data get entity @s Inventory[{Slot: 10b}].count
 scoreboard players operation .total_count temp += .count temp
 scoreboard players set .count temp 0
@@ -61,5 +58,8 @@ execute store result score .count temp run data get entity @s Inventory[{Slot: 2
 scoreboard players operation .total_count temp += .count temp
 scoreboard players set .count temp 0
 execute store result score .count temp run data get entity @s Inventory[{Slot: 29b}].count
+scoreboard players operation .total_count temp += .count temp
+scoreboard players set .count temp 0
+execute store result score .count temp run data get entity @s Inventory[{Slot: 30b}].count
 scoreboard players operation .total_count temp += .count temp
 execute if score .total_count temp matches 1344 run advancement grant @s only ancient_artifacts:artifacts/end/storing_expert

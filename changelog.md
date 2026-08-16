@@ -1,10 +1,8 @@
-## Ancient Artifacts V2.5.5i out now!
+## Ancient Artifacts V2.5.5k out now!
 
 ## Changes:
-- Updated the internal library used for all my datapacks
+- Combo boots now no longer deals a mysterious 1 damage
 
 ## Bugs fixed:
-- Explorers boots completely broke when using focus medal
-- Deflecting circlet completely broke when using focus medal
-- divers boots lvl 3 didn't grant dolphins grace
-- A minor spelling mistake in the explorers box
+- Fixed some issues with the timewarp sounds from combo boots
+- Storing expert didn't trigger propperly
