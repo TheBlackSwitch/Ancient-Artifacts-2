@@ -9,10 +9,12 @@ execute if score .timewarp server matches 0 run playsound ancient_artifacts:enti
 
 
 execute if score .timewarp server matches 2 run scoreboard players set .timewarp server 1
-execute if score .timewarp server matches 1 run execute store result score .1 temp run function ancient_artifacts:utilities/tick_speed/get
+execute if score .timewarp server matches 1 run scoreboard players set .tick_speed temp 0
+execute if score .timewarp server matches 1 store result score .tick_speed temp run function ancient_artifacts:utilities/tick_speed/get
+execute if score .timewarp server matches 1 if score .tick_speed temp matches 0 run scoreboard players set .tick_speed temp 20
 
 execute if score .timewarp server matches 1 run scoreboard players set .2 temp 1000
-execute if score .timewarp server matches 1 run scoreboard players operation .2 temp /= .1 temp
+execute if score .timewarp server matches 1 run scoreboard players operation .2 temp /= .tick_speed temp
 
 execute if score .timewarp server matches 1 run scoreboard players set .3 temp 20
 execute if score .timewarp server matches 1 run scoreboard players operation .2 temp *= .3 temp

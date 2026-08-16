@@ -6,13 +6,8 @@ execute unless block ^ ^ ^1 #ancient_artifacts:spawn_air run return run scoreboa
 
 tp @s ^ ^ ^0.1
 
-particle dust{color:[1.0,1.0,1.0],scale:4} ^ ^ ^3 0.3 0.3 0.3 0.1 10 force
-
-function ancient_artifacts:tag_tamed
-scoreboard players operation #search tbs.ID = @s tbs.ID
-execute as @e[tag=!tamed,type=!#ancient_artifacts:no_damage,tag=!smithed.strict,predicate=!theblackswitch:__version__/__patch__/player_id/match_search,distance=..3] run function ancient_artifacts:utilities/damage_entity_by_search {damage:3}
-
-
 execute positioned ^ ^1 ^-1 run function ancient_artifacts:utilities/knockback/deal {strength:5}
+
+particle dust{color:[1.0,1.0,1.0],scale:4} ^ ^ ^3 0.3 0.3 0.3 0.1 10 force
 
 
