@@ -1,5 +1,5 @@
 execute if entity @s[tag=focused] run scoreboard players add @s artifact 1
-execute if score @s artifact matches 76.. if score @s damage matches 1.. run function ancient_artifacts:artifactsbow_time/nether/combo_boots/set_parry
+execute if score @s artifact matches 76.. if score @s damage matches 1.. run function ancient_artifacts:artifacts/nether/combo_boots/set_parry
 execute if score @s artifact matches 77.. if score @s bow_time matches 1.. if predicate ancient_artifacts:fly_5_blocks if entity @s[nbt={OnGround: 0b}] run function ancient_artifacts:artifacts/nether/combo_boots/bow_slow
 execute if score @s artifact matches 78.. if entity @s[tag=!slam, scores={combo.slam=..100}] if predicate theblackswitch:v2.0/patch-4/movement_check/sneak if predicate ancient_artifacts:fly_5_blocks if entity @s[nbt={OnGround: 0b}] if predicate ancient_artifacts:holding_tool run scoreboard players set @s slam_distance 0
 execute if score @s artifact matches 78.. if entity @s[tag=!slam, scores={combo.slam=..100}] if predicate theblackswitch:v2.0/patch-4/movement_check/sneak if predicate ancient_artifacts:fly_5_blocks if entity @s[nbt={OnGround: 0b}] if predicate ancient_artifacts:holding_tool run function ancient_artifacts:artifacts/nether/combo_boots/slam
